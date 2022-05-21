@@ -1,0 +1,3 @@
+baseURL = 'https://rust-changelogs.io/'
+languageCode = 'en-us'
+title = 'Rust Changelogs'
