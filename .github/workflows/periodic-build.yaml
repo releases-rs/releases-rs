@@ -14,6 +14,8 @@ jobs:
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
+        with:
+          extended: true
 
       - uses: actions-rs/toolchain@v1
         with:
