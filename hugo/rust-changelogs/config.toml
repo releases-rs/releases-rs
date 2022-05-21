@@ -1,3 +1,4 @@
-baseURL = 'https://rust-changelogs.io/'
+baseURL = 'https://releases.rs/'
 languageCode = 'en-us'
 title = 'Rust Changelogs'
+googleAnalytics = 'G-WXS0HSEV58'
