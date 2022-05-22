@@ -1,0 +1,13 @@
+<div class="flex flex-wrap justify-between">
+    <hr/>
+    <div>
+        <a class="flex align-center" href="https://github.com/glebpom/rust-changelogs" title='Github Repository' target="_blank" rel="noopener">
+            <span>GitHub Repository</span>
+        </a>
+    </div>
+</div>
+
+{{ $script := resources.Get "clipboard.js" | resources.Minify }}
+{{ with $script.Content }}
+<script>{{ . | safeJS }}</script>
+{{ end }}

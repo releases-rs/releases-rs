@@ -16,6 +16,7 @@ const NUM_VERSIONS: usize = 5;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let _ = std::fs::remove_dir_all("hugo/rust-changelogs/content");
+    let _ = std::fs::remove_dir_all("hugo/rust-changelogs/public");
     let mut options = CopyOptions::new();
     options.copy_inside = true;
     fs_extra::dir::copy("hugo/rust-changelogs/template", "hugo/rust-changelogs/content", &options).expect("copy hugo dir");
@@ -188,14 +189,16 @@ Rust Versions
 
     let res = std::process::Command::new("hugo")
         .arg("--minify")
+        .arg("--debug")
         .arg("--theme")
         .arg("hugo-book")
         .current_dir("hugo/rust-changelogs")
         .output()
         .unwrap();
+    println!("{}", std::str::from_utf8(&res.stdout).unwrap());
+    println!("{}", std::str::from_utf8(&res.stderr).unwrap());
+
     if !res.status.success() {
-        println!("{}", std::str::from_utf8(&res.stdout).unwrap());
-        println!("{}", std::str::from_utf8(&res.stderr).unwrap());
         panic!("bad hugo status");
     }
 

@@ -3,7 +3,6 @@ name = "rust-changelogs"
 version = "0.1.0"
 edition = "2021"
 
-
 [dependencies]
 octocrab = "0.16.0"
 tokio = { version = "1", features = ["full"] }

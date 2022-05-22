@@ -2,3 +2,6 @@ baseURL = 'https://releases.rs/'
 languageCode = 'en-us'
 title = 'Rust Changelogs'
 googleAnalytics = 'G-WXS0HSEV58'
+
+[params]
+BookLogo = 'https://www.rust-lang.org/static/images/rust-logo-blk.svg'
