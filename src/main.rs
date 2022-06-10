@@ -2,9 +2,12 @@ extern crate core;
 
 use std::collections::{HashMap, HashSet};
 use std::str::FromStr;
+use std::sync::Arc;
+use chrono::Utc;
 use fs_extra::dir::CopyOptions;
 use itertools::Itertools;
-use octocrab::models;
+use octocrab::{models, Octocrab};
+use octocrab::models::issues::Issue;
 use octocrab::params::{Direction, issues, State};
 use octocrab::params::issues::Sort;
 use regex::{RegexBuilder};
@@ -47,7 +50,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let changelogs_vec: Vec<_> = changelogs.iter().sorted_by_key(|(v, _)| *v).collect();
 
-    let octocrab = octocrab::instance();
+    let octocrab = Arc::new(Octocrab::builder().build().unwrap());
 
     for (idx, (version, (changelog, release_date))) in changelogs_vec.iter().enumerate()
     {
@@ -96,6 +99,31 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
         issues_page = match octocrab
             .get_page::<models::issues::Issue>(&issues_page.next)
+            .await?
+        {
+            Some(next_page) => next_page,
+            None => break,
+        };
+    }
+
+    let mut prs_page = octocrab::instance()
+        .search()
+        .issues_and_pull_requests("is:pr is:open repo:rust-lang/rust stabilize")
+        .sort("created_at")
+        .order("desc")
+        .send()
+        .await?;
+
+    let mut stabilization_prs = Vec::new();
+
+    loop {
+        for pr in &prs_page {
+            if pr.title.to_lowercase().starts_with("stabilize") {
+                stabilization_prs.push(pr.clone());
+            }
+        }
+        prs_page = match octocrab
+            .get_page::<models::issues::Issue>(&prs_page.next)
             .await?
         {
             Some(next_page) => next_page,
@@ -181,6 +209,19 @@ Rust Versions
     if unreleased_versions.contains(&nightly_version) {
         index.push_str(&format!("- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version})\n"));
     };
+
+    index.push_str("
+
+Ongoing Stabilization PRs
+=========================
+
+");
+
+    for Issue { title, number, html_url, created_at, .. } in stabilization_prs.into_iter().sorted_by_key(|l| l.created_at).rev() {
+        let days_ago = (Utc::now() - created_at).num_days();
+        let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
+        index.push_str(&format!("- {title} [#{number}]({html_url}) ({days_ago_text} old)\n"));
+    }
 
     std::fs::write(
         "hugo/rust-changelogs/content/_index.md",
