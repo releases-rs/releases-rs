@@ -1,18 +1,18 @@
 extern crate core;
 
-use std::collections::{HashMap, HashSet};
-use std::str::FromStr;
-use std::sync::Arc;
 use chrono::Utc;
 use fs_extra::dir::CopyOptions;
 use itertools::Itertools;
-use octocrab::{models, Octocrab};
 use octocrab::models::issues::Issue;
-use octocrab::params::{Direction, issues, State};
 use octocrab::params::issues::Sort;
-use regex::{RegexBuilder};
+use octocrab::params::{issues, Direction, State};
+use octocrab::{models, Octocrab};
+use regex::RegexBuilder;
 use semver::Version;
-use tap::{Tap};
+use std::collections::{HashMap, HashSet};
+use std::str::FromStr;
+use std::sync::Arc;
+use tap::Tap;
 
 const NUM_VERSIONS: usize = 5;
 
@@ -22,56 +22,89 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let _ = std::fs::remove_dir_all("hugo/rust-changelogs/public");
     let mut options = CopyOptions::new();
     options.copy_inside = true;
-    fs_extra::dir::copy("hugo/rust-changelogs/template", "hugo/rust-changelogs/content", &options).expect("copy hugo dir");
+    fs_extra::dir::copy(
+        "hugo/rust-changelogs/template",
+        "hugo/rust-changelogs/content",
+        &options,
+    )
+    .expect("copy hugo dir");
 
-    let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/master/RELEASES.md").await?.error_for_status()?.text().await?;
+    let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/master/RELEASES.md")
+        .await?
+        .error_for_status()?
+        .text()
+        .await?;
 
-    let split_re = RegexBuilder::new("^Version\\s+").multi_line(true).build().unwrap();
-    let changelogs: HashMap<_, _> = split_re.split(&body).filter_map(|s| {
-        if let Some(ws_idx) = s.find(|c: char| c.is_whitespace()) {
-            let rest = &s[ws_idx..];
-            let version = &s[0..ws_idx];
-            // 2022-05-19
-            let time: chrono::NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
-            if let Ok(version) = semver::Version::parse(version) {
-                if version > Version::from_str("1.0.0").unwrap() {
-                    let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
-                    Some((version, (changelog, time)))
+    let split_re = RegexBuilder::new("^Version\\s+")
+        .multi_line(true)
+        .build()
+        .unwrap();
+    let changelogs: HashMap<_, _> = split_re
+        .split(&body)
+        .filter_map(|s| {
+            if let Some(ws_idx) = s.find(|c: char| c.is_whitespace()) {
+                let rest = &s[ws_idx..];
+                let version = &s[0..ws_idx];
+                // 2022-05-19
+                let time: chrono::NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
+                if let Ok(version) = semver::Version::parse(version) {
+                    if version > Version::from_str("1.0.0").unwrap() {
+                        let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
+                        Some((version, (changelog, time)))
+                    } else {
+                        None
+                    }
                 } else {
                     None
                 }
             } else {
                 None
             }
-        } else {
-            None
-        }
-    }).collect();
+        })
+        .collect();
 
     let changelogs_vec: Vec<_> = changelogs.iter().sorted_by_key(|(v, _)| *v).collect();
 
     let octocrab = Arc::new(Octocrab::builder().build().unwrap());
 
-    for (idx, (version, (changelog, release_date))) in changelogs_vec.iter().enumerate()
-    {
+    for (idx, (version, (changelog, release_date))) in changelogs_vec.iter().enumerate() {
         let mut trimmed = changelog.trim().to_string();
         if trimmed.starts_with("-") {
             trimmed = format!("Changes\n-------\n{}", trimmed);
         }
 
-        let content = format!("---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
-                              1000000 - idx,
-                              version, release_date,
-                              trimmed);
+        let content = format!(
+            "---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
+            1000000 - idx,
+            version,
+            release_date,
+            trimmed
+        );
 
-        std::fs::write(
-            format!("hugo/rust-changelogs/content/docs/released/{}.md", version),
-            content,
-        ).unwrap();
+        if *release_date <= Utc::now().naive_utc().date() {
+            std::fs::write(
+                format!("hugo/rust-changelogs/content/docs/released/{}.md", version),
+                content,
+            )
+            .unwrap();
+        } else {
+            std::fs::write(
+                format!(
+                    "hugo/rust-changelogs/content/docs/unreleased/{}.md",
+                    version
+                ),
+                content,
+            )
+            .unwrap();
+        }
     }
 
     let mut milestones = HashMap::new();
-    let released_versions = changelogs.keys().cloned().collect();
+    let released_versions = changelogs
+        .iter()
+        .filter(|(_, (_, date))| *date <= Utc::now().naive_utc().date())
+        .map(|(k, _)| k.clone())
+        .collect();
 
     let mut issues_page = octocrab
         .issues("rust-lang", "rust")
@@ -89,7 +122,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             if let Some(version) = issue
                 .milestone
                 .as_ref()
-                .and_then(|m| semver::Version::parse(&m.title).ok()) {
+                .and_then(|m| semver::Version::parse(&m.title).ok())
+            {
                 milestones.entry(version).or_insert(issue.milestone.clone());
 
                 if milestones.len() > NUM_VERSIONS {
@@ -141,7 +175,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .sorted_by_key(|(v, _)| v.clone())
         .collect();
 
-    for (idx, (unreleased_version, milestone_id)) in unreleased_version_to_milestone.iter().enumerate() {
+    for (idx, (unreleased_version, milestone_id)) in
+        unreleased_version_to_milestone.iter().enumerate()
+    {
         let mut changelog = format!(
             "---\nweight: {}\n---\n\n{} (Unreleased)\n=========\n",
             1000000 - idx,
@@ -150,7 +186,11 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         let mut issues_page = octocrab
             .issues("rust-lang", "rust")
             .list()
-            .milestone(issues::Filter::Matches((*milestone_id).try_into().expect("overflow in milestone_id")))
+            .milestone(issues::Filter::Matches(
+                (*milestone_id)
+                    .try_into()
+                    .expect("overflow in milestone_id"),
+            ))
             .labels(&vec![String::from("relnotes")])
             .per_page(255)
             .sort(Sort::Created)
@@ -176,10 +216,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             };
         }
 
-        std::fs::write(
-            format!("hugo/rust-changelogs/content/docs/unreleased/{}.md", unreleased_version),
-            changelog,
-        ).unwrap();
+        if !changelogs.contains_key(unreleased_version) {
+            std::fs::write(
+                format!(
+                    "hugo/rust-changelogs/content/docs/unreleased/{}.md",
+                    unreleased_version
+                ),
+                changelog,
+            )
+            .unwrap();
+        }
     }
 
     let stable_version = changelogs_vec.last().unwrap().0;
@@ -192,7 +238,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         v.patch = 0;
     });
 
-    let mut index = format!("---
+    let mut index = format!(
+        "---
 title: Rust Versions
 type: docs
 ---
@@ -201,32 +248,48 @@ Rust Versions
 =============
 
 - Stable: [{stable_version}](/docs/released/{stable_version})
-");
+"
+    );
 
     if unreleased_versions.contains(&beta_version) {
-        index.push_str(&format!("- Beta: [{beta_version}](/docs/unreleased/{beta_version})\n"));
+        index.push_str(&format!(
+            "- Beta: [{beta_version}](/docs/unreleased/{beta_version})\n"
+        ));
     };
     if unreleased_versions.contains(&nightly_version) {
-        index.push_str(&format!("- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version})\n"));
+        index.push_str(&format!(
+            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version})\n"
+        ));
     };
 
-    index.push_str("
+    index.push_str(
+        "
 
 Ongoing Stabilization PRs
 =========================
 
-");
+",
+    );
 
-    for Issue { title, number, html_url, created_at, .. } in stabilization_prs.into_iter().sorted_by_key(|l| l.created_at).rev() {
+    for Issue {
+        title,
+        number,
+        html_url,
+        created_at,
+        ..
+    } in stabilization_prs
+        .into_iter()
+        .sorted_by_key(|l| l.created_at)
+        .rev()
+    {
         let days_ago = (Utc::now() - created_at).num_days();
         let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
-        index.push_str(&format!("- {title} [#{number}]({html_url}) ({days_ago_text} old)\n"));
+        index.push_str(&format!(
+            "- {title} [#{number}]({html_url}) ({days_ago_text} old)\n"
+        ));
     }
 
-    std::fs::write(
-        "hugo/rust-changelogs/content/_index.md",
-        index,
-    ).unwrap();
+    std::fs::write("hugo/rust-changelogs/content/_index.md", index).unwrap();
 
     let res = std::process::Command::new("hugo")
         .arg("--minify")
