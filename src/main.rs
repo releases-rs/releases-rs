@@ -27,7 +27,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         "hugo/rust-changelogs/content",
         &options,
     )
-    .expect("copy hugo dir");
+        .expect("copy hugo dir");
 
     let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/master/RELEASES.md")
         .await?
@@ -86,7 +86,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 format!("hugo/rust-changelogs/content/docs/released/{}.md", version),
                 content,
             )
-            .unwrap();
+                .unwrap();
         } else {
             std::fs::write(
                 format!(
@@ -95,7 +95,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 ),
                 content,
             )
-            .unwrap();
+                .unwrap();
         }
     }
 
@@ -176,7 +176,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .collect();
 
     for (idx, (unreleased_version, milestone_id)) in
-        unreleased_version_to_milestone.iter().enumerate()
+    unreleased_version_to_milestone.iter().enumerate()
     {
         let mut changelog = format!(
             "---\nweight: {}\n---\n\n{} (Unreleased)\n=========\n",
@@ -224,11 +224,17 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 ),
                 changelog,
             )
-            .unwrap();
+                .unwrap();
         }
     }
 
-    let stable_version = changelogs_vec.last().unwrap().0;
+    let stable_version = changelogs_vec
+        .iter()
+        .filter(|(_, (_, release_date))| {
+            *release_date <= Utc::now().naive_utc().date()
+        })
+        .last()
+        .unwrap().0;
     let beta_version = stable_version.clone().tap_mut(|v| {
         v.minor += 1;
         v.patch = 0;
