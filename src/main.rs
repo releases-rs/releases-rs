@@ -173,6 +173,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .filter(|(v, _m)| unreleased_versions.contains(v))
         .map(|(v, m)| (v, m.unwrap().number))
         .sorted_by_key(|(v, _)| v.clone())
+        .rev()
         .collect();
 
     for (idx, (unreleased_version, milestone_id)) in
