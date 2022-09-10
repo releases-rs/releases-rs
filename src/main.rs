@@ -10,16 +10,25 @@ use octocrab::{models, Octocrab};
 use regex::RegexBuilder;
 use semver::Version;
 use std::collections::{HashMap, HashSet};
+use std::{fs, io};
+use std::path::Path;
 use std::str::FromStr;
 use std::sync::Arc;
 use tap::Tap;
 
 const NUM_VERSIONS: usize = 5;
 
+fn remove_dir_contents<P: AsRef<Path>>(path: P) -> io::Result<()> {
+    for entry in fs::read_dir(path)? {
+        fs::remove_file(entry?.path())?;
+    }
+    Ok(())
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let _ = std::fs::remove_dir_all("hugo/rust-changelogs/content");
-    let _ = std::fs::remove_dir_all("hugo/rust-changelogs/public");
+    let _ = fs::remove_dir_all("hugo/rust-changelogs/content");
+    let _ = remove_dir_contents("hugo/rust-changelogs/public");
     let mut options = CopyOptions::new();
     options.copy_inside = true;
     fs_extra::dir::copy(
@@ -177,7 +186,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .collect();
 
     for (idx, (unreleased_version, milestone_id)) in
-    unreleased_version_to_milestone.iter().enumerate()
+    unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v).enumerate()
     {
         let mut changelog = format!(
             "---\nweight: {}\n---\n\n{} (Unreleased)\n=========\n",
@@ -251,8 +260,7 @@ title: Rust Versions
 type: docs
 ---
 
-Rust Versions
-=============
+## Rust Versions
 
 - Stable: [{stable_version}](/docs/released/{stable_version})
 "
@@ -272,8 +280,7 @@ Rust Versions
     index.push_str(
         "
 
-Ongoing Stabilization PRs
-=========================
+## Ongoing Stabilization PRs
 
 ",
     );
@@ -283,6 +290,7 @@ Ongoing Stabilization PRs
         number,
         html_url,
         created_at,
+        labels,
         ..
     } in stabilization_prs
         .into_iter()
@@ -291,10 +299,35 @@ Ongoing Stabilization PRs
     {
         let days_ago = (Utc::now() - created_at).num_days();
         let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
-        index.push_str(&format!(
-            "- {title} [#{number}]({html_url}) ({days_ago_text} old)\n"
+        let mut line = "".to_string();
+        line.push_str(&format!("{{{{<details \"{title} ({days_ago_text} old)\">}}}}\n"));
+        labels
+            .into_iter()
+            .for_each(|label| {
+                line.push_str("* _");
+                line.push_str(&label.name);
+                line.push_str("_");
+                if let Some(d) = label.description {
+                    line.push_str(" - ");
+                    line.push_str(&d);
+                }
+                line.push_str("\n");
+            });
+        line.push_str(&format!(
+            "\n[Open PR #{number}]({html_url})\n\n"
         ));
+        line.push_str("{{</details>}}\n");
+        index.push_str(&line);
     }
+
+    index.push_str(
+        "
+
+## About releases.rs
+
+- [Github Repo](https://github.com/glebpom/rust-changelogs/)
+
+");
 
     std::fs::write("hugo/rust-changelogs/content/_index.md", index).unwrap();
 
