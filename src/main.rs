@@ -223,6 +223,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     for (idx, (unreleased_version, milestone_id)) in
     unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v).enumerate()
     {
+        let release_name = if unreleased_version == &nightly_version {
+            "nightly"
+        } else if unreleased_version == &beta_version {
+            "beta"
+        } else if unreleased_version == &nightly_version {
+            "nightly"
+        } else  {
+            ""
+        };
         let release_date = calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
         let mut changelog = format!(
             "---
@@ -230,7 +239,7 @@ weight: {}
 
 ---
 
-{}
+{} {}
 =========
 
 {{{{< hint warning >}}}}
@@ -243,6 +252,7 @@ weight: {}
 ",
             1000000 - idx,
             unreleased_version,
+            release_name,
             if Utc::now().naive_utc().date() > release_date.branch_date { ", branched from master" } else { "" },
             release_date.release_date.format("%-d %B, %C%y"),
             release_date.branch_date.format("%-d %B, %C%y"),
