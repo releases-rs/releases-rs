@@ -234,7 +234,7 @@ weight: {}
 =========
 
 {{{{< hint warning >}}}}
-**Unreleased**
+**Unreleased{}**
 
 - Will be stable on: _{}_
 - Will branch from master on: _{}_
@@ -243,6 +243,7 @@ weight: {}
 ",
             1000000 - idx,
             unreleased_version,
+            if Utc::now().naive_utc().date() > release_date.branch_date { ", branched from master" } else { "" },
             release_date.release_date.format("%-d %B, %C%y"),
             release_date.branch_date.format("%-d %B, %C%y"),
         );
