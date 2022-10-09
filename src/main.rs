@@ -1,6 +1,6 @@
 extern crate core;
 
-use chrono::Utc;
+use chrono::{Duration, NaiveDate, Utc};
 use fs_extra::dir::CopyOptions;
 use itertools::Itertools;
 use octocrab::models::issues::Issue;
@@ -17,6 +17,25 @@ use std::sync::Arc;
 use tap::Tap;
 
 const NUM_VERSIONS: usize = 5;
+
+struct ReleaseDate {
+    release_date: NaiveDate,
+    branch_date: NaiveDate,
+}
+
+// https://forge.rust-lang.org/js/index.js
+fn calculate_release_date(incr: u32) -> ReleaseDate {
+    let epoch_date: NaiveDate = NaiveDate::from_ymd(2015, 12, 10);
+    let new_releases = ((Utc::now().date_naive() - epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
+    let release_date = epoch_date + Duration::weeks(((new_releases + incr) * 6).into());
+    let branch_date = epoch_date + Duration::weeks(((new_releases + incr - 1) * 6).into()) - Duration::days(6);
+
+    ReleaseDate {
+        release_date,
+        branch_date,
+    }
+}
+
 
 fn remove_dir_contents<P: AsRef<Path>>(path: P) -> io::Result<()> {
     for entry in fs::read_dir(path)? {
@@ -86,7 +105,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             "---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
             1000000 - idx,
             version,
-            release_date,
+            release_date.format("%-d %B, %C%y"),
             trimmed
         );
 
@@ -185,13 +204,47 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .rev()
         .collect();
 
+    let stable_version = changelogs_vec
+        .iter()
+        .filter(|(_, (_, release_date))| {
+            *release_date <= Utc::now().naive_utc().date()
+        })
+        .last()
+        .unwrap().0;
+    let beta_version = stable_version.clone().tap_mut(|v| {
+        v.minor += 1;
+        v.patch = 0;
+    });
+    let nightly_version = stable_version.clone().tap_mut(|v| {
+        v.minor += 2;
+        v.patch = 0;
+    });
+
     for (idx, (unreleased_version, milestone_id)) in
     unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v).enumerate()
     {
+        let release_date = calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
         let mut changelog = format!(
-            "---\nweight: {}\n---\n\n{} (Unreleased)\n=========\n",
+            "---
+weight: {}
+
+---
+
+{}
+=========
+
+{{{{< hint warning >}}}}
+**Unreleased**
+
+- Will be stable on: _{}_
+- Will branch from master on: _{}_
+{{{{< /hint >}}}}
+
+",
             1000000 - idx,
             unreleased_version,
+            release_date.release_date.format("%-d %B, %C%y"),
+            release_date.branch_date.format("%-d %B, %C%y"),
         );
         let mut issues_page = octocrab
             .issues("rust-lang", "rust")
@@ -238,22 +291,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
-    let stable_version = changelogs_vec
-        .iter()
-        .filter(|(_, (_, release_date))| {
-            *release_date <= Utc::now().naive_utc().date()
-        })
-        .last()
-        .unwrap().0;
-    let beta_version = stable_version.clone().tap_mut(|v| {
-        v.minor += 1;
-        v.patch = 0;
-    });
-    let nightly_version = stable_version.clone().tap_mut(|v| {
-        v.minor += 2;
-        v.patch = 0;
-    });
-
     let mut index = format!(
         "---
 title: Rust Versions
@@ -268,13 +305,13 @@ type: docs
 
     if unreleased_versions.contains(&beta_version) {
         index.push_str(&format!(
-            "- Beta: [{beta_version}](/docs/unreleased/{beta_version})\n"
-        ));
+            "- Beta: [{beta_version}](/docs/unreleased/{beta_version}) ({})\n"
+            , calculate_release_date(1).release_date.format("%-d %B, %C%y")));
     };
     if unreleased_versions.contains(&nightly_version) {
         index.push_str(&format!(
-            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version})\n"
-        ));
+            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version}) ({})\n"
+            , calculate_release_date(2).release_date.format("%-d %B, %C%y")));
     };
 
     index.push_str(
@@ -320,14 +357,15 @@ type: docs
         index.push_str(&line);
     }
 
-    index.push_str(
+    index.push_str(&format!(
         "
 
 ## About releases.rs
 
 - [Github Repo](https://github.com/glebpom/rust-changelogs/)
+- Generated at _{}_
 
-");
+", Utc::now().to_rfc2822()));
 
     std::fs::write("hugo/rust-changelogs/content/_index.md", index).unwrap();
 
