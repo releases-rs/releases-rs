@@ -229,7 +229,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             "beta"
         } else if unreleased_version == &nightly_version {
             "nightly"
-        } else  {
+        } else {
             ""
         };
         let release_date = calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
@@ -274,12 +274,21 @@ weight: {}
             .await?;
 
         loop {
-            for issue in &issues_page {
+            for (issue, days_ago) in (&issues_page).into_iter().filter_map(|issue| {
+                if let Some(closed_at) = issue.closed_at {
+                    Some((issue, (Utc::now().naive_utc().date() - closed_at.naive_utc().date()).num_days()))
+                } else {
+                    None
+                }
+            }).sorted_by_key(|(_, days_ago)| *days_ago) {
                 changelog.push_str("- [");
                 changelog.push_str(issue.title.as_str());
                 changelog.push_str("](");
                 changelog.push_str(issue.html_url.as_str());
-                changelog.push_str(")\n");
+                changelog.push_str(")");
+                let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
+                changelog.push_str(&format!(" _(merged {} ago)_", days_ago_text));
+                changelog.push_str("\n");
             }
             issues_page = match octocrab
                 .get_page::<models::issues::Issue>(&issues_page.next)
@@ -315,14 +324,26 @@ type: docs
     );
 
     if unreleased_versions.contains(&beta_version) {
+        let release_date = calculate_release_date(1);
+        let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
+        let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
+
         index.push_str(&format!(
-            "- Beta: [{beta_version}](/docs/unreleased/{beta_version}) ({})\n"
-            , calculate_release_date(1).release_date.format("%-d %B, %C%y")));
+            "- Beta: [{beta_version}](/docs/unreleased/{beta_version}) ({}, {} left)\n"
+            , release_date.release_date.format("%-d %B, %C%y"),
+            days_left_text,
+        ));
     };
     if unreleased_versions.contains(&nightly_version) {
+        let release_date = calculate_release_date(2);
+        let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
+        let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
+
         index.push_str(&format!(
-            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version}) ({})\n"
-            , calculate_release_date(2).release_date.format("%-d %B, %C%y")));
+            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version}) ({}, {} left)\n"
+            , release_date.release_date.format("%-d %B, %C%y"),
+            days_left_text
+        ));
     };
 
     index.push_str(
