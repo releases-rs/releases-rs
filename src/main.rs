@@ -319,7 +319,7 @@ type: docs
 
 ## Rust Versions
 
-- Stable: [{stable_version}](/docs/released/{stable_version})
+- Stable: [{stable_version}](/docs/release/{stable_version})
 "
     );
 
@@ -329,7 +329,7 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Beta: [{beta_version}](/docs/unreleased/{beta_version}) ({}, {} left)\n"
+            "- Beta: [{beta_version}](/docs/release/{beta_version}) ({}, {} left)\n"
             , release_date.release_date.format("%-d %B, %C%y"),
             days_left_text,
         ));
@@ -340,7 +340,7 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version}) ({}, {} left)\n"
+            "- Nightly: [{nightly_version}](/docs/release/{nightly_version}) ({}, {} left)\n"
             , release_date.release_date.format("%-d %B, %C%y"),
             days_left_text
         ));
