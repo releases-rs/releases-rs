@@ -194,9 +194,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 Some(next_page) => next_page,
                 None => break,
             };
+            tokio::time::sleep(std::time::Duration::from_secs(30)).await;
         }
-
-        tokio::time::sleep(std::time::Duration::from_secs(60)).await;
     }
 
     let issues_versions: HashSet<_> = milestones.keys().cloned().collect();
