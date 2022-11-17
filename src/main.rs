@@ -168,29 +168,31 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         };
     }
 
-    let mut prs_page = octocrab::instance()
-        .search()
-        .issues_and_pull_requests("is:pr is:open repo:rust-lang/rust stabilize")
-        .sort("created_at")
-        .order("desc")
-        .send()
-        .await?;
-
     let mut stabilization_prs = Vec::new();
 
-    loop {
-        for pr in &prs_page {
-            if pr.title.to_lowercase().starts_with("stabilize") {
-                stabilization_prs.push(pr.clone());
+    for search_term in ["stabilise", "Stabilise", "Stabilize", "stabilize"] {
+        let mut prs_page = octocrab::instance()
+            .search()
+            .issues_and_pull_requests(&format!("is:pr is:open repo:rust-lang/rust {}", search_term))
+            .sort("created_at")
+            .order("desc")
+            .send()
+            .await?;
+
+        loop {
+            for pr in &prs_page {
+                if pr.title.starts_with(search_term) {
+                    stabilization_prs.push(pr.clone());
+                }
             }
+            prs_page = match octocrab
+                .get_page::<models::issues::Issue>(&prs_page.next)
+                .await?
+            {
+                Some(next_page) => next_page,
+                None => break,
+            };
         }
-        prs_page = match octocrab
-            .get_page::<models::issues::Issue>(&prs_page.next)
-            .await?
-        {
-            Some(next_page) => next_page,
-            None => break,
-        };
     }
 
     let issues_versions: HashSet<_> = milestones.keys().cloned().collect();
