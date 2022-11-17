@@ -171,6 +171,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut stabilization_prs = Vec::new();
 
     for search_term in ["stabilise", "Stabilise", "Stabilize", "stabilize"] {
+        println!("search for {} PRs", search_term);
+
         let mut prs_page = octocrab::instance()
             .search()
             .issues_and_pull_requests(&format!("is:pr is:open repo:rust-lang/rust {}", search_term))
@@ -193,6 +195,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 None => break,
             };
         }
+
+        tokio::time::sleep(std::time::Duration::from_secs(60)).await;
     }
 
     let issues_versions: HashSet<_> = milestones.keys().cloned().collect();
