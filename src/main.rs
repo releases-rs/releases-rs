@@ -374,6 +374,7 @@ type: docs
         let days_ago = (Utc::now() - created_at).num_days();
         let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
         let mut line = "".to_string();
+        let title = title.replace('"', "\\\"");
         line.push_str(&format!("{{{{<details \"{title} ({days_ago_text} old)\">}}}}\n"));
         labels
             .into_iter()
