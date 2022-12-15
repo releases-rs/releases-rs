@@ -95,7 +95,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let octocrab = Arc::new(Octocrab::builder().build().unwrap());
 
-    for (idx, (version, (changelog, release_date))) in changelogs_vec.iter().enumerate() {
+    for (version, (changelog, release_date)) in changelogs_vec.iter() {
         let mut trimmed = changelog.trim().to_string();
         if trimmed.starts_with("-") {
             trimmed = format!("Changes\n-------\n{}", trimmed);
@@ -103,7 +103,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let content = format!(
             "---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
-            1000000 - idx,
+            1000000 - version.minor,
             version,
             release_date.format("%-d %B, %C%y"),
             trimmed
@@ -111,14 +111,14 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         if *release_date <= Utc::now().naive_utc().date() {
             std::fs::write(
-                format!("hugo/rust-changelogs/content/docs/released/{}.md", version),
+                format!("hugo/rust-changelogs/content/docs/{}.md", version),
                 content,
             )
                 .unwrap();
         } else {
             std::fs::write(
                 format!(
-                    "hugo/rust-changelogs/content/docs/unreleased/{}.md",
+                    "hugo/rust-changelogs/content/docs/{}.md",
                     version
                 ),
                 content,
@@ -225,8 +225,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         v.patch = 0;
     });
 
-    for (idx, (unreleased_version, milestone_id)) in
-    unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v).enumerate()
+    for (unreleased_version, milestone_id) in
+    unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v)
     {
         let release_name = if unreleased_version == &nightly_version {
             "nightly"
@@ -255,7 +255,7 @@ weight: {}
 {{{{< /hint >}}}}
 
 ",
-            1000000 - idx,
+            1000000 - unreleased_version.minor,
             unreleased_version,
             release_name,
             if Utc::now().naive_utc().date() > release_date.branch_date { ", branched from master" } else { "" },
@@ -307,7 +307,7 @@ weight: {}
         if !changelogs.contains_key(unreleased_version) {
             std::fs::write(
                 format!(
-                    "hugo/rust-changelogs/content/docs/unreleased/{}.md",
+                    "hugo/rust-changelogs/content/docs/{}.md",
                     unreleased_version
                 ),
                 changelog,
@@ -324,7 +324,7 @@ type: docs
 
 ## Rust Versions
 
-- Stable: [{stable_version}](/docs/released/{stable_version})
+- Stable: [{stable_version}](/docs/{stable_version})
 "
     );
 
@@ -334,7 +334,7 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Beta: [{beta_version}](/docs/unreleased/{beta_version}) ({}, {} left)\n"
+            "- Beta: [{beta_version}](/docs/{beta_version}) ({}, {} left)\n"
             , release_date.release_date.format("%-d %B, %C%y"),
             days_left_text,
         ));
@@ -345,7 +345,7 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Nightly: [{nightly_version}](/docs/unreleased/{nightly_version}) ({}, {} left)\n"
+            "- Nightly: [{nightly_version}](/docs/{nightly_version}) ({}, {} left)\n"
             , release_date.release_date.format("%-d %B, %C%y"),
             days_left_text
         ));
