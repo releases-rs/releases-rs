@@ -170,7 +170,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let mut stabilization_prs = Vec::new();
 
-    for search_term in ["stabilise", "Stabilise", "Stabilize", "stabilize"] {
+    for search_term in ["stabilise", "Stabilise", "Stabilize", "stabilize", "stabilisation", "Stabilisation", "Stabilization", "stabilization"] {
         println!("search for {} PRs", search_term);
 
         let mut prs_page = octocrab::instance()
@@ -194,7 +194,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 Some(next_page) => next_page,
                 None => break,
             };
-            tokio::time::sleep(std::time::Duration::from_secs(30)).await;
+            tokio::time::sleep(std::time::Duration::from_secs(60)).await;
         }
     }
 
