@@ -168,9 +168,18 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         };
     }
 
-    let mut stabilization_prs = Vec::new();
+    let mut stabilization_prs = HashMap::new();
 
-    for search_term in ["stabilise", "Stabilise", "Stabilize", "stabilize", "stabilisation", "Stabilisation", "Stabilization", "stabilization"] {
+    for search_term in [
+        "stabilise",
+        "Stabilise",
+        "Stabilize",
+        "stabilize",
+        "stabilisation",
+        "Stabilisation",
+        "Stabilization",
+        "stabilization"
+    ] {
         println!("search for {} PRs", search_term);
 
         let mut prs_page = octocrab::instance()
@@ -183,8 +192,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         loop {
             for pr in &prs_page {
-                if pr.title.starts_with(search_term) {
-                    stabilization_prs.push(pr.clone());
+                if pr.title.starts_with(search_term) || pr.title.to_lowercase().starts_with(&format!("partial {search_term}")) {
+                    stabilization_prs.insert(pr.id, pr.clone());
                 }
             }
             prs_page = match octocrab
@@ -368,6 +377,7 @@ type: docs
         ..
     } in stabilization_prs
         .into_iter()
+        .map(|(_, v)| v)
         .sorted_by_key(|l| l.created_at)
         .rev()
     {
