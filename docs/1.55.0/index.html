@@ -29,7 +29,7 @@ through type aliases.</a></li><li><a href=https://github.com/rust-lang/rust/pull
 <code>ErrorKind::Other</code> variant.</a> This is to better reflect that these
 kinds of errors could be categorised <a href=https://github.com/rust-lang/rust/pull/79965>into newer more specific <code>ErrorKind</code>
 variants</a>, and that they do not represent a user error.</li><li><a href=https://github.com/rust-lang/rust/pull/85270>Using environment variable names with <code>process::Command</code> on Windows now
-behaves as expected.</a> Previously using envionment variables with
+behaves as expected.</a> Previously using environment variables with
 <code>Command</code> would cause them to be ASCII-uppercased.</li><li><a href=https://github.com/rust-lang/rust/pull/86849>Rustdoc will now warn on using rustdoc lints that aren&rsquo;t prefixed
 with <code>rustdoc::</code></a></li><li><code>RUSTFLAGS</code> is no longer set for build scripts. Build scripts
 should use <code>CARGO_ENCODED_RUSTFLAGS</code> instead. See the
