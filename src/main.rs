@@ -247,29 +247,31 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             ""
         };
         let release_date = calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
+        let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
         let mut changelog = format!(
             "---
-weight: {}
+weight: {weight}
 
 ---
 
-{} {}
+{version} {name}
 =========
 
 {{{{< hint warning >}}}}
-**Unreleased{}**
+**Unreleased{release_sfx}**
 
-- Will be stable on: _{}_
-- Will branch from master on: _{}_
+- Will be stable on: _{stable_date}_
+- {branch_pfx} from master on: _{branch_date}_
 {{{{< /hint >}}}}
 
 ",
-            1000000 - unreleased_version.minor,
-            unreleased_version,
-            release_name,
-            if Utc::now().naive_utc().date() > release_date.branch_date { ", branched from master" } else { "" },
-            release_date.release_date.format("%-d %B, %C%y"),
-            release_date.branch_date.format("%-d %B, %C%y"),
+            weight=1000000 - unreleased_version.minor,
+            version=unreleased_version,
+            name=release_name,
+            release_sfx= if already_branched { ", branched from master" } else { "" },
+            stable_date=release_date.release_date.format("%-d %B, %C%y"),
+            branch_pfx = if already_branched { "Branched" } else { "Will branch" },
+            branch_date=release_date.branch_date.format("%-d %B, %C%y"),
         );
         let mut issues_page = octocrab
             .issues("rust-lang", "rust")
