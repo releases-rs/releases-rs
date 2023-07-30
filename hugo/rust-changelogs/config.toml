@@ -5,3 +5,4 @@ googleAnalytics = 'G-WXS0HSEV58'
 
 [params]
 BookLogo = 'https://www.rust-lang.org/static/images/rust-logo-blk.svg'
+BookTheme = 'auto'
