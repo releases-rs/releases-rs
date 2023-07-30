@@ -5,14 +5,12 @@ edition = "2021"
 
 [dependencies]
 octocrab = "0.17.0"
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 reqwest = { version = "0.11", features = ["trust-dns", "rustls"] }
 semver = "1"
 regex = "1"
-comrak = "0.14.0"
 itertools = "0.10"
 chrono = "0.4"
 tap = "1"
 fs_extra = "1.2.0"
-humantime = "2.1.0"
 pluralizer = "0.3.1"
