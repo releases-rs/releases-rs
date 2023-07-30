@@ -6,14 +6,14 @@ use itertools::Itertools;
 use octocrab::models::issues::Issue;
 use octocrab::params::issues::Sort;
 use octocrab::params::{issues, Direction, State};
-use octocrab::{models, Octocrab};
+use octocrab::Octocrab;
 use regex::RegexBuilder;
 use semver::Version;
 use std::collections::{HashMap, HashSet};
-use std::{fs, io};
 use std::path::Path;
 use std::str::FromStr;
 use std::sync::Arc;
+use std::{fs, io};
 use tap::Tap;
 
 const NUM_VERSIONS: usize = 5;
@@ -25,17 +25,18 @@ struct ReleaseDate {
 
 // https://forge.rust-lang.org/js/index.js
 fn calculate_release_date(incr: u32) -> ReleaseDate {
-    let epoch_date: NaiveDate = NaiveDate::from_ymd(2015, 12, 10);
-    let new_releases = ((Utc::now().date_naive() - epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
+    let epoch_date: NaiveDate = NaiveDate::from_ymd_opt(2015, 12, 10).unwrap();
+    let new_releases =
+        ((Utc::now().date_naive() - epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
     let release_date = epoch_date + Duration::weeks(((new_releases + incr) * 6).into());
-    let branch_date = epoch_date + Duration::weeks(((new_releases + incr - 1) * 6).into()) - Duration::days(6);
+    let branch_date =
+        epoch_date + Duration::weeks(((new_releases + incr - 1) * 6).into()) - Duration::days(6);
 
     ReleaseDate {
         release_date,
         branch_date,
     }
 }
-
 
 fn remove_dir_contents<P: AsRef<Path>>(path: P) -> io::Result<()> {
     for entry in fs::read_dir(path)? {
@@ -45,11 +46,15 @@ fn remove_dir_contents<P: AsRef<Path>>(path: P) -> io::Result<()> {
 }
 
 // Determines the order of releases in the side bar
-const fn determine_weight(Version { major, minor, patch, .. }: &Version) -> u32 {
-    u32::MAX
-        - ( ( *major as u32 ) << 24 )
-        - ( ( *minor as u32 ) << 8 )
-        - *patch as u32
+const fn determine_weight(
+    Version {
+        major,
+        minor,
+        patch,
+        ..
+    }: &Version,
+) -> u32 {
+    u32::MAX - ((*major as u32) << 24) - ((*minor as u32) << 8) - *patch as u32
 }
 
 #[tokio::main]
@@ -63,7 +68,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         "hugo/rust-changelogs/content",
         &options,
     )
-        .expect("copy hugo dir");
+    .expect("copy hugo dir");
 
     let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/master/RELEASES.md")
         .await?
@@ -82,8 +87,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 let rest = &s[ws_idx..];
                 let version = &s[0..ws_idx];
                 // 2022-05-19
-                let time: chrono::NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
-                if let Ok(version) = semver::Version::parse(version) {
+                let time: NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
+                if let Ok(version) = Version::parse(version) {
                     if version > Version::from_str("1.0.0").unwrap() {
                         let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
                         Some((version, (changelog, time)))
@@ -105,34 +110,21 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     for (version, (changelog, release_date)) in changelogs_vec.iter() {
         let mut trimmed = changelog.trim().to_string();
-        if trimmed.starts_with("-") {
-            trimmed = format!("Changes\n-------\n{}", trimmed);
+        if trimmed.starts_with('-') {
+            trimmed = format!("Changes\n-------\n{trimmed}");
         }
 
         let content = format!(
-            "---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
+            "---\nweight: {}\n---\n\n{version} ({})\n========\n\n{trimmed}",
             determine_weight(version),
-            version,
-            release_date.format("%-d %B, %C%y"),
-            trimmed
+            release_date.format("%-d %B, %C%y")
         );
 
-        if *release_date <= Utc::now().naive_utc().date() {
-            std::fs::write(
-                format!("hugo/rust-changelogs/content/docs/{}.md", version),
-                content,
-            )
-                .unwrap();
-        } else {
-            std::fs::write(
-                format!(
-                    "hugo/rust-changelogs/content/docs/{}.md",
-                    version
-                ),
-                content,
-            )
-                .unwrap();
-        }
+        fs::write(
+            format!("hugo/rust-changelogs/content/docs/{version}.md"),
+            content,
+        )
+        .unwrap();
     }
 
     let mut milestones = HashMap::new();
@@ -158,7 +150,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             if let Some(version) = issue
                 .milestone
                 .as_ref()
-                .and_then(|m| semver::Version::parse(&m.title).ok())
+                .and_then(|m| Version::parse(&m.title).ok())
             {
                 milestones.entry(version).or_insert(issue.milestone.clone());
 
@@ -167,10 +159,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 };
             }
         }
-        issues_page = match octocrab
-            .get_page::<models::issues::Issue>(&issues_page.next)
-            .await?
-        {
+        issues_page = match octocrab.get_page::<Issue>(&issues_page.next).await? {
             Some(next_page) => next_page,
             None => break,
         };
@@ -186,13 +175,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         "stabilisation",
         "Stabilisation",
         "Stabilization",
-        "stabilization"
+        "stabilization",
     ] {
-        println!("search for {} PRs", search_term);
+        println!("search for {search_term} PRs");
 
         let mut prs_page = octocrab::instance()
             .search()
-            .issues_and_pull_requests(&format!("is:pr is:open repo:rust-lang/rust {}", search_term))
+            .issues_and_pull_requests(&format!("is:pr is:open repo:rust-lang/rust {search_term}"))
             .sort("created_at")
             .order("desc")
             .send()
@@ -200,14 +189,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         loop {
             for pr in &prs_page {
-                if pr.title.starts_with(search_term) || pr.title.to_lowercase().starts_with(&format!("partial {search_term}")) {
+                if pr.title.starts_with(search_term)
+                    || pr
+                        .title
+                        .to_lowercase()
+                        .starts_with(&format!("partial {search_term}"))
+                {
                     stabilization_prs.insert(pr.id, pr.clone());
                 }
             }
-            prs_page = match octocrab
-                .get_page::<models::issues::Issue>(&prs_page.next)
-                .await?
-            {
+            prs_page = match octocrab.get_page::<Issue>(&prs_page.next).await? {
                 Some(next_page) => next_page,
                 None => break,
             };
@@ -228,11 +219,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let stable_version = changelogs_vec
         .iter()
-        .filter(|(_, (_, release_date))| {
-            *release_date <= Utc::now().naive_utc().date()
-        })
+        .filter(|(_, (_, release_date))| *release_date <= Utc::now().naive_utc().date())
         .last()
-        .unwrap().0;
+        .unwrap()
+        .0;
     let beta_version = stable_version.clone().tap_mut(|v| {
         v.minor += 1;
         v.patch = 0;
@@ -242,19 +232,19 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         v.patch = 0;
     });
 
-    for (unreleased_version, milestone_id) in
-    unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v)
+    for (unreleased_version, milestone_id) in unreleased_version_to_milestone
+        .iter()
+        .sorted_by_key(|(v, _)| v)
     {
         let release_name = if unreleased_version == &nightly_version {
             "nightly"
         } else if unreleased_version == &beta_version {
             "beta"
-        } else if unreleased_version == &nightly_version {
-            "nightly"
         } else {
             ""
         };
-        let release_date = calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
+        let release_date =
+            calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
         let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
         let mut changelog = format!(
             "---
@@ -262,7 +252,7 @@ weight: {weight}
 
 ---
 
-{version} {name}
+{unreleased_version} {release_name}
 =========
 
 {{{{< hint warning >}}}}
@@ -273,13 +263,19 @@ weight: {weight}
 {{{{< /hint >}}}}
 
 ",
-            weight=determine_weight(unreleased_version),
-            version=unreleased_version,
-            name=release_name,
-            release_sfx= if already_branched { ", branched from master" } else { "" },
-            stable_date=release_date.release_date.format("%-d %B, %C%y"),
-            branch_pfx = if already_branched { "Branched" } else { "Will branch" },
-            branch_date=release_date.branch_date.format("%-d %B, %C%y"),
+            weight = determine_weight(unreleased_version),
+            release_sfx = if already_branched {
+                ", branched from master"
+            } else {
+                ""
+            },
+            stable_date = release_date.release_date.format("%-d %B, %C%y"),
+            branch_pfx = if already_branched {
+                "Branched"
+            } else {
+                "Will branch"
+            },
+            branch_date = release_date.branch_date.format("%-d %B, %C%y"),
         );
         let mut issues_page = octocrab
             .issues("rust-lang", "rust")
@@ -298,40 +294,40 @@ weight: {weight}
             .await?;
 
         loop {
-            for (issue, days_ago) in (&issues_page).into_iter().filter_map(|issue| {
-                if let Some(closed_at) = issue.closed_at {
-                    Some((issue, (Utc::now().naive_utc().date() - closed_at.naive_utc().date()).num_days()))
-                } else {
-                    None
-                }
-            }).sorted_by_key(|(_, days_ago)| *days_ago) {
+            for (issue, days_ago) in (&issues_page)
+                .into_iter()
+                .filter_map(|issue| {
+                    issue.closed_at.map(|closed_at| {
+                        (
+                            issue,
+                            (Utc::now().naive_utc().date() - closed_at.naive_utc().date())
+                                .num_days(),
+                        )
+                    })
+                })
+                .sorted_by_key(|(_, days_ago)| *days_ago)
+            {
                 changelog.push_str("- [");
                 changelog.push_str(issue.title.as_str());
                 changelog.push_str("](");
                 changelog.push_str(issue.html_url.as_str());
-                changelog.push_str(")");
+                changelog.push(')');
                 let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
-                changelog.push_str(&format!(" _(merged {} ago)_", days_ago_text));
-                changelog.push_str("\n");
+                changelog.push_str(&format!(" _(merged {days_ago_text} ago)_"));
+                changelog.push('\n');
             }
-            issues_page = match octocrab
-                .get_page::<models::issues::Issue>(&issues_page.next)
-                .await?
-            {
+            issues_page = match octocrab.get_page::<Issue>(&issues_page.next).await? {
                 Some(next_page) => next_page,
                 None => break,
             };
         }
 
         if !changelogs.contains_key(unreleased_version) {
-            std::fs::write(
-                format!(
-                    "hugo/rust-changelogs/content/docs/{}.md",
-                    unreleased_version
-                ),
+            fs::write(
+                format!("hugo/rust-changelogs/content/docs/{unreleased_version}.md"),
                 changelog,
             )
-                .unwrap();
+            .unwrap();
         }
     }
 
@@ -353,9 +349,8 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Beta: [{beta_version}](/docs/{beta_version}) ({}, {} left)\n"
-            , release_date.release_date.format("%-d %B, %C%y"),
-            days_left_text,
+            "- Beta: [{beta_version}](/docs/{beta_version}) ({}, {days_left_text} left)\n",
+            release_date.release_date.format("%-d %B, %C%y"),
         ));
     };
     if unreleased_versions.contains(&nightly_version) {
@@ -364,9 +359,8 @@ type: docs
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
         index.push_str(&format!(
-            "- Nightly: [{nightly_version}](/docs/{nightly_version}) ({}, {} left)\n"
-            , release_date.release_date.format("%-d %B, %C%y"),
-            days_left_text
+            "- Nightly: [{nightly_version}](/docs/{nightly_version}) ({}, {days_left_text} left)\n",
+            release_date.release_date.format("%-d %B, %C%y")
         ));
     };
 
@@ -386,8 +380,7 @@ type: docs
         labels,
         ..
     } in stabilization_prs
-        .into_iter()
-        .map(|(_, v)| v)
+        .into_values()
         .sorted_by_key(|l| l.created_at)
         .rev()
     {
@@ -395,22 +388,20 @@ type: docs
         let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
         let mut line = "".to_string();
         let title = title.replace('"', "\\\"");
-        line.push_str(&format!("{{{{<details \"{title} ({days_ago_text} old)\">}}}}\n"));
-        labels
-            .into_iter()
-            .for_each(|label| {
-                line.push_str("* _");
-                line.push_str(&label.name);
-                line.push_str("_");
-                if let Some(d) = label.description {
-                    line.push_str(" - ");
-                    line.push_str(&d);
-                }
-                line.push_str("\n");
-            });
         line.push_str(&format!(
-            "\n[Open PR #{number}]({html_url})\n\n"
+            "{{{{<details \"{title} ({days_ago_text} old)\">}}}}\n"
         ));
+        labels.into_iter().for_each(|label| {
+            line.push_str("* _");
+            line.push_str(&label.name);
+            line.push('_');
+            if let Some(d) = label.description {
+                line.push_str(" - ");
+                line.push_str(&d);
+            }
+            line.push('\n');
+        });
+        line.push_str(&format!("\n[Open PR #{number}]({html_url})\n\n"));
         line.push_str("{{</details>}}\n");
         index.push_str(&line);
     }
@@ -423,13 +414,15 @@ type: docs
 - [Github Repo](https://github.com/glebpom/rust-changelogs/)
 - Generated at _{}_
 
-", Utc::now().to_rfc2822()));
+",
+        Utc::now().to_rfc2822()
+    ));
 
-    std::fs::write("hugo/rust-changelogs/content/_index.md", index).unwrap();
+    fs::write("hugo/rust-changelogs/content/_index.md", index).unwrap();
 
     let res = std::process::Command::new("hugo")
         .arg("--minify")
-        .arg("--debug")
+        .arg("--logLevel debug")
         .arg("--theme")
         .arg("hugo-book")
         .current_dir("hugo/rust-changelogs")

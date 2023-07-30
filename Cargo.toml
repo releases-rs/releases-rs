@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-octocrab = "0.17.0"
+octocrab = "0.28.0"
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 reqwest = { version = "0.11", features = ["trust-dns", "rustls"] }
 semver = "1"
 regex = "1"
-itertools = "0.10"
+itertools = "0.11"
 chrono = "0.4"
 tap = "1"
-fs_extra = "1.2.0"
-pluralizer = "0.3.1"
+fs_extra = "1.3.0"
+pluralizer = "0.4.0"
