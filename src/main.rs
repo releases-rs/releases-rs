@@ -44,6 +44,14 @@ fn remove_dir_contents<P: AsRef<Path>>(path: P) -> io::Result<()> {
     Ok(())
 }
 
+// Determines the order of releases in the side bar
+const fn determine_weight(Version { major, minor, patch, .. }: &Version) -> u32 {
+    u32::MAX
+        - ( ( *major as u32 ) << 24 )
+        - ( ( *minor as u32 ) << 8 )
+        - *patch as u32
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let _ = fs::remove_dir_all("hugo/rust-changelogs/content");
@@ -103,7 +111,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let content = format!(
             "---\nweight: {}\n---\n\n{} ({})\n========\n\n{}",
-            1000000 - version.minor,
+            determine_weight(version),
             version,
             release_date.format("%-d %B, %C%y"),
             trimmed
@@ -265,7 +273,7 @@ weight: {weight}
 {{{{< /hint >}}}}
 
 ",
-            weight=1000000 - unreleased_version.minor,
+            weight=determine_weight(unreleased_version),
             version=unreleased_version,
             name=release_name,
             release_sfx= if already_branched { ", branched from master" } else { "" },
