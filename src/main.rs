@@ -24,10 +24,9 @@ struct ReleaseDate {
 }
 
 // https://forge.rust-lang.org/js/index.js
-fn calculate_release_date(incr: u32) -> ReleaseDate {
+fn calculate_release_date(now_date: NaiveDate, incr: u32) -> ReleaseDate {
     let epoch_date: NaiveDate = NaiveDate::from_ymd_opt(2015, 12, 10).unwrap();
-    let new_releases =
-        ((Utc::now().date_naive() - epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
+    let new_releases = ((now_date - epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
     let release_date = epoch_date + Duration::weeks(((new_releases + incr) * 6).into());
     let branch_date =
         epoch_date + Duration::weeks(((new_releases + incr - 1) * 6).into()) - Duration::days(6);
@@ -114,10 +113,36 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             trimmed = format!("Changes\n-------\n{trimmed}");
         }
 
+        let dates = calculate_release_date(*release_date - Duration::days(1), 1);
+
+        let version_branch_info_str = if version.patch == 0 {
+            format!(
+                "- Branched from master on: _{branch_date}",
+                branch_date = dates.branch_date.format("%-d %B, %C%y")
+            )
+        } else {
+            "- This is a patch release".to_string()
+        };
+
         let content = format!(
-            "---\nweight: {}\n---\n\n{version} ({})\n========\n\n{trimmed}",
-            determine_weight(version),
-            release_date.format("%-d %B, %C%y")
+            "---
+weight: {weight}
+
+---
+
+{version}
+=========
+
+{{{{< hint warning >}}}}
+- Released on: _{release_date}_
+{version_branch_info_str}
+{{{{< /hint >}}}}
+
+{trimmed}
+",
+            weight = determine_weight(version),
+            release_date = release_date.format("%-d %B, %C%y"),
+            version_branch_info_str = version_branch_info_str,
         );
 
         fs::write(
@@ -243,8 +268,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         } else {
             ""
         };
-        let release_date =
-            calculate_release_date((unreleased_version.minor - stable_version.minor) as u32);
+        let release_date = calculate_release_date(
+            Utc::now().date_naive(),
+            (unreleased_version.minor - stable_version.minor) as u32,
+        );
         let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
         let mut changelog = format!(
             "---
@@ -344,7 +371,7 @@ type: docs
     );
 
     if unreleased_versions.contains(&beta_version) {
-        let release_date = calculate_release_date(1);
+        let release_date = calculate_release_date(Utc::now().date_naive(), 1);
         let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
@@ -354,7 +381,7 @@ type: docs
         ));
     };
     if unreleased_versions.contains(&nightly_version) {
-        let release_date = calculate_release_date(2);
+        let release_date = calculate_release_date(Utc::now().date_naive(), 2);
         let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
         let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
