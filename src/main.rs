@@ -449,8 +449,9 @@ type: docs
 
     let res = std::process::Command::new("hugo")
         .arg("--minify")
-        .arg("--logLevel debug")
-        .arg("--theme hugo-book")
+        .arg("--debug")
+        .arg("--theme")
+        .arg("hugo-book")
         .current_dir("hugo/rust-changelogs")
         .output()
         .unwrap();
