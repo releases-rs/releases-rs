@@ -117,7 +117,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let version_branch_info_str = if version.patch == 0 {
             format!(
-                "- Branched from master on: _{branch_date}",
+                "- Branched from master on: _{branch_date}_",
                 branch_date = dates.branch_date.format("%-d %B, %C%y")
             )
         } else {
