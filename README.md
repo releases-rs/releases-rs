@@ -8,9 +8,9 @@ the pages periodically.
 Note: this requires [hugo](https://gohugo.io/)
 
 ```shell
-sh $ git clone --recurse-submodules git@github.com:glebpom/rust-changelogs
-sh $ cd rust-changelogs
-sh $ cargo run
+git clone --recurse-submodules git@github.com:glebpom/rust-changelogs
+cd rust-changelogs
+cargo run
 ```
 
 This will take a while, but when done you will have your generated pages in `hugo/rust-changelogs/public`.
@@ -18,8 +18,8 @@ This will take a while, but when done you will have your generated pages in `hug
 ### Serving Locally
 
 ```shell
-sh $ cd hugo/rust-changelogs
-sh $ hugo serve --theme hugo-book
+cd hugo/rust-changelogs
+hugo serve --theme hugo-book
 ```
 
 The site will be available at <http://localhost:1313>
