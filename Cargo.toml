@@ -2,6 +2,8 @@
 name = "rust-changelogs"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["Gleb Pomykalov <glebpom@gmail.com>"]
 
 [dependencies]
 octocrab = "0.28.0"
