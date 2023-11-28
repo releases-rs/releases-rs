@@ -1,5 +1,3 @@
-extern crate core;
-
 use chrono::{Duration, NaiveDate, Utc};
 use fs_extra::dir::CopyOptions;
 use itertools::Itertools;
