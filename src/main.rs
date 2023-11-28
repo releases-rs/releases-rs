@@ -190,21 +190,14 @@ weight: {weight}
 
     let mut stabilization_prs = HashMap::new();
 
-    for search_term in [
-        "stabilise",
-        "Stabilise",
-        "Stabilize",
-        "stabilize",
-        "stabilisation",
-        "Stabilisation",
-        "Stabilization",
-        "stabilization",
-    ] {
+    for search_term in ["stabilise", "stabilize", "stabilisation", "stabilization"] {
         println!("search for {search_term} PRs");
 
         let mut prs_page = octocrab::instance()
             .search()
-            .issues_and_pull_requests(&format!("is:pr is:open repo:rust-lang/rust {search_term}"))
+            .issues_and_pull_requests(&format!(
+                "is:pr is:open in:title repo:rust-lang/rust {search_term}"
+            ))
             .sort("created_at")
             .order("desc")
             .send()
@@ -212,11 +205,9 @@ weight: {weight}
 
         loop {
             for pr in &prs_page {
-                if pr.title.starts_with(search_term)
-                    || pr
-                        .title
-                        .to_lowercase()
-                        .starts_with(&format!("partial {search_term}"))
+                let title = pr.title.to_lowercase();
+                if title.starts_with(search_term)
+                    || title.starts_with(&format!("partial {search_term}"))
                 {
                     stabilization_prs.insert(pr.id, pr.clone());
                 }

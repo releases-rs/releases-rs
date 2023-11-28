@@ -13,7 +13,7 @@ cd rust-changelogs
 cargo run
 ```
 
-This will take a while, but when done you will have your generated pages in `hugo/rust-changelogs/public`.
+When done you will have your generated pages in `hugo/rust-changelogs/public`.
 
 ### Serving Locally
 
