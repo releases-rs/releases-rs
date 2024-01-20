@@ -133,7 +133,7 @@ weight: {weight}
 {version}
 =========
 
-{{{{< hint warning >}}}}
+{{{{< hint info >}}}}
 - Released on: _{release_date}_
 {version_branch_info_str}
 {{{{< /hint >}}}}
