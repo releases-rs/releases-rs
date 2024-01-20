@@ -7,7 +7,7 @@ authors = ["Gleb Pomykalov <glebpom@gmail.com>"]
 
 [dependencies]
 octocrab = "0.28.0"
-tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+tokio = { version = "1", features = ["rt", "macros"] }
 reqwest = { version = "0.11", features = ["trust-dns", "rustls"] }
 semver = "1"
 regex = "1"
