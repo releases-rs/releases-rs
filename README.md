@@ -8,7 +8,7 @@ the pages periodically.
 Note: this requires [hugo](https://gohugo.io/)
 
 ```shell
-git clone --recurse-submodules git@github.com:glebpom/rust-changelogs
+git clone --recurse-submodules git@github.com:releases-rs/releases-rs
 cd rust-changelogs
 cargo run
 ```

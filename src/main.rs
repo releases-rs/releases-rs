@@ -427,7 +427,7 @@ type: docs
 
 ## About releases.rs
 
-- [Github Repo](https://github.com/glebpom/rust-changelogs/)
+- [Github Repo](https://github.com/releases-rs/releases-rs/)
 - Generated at _{}_
 
 ",
