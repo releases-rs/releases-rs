@@ -338,13 +338,11 @@ weight: {weight}
             };
         }
 
-        if !changelogs.contains_key(unreleased_version) {
-            fs::write(
-                format!("hugo/rust-changelogs/content/docs/{unreleased_version}.md"),
-                changelog,
-            )
-            .unwrap();
-        }
+        fs::write(
+            format!("hugo/rust-changelogs/content/docs/{unreleased_version}.md"),
+            changelog,
+        )
+        .unwrap();
     }
 
     let mut index = format!(
