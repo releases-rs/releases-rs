@@ -208,6 +208,7 @@ weight: {weight}
                 let title = pr.title.to_lowercase();
                 if title.starts_with(search_term)
                     || title.starts_with(&format!("partial {search_term}"))
+                    || title.starts_with(&format!("partially {search_term}"))
                 {
                     stabilization_prs.insert(pr.id, pr.clone());
                 }
