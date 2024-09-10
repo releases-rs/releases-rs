@@ -114,6 +114,24 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124459/">Stabilize &lt;code>exclusive_range_pattern&lt;/code> feature&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124870">Guarantee layout and ABI of &lt;code>Result&lt;/code> in some scenarios&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124892/">Update cc crate to v1.0.97 allowing additional spectre mitigations on MSVC targets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125360/">Allow field reordering on types marked &lt;code>repr(packed(1))&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/123939/">Add a lint against never type fallback affecting unsafe code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125049/">Disallow cast with trailing braced macro in let-else&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125156/">Expand &lt;code>for_loops_over_fallibles&lt;/code> lint to lint on fallibles behind references.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125417/">self-contained linker: retry linking without &lt;code>-fuse-ld=lld&lt;/code> on CCs that don&amp;rsquo;t support it&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125863/">Do not parse CVarArgs (&lt;code>...&lt;/code>) as a type in trait bounds&lt;/a>&lt;/li>
+&lt;li>Improvements to LLDB formatting &lt;a href="https://github.com/rust-lang/rust/pull/124458">#124458&lt;/a> &lt;a href="https://github.com/rust-lang/rust/pull/124500">#124500&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124858/">For the wasm32-wasip2 target default to PIC and do not use &lt;code>-fuse-ld=lld&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125023/">Add x86_64-unknown-linux-none as a tier 3 target&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124097/">Lint on &lt;code>foo.into_iter()&lt;/code> resolving to &lt;code>&amp;amp;Box&amp;lt;[T]&amp;gt;: IntoIterator&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.79.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.79.0/</guid><description>&lt;h1 id="1790">
  1.79.0
  &lt;a class="anchor" href="#1790">#&lt;/a>
@@ -265,7 +283,23 @@ only as a &lt;a href="https://github.com/rust-lang/rust/pull/122204">future comp
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118032/">Also: guarantee that char and u32 are ABI-compatible&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/117758">Add lint &lt;code>ambiguous_wide_pointer_comparisons&lt;/code> that supersedes &lt;code>clippy::vtable_address_comparisons&lt;/code>&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.75.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.75.0/</guid><description>&lt;h1 id="1750">
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118054/">Lint pinned &lt;code>#[must_use]&lt;/code> pointers (in particular, &lt;code>Box&amp;lt;T&amp;gt;&lt;/code> where &lt;code>T&lt;/code> is &lt;code>#[must_use]&lt;/code>) in &lt;code>unused_must_use&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118540/">Soundness fix: fix computing the offset of an unsized field in a packed struct&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118538/">Soundness fix: fix dynamic size/align computation logic for packed types with dyn Trait tail&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/115691/">Add &lt;code>$message_type&lt;/code> field to distinguish json diagnostic outputs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118013/">Enable Rust to use the EHCont security feature of Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118150/">Add tier 3 {x86_64,i686}-win7-windows-msvc targets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/119074/">Add tier 3 aarch64-apple-watchos target&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/115526/">Add tier 3 arm64e-apple-ios &amp;amp; arm64e-apple-darwin targets&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc]
+for more information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.75.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.75.0/</guid><description>&lt;h1 id="1750">
  1.75.0
  &lt;a class="anchor" href="#1750">#&lt;/a>
 &lt;/h1>
@@ -463,7 +497,30 @@ Read more in &lt;a href="https://rust-lang.github.io/rfcs/2145-type-privacy.html
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/110100/">Type inference is more conservative around constrained vars.&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/110577/">Use fulfillment to check &lt;code>Drop&lt;/code> impl compatibility&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.70.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.70.0/</guid><description>&lt;h1 id="1700">
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/104844/">Evaluate place expression in &lt;code>PlaceMention&lt;/code>&lt;/a>,
+making &lt;code>let _ =&lt;/code> patterns more consistent with respect to the borrow checker.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/105354/">Add &lt;code>--print deployment-target&lt;/code> flag for Apple targets.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/106075/">Stabilize &lt;code>extern &amp;quot;C-unwind&amp;quot;&lt;/code> and friends.&lt;/a>
+The existing &lt;code>extern &amp;quot;C&amp;quot;&lt;/code> etc. may change behavior for cross-language unwinding in a future release.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/107129/">Update the version of musl used on &lt;code>*-linux-musl&lt;/code> targets to 1.2.3&lt;/a>,
+enabling &lt;a href="https://musl.libc.org/time64.html">time64&lt;/a> on 32-bit systems.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/108668/">Stabilize &lt;code>debugger_visualizer&lt;/code>&lt;/a>
+for embedding metadata like Microsoft&amp;rsquo;s Natvis.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109999/">Enable flatten-format-args by default.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/111245/">Make &lt;code>Self&lt;/code> respect tuple constructor privacy.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/108106/">Improve niche placement by trying two strategies and picking the better result.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109899/">Use &lt;code>apple-m1&lt;/code> as the target CPU for &lt;code>aarch64-apple-darwin&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/108795/">Add Tier 3 support for the &lt;code>x86_64h-apple-darwin&lt;/code> target.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/110936/">Promote &lt;code>loongarch64-unknown-linux-gnu&lt;/code> to Tier 2 with host tools.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc]
+for more information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.70.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.70.0/</guid><description>&lt;h1 id="1700">
  1.70.0
  &lt;a class="anchor" href="#1700">#&lt;/a>
 &lt;/h1>
@@ -486,7 +543,25 @@ Read more in &lt;a href="https://rust-lang.github.io/rfcs/2145-type-privacy.html
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/107880/">Lint ambiguous glob re-exports&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/102256/">Perform const and unsafe checking for expressions in &lt;code>let _ = expr&lt;/code> position.&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.69.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.69.0/</guid><description>&lt;h1 id="1690">
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109808/">Extend -Cdebuginfo with new options and named aliases&lt;/a>
+This provides a smaller version of debuginfo for cases that only need line number information
+(&lt;code>-Cdebuginfo=line-tables-only&lt;/code>), which may eventually become the default for &lt;code>-Cdebuginfo=1&lt;/code>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/104363/">Make &lt;code>unused_allocation&lt;/code> lint against &lt;code>Box::new&lt;/code> too&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109435/">Detect uninhabited types early in const eval&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109721/">Switch to LLD as default linker for {arm,thumb}v4t-none-eabi&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/96971">Add tier 3 target &lt;code>loongarch64-unknown-linux-gnu&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/109173/">Add tier 3 target for &lt;code>i586-pc-nto-qnx700&lt;/code> (QNX Neutrino RTOS, version 7.0)&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/98112">Insert alignment checks for pointer dereferences as debug assertions&lt;/a>
+This catches undefined behavior at runtime, and may cause existing code to fail.&lt;/li>
+&lt;/ul>
+&lt;p>Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc]
+for more information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.69.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.69.0/</guid><description>&lt;h1 id="1690">
  1.69.0
  &lt;a class="anchor" href="#1690">#&lt;/a>
 &lt;/h1>
@@ -670,7 +745,73 @@ definition of a handler for allocation failure. Defining custom handlers is stil
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> B(&lt;span style="color:#66d9ef">i8&lt;/span>) &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> C(&lt;span style="color:#66d9ef">bool&lt;/span>) &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">42&lt;/span>,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.65.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.65.0/</guid><description>&lt;h1 id="1650">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101520/">Allow transmutes between the same type differing only in lifetimes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/102091/">Change constant evaluation errors from a deny-by-default lint to a hard error&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/102287/">Trigger &lt;code>must_use&lt;/code> on &lt;code>impl Trait&lt;/code> for supertraits&lt;/a>
+This makes &lt;code>impl ExactSizeIterator&lt;/code> respect the existing &lt;code>#[must_use]&lt;/code> annotation on &lt;code>Iterator&lt;/code>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/102275/">Allow &lt;code>..=X&lt;/code> in patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/99696/">Uplift &lt;code>clippy::for_loops_over_fallibles&lt;/code> lint into rustc&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/103168/">Stabilize &lt;code>sym&lt;/code> operands in inline assembly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101912/">Update to Unicode 15&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/95474/">Opaque types no longer imply lifetime bounds&lt;/a>
+This is a soundness fix which may break code that was erroneously relying on this behavior.&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101329/">Add armv5te-none-eabi and thumbv5te-none-eabi tier 3 targets&lt;/a>
+&lt;ul>
+&lt;li>Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc] for more
+information on Rust&amp;rsquo;s tiered platform support.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/98736">Add support for linking against macOS universal libraries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101040/">Fix &lt;code>#[derive(Default)]&lt;/code> on a generic &lt;code>#[default]&lt;/code> enum adding unnecessary &lt;code>Default&lt;/code> bounds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101821/">Update to Unicode 15&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/proc_macro/struct.Span.html#method.source_text">&lt;code>proc_macro::Span::source_text&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/primitive.u8.html#method.checked_add_signed">&lt;code>uX::{checked_add_signed, overflowing_add_signed, saturating_add_signed, wrapping_add_signed}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/primitive.i8.html#method.checked_add_unsigned">&lt;code>iX::{checked_add_unsigned, overflowing_add_unsigned, saturating_add_unsigned, wrapping_add_unsigned}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/primitive.i8.html#method.checked_sub_unsigned">&lt;code>iX::{checked_sub_unsigned, overflowing_sub_unsigned, saturating_sub_unsigned, wrapping_sub_unsigned}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/collections/struct.BTreeSet.html#method.first">&lt;code>BTreeSet::{first, last, pop_first, pop_last}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/collections/struct.BTreeMap.html#method.first_key_value">&lt;code>BTreeMap::{first_key_value, last_key_value, first_entry, last_entry, pop_first, pop_last}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101768/">Add &lt;code>AsFd&lt;/code> implementations for stdio lock types on WASI.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#impl-TryFrom%3CVec%3CT%2C%20Global%3E%3E-for-Box%3C%5BT%3B%20N%5D%2C%20Global%3E">&lt;code>impl TryFrom&amp;lt;Vec&amp;lt;T&amp;gt;&amp;gt; for Box&amp;lt;[T; N]&amp;gt;&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/hint/fn.black_box.html">&lt;code>core::hint::black_box&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/time/struct.Duration.html#method.try_from_secs_f32">&lt;code>Duration::try_from_secs_{f32,f64}&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/option/enum.Option.html#method.unzip">&lt;code>Option::unzip&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/os/fd/index.html">&lt;code>std::os::fd&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rustdoc">
+ Rustdoc
+ &lt;a class="anchor" href="#rustdoc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/101720/">Add Rustdoc warning for invalid HTML tags in the documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/nightly/cargo/commands/cargo-remove.html">Added &lt;code>cargo remove&lt;/code> to remove dependencies from Cargo.toml&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/11062">&lt;code>cargo publish&lt;/code> now waits for the new version to be downloadable before exiting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>See &lt;a href="https://github.com/rust-lang/cargo/blob/master/CHANGELOG.md#cargo-166-2022-12-15">detailed release notes&lt;/a> for more.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.65.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.65.0/</guid><description>&lt;h1 id="1650">
  1.65.0
  &lt;a class="anchor" href="#1650">#&lt;/a>
 &lt;/h1>
@@ -1217,7 +1358,12 @@ information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></i
 &lt;p>&lt;a href="https://github.com/rust-lang/rust/pull/83366">You can now use macros for values in some built-in attributes.&lt;/a>
 This primarily allows you to call macros within the &lt;code>#[doc]&lt;/code> attribute. For
 example, to include external documentation in your crate, you can now write
-the following:&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.53.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.53.0/</guid><description>&lt;h1 id="1530">
+the following:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#![doc = include_str!(&lt;/span>&lt;span style="color:#e6db74">&amp;#34;README.md&amp;#34;&lt;/span>&lt;span style="color:#75715e">)]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rust-lang/rust/pull/85078">You can now cast between unsized slice types (and types which contain
+unsized slices) in &lt;code>const fn&lt;/code>.&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.53.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.53.0/</guid><description>&lt;h1 id="1530">
  1.53.0
  &lt;a class="anchor" href="#1530">#&lt;/a>
 &lt;/h1>
@@ -1247,7 +1393,22 @@ Previously you could only use &lt;code>|&lt;/code> (OR) on complete patterns. E.
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>matches!(x, Some(&lt;span style="color:#ae81ff">1&lt;/span>) &lt;span style="color:#f92672">|&lt;/span> Some(&lt;span style="color:#ae81ff">2&lt;/span>));
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Now
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>matches!(x, Some(&lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">|&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>));
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.52.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.52.1/</guid><description>&lt;h1 id="1521">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/83386">Added the &lt;code>:pat_param&lt;/code> &lt;code>macro_rules!&lt;/code> matcher.&lt;/a> This matcher
+has the same semantics as the &lt;code>:pat&lt;/code> matcher. This is to allow &lt;code>:pat&lt;/code>
+to change semantics to being a pattern fragment in a future edition.&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/83387">Updated the minimum external LLVM version to LLVM 10.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/80525">Added Tier 3* support for the &lt;code>wasm64-unknown-unknown&lt;/code> target.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/83941">Improved debuginfo for closures and async functions on Windows MSVC.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>* Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc] for more
+information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.52.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.52.1/</guid><description>&lt;h1 id="1521">
  1.52.1
  &lt;a class="anchor" href="#1521">#&lt;/a>
 &lt;/h1>
@@ -1331,7 +1492,23 @@ E.g. you can now write the following. Note: Only values of primitive integers,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.50.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.50.0/</guid><description>&lt;h1 id="1500">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/79570">Added the &lt;code>-Csplit-debuginfo&lt;/code> codegen option for macOS platforms.&lt;/a>
+This option controls whether debug information is split across multiple files
+or packed into a single file. &lt;strong>Note&lt;/strong> This option is unstable on other platforms.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/81455">Added tier 3* support for &lt;code>aarch64_be-unknown-linux-gnu&lt;/code>,
+&lt;code>aarch64-unknown-linux-gnu_ilp32&lt;/code>, and &lt;code>aarch64_be-unknown-linux-gnu_ilp32&lt;/code> targets.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/80662">Added tier 3 support for &lt;code>i386-unknown-linux-gnu&lt;/code> and &lt;code>i486-unknown-linux-gnu&lt;/code> targets.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/80749">The &lt;code>target-cpu=native&lt;/code> option will now detect individual features of CPUs.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>* Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc] for more
+information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.50.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.50.0/</guid><description>&lt;h1 id="1500">
  1.50.0
  &lt;a class="anchor" href="#1500">#&lt;/a>
 &lt;/h1>
@@ -1399,7 +1576,23 @@ allows you to selectively borrow individual components of a type. E.g.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// `name` is moved out of person, but `age` is referenced.
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">let&lt;/span> Person { name, &lt;span style="color:#66d9ef">ref&lt;/span> age } &lt;span style="color:#f92672">=&lt;/span> person;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>println!(&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74"> &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, name, age);
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.48.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.48.0/</guid><description>&lt;h1 id="1480">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/78228">Added tier 1* support for &lt;code>aarch64-unknown-linux-gnu&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/75991">Added tier 2 support for &lt;code>aarch64-apple-darwin&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/75914">Added tier 2 support for &lt;code>aarch64-pc-windows-msvc&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/78676">Added tier 3 support for &lt;code>mipsel-unknown-none&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/78848">Raised the minimum supported LLVM version to LLVM 9.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/78227">Output from threads spawned in tests is now captured.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/78951">Change os and vendor values to &amp;ldquo;none&amp;rdquo; and &amp;ldquo;unknown&amp;rdquo; for some targets&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>* Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc] for more
+information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.48.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.48.0/</guid><description>&lt;h1 id="1480">
  1.48.0
  &lt;a class="anchor" href="#1480">#&lt;/a>
 &lt;/h1>
@@ -1654,7 +1847,8 @@ information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></i
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">mod&lt;/span> baz; &lt;span style="color:#75715e">// `foo/bar/baz.rs` doesn&amp;#39;t exist, but no error!
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.43.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.43.1/</guid><description>&lt;h1 id="1431">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>These are still rejected semantically, so you will likely receive an error but
+these changes can be seen and parsed by macros and conditional compilation.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.43.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.43.1/</guid><description>&lt;h1 id="1431">
  1.43.1
  &lt;a class="anchor" href="#1431">#&lt;/a>
 &lt;/h1>
@@ -1691,7 +1885,27 @@ information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></i
 the type inferred correctly.&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/69201/">Attributes such as &lt;code>#[cfg()]&lt;/code> can now be used on &lt;code>if&lt;/code> expressions.&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Syntax only changes&lt;/strong>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.42.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.42.0/</guid><description>&lt;h1 id="1420">
+&lt;p>&lt;strong>Syntax only changes&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/69361/">Allow &lt;code>type Foo: Ord&lt;/code> syntactically.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/69194/">Fuse associated and extern items up to defaultness.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/68764/">Syntactically allow &lt;code>self&lt;/code> in all &lt;code>fn&lt;/code> contexts.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/68728/">Merge &lt;code>fn&lt;/code> syntax + cleanup item parsing.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/69366/">&lt;code>item&lt;/code> macro fragments can be interpolated into &lt;code>trait&lt;/code>s, &lt;code>impl&lt;/code>s, and &lt;code>extern&lt;/code> blocks.&lt;/a>
+For example, you may now write:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>macro_rules&lt;span style="color:#f92672">!&lt;/span> mac_trait {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (&lt;span style="color:#75715e">$i&lt;/span>:&lt;span style="color:#a6e22e">item&lt;/span>) &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">trait&lt;/span> T { &lt;span style="color:#75715e">$i&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mac_trait! {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">foo&lt;/span>() {}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;p>These are still rejected &lt;em>semantically&lt;/em>, so you will likely receive an error but
+these changes can be seen and parsed by macros and
+conditional compilation.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.42.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.42.0/</guid><description>&lt;h1 id="1420">
  1.42.0
  &lt;a class="anchor" href="#1420">#&lt;/a>
 &lt;/h1>
@@ -1717,7 +1931,11 @@ the type inferred correctly.&lt;/a>&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> rest &lt;span style="color:#f92672">=&amp;gt;&lt;/span> println!(&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{:?}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, rest),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.41.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.41.1/</guid><description>&lt;h1 id="1411">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rust-lang/rust/pull/68122/">You can now use &lt;code>#[repr(transparent)]&lt;/code> on univariant &lt;code>enum&lt;/code>s.&lt;/a> Meaning
+that you can create an enum that has the exact layout and ABI of the type
+it contains.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.41.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.41.1/</guid><description>&lt;h1 id="1411">
  1.41.1
  &lt;a class="anchor" href="#1411">#&lt;/a>
 &lt;/h1>
@@ -1809,7 +2027,12 @@ information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></i
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> constructor(&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>};
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.39.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.39.0/</guid><description>&lt;h1 id="1390">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rust-lang/rust/pull/64639/">You can now mark &lt;code>struct&lt;/code>s, &lt;code>enum&lt;/code>s, and &lt;code>enum&lt;/code> variants with the &lt;code>#[non_exhaustive]&lt;/code> attribute to
+indicate that there may be variants or fields added in the future.&lt;/a>
+For example this requires adding a wild-card branch (&lt;code>_ =&amp;gt; {}&lt;/code>) to any match
+statements on a non-exhaustive &lt;code>enum&lt;/code>. &lt;a href="https://rust-lang.github.io/rfcs/2008-non-exhaustive.html">(RFC 2008)&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.39.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.39.0/</guid><description>&lt;h1 id="1390">
  1.39.0
  &lt;a class="anchor" href="#1390">#&lt;/a>
 &lt;/h1>
@@ -1838,7 +2061,41 @@ attributes applied to items. e.g.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>) -&amp;gt; &lt;span style="color:#66d9ef">usize&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> slice.len()
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.38.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.38.0/</guid><description>&lt;h1 id="1380">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/63118/">You can now take shared references to bind-by-move patterns in the &lt;code>if&lt;/code> guards
+of &lt;code>match&lt;/code> arms.&lt;/a> e.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> array: Box&lt;span style="color:#f92672">&amp;lt;&lt;/span>[&lt;span style="color:#66d9ef">u8&lt;/span>; &lt;span style="color:#ae81ff">4&lt;/span>]&lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">=&lt;/span> Box::new([&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">match&lt;/span> array {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> nums
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// ---- `nums` is bound by move.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> nums.iter().sum::&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#66d9ef">u8&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>() &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// ^------ `.iter()` implicitly takes a reference to `nums`.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> drop(nums);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// ----------- Legal as `nums` was bound by move and so we have ownership.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _ &lt;span style="color:#f92672">=&amp;gt;&lt;/span> unreachable!(),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/64334/">Added tier 3* support for the &lt;code>i686-unknown-uefi&lt;/code> target.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/63595/">Added tier 3 support for the &lt;code>sparc64-unknown-openbsd&lt;/code> target.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/63402/">rustc will now trim code snippets in diagnostics to fit in your terminal.&lt;/a>
+&lt;strong>Note&lt;/strong> Cargo currently doesn&amp;rsquo;t use this feature. Refer to
+&lt;a href="https://github.com/rust-lang/cargo/pull/7315/">cargo#7315&lt;/a> to track this feature&amp;rsquo;s progress.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/62600/">You can now pass &lt;code>--show-output&lt;/code> argument to test binaries to print the
+output of successful tests.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>* Refer to Rust&amp;rsquo;s [platform support page][platform-support-doc] for more
+information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.38.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.38.0/</guid><description>&lt;h1 id="1380">
  1.38.0
  &lt;a class="anchor" href="#1380">#&lt;/a>
 &lt;/h1>
@@ -1907,7 +2164,81 @@ write the following:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> MyOption::None &lt;span style="color:#f92672">=&amp;gt;&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.36.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.36.0/</guid><description>&lt;h1 id="1360">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61347/">You can now use &lt;code>_&lt;/code> as an identifier for consts.&lt;/a> e.g. You can write
+&lt;code>const _: u32 = 5;&lt;/code>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61229/">You can now use &lt;code>#[repr(align(X)]&lt;/code> on enums.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/60932/">The &lt;code>?&lt;/code> Kleene macro operator is now available in the
+2015 edition.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61268/">You can now enable Profile-Guided Optimization with the &lt;code>-C profile-generate&lt;/code>
+and &lt;code>-C profile-use&lt;/code> flags.&lt;/a> For more information on how to use profile
+guided optimization, please refer to the &lt;a href="https://doc.rust-lang.org/rustc/profile-guided-optimization.html">rustc book&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61827/">The &lt;code>rust-lldb&lt;/code> wrapper script should now work again.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61802/">&lt;code>mem::MaybeUninit&amp;lt;T&amp;gt;&lt;/code> is now ABI-compatible with &lt;code>T&lt;/code>.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/io/struct.BufReader.html#method.buffer">&lt;code>BufReader::buffer&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/io/struct.BufWriter.html#method.buffer">&lt;code>BufWriter::buffer&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/cell/struct.Cell.html#method.from_mut">&lt;code>Cell::from_mut&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/cell/struct.Cell.html#method.as_slice_of_cells">&lt;code>Cell&amp;lt;[T]&amp;gt;::as_slice_of_cells&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/iter/trait.DoubleEndedIterator.html#method.nth_back">&lt;code>DoubleEndedIterator::nth_back&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.xor">&lt;code>Option::xor&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/num/struct.Wrapping.html#method.reverse_bits">&lt;code>Wrapping::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.i128.html#method.reverse_bits">&lt;code>i128::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.i16.html#method.reverse_bits">&lt;code>i16::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.i32.html#method.reverse_bits">&lt;code>i32::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.i64.html#method.reverse_bits">&lt;code>i64::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.i8.html#method.reverse_bits">&lt;code>i8::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.isize.html#method.reverse_bits">&lt;code>isize::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.slice.html#method.copy_within">&lt;code>slice::copy_within&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.u128.html#method.reverse_bits">&lt;code>u128::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.u16.html#method.reverse_bits">&lt;code>u16::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.u32.html#method.reverse_bits">&lt;code>u32::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.u64.html#method.reverse_bits">&lt;code>u64::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.u8.html#method.reverse_bits">&lt;code>u8::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.usize.html#method.reverse_bits">&lt;code>usize::reverse_bits&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/7026/">&lt;code>Cargo.lock&lt;/code> files are now included by default when publishing executable crates
+with executables.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/7056/">You can now specify &lt;code>default-run=&amp;quot;foo&amp;quot;&lt;/code> in &lt;code>[package]&lt;/code> to specify the
+default executable to use for &lt;code>cargo run&lt;/code>.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">
+ Misc
+ &lt;a class="anchor" href="#misc">#&lt;/a>
+&lt;/h2>
+&lt;h2 id="compatibility-notes">
+ Compatibility Notes
+ &lt;a class="anchor" href="#compatibility-notes">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61342/">Using &lt;code>...&lt;/code> for inclusive range patterns will now warn by default.&lt;/a>
+Please transition your code to using the &lt;code>..=&lt;/code> syntax for inclusive
+ranges instead.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/61203/">Using a trait object without the &lt;code>dyn&lt;/code> will now warn by default.&lt;/a>
+Please transition your code to use &lt;code>dyn Trait&lt;/code> for trait objects instead.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.36.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.36.0/</guid><description>&lt;h1 id="1360">
  1.36.0
  &lt;a class="anchor" href="#1360">#&lt;/a>
 &lt;/h1>
@@ -2007,7 +2338,72 @@ not used.&lt;/a>&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">unsafe&lt;/span> { call_unsafe(&lt;span style="color:#f92672">||&lt;/span> {}); }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.34.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.34.2/</guid><description>&lt;h1 id="1342">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58080/">Added the &lt;code>armv6-unknown-freebsd-gnueabihf&lt;/code> and
+&lt;code>armv7-unknown-freebsd-gnueabihf&lt;/code> targets.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59464/">Added the &lt;code>wasm32-unknown-wasi&lt;/code> target.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59460/">&lt;code>Thread&lt;/code> will now show its ID in &lt;code>Debug&lt;/code> output.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59512/">&lt;code>StdinLock&lt;/code>, &lt;code>StdoutLock&lt;/code>, and &lt;code>StderrLock&lt;/code> now implement &lt;code>AsRawFd&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59451/">&lt;code>alloc::System&lt;/code> now implements &lt;code>Default&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59076/">Expanded &lt;code>Debug&lt;/code> output (&lt;code>{:#?}&lt;/code>) for structs now has a trailing comma on the
+last field.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58778/">&lt;code>char::{ToLowercase, ToUppercase}&lt;/code> now
+implement &lt;code>ExactSizeIterator&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58717/">All &lt;code>NonZero&lt;/code> numeric types now implement &lt;code>FromStr&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58423/">Removed the &lt;code>Read&lt;/code> trait bounds
+on the &lt;code>BufReader::{get_ref, get_mut, into_inner}&lt;/code> methods.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57847/">You can now call the &lt;code>dbg!&lt;/code> macro without any parameters to print the file
+and line where it is called.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/59283/">In place ASCII case conversions are now up to 4× faster.&lt;/a>
+e.g. &lt;code>str::make_ascii_lowercase&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58369/">&lt;code>hash_map::{OccupiedEntry, VacantEntry}&lt;/code> now implement &lt;code>Sync&lt;/code>
+and &lt;code>Send&lt;/code>.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/primitive.f32.html#method.copysign">&lt;code>f32::copysign&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/primitive.f64.html#method.copysign">&lt;code>f64::copysign&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/cell/struct.RefCell.html#method.replace_with">&lt;code>RefCell::replace_with&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/cell/struct.RefCell.html#method.map_split">&lt;code>RefCell::map_split&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/ptr/fn.hash.html">&lt;code>ptr::hash&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.Range.html#method.contains">&lt;code>Range::contains&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeFrom.html#method.contains">&lt;code>RangeFrom::contains&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeTo.html#method.contains">&lt;code>RangeTo::contains&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeInclusive.html#method.contains">&lt;code>RangeInclusive::contains&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeToInclusive.html#method.contains">&lt;code>RangeToInclusive::contains&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.copied">&lt;code>Option::copied&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/6298/">You can now set &lt;code>cargo:rustc-cdylib-link-arg&lt;/code> at build time to pass custom
+linker arguments when building a &lt;code>cdylib&lt;/code>.&lt;/a> Its usage is highly
+platform specific.&lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">
+ Misc
+ &lt;a class="anchor" href="#misc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/58575">The Rust toolchain is now available natively for musl based distros.&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.34.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.34.2/</guid><description>&lt;h1 id="1342">
  1.34.2
  &lt;a class="anchor" href="#1342">#&lt;/a>
 &lt;/h1>
@@ -2206,7 +2602,108 @@ expression. E.g.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#e6db74">&amp;#34;This creature&amp;#39;s name is: &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, name);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.32.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.32.0/</guid><description>&lt;h1 id="1320">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57535/">You can now have irrefutable &lt;code>if let&lt;/code> and &lt;code>while let&lt;/code> patterns.&lt;/a> Using
+this feature will by default produce a warning as this behaviour can be
+unintuitive. E.g. &lt;code>if let _ = 5 {}&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57175/">You can now use &lt;code>let&lt;/code> bindings, assignments, expression statements,
+and irrefutable pattern destructuring in const functions.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57067/">You can now call unsafe const functions.&lt;/a> E.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#66d9ef">unsafe&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">foo&lt;/span>() -&amp;gt; &lt;span style="color:#66d9ef">i32&lt;/span> { &lt;span style="color:#ae81ff">5&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">bar&lt;/span>() -&amp;gt; &lt;span style="color:#66d9ef">i32&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">unsafe&lt;/span> { foo() }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57332/">You can now specify multiple attributes in a &lt;code>cfg_attr&lt;/code> attribute.&lt;/a>
+E.g. &lt;code>#[cfg_attr(all(), must_use, optimize)]&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57049/">You can now specify a specific alignment with the &lt;code>#[repr(packed)]&lt;/code>
+attribute.&lt;/a> E.g. &lt;code>#[repr(packed(2))] struct Foo(i16, i32);&lt;/code> is a struct
+with an alignment of 2 bytes and a size of 6 bytes.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56303/">You can now import an item from a module as an &lt;code>_&lt;/code>.&lt;/a> This allows you to
+import a trait&amp;rsquo;s impls, and not have the name in the namespace. E.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">use&lt;/span> std::io::Read &lt;span style="color:#66d9ef">as&lt;/span> _;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Allowed as there is only one `Read` in the module.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">trait&lt;/span> Read {}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56805">You may now use &lt;code>Rc&lt;/code>, &lt;code>Arc&lt;/code>, and &lt;code>Pin&lt;/code> as method receivers&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56351/">You can now set a linker flavor for &lt;code>rustc&lt;/code> with the &lt;code>-Clinker-flavor&lt;/code>
+command line argument.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56642/">The minimum required LLVM version has been bumped to 6.0.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57615/">Added support for the PowerPC64 architecture on FreeBSD.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57130/">The &lt;code>x86_64-fortanix-unknown-sgx&lt;/code> target support has been upgraded to
+tier 2 support.&lt;/a> Visit the &lt;a href="https://forge.rust-lang.org/platform-support.html">platform support&lt;/a> page for
+information on Rust&amp;rsquo;s platform support.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56947/">Added support for the &lt;code>thumbv7neon-linux-androideabi&lt;/code> and
+&lt;code>thumbv7neon-unknown-linux-gnueabihf&lt;/code> targets.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56769/">Added support for the &lt;code>x86_64-unknown-uefi&lt;/code> target.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57566/">The methods &lt;code>overflowing_{add, sub, mul, shl, shr}&lt;/code> are now &lt;code>const&lt;/code>
+functions for all numeric types.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57105">The methods &lt;code>rotate_left&lt;/code>, &lt;code>rotate_right&lt;/code>, and &lt;code>wrapping_{add, sub, mul, shl, shr}&lt;/code>
+are now &lt;code>const&lt;/code> functions for all numeric types.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57105">The methods &lt;code>is_positive&lt;/code> and &lt;code>is_negative&lt;/code> are now &lt;code>const&lt;/code> functions for
+all signed numeric types.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57167/">The &lt;code>get&lt;/code> method for all &lt;code>NonZero&lt;/code> types is now &lt;code>const&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57234/">The methods &lt;code>count_ones&lt;/code>, &lt;code>count_zeros&lt;/code>, &lt;code>leading_zeros&lt;/code>, &lt;code>trailing_zeros&lt;/code>,
+&lt;code>swap_bytes&lt;/code>, &lt;code>from_be&lt;/code>, &lt;code>from_le&lt;/code>, &lt;code>to_be&lt;/code>, &lt;code>to_le&lt;/code> are now &lt;code>const&lt;/code> for all
+numeric types.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/57234/">&lt;code>Ipv4Addr::new&lt;/code> is now a &lt;code>const&lt;/code> function&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/os/unix/fs/trait.FileExt.html#method.read_exact_at">&lt;code>unix::FileExt::read_exact_at&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/os/unix/fs/trait.FileExt.html#method.write_all_at">&lt;code>unix::FileExt::write_all_at&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.transpose">&lt;code>Option::transpose&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/result/enum.Result.html#method.transpose">&lt;code>Result::transpose&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/convert/fn.identity.html">&lt;code>convert::identity&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/pin/struct.Pin.html">&lt;code>pin::Pin&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/stable/std/marker/trait.Unpin.html">&lt;code>marker::Unpin&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/nightly/std/marker/struct.PhantomPinned.html">&lt;code>marker::PhantomPinned&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/vec/struct.Vec.html#method.resize_with">&lt;code>Vec::resize_with&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/collections/struct.VecDeque.html#method.resize_with">&lt;code>VecDeque::resize_with&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/time/struct.Duration.html#method.as_millis">&lt;code>Duration::as_millis&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/time/struct.Duration.html#method.as_micros">&lt;code>Duration::as_micros&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/time/struct.Duration.html#method.as_nanos">&lt;code>Duration::as_nanos&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/6453/">You can now publish crates that require a feature flag to compile with
+&lt;code>cargo publish --features&lt;/code> or &lt;code>cargo publish --all-features&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/6484/">Cargo should now rebuild a crate if a file was modified during the initial
+build.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compatibility-notes">
+ Compatibility Notes
+ &lt;a class="anchor" href="#compatibility-notes">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>The methods &lt;code>str::{trim_left, trim_right, trim_left_matches, trim_right_matches}&lt;/code>
+are now deprecated in the standard library, and their usage will now produce a warning.
+Please use the &lt;code>str::{trim_start, trim_end, trim_start_matches, trim_end_matches}&lt;/code>
+methods instead.&lt;/li>
+&lt;li>The &lt;code>Error::cause&lt;/code> method has been deprecated in favor of &lt;code>Error::source&lt;/code> which supports
+downcasting.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56243">Libtest no longer creates a new thread for each test when
+&lt;code>--test-threads=1&lt;/code>. It also runs the tests in deterministic order&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.32.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.32.0/</guid><description>&lt;h1 id="1320">
  1.32.0
  &lt;a class="anchor" href="#1320">#&lt;/a>
 &lt;/h1>
@@ -2237,7 +2734,72 @@ E.g.
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">enum&lt;/span> &lt;span style="color:#a6e22e">Color&lt;/span> { Red, Green, Blue }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">use&lt;/span> Color::&lt;span style="color:#f92672">*&lt;/span>;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.31.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.31.1/</guid><description>&lt;h1 id="1311">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h4 id="all-editions">
+ All editions
+ &lt;a class="anchor" href="#all-editions">#&lt;/a>
+&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55837/">You can now match against &lt;code>PhantomData&amp;lt;T&amp;gt;&lt;/code> types.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56072/">You can now match against literals in macros with the &lt;code>literal&lt;/code>
+specifier.&lt;/a> This will match against a literal of any type.
+E.g. &lt;code>1&lt;/code>, &lt;code>'A'&lt;/code>, &lt;code>&amp;quot;Hello World&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56365/">Self can now be used as a constructor and pattern for unit and tuple structs.&lt;/a> E.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">struct&lt;/span> &lt;span style="color:#a6e22e">Point&lt;/span>(&lt;span style="color:#66d9ef">i32&lt;/span>, &lt;span style="color:#66d9ef">i32&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> Point {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">new&lt;/span>(x: &lt;span style="color:#66d9ef">i32&lt;/span>, y: &lt;span style="color:#66d9ef">i32&lt;/span>) -&amp;gt; &lt;span style="color:#a6e22e">Self&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Self(x, y)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">is_origin&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) -&amp;gt; &lt;span style="color:#66d9ef">bool&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">match&lt;/span> self {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Self(&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>) &lt;span style="color:#f92672">=&amp;gt;&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _ &lt;span style="color:#f92672">=&amp;gt;&lt;/span> &lt;span style="color:#66d9ef">false&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56366/">Self can also now be used in type definitions.&lt;/a> E.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">enum&lt;/span> &lt;span style="color:#a6e22e">List&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>T&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">where&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Self: PartialOrd&lt;span style="color:#f92672">&amp;lt;&lt;/span>Self&lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#75715e">// can write `Self` instead of `List&amp;lt;T&amp;gt;`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Nil,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Cons(T, Box&lt;span style="color:#f92672">&amp;lt;&lt;/span>Self&lt;span style="color:#f92672">&amp;gt;&lt;/span>) &lt;span style="color:#75715e">// likewise here
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55663/">You can now mark traits with &lt;code>#[must_use]&lt;/code>.&lt;/a> This provides a warning if
+a &lt;code>impl Trait&lt;/code> or &lt;code>dyn Trait&lt;/code> is returned and unused in the program.&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55238/">The default allocator has changed from jemalloc to the default allocator on
+your system.&lt;/a> The compiler itself on Linux &amp;amp; macOS will still use
+jemalloc, but programs compiled with it will use the system allocator.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55702/">Added the &lt;code>aarch64-pc-windows-msvc&lt;/code> target.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55148/">&lt;code>PathBuf&lt;/code> now implements &lt;code>FromStr&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/55843/">&lt;code>Box&amp;lt;[T]&amp;gt;&lt;/code> now implements &lt;code>FromIterator&amp;lt;T&amp;gt;&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/56395/">The &lt;code>dbg!&lt;/code> macro has been stabilized.&lt;/a> This macro enables you to
+easily debug expressions in your rust program. E.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> a &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> b &lt;span style="color:#f92672">=&lt;/span> dbg!(a &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>) &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// ^-- prints: [src/main.rs:4] a * 2 = 4
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>assert_eq!(b, &lt;span style="color:#ae81ff">5&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;p>The following APIs are now &lt;code>const&lt;/code> functions and can be used in a
+&lt;code>const&lt;/code> context.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.31.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.31.1/</guid><description>&lt;h1 id="1311">
  1.31.1
  &lt;a class="anchor" href="#1311">#&lt;/a>
 &lt;/h1>
@@ -2456,7 +3018,11 @@ write &lt;code>#[attr(true)]&lt;/code>.&lt;/li>
 &lt;li>
 &lt;p>The standard library&amp;rsquo;s &lt;code>str::repeat&lt;/code> function contained an out of bounds write
 caused by an integer overflow. This has been fixed by deterministically
-panicking when an overflow happens.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.29.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.29.0/</guid><description>&lt;h1 id="1290">
+panicking when an overflow happens.&lt;/p>
+&lt;p>Thank you to Scott McMurray for responsibly disclosing this vulnerability to
+us.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.29.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.29.0/</guid><description>&lt;h1 id="1290">
  1.29.0
  &lt;a class="anchor" href="#1290">#&lt;/a>
 &lt;/h1>
@@ -2678,7 +3244,8 @@ now fail to compile.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> Trait &lt;span style="color:#f92672">+&lt;/span> Send &lt;span style="color:#f92672">+&lt;/span> Send {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">test&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) { println!(&lt;span style="color:#e6db74">&amp;#34;two&amp;#34;&lt;/span>); }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.27.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.27.2/</guid><description>&lt;h1 id="1272">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.27.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.27.2/</guid><description>&lt;h1 id="1272">
  1.27.2
  &lt;a class="anchor" href="#1272">#&lt;/a>
 &lt;/h1>
@@ -2718,7 +3285,18 @@ match ergonomics: &lt;a href="https://github.com/rust-lang/rust/issues/52213">#5
 &lt;p>rustdoc would execute plugins in the /tmp/rustdoc/plugins directory
 when running, which enabled executing code as some other user on a
 given machine. This release fixes that vulnerability; you can read
-more about this on the &lt;a href="https://blog.rust-lang.org/2018/07/06/security-advisory-for-rustdoc.html">blog&lt;/a>. The associated CVE is &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=%20CVE-2018-1000622">CVE-2018-1000622&lt;/a>.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.27.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.27.0/</guid><description>&lt;h1 id="1270">
+more about this on the &lt;a href="https://blog.rust-lang.org/2018/07/06/security-advisory-for-rustdoc.html">blog&lt;/a>. The associated CVE is &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=%20CVE-2018-1000622">CVE-2018-1000622&lt;/a>.&lt;/p>
+&lt;p>Thank you to Red Hat for responsibly disclosing this vulnerability to us.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="compatibility-notes">
+ Compatibility Notes
+ &lt;a class="anchor" href="#compatibility-notes">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>The borrow checker was fixed to avoid an additional potential unsoundness when using
+match ergonomics: &lt;a href="https://github.com/rust-lang/rust/issues/51415">#51415&lt;/a>, &lt;a href="https://github.com/rust-lang/rust/issues/49534">#49534&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.27.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.27.0/</guid><description>&lt;h1 id="1270">
  1.27.0
  &lt;a class="anchor" href="#1270">#&lt;/a>
 &lt;/h1>
@@ -2932,7 +3510,121 @@ and use tuple struct constructors.&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>] &lt;span style="color:#f92672">=&amp;gt;&lt;/span> println!(&lt;span style="color:#e6db74">&amp;#34;All points were sequential.&amp;#34;&lt;/span>),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _ &lt;span style="color:#f92672">=&amp;gt;&lt;/span> println!(&lt;span style="color:#e6db74">&amp;#34;Not all points were sequential.&amp;#34;&lt;/span>),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.25.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.25.0/</guid><description>&lt;h1 id="1250">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48125">LLD is now used as the default linker for &lt;code>wasm32-unknown-unknown&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48296">Fixed exponential projection complexity on nested types.&lt;/a>
+This can provide up to a ~12% reduction in compile times for certain crates.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48359">Added the &lt;code>--remap-path-prefix&lt;/code> option to rustc.&lt;/a> Allowing you
+to remap path prefixes outputted by the compiler.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48281">Added &lt;code>powerpc-unknown-netbsd&lt;/code> target.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/49305">Implemented &lt;code>From&amp;lt;u16&amp;gt; for usize&lt;/code> &amp;amp; &lt;code>From&amp;lt;{u8, i16}&amp;gt; for isize&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48978">Added hexadecimal formatting for integers with fmt::Debug&lt;/a>
+e.g. &lt;code>assert!(format!(&amp;quot;{:02x?}&amp;quot;, b&amp;quot;Foo\0&amp;quot;) == &amp;quot;[46, 6f, 6f, 00]&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48628">Implemented &lt;code>Default, Hash&lt;/code> for &lt;code>cmp::Reverse&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48657">Optimized &lt;code>str::repeat&lt;/code> being 8x faster in large cases.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48735">&lt;code>ascii::escape_default&lt;/code> is now available in libcore.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48056">Trailing commas are now supported in std and core macros.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47379">Implemented &lt;code>Copy, Clone&lt;/code> for &lt;code>cmp::Reverse&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48629">Implemented &lt;code>Clone&lt;/code> for &lt;code>char::{ToLowercase, ToUppercase}&lt;/code>.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.add">&lt;code>*const T::add&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.copy_to_nonoverlapping">&lt;code>*const T::copy_to_nonoverlapping&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.copy_to">&lt;code>*const T::copy_to&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read_unaligned">&lt;code>*const T::read_unaligned&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read_volatile">&lt;code>*const T::read_volatile&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read">&lt;code>*const T::read&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.sub">&lt;code>*const T::sub&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.wrapping_add">&lt;code>*const T::wrapping_add&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.wrapping_sub">&lt;code>*const T::wrapping_sub&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.add-1">&lt;code>*mut T::add&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.copy_to_nonoverlapping-1">&lt;code>*mut T::copy_to_nonoverlapping&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.copy_to-1">&lt;code>*mut T::copy_to&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read_unaligned-1">&lt;code>*mut T::read_unaligned&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read_volatile-1">&lt;code>*mut T::read_volatile&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.read-1">&lt;code>*mut T::read&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.replace">&lt;code>*mut T::replace&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.sub-1">&lt;code>*mut T::sub&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.swap">&lt;code>*mut T::swap&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.wrapping_add-1">&lt;code>*mut T::wrapping_add&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.wrapping_sub-1">&lt;code>*mut T::wrapping_sub&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.write_bytes">&lt;code>*mut T::write_bytes&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.write_unaligned">&lt;code>*mut T::write_unaligned&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.write_volatile">&lt;code>*mut T::write_volatile&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.pointer.html#method.write">&lt;code>*mut T::write&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/boxed/struct.Box.html#method.leak">&lt;code>Box::leak&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/string/struct.FromUtf8Error.html#method.as_bytes">&lt;code>FromUtf8Error::as_bytes&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/thread/struct.LocalKey.html#method.try_with">&lt;code>LocalKey::try_with&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.cloned">&lt;code>Option::cloned&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/collections/btree_map/enum.Entry.html#method.and_modify">&lt;code>btree_map::Entry::and_modify&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/fs/fn.read_to_string.html">&lt;code>fs::read_to_string&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/fs/fn.read.html">&lt;code>fs::read&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/fs/fn.write.html">&lt;code>fs::write&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/collections/hash_map/enum.Entry.html#method.and_modify">&lt;code>hash_map::Entry::and_modify&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/iter/trait.FusedIterator.html">&lt;code>iter::FusedIterator&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeInclusive.html">&lt;code>ops::RangeInclusive&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ops/struct.RangeToInclusive.html">&lt;code>ops::RangeToInclusive&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/process/fn.id.html">&lt;code>process::id&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.slice.html#method.rotate_left">&lt;code>slice::rotate_left&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/primitive.slice.html#method.rotate_right">&lt;code>slice::rotate_right&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/string/struct.String.html#method.retain">&lt;code>String::retain&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/5041">Cargo will now output path to custom commands when &lt;code>-v&lt;/code> is
+passed with &lt;code>--list&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/5083">The Cargo binary version is now the same as the Rust version&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">
+ Misc
+ &lt;a class="anchor" href="#misc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48404">The second edition of &amp;ldquo;The Rust Programming Language&amp;rdquo; book is now recommended
+over the first.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compatibility-notes">
+ Compatibility Notes
+ &lt;a class="anchor" href="#compatibility-notes">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48481">aliasing a &lt;code>Fn&lt;/code> trait as &lt;code>dyn&lt;/code> no longer works.&lt;/a> E.g. the following
+syntax is now invalid.
+&lt;pre tabindex="0">&lt;code>use std::ops::Fn as dyn;
+fn g(_: Box&amp;lt;dyn(std::fmt::Debug)&amp;gt;) {}
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47408">The result of dereferences are no longer promoted to &lt;code>'static&lt;/code>.&lt;/a>
+e.g.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#66d9ef">PAIR&lt;/span>: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>(&lt;span style="color:#66d9ef">i32&lt;/span>, &lt;span style="color:#66d9ef">i32&lt;/span>) &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>(&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">1&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> _reversed_pair: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&amp;#39;static &lt;span style="color:#a6e22e">_&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>(&lt;span style="color:#66d9ef">PAIR&lt;/span>.&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#66d9ef">PAIR&lt;/span>.&lt;span style="color:#ae81ff">0&lt;/span>); &lt;span style="color:#75715e">// Doesn&amp;#39;t work
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/49109">Deprecate &lt;code>AsciiExt&lt;/code> trait in favor of inherent methods.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48235">&lt;code>&amp;quot;.e0&amp;quot;&lt;/code> will now no longer parse as &lt;code>0.0&lt;/code> and will instead cause
+an error.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48274">Removed hoedown from rustdoc.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/48326">Bounds on higher-kinded lifetimes a hard error.&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.25.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.25.0/</guid><description>&lt;h1 id="1250">
  1.25.0
  &lt;a class="anchor" href="#1250">#&lt;/a>
 &lt;/h1>
@@ -2964,7 +3656,39 @@ e.g. &lt;code>use std::{fs::File, io::Read, path::{Path, PathBuf}};&lt;/code>&lt
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">|&lt;/span> Foo::C &lt;span style="color:#f92672">=&amp;gt;&lt;/span> println!(&lt;span style="color:#e6db74">&amp;#34;C&amp;#34;&lt;/span>),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.24.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.24.1/</guid><description>&lt;h1 id="1241">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47828">Upgraded to LLVM 6.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47521">Added &lt;code>-C lto=val&lt;/code> option.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47282">Added &lt;code>i586-unknown-linux-musl&lt;/code> target&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47760">Impl Send for &lt;code>process::Command&lt;/code> on Unix.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47790">Impl PartialEq and Eq for &lt;code>ParseCharError&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47204">&lt;code>UnsafeCell::into_inner&lt;/code> is now safe.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/47268">Implement libstd for CloudABI.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/46931">&lt;code>Float::{from_bits, to_bits}&lt;/code> is now available in libcore.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/46985">Implement &lt;code>AsRef&amp;lt;Path&amp;gt;&lt;/code> for Component&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/46830">Implemented &lt;code>Write&lt;/code> for &lt;code>Cursor&amp;lt;&amp;amp;mut Vec&amp;lt;u8&amp;gt;&amp;gt;&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/46666">Moved &lt;code>Duration&lt;/code> to libcore.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/panic/struct.Location.html#method.column">&lt;code>Location::column&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.rust-lang.org/std/ptr/struct.NonNull.html">&lt;code>ptr::NonNull&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The following functions can now be used in a constant expression.
+eg. &lt;code>static MINUTE: Duration = Duration::from_secs(60);&lt;/code>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.24.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.24.1/</guid><description>&lt;h1 id="1241">
  1.24.1
  &lt;a class="anchor" href="#1241">#&lt;/a>
 &lt;/h1>
@@ -3256,7 +3980,39 @@ Example:
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> x: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&amp;#39;static &lt;span style="color:#66d9ef">u32&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title/><link>https://releases.rs/docs/1.20.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.20.0/</guid><description>&lt;h1 id="1200">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43540">Relaxed path syntax. Optional &lt;code>::&lt;/code> before &lt;code>&amp;lt;&lt;/code> is now allowed in all contexts.&lt;/a>
+Example:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>my_macro!(Vec&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#66d9ef">i32&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>::new); &lt;span style="color:#75715e">// Always worked
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>my_macro!(Vec::&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#66d9ef">i32&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>::new); &lt;span style="color:#75715e">// Now works
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compiler">
+ Compiler
+ &lt;a class="anchor" href="#compiler">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43911">Upgraded jemalloc to 4.5.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43917">Enabled unwinding panics on Redox&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43506">Now runs LLVM in parallel during translation phase.&lt;/a>
+This should reduce peak memory usage.&lt;/li>
+&lt;/ul>
+&lt;h2 id="libraries">
+ Libraries
+ &lt;a class="anchor" href="#libraries">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43690">Generate builtin impls for &lt;code>Clone&lt;/code> for all arrays and tuples that
+are &lt;code>T: Clone&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/43459">&lt;code>Stdin&lt;/code>, &lt;code>Stdout&lt;/code>, and &lt;code>Stderr&lt;/code> now implement &lt;code>AsRawFd&lt;/code>.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/42565">&lt;code>Rc&lt;/code> and &lt;code>Arc&lt;/code> now implement &lt;code>From&amp;lt;&amp;amp;[T]&amp;gt; where T: Clone&lt;/code>, &lt;code>From&amp;lt;str&amp;gt;&lt;/code>,
+&lt;code>From&amp;lt;String&amp;gt;&lt;/code>, &lt;code>From&amp;lt;Box&amp;lt;T&amp;gt;&amp;gt; where T: ?Sized&lt;/code>, and &lt;code>From&amp;lt;Vec&amp;lt;T&amp;gt;&amp;gt;&lt;/code>.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="stabilized-apis">
+ Stabilized APIs
+ &lt;a class="anchor" href="#stabilized-apis">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://doc.rust-lang.org/std/mem/fn.discriminant.html">&lt;code>std::mem::discriminant&lt;/code>&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.20.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.20.0/</guid><description>&lt;h1 id="1200">
  1.20.0
  &lt;a class="anchor" href="#1200">#&lt;/a>
 &lt;/h1>
