@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130183">Bump Unicode to version 16.0.0&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
