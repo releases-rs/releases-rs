@@ -11,12 +11,12 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130183">Bump Unicode to version 16.0.0&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130183">Bump Unicode to version 16.0.0&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820-beta">
  1.82.0 beta
  &lt;a class="anchor" href="#1820-beta">#&lt;/a>
@@ -30,27 +30,27 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130074">Tracking issue for release notes of #114298: Tracking Issue for &lt;code>char::MIN&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129401">Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129559">float types: document NaN bit pattern guarantees&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128596">stabilize const_fn_floating_point_arithmetic&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128511">Document WebAssembly target feature expectations&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127672">Stabilize opaque type precise capturing (RFC 3617)&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127679">Stabilize &lt;code>raw_ref_op&lt;/code> (RFC 2582)&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128570">Stabilize &lt;code>asm_const&lt;/code>&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128592">Promote aarch64-apple-darwin to Tier 1&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122792">Stabilize &lt;code>min_exhaustive_patterns&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126158">Disallow setting some built-in cfg via the command-line&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122049">Promote riscv64gc-unknown-linux-musl to tier 2&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127921">Stabilize unsafe extern blocks (RFC 3484)&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128254">Rewrite binary search implementation&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128443">Properly mark loop as diverging if it has no breaks&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127513">Update to LLVM 19&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128284">Stabilize offset_of_nested&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128259">[illumos/solaris] set MSG_NOSIGNAL while writing to sockets&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128034">exhaustiveness: Explain why a given pattern is considered unreachable&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125834">treat &lt;code>&amp;amp;raw (const|mut) UNSAFE_STATIC&lt;/code> implied deref as safe&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130074">Tracking issue for release notes of #114298: Tracking Issue for &lt;code>char::MIN&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129401">Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129559">float types: document NaN bit pattern guarantees&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128596">stabilize const_fn_floating_point_arithmetic&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128511">Document WebAssembly target feature expectations&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127672">Stabilize opaque type precise capturing (RFC 3617)&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127679">Stabilize &lt;code>raw_ref_op&lt;/code> (RFC 2582)&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128570">Stabilize &lt;code>asm_const&lt;/code>&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128592">Promote aarch64-apple-darwin to Tier 1&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122792">Stabilize &lt;code>min_exhaustive_patterns&lt;/code>&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126158">Disallow setting some built-in cfg via the command-line&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122049">Promote riscv64gc-unknown-linux-musl to tier 2&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127921">Stabilize unsafe extern blocks (RFC 3484)&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128254">Rewrite binary search implementation&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128443">Properly mark loop as diverging if it has no breaks&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127513">Update to LLVM 19&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128284">Stabilize offset_of_nested&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128259">[illumos/solaris] set MSG_NOSIGNAL while writing to sockets&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128034">exhaustiveness: Explain why a given pattern is considered unreachable&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125834">treat &lt;code>&amp;amp;raw (const|mut) UNSAFE_STATIC&lt;/code> implied deref as safe&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.81.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.81.0/</guid><description>&lt;h1 id="1810">
  1.81.0
  &lt;a class="anchor" href="#1810">#&lt;/a>
