@@ -19,6 +19,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130487">Update the minimum external LLVM to 18&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130542">Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129195">Stabilize &lt;code>&amp;amp;mut&lt;/code> (and &lt;code>*mut&lt;/code>) as well as &lt;code>&amp;amp;Cell&lt;/code> (and &lt;code>*const Cell&lt;/code>) in const&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129897">deprecate -Csoft-float because it is unsound (and not fixable)&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130295">Fix target-cpu fpu features on Armv8-R.&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
