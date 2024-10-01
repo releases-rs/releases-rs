@@ -12,6 +12,7 @@
 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129687">Implement RFC3137 trim-paths sysroot changes - take 2&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130972">stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129759">Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
