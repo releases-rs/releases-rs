@@ -50,7 +50,9 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130825">Tracking issue for release notes of #129086: Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130531">Check params for unsafety in THIR&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130074">Tracking issue for release notes of #114298: Tracking Issue for &lt;code>char::MIN&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129534">Deny &lt;code>wasm_c_abi&lt;/code> lint to nudge the last 25%&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129401">Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129490">Add Trusty OS as tier 3 target&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129559">float types: document NaN bit pattern guarantees&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128596">stabilize const_fn_floating_point_arithmetic&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128511">Document WebAssembly target feature expectations&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
