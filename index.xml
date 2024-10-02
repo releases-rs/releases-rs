@@ -70,7 +70,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122049">Promote riscv64gc-unknown-linux-musl to tier 2&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127921">Stabilize unsafe extern blocks (RFC 3484)&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128254">Rewrite binary search implementation&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128438">Add special-case for [T, 0] in dropck_outlives&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128438">Add special-case for [T; 0] in dropck_outlives&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128443">Properly mark loop as diverging if it has no breaks&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127513">Update to LLVM 19&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124339">allow overwriting the output of &lt;code>rustc --version&lt;/code>&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
