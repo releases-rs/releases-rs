@@ -47,6 +47,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130081">Tracking issue for release notes of #129103: Don&amp;rsquo;t warn empty branches unreachable for now&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130794">Tracking issue for release notes of #129401: Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131175">Tracking issue for release notes of #121364: Implement lint against ambiguous negative literals&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130825">Tracking issue for release notes of #129086: Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130531">Check params for unsafety in THIR&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130074">Tracking issue for release notes of #114298: Tracking Issue for &lt;code>char::MIN&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
@@ -77,6 +78,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128284">Stabilize offset_of_nested&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128259">[illumos/solaris] set MSG_NOSIGNAL while writing to sockets&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128034">exhaustiveness: Explain why a given pattern is considered unreachable&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121364">Implement lint against ambiguous negative literals&lt;/a> &lt;em>(merged 69 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125834">treat &lt;code>&amp;amp;raw (const|mut) UNSAFE_STATIC&lt;/code> implied deref as safe&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127755">Add NuttX based targets for RISC-V and ARM&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.81.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.81.0/</guid><description>&lt;h1 id="1810">
