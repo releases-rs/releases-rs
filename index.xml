@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
