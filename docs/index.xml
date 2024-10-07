@@ -63,6 +63,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126450">Promote Mac Catalyst targets to Tier 2, and ship with rustup&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129086">Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125970">CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127905">Add powerpc-unknown-linux-muslspe compile target&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128570">Stabilize &lt;code>asm_const&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128592">Promote aarch64-apple-darwin to Tier 1&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
