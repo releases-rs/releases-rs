@@ -46,6 +46,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131352">Tracking issue for release notes of #125970: CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130081">Tracking issue for release notes of #129103: Don&amp;rsquo;t warn empty branches unreachable for now&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130794">Tracking issue for release notes of #129401: Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131175">Tracking issue for release notes of #121364: Implement lint against ambiguous negative literals&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
