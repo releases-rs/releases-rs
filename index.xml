@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131396">Tracking issue for release notes of #128316: Stabilize most of &lt;code>io_error_more&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
