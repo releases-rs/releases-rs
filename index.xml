@@ -18,6 +18,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129687">Implement RFC3137 trim-paths sysroot changes - take 2&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130972">stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130897">library: Compute &lt;code>RUST_EXCEPTION_CLASS&lt;/code> from native-endian bytes&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129759">Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127117">Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130762">stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
