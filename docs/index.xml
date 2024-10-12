@@ -49,6 +49,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131125">Tracking issue for release notes of #124339: allow overwriting the output of &lt;code>rustc --version&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131352">Tracking issue for release notes of #125970: CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130081">Tracking issue for release notes of #129103: Don&amp;rsquo;t warn empty branches unreachable for now&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130794">Tracking issue for release notes of #129401: Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
@@ -66,6 +67,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127679">Stabilize &lt;code>raw_ref_op&lt;/code> (RFC 2582)&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126450">Promote Mac Catalyst targets to Tier 2, and ship with rustup&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126877">CloneToUninit impls&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129086">Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125970">CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127905">Add powerpc-unknown-linux-muslspe compile target&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
