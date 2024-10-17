@@ -9,7 +9,7 @@ Note: this requires [hugo](https://gohugo.io/)
 
 ```shell
 git clone --recurse-submodules git@github.com:releases-rs/releases-rs
-cd rust-changelogs
+cd releases-rs
 cargo run
 ```
 
