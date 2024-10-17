@@ -67,7 +67,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     )
     .expect("copy hugo dir");
 
-    let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/master/RELEASES.md")
+    let body = reqwest::get("https://raw.githubusercontent.com/rust-lang/rust/stable/RELEASES.md")
         .await?
         .error_for_status()?
         .text()
