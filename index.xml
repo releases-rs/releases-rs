@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129248">Taking a raw ref (&lt;code>&amp;amp;raw (const|mut)&lt;/code>) of a deref of pointer (&lt;code>*ptr&lt;/code>) is always safe&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129935">make unsupported_calling_conventions a hard error&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120869">ci update freebsd version proposal, freebsd 12 being eol&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131933">Tracking issue for release notes of #131381: Implement edition 2024 match ergonomics restrictions&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
