@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132402">Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
