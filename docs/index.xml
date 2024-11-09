@@ -11,6 +11,8 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
