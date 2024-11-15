@@ -11,7 +11,6 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
@@ -41,6 +40,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
