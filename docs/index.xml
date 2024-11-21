@@ -46,6 +46,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130453">Add x86_64-unknown-trusty as tier 3 target&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
@@ -53,9 +54,12 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130972">stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130897">library: Compute &lt;code>RUST_EXCEPTION_CLASS&lt;/code> from native-endian bytes&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129759">Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130549">Add RISC-V vxworks targets&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127117">Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130750">Add new Tier-3 target: &lt;code>loongarch64-unknown-linux-ohos&lt;/code>&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130762">stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130657">Remove x86_64-fuchsia and aarch64-fuchsia target aliases&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130614">Add arm64e-apple-tvos target&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129422">Gate &lt;code>repr(Rust)&lt;/code> correctly on non-ADT items&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130487">Update the minimum external LLVM to 18&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130542">Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
@@ -69,6 +73,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 72 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127021">Add target support for RTEMS Arm&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127897">add &lt;code>aarch64_unknown_nto_qnx700&lt;/code> target - QNX 7.0 support for aarch64le&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820">
  1.82.0
