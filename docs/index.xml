@@ -43,6 +43,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130073">Tracking issue for release notes of #65225: Tracking issue for &lt;code>#![feature(entry_insert)]&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130075">Tracking issue for release notes of #129555: stabilize const_float_bits_conv&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130335">Tracking issue for release notes of #130334: Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130363">Tracking issue for release notes of #128543: const-eval interning: accept interior mutable pointers in final value&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
@@ -59,6 +60,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130367">Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130453">Add x86_64-unknown-trusty as tier 3 target&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130555"> Initial support for riscv32{e|em|emc}_unknown_none_elf&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131188">Do not copy libstd dynamic library to sysroot&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128711">impl &lt;code>Default&lt;/code> for &lt;code>HashMap&lt;/code>/&lt;code>HashSet&lt;/code> iterators that don&amp;rsquo;t already have it&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
@@ -88,6 +90,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127021">Add target support for RTEMS Arm&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128934">Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127897">add &lt;code>aarch64_unknown_nto_qnx700&lt;/code> target - QNX 7.0 support for aarch64le&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820">
  1.82.0
