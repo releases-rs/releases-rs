@@ -56,6 +56,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130367">Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130453">Add x86_64-unknown-trusty as tier 3 target&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130555"> Initial support for riscv32{e|em|emc}_unknown_none_elf&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128711">impl &lt;code>Default&lt;/code> for &lt;code>HashMap&lt;/code>/&lt;code>HashSet&lt;/code> iterators that don&amp;rsquo;t already have it&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
