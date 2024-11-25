@@ -5,23 +5,23 @@
 &lt;blockquote class="book-hint warning">
  &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>20 February, 2025&lt;/em>&lt;/li>
-&lt;li>Will branch from master on: &lt;em>3 January, 2025&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>3 April, 2025&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>14 February, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840-nightly">
- 1.84.0 nightly
- &lt;a class="anchor" href="#1840-nightly">#&lt;/a>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840">
+ 1.84.0
+ &lt;a class="anchor" href="#1840">#&lt;/a>
 &lt;/h1>
 &lt;blockquote class="book-hint warning">
- &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+ &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>9 January, 2025&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>22 November, 2024&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>20 February, 2025&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>3 January, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 
@@ -45,15 +45,15 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130635">Add &lt;code>&amp;amp;pin (mut|const) T&lt;/code> type position sugar&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130654">stabilize &lt;code>-Znext-solver=coherence&lt;/code> again&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131533">emscripten: Use the latest emsdk 3.1.68&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.83.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.83.0/</guid><description>&lt;h1 id="1830-beta">
- 1.83.0 beta
- &lt;a class="anchor" href="#1830-beta">#&lt;/a>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.83.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.83.0/</guid><description>&lt;h1 id="1830-nightly">
+ 1.83.0 nightly
+ &lt;a class="anchor" href="#1830-nightly">#&lt;/a>
 &lt;/h1>
 &lt;blockquote class="book-hint warning">
  &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>28 November, 2024&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>11 October, 2024&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>9 January, 2025&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>22 November, 2024&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 
@@ -107,41 +107,91 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127021">Add target support for RTEMS Arm&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128934">Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127897">add &lt;code>aarch64_unknown_nto_qnx700&lt;/code> target - QNX 7.0 support for aarch64le&lt;/a> &lt;em>(merged 85 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820">
- 1.82.0
- &lt;a class="anchor" href="#1820">#&lt;/a>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820-beta">
+ 1.82.0 beta
+ &lt;a class="anchor" href="#1820-beta">#&lt;/a>
 &lt;/h1>
-&lt;blockquote class="book-hint info">
- &lt;ul>
-&lt;li>Released on: &lt;em>17 October, 2024&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>30 August, 2024&lt;/em>&lt;/li>
+&lt;blockquote class="book-hint warning">
+ &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Will be stable on: &lt;em>28 November, 2024&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>11 October, 2024&lt;/em>&lt;/li>
 &lt;/ul>
-
 &lt;/blockquote>
 
-&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="language">
- Language
- &lt;a class="anchor" href="#language">#&lt;/a>
-&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120221/">Don&amp;rsquo;t make statement nonterminals match pattern nonterminals&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122792">Patterns matching empty types can now be omitted in common cases&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124336">Enforce supertrait outlives obligations when using trait impls&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125834">&lt;code>addr_of(_mut)!&lt;/code> macros and the newly stabilized &lt;code>&amp;amp;raw (const|mut)&lt;/code> are now safe to use with all static items&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126152/">size_of_val_raw: for length 0 this is safe to call&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127054/">Reorder trait bound modifiers &lt;em>after&lt;/em> &lt;code>for&amp;lt;...&amp;gt;&lt;/code> binder in trait bounds&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127672">Stabilize opaque type precise capturing (RFC 3617)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127679">Stabilize &lt;code>&amp;amp;raw const&lt;/code> and &lt;code>&amp;amp;raw mut&lt;/code> operators (RFC 2582)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127921">Stabilize unsafe extern blocks (RFC 3484)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128284">Stabilize nested field access in &lt;code>offset_of!&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128438">Do not require &lt;code>T&lt;/code> to be live when dropping &lt;code>[T; 0]&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128570">Stabilize &lt;code>const&lt;/code> operands in inline assembly&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128596">Stabilize floating-point arithmetic in &lt;code>const fn&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize explicit opt-in to unsafe attributes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129559">Document NaN bit patterns guarantees&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.81.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.81.0/</guid><description>&lt;h1 id="1810">
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129564">Tracking issue for release notes of #127513: Update to LLVM 19&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129565">Tracking issue for release notes of #128511: Document WebAssembly target feature expectations&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129566">Tracking issue for release notes of #128771: Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129567">Tracking issue for release notes of #128596: stabilize const_fn_floating_point_arithmetic&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129568">Tracking issue for release notes of #128592: Promote aarch64-apple-darwin to Tier 1&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129569">Tracking issue for release notes of #128570: Stabilize &lt;code>asm_const&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129570">Tracking issue for release notes of #128443: Properly mark loop as diverging if it has no breaks&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129571">Tracking issue for release notes of #128284: Stabilize offset_of_nested&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129572">Tracking issue for release notes of #128259: [illumos/solaris] set MSG_NOSIGNAL while writing to sockets&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129573">Tracking issue for release notes of #128254: Rewrite binary search implementation&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129574">Tracking issue for release notes of #128034: exhaustiveness: Explain why a given pattern is considered unreachable&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129575">Tracking issue for release notes of #127921: Stabilize unsafe extern blocks (RFC 3484)&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129576">Tracking issue for release notes of #127679: Stabilize &lt;code>raw_ref_op&lt;/code> (RFC 2582)&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129577">Tracking issue for release notes of #127672: Stabilize opaque type precise capturing (RFC 3617)&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129578">Tracking issue for release notes of #125834: treat &lt;code>&amp;amp;raw (const|mut) UNSAFE_STATIC&lt;/code> implied deref as safe&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129579">Tracking issue for release notes of #122792: Stabilize &lt;code>min_exhaustive_patterns&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129682">Tracking issue for release notes of #129559: float types: document NaN bit pattern guarantees&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129997">Update release notes for 1.82.0 to include the tier 2 status for the &lt;code>wasm32-wasip2&lt;/code> target&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/129998">Tracking issue for release notes of #129997: Update release notes for 1.82.0 to include the tier 2 status for the &lt;code>wasm32-wasip2&lt;/code> target&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130035">Tracking issue for release notes of #126158: Disallow setting some built-in cfg via the command-line&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130557">Tracking issue for release notes of #130531: Check params for unsafety in THIR&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130790">Tracking issue for release notes of #128400: linker: Remove the &amp;ldquo;&lt;code>--whole-archive&lt;/code> in test mode&amp;rdquo; backcompat hack&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131126">Tracking issue for release notes of #126450: Promote Mac Catalyst targets to Tier 2, and ship with rustup&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131127">Tracking issue for release notes of #127755: Add NuttX based targets for RISC-V and ARM&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131128">Tracking issue for release notes of #127905: Add powerpc-unknown-linux-muslspe compile target&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131129">Tracking issue for release notes of #128438: Add special-case for [T; 0] in dropck_outlives&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131131">Tracking issue for release notes of #129490: Add Trusty OS as tier 3 target&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131135">Tracking issue for release notes of #122049: Promote riscv64gc-unknown-linux-musl to tier 2&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131361">Tracking issue for release notes of #124336: Enforce supertrait outlives obligations hold when confirming impl&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131604">Tracking issue for release notes of #126877: CloneToUninit impls&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131125">Tracking issue for release notes of #124339: allow overwriting the output of &lt;code>rustc --version&lt;/code>&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131352">Tracking issue for release notes of #125970: CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130081">Tracking issue for release notes of #129103: Don&amp;rsquo;t warn empty branches unreachable for now&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130794">Tracking issue for release notes of #129401: Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131175">Tracking issue for release notes of #121364: Implement lint against ambiguous negative literals&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130825">Tracking issue for release notes of #129086: Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130531">Check params for unsafety in THIR&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130074">Tracking issue for release notes of #114298: Tracking Issue for &lt;code>char::MIN&lt;/code>&lt;/a> &lt;em>(merged 72 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129534">Deny &lt;code>wasm_c_abi&lt;/code> lint to nudge the last 25%&lt;/a> &lt;em>(merged 86 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129401">Partially stabilize &lt;code>feature(new_uninit)&lt;/code>&lt;/a> &lt;em>(merged 88 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129490">Add Trusty OS as tier 3 target&lt;/a> &lt;em>(merged 90 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129559">float types: document NaN bit pattern guarantees&lt;/a> &lt;em>(merged 90 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128596">stabilize const_fn_floating_point_arithmetic&lt;/a> &lt;em>(merged 92 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128511">Document WebAssembly target feature expectations&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127672">Stabilize opaque type precise capturing (RFC 3617)&lt;/a> &lt;em>(merged 97 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127679">Stabilize &lt;code>raw_ref_op&lt;/code> (RFC 2582)&lt;/a> &lt;em>(merged 98 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126450">Promote Mac Catalyst targets to Tier 2, and ship with rustup&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128771">Stabilize &lt;code>unsafe_attributes&lt;/code>&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126877">CloneToUninit impls&lt;/a> &lt;em>(merged 100 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129086">Stabilize &lt;code>is_none_or&lt;/code>&lt;/a> &lt;em>(merged 101 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125970">CommandExt::before_exec: deprecate safety in edition 2024&lt;/a> &lt;em>(merged 102 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127905">Add powerpc-unknown-linux-muslspe compile target&lt;/a> &lt;em>(merged 102 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128570">Stabilize &lt;code>asm_const&lt;/code>&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128592">Promote aarch64-apple-darwin to Tier 1&lt;/a> &lt;em>(merged 106 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122792">Stabilize &lt;code>min_exhaustive_patterns&lt;/code>&lt;/a> &lt;em>(merged 107 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128400">linker: Remove the &amp;ldquo;&lt;code>--whole-archive&lt;/code> in test mode&amp;rdquo; backcompat hack&lt;/a> &lt;em>(merged 107 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126158">Disallow setting some built-in cfg via the command-line&lt;/a> &lt;em>(merged 110 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/122049">Promote riscv64gc-unknown-linux-musl to tier 2&lt;/a> &lt;em>(merged 111 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124336">Enforce supertrait outlives obligations hold when confirming impl&lt;/a> &lt;em>(merged 112 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127921">Stabilize unsafe extern blocks (RFC 3484)&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128254">Rewrite binary search implementation&lt;/a> &lt;em>(merged 115 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128438">Add special-case for [T; 0] in dropck_outlives&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128443">Properly mark loop as diverging if it has no breaks&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127513">Update to LLVM 19&lt;/a> &lt;em>(merged 117 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124339">allow overwriting the output of &lt;code>rustc --version&lt;/code>&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128284">Stabilize offset_of_nested&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128259">[illumos/solaris] set MSG_NOSIGNAL while writing to sockets&lt;/a> &lt;em>(merged 121 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128034">exhaustiveness: Explain why a given pattern is considered unreachable&lt;/a> &lt;em>(merged 122 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121364">Implement lint against ambiguous negative literals&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/125834">treat &lt;code>&amp;amp;raw (const|mut) UNSAFE_STATIC&lt;/code> implied deref as safe&lt;/a> &lt;em>(merged 125 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127755">Add NuttX based targets for RISC-V and ARM&lt;/a> &lt;em>(merged 125 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.81.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.81.0/</guid><description>&lt;h1 id="1810">
  1.81.0
  &lt;a class="anchor" href="#1810">#&lt;/a>
 &lt;/h1>
