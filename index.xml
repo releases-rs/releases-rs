@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
