@@ -11,16 +11,16 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840-beta">
  1.84.0 beta
  &lt;a class="anchor" href="#1840-beta">#&lt;/a>
@@ -34,25 +34,25 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132577">Report the &lt;code>unexpected_cfgs&lt;/code> lint in external macros&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130443">Fix ICE when passing DefId-creating args to legacy_const_generics.&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133109">Tracking issue for release notes of #132449: mark is_val_statically_known intrinsic as stably const-callable&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132402">Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132412">Tracking issue for release notes of #132402: Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132140">Enable LSX feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129248">Taking a raw ref (&lt;code>&amp;amp;raw (const|mut)&lt;/code>) of a deref of pointer (&lt;code>*ptr&lt;/code>) is always safe&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129935">make unsupported_calling_conventions a hard error&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120869">ci update freebsd version proposal, freebsd 12 being eol&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131933">Tracking issue for release notes of #131381: Implement edition 2024 match ergonomics restrictions&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131857">Allow dropping dyn principal&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131583">Setting up indirect access to external data for loongarch64-linux-{musl,ohos}&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131818">Enable XRay instrumentation for LoongArch Linux targets&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130635">Add &lt;code>&amp;amp;pin (mut|const) T&lt;/code> type position sugar&lt;/a> &lt;em>(merged 70 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130654">stabilize &lt;code>-Znext-solver=coherence&lt;/code> again&lt;/a> &lt;em>(merged 70 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131533">emscripten: Use the latest emsdk 3.1.68&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132577">Report the &lt;code>unexpected_cfgs&lt;/code> lint in external macros&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130443">Fix ICE when passing DefId-creating args to legacy_const_generics.&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133109">Tracking issue for release notes of #132449: mark is_val_statically_known intrinsic as stably const-callable&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132402">Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132412">Tracking issue for release notes of #132402: Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132140">Enable LSX feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129248">Taking a raw ref (&lt;code>&amp;amp;raw (const|mut)&lt;/code>) of a deref of pointer (&lt;code>*ptr&lt;/code>) is always safe&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129935">make unsupported_calling_conventions a hard error&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120869">ci update freebsd version proposal, freebsd 12 being eol&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131933">Tracking issue for release notes of #131381: Implement edition 2024 match ergonomics restrictions&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131857">Allow dropping dyn principal&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131583">Setting up indirect access to external data for loongarch64-linux-{musl,ohos}&lt;/a> &lt;em>(merged 69 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131818">Enable XRay instrumentation for LoongArch Linux targets&lt;/a> &lt;em>(merged 69 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130635">Add &lt;code>&amp;amp;pin (mut|const) T&lt;/code> type position sugar&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130654">stabilize &lt;code>-Znext-solver=coherence&lt;/code> again&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131533">emscripten: Use the latest emsdk 3.1.68&lt;/a> &lt;em>(merged 72 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.83.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.83.0/</guid><description>&lt;h1 id="1830">
  1.83.0
  &lt;a class="anchor" href="#1830">#&lt;/a>
