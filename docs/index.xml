@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
