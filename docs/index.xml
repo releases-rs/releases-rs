@@ -11,21 +11,21 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840-nightly">
  1.84.0 nightly
  &lt;a class="anchor" href="#1840-nightly">#&lt;/a>
@@ -39,25 +39,25 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132577">Report the &lt;code>unexpected_cfgs&lt;/code> lint in external macros&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130443">Fix ICE when passing DefId-creating args to legacy_const_generics.&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133109">Tracking issue for release notes of #132449: mark is_val_statically_known intrinsic as stably const-callable&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132402">Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132412">Tracking issue for release notes of #132402: Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132140">Enable LSX feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 72 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129248">Taking a raw ref (&lt;code>&amp;amp;raw (const|mut)&lt;/code>) of a deref of pointer (&lt;code>*ptr&lt;/code>) is always safe&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129935">make unsupported_calling_conventions a hard error&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120869">ci update freebsd version proposal, freebsd 12 being eol&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131933">Tracking issue for release notes of #131381: Implement edition 2024 match ergonomics restrictions&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131857">Allow dropping dyn principal&lt;/a> &lt;em>(merged 80 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131583">Setting up indirect access to external data for loongarch64-linux-{musl,ohos}&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131818">Enable XRay instrumentation for LoongArch Linux targets&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130635">Add &lt;code>&amp;amp;pin (mut|const) T&lt;/code> type position sugar&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130654">stabilize &lt;code>-Znext-solver=coherence&lt;/code> again&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131533">emscripten: Use the latest emsdk 3.1.68&lt;/a> &lt;em>(merged 84 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132577">Report the &lt;code>unexpected_cfgs&lt;/code> lint in external macros&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130443">Fix ICE when passing DefId-creating args to legacy_const_generics.&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133109">Tracking issue for release notes of #132449: mark is_val_statically_known intrinsic as stably const-callable&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132562">Remove the &lt;code>wasm32-wasi&lt;/code> target from rustc&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129884">mark some target features as &amp;lsquo;forbidden&amp;rsquo; so they cannot be (un)set with -Ctarget-feature&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131829">Remove support for &lt;code>-Zprofile&lt;/code> (gcov-style coverage instrumentation)&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132402">Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132412">Tracking issue for release notes of #132402: Remove support for decompressing dylib metadata&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132140">Enable LSX feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129248">Taking a raw ref (&lt;code>&amp;amp;raw (const|mut)&lt;/code>) of a deref of pointer (&lt;code>*ptr&lt;/code>) is always safe&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129935">make unsupported_calling_conventions a hard error&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/120869">ci update freebsd version proposal, freebsd 12 being eol&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131933">Tracking issue for release notes of #131381: Implement edition 2024 match ergonomics restrictions&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131857">Allow dropping dyn principal&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131583">Setting up indirect access to external data for loongarch64-linux-{musl,ohos}&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131818">Enable XRay instrumentation for LoongArch Linux targets&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130635">Add &lt;code>&amp;amp;pin (mut|const) T&lt;/code> type position sugar&lt;/a> &lt;em>(merged 84 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130654">stabilize &lt;code>-Znext-solver=coherence&lt;/code> again&lt;/a> &lt;em>(merged 84 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131533">emscripten: Use the latest emsdk 3.1.68&lt;/a> &lt;em>(merged 85 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.83.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.83.0/</guid><description>&lt;h1 id="1830-beta">
  1.83.0 beta
  &lt;a class="anchor" href="#1830-beta">#&lt;/a>
@@ -71,67 +71,67 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130354">Tracking issue for release notes of #129753: stabilize &lt;code>const_extern_fn&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130362">Tracking issue for release notes of #129195: Stabilize &lt;code>&amp;amp;mut&lt;/code> (and &lt;code>*mut&lt;/code>) as well as &lt;code>&amp;amp;Cell&lt;/code> (and &lt;code>*const Cell&lt;/code>) in const&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130396">Tracking issue for release notes of #129073: Relate receiver invariantly in method probe for &lt;code>Mode::Path&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130772">Tracking issue for release notes of #127117: Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130901">Tracking issue for release notes of #129759: Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130941">Tracking issue for release notes of #128778: atomics: allow atomic and non-atomic reads to race&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130986">Tracking issue for release notes of #129972: Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131270">Tracking issue for release notes of #129392: Do not consider match/let/ref of place that evaluates to &lt;code>!&lt;/code> to diverge, disallow coercions from them too&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131271">Tracking issue for release notes of #130367: Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131610">Tracking issue for release notes of #128784: Check ABI target compatibility for function pointers&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133353">Tracking issue for release notes of #128934: Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131092">Tracking issue for release notes of #83164: Tracking Issue for const_replace&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130073">Tracking issue for release notes of #65225: Tracking issue for &lt;code>#![feature(entry_insert)]&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130075">Tracking issue for release notes of #129555: stabilize const_float_bits_conv&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130335">Tracking issue for release notes of #130334: Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130363">Tracking issue for release notes of #128543: const-eval interning: accept interior mutable pointers in final value&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130544">Tracking issue for release notes of #130542: Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130770">Tracking issue for release notes of #130762: stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131040">Tracking issue for release notes of #130972: stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131245">Tracking issue for release notes of #130538: Stabilize const &lt;code>{slice,array}::from_mut&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131253">Tracking issue for release notes of #130518: Stabilize the &lt;code>map&lt;/code>/&lt;code>value&lt;/code> methods on &lt;code>ControlFlow&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131396">Tracking issue for release notes of #128316: Stabilize most of &lt;code>io_error_more&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131611">Tracking issue for release notes of #130954: Stabilize const &lt;code>ptr::write*&lt;/code> and &lt;code>mem::replace&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 92 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130367">Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130453">Add x86_64-unknown-trusty as tier 3 target&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130555"> Initial support for riscv32{e|em|emc}_unknown_none_elf&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131188">Do not copy libstd dynamic library to sysroot&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128711">impl &lt;code>Default&lt;/code> for &lt;code>HashMap&lt;/code>/&lt;code>HashSet&lt;/code> iterators that don&amp;rsquo;t already have it&lt;/a> &lt;em>(merged 95 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 96 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 97 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 97 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129687">Implement RFC3137 trim-paths sysroot changes - take 2&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130972">stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130897">library: Compute &lt;code>RUST_EXCEPTION_CLASS&lt;/code> from native-endian bytes&lt;/a> &lt;em>(merged 100 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129759">Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 102 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130549">Add RISC-V vxworks targets&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127117">Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130750">Add new Tier-3 target: &lt;code>loongarch64-unknown-linux-ohos&lt;/code>&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130762">stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130657">Remove x86_64-fuchsia and aarch64-fuchsia target aliases&lt;/a> &lt;em>(merged 105 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130614">Add arm64e-apple-tvos target&lt;/a> &lt;em>(merged 108 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129422">Gate &lt;code>repr(Rust)&lt;/code> correctly on non-ADT items&lt;/a> &lt;em>(merged 109 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130487">Update the minimum external LLVM to 18&lt;/a> &lt;em>(merged 109 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130542">Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 109 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129195">Stabilize &lt;code>&amp;amp;mut&lt;/code> (and &lt;code>*mut&lt;/code>) as well as &lt;code>&amp;amp;Cell&lt;/code> (and &lt;code>*const Cell&lt;/code>) in const&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129897">deprecate -Csoft-float because it is unsound (and not fixable)&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130295">Fix target-cpu fpu features on Armv8-R.&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130183">Bump Unicode to version 16.0.0&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128316">Stabilize most of &lt;code>io_error_more&lt;/code>&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128345">added support for GNU/Hurd on x86_64&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 120 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 122 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127021">Add target support for RTEMS Arm&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128934">Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127897">add &lt;code>aarch64_unknown_nto_qnx700&lt;/code> target - QNX 7.0 support for aarch64le&lt;/a> &lt;em>(merged 127 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130354">Tracking issue for release notes of #129753: stabilize &lt;code>const_extern_fn&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130362">Tracking issue for release notes of #129195: Stabilize &lt;code>&amp;amp;mut&lt;/code> (and &lt;code>*mut&lt;/code>) as well as &lt;code>&amp;amp;Cell&lt;/code> (and &lt;code>*const Cell&lt;/code>) in const&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130396">Tracking issue for release notes of #129073: Relate receiver invariantly in method probe for &lt;code>Mode::Path&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130772">Tracking issue for release notes of #127117: Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130901">Tracking issue for release notes of #129759: Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130941">Tracking issue for release notes of #128778: atomics: allow atomic and non-atomic reads to race&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130986">Tracking issue for release notes of #129972: Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131270">Tracking issue for release notes of #129392: Do not consider match/let/ref of place that evaluates to &lt;code>!&lt;/code> to diverge, disallow coercions from them too&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131271">Tracking issue for release notes of #130367: Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131610">Tracking issue for release notes of #128784: Check ABI target compatibility for function pointers&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/133353">Tracking issue for release notes of #128934: Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131092">Tracking issue for release notes of #83164: Tracking Issue for const_replace&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130073">Tracking issue for release notes of #65225: Tracking issue for &lt;code>#![feature(entry_insert)]&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130075">Tracking issue for release notes of #129555: stabilize const_float_bits_conv&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130335">Tracking issue for release notes of #130334: Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130363">Tracking issue for release notes of #128543: const-eval interning: accept interior mutable pointers in final value&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130544">Tracking issue for release notes of #130542: Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/130770">Tracking issue for release notes of #130762: stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131040">Tracking issue for release notes of #130972: stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131245">Tracking issue for release notes of #130538: Stabilize const &lt;code>{slice,array}::from_mut&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131253">Tracking issue for release notes of #130518: Stabilize the &lt;code>map&lt;/code>/&lt;code>value&lt;/code> methods on &lt;code>ControlFlow&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131396">Tracking issue for release notes of #128316: Stabilize most of &lt;code>io_error_more&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/131611">Tracking issue for release notes of #130954: Stabilize const &lt;code>ptr::write*&lt;/code> and &lt;code>mem::replace&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132810">Tracking issue for release notes of #132341: Reject raw lifetime followed by &lt;code>'&lt;/code>, like regular lifetimes do&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/132811">Tracking issue for release notes of #132363: Enforce that raw lifetimes must be valid raw identifiers&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129670">Make deprecated_cfg_attr_crate_type_name a hard error&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130367">Check elaborated projections from dyn don&amp;rsquo;t mention unconstrained late bound lifetimes&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130453">Add x86_64-unknown-trusty as tier 3 target&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130555"> Initial support for riscv32{e|em|emc}_unknown_none_elf&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131188">Do not copy libstd dynamic library to sysroot&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128711">impl &lt;code>Default&lt;/code> for &lt;code>HashMap&lt;/code>/&lt;code>HashSet&lt;/code> iterators that don&amp;rsquo;t already have it&lt;/a> &lt;em>(merged 96 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131070">Unpin &lt;code>cc&lt;/code> and upgrade to the latest version&lt;/a> &lt;em>(merged 97 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129972">Stabilize expr_2021 fragment specifier in all editions&lt;/a> &lt;em>(merged 98 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130229">ptr::add/sub: do not claim equivalence with &lt;code>offset(c as isize)&lt;/code>&lt;/a> &lt;em>(merged 98 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129687">Implement RFC3137 trim-paths sysroot changes - take 2&lt;/a> &lt;em>(merged 100 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130972">stabilize const_cell_into_inner&lt;/a> &lt;em>(merged 100 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130897">library: Compute &lt;code>RUST_EXCEPTION_CLASS&lt;/code> from native-endian bytes&lt;/a> &lt;em>(merged 101 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129759">Stabilize &lt;code>const_refs_to_static&lt;/code>&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130549">Add RISC-V vxworks targets&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127117">Rework &lt;code>non_local_definitions&lt;/code> lint to only use a syntactic heuristic&lt;/a> &lt;em>(merged 105 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130750">Add new Tier-3 target: &lt;code>loongarch64-unknown-linux-ohos&lt;/code>&lt;/a> &lt;em>(merged 105 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130762">stabilize const_intrinsic_copy&lt;/a> &lt;em>(merged 105 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130657">Remove x86_64-fuchsia and aarch64-fuchsia target aliases&lt;/a> &lt;em>(merged 106 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130614">Add arm64e-apple-tvos target&lt;/a> &lt;em>(merged 109 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129422">Gate &lt;code>repr(Rust)&lt;/code> correctly on non-ADT items&lt;/a> &lt;em>(merged 110 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130487">Update the minimum external LLVM to 18&lt;/a> &lt;em>(merged 110 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130542">Stabilize const &lt;code>MaybeUninit::as_mut_ptr&lt;/code>&lt;/a> &lt;em>(merged 110 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129195">Stabilize &lt;code>&amp;amp;mut&lt;/code> (and &lt;code>*mut&lt;/code>) as well as &lt;code>&amp;amp;Cell&lt;/code> (and &lt;code>*const Cell&lt;/code>) in const&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129897">deprecate -Csoft-float because it is unsound (and not fixable)&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130295">Fix target-cpu fpu features on Armv8-R.&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130334">Fix &lt;code>SDKROOT&lt;/code> ignore on macOS&lt;/a> &lt;em>(merged 115 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/129369">Pass deployment target when linking with CC on Apple targets&lt;/a> &lt;em>(merged 117 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130183">Bump Unicode to version 16.0.0&lt;/a> &lt;em>(merged 117 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128316">Stabilize most of &lt;code>io_error_more&lt;/code>&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/130025">Also emit &lt;code>missing_docs&lt;/code> lint with &lt;code>--test&lt;/code> to fulfil expectations&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128345">added support for GNU/Hurd on x86_64&lt;/a> &lt;em>(merged 120 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/126452">Implement raw lifetimes and labels (&lt;code>'r#ident&lt;/code>)&lt;/a> &lt;em>(merged 121 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/121848">stabilize &lt;code>-Znext-solver=coherence&lt;/code>&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127021">Add target support for RTEMS Arm&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128934">Non-exhaustive structs may be empty&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127897">add &lt;code>aarch64_unknown_nto_qnx700&lt;/code> target - QNX 7.0 support for aarch64le&lt;/a> &lt;em>(merged 128 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.82.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.82.0/</guid><description>&lt;h1 id="1820">
  1.82.0
  &lt;a class="anchor" href="#1820">#&lt;/a>
