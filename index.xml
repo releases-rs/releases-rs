@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.85.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.85.0/</guid><description>&lt;h1 id="1850-nightly">
- 1.85.0 nightly
- &lt;a class="anchor" href="#1850-nightly">#&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.85.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.85.0/</guid><description>&lt;h1 id="1850-beta">
+ 1.85.0 beta
+ &lt;a class="anchor" href="#1850-beta">#&lt;/a>
 &lt;/h1>
 &lt;blockquote class="book-hint warning">
  &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
@@ -11,21 +11,21 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840">
  1.84.0
  &lt;a class="anchor" href="#1840">#&lt;/a>
