@@ -11,6 +11,8 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132397">Make missing_abi lint warn-by-default.&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134143">Convert &lt;code>struct FromBytesWithNulError&lt;/code> into enum&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135276">Tracking issue for release notes of #135275: Add Pin::as_deref_mut to relnotes&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.85.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.85.0/</guid><description>&lt;h1 id="1850-beta">
  1.85.0 beta
