@@ -48,6 +48,32 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.1/</guid><description>&lt;h1 id="1841">
+ 1.84.1
+ &lt;a class="anchor" href="#1841">#&lt;/a>
+&lt;/h1>
+&lt;blockquote class="book-hint info">
+ &lt;ul>
+&lt;li>Released on: &lt;em>30 January, 2025&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+
+&lt;/blockquote>
+
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133304/">Fix ICE 132920 in duplicate-crate diagnostics.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133828/">Fix errors for overlapping impls in incremental rebuilds.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135618/">Fix slow compilation related to the next-generation trait solver.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135643/">Fix debuginfo when LLVM&amp;rsquo;s location discriminator value limit is exceeded.&lt;/a>&lt;/li>
+&lt;li>Fixes for building Rust from source:
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134240/">Only try to distribute &lt;code>llvm-objcopy&lt;/code> if llvm tools are enabled.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135433/">Add Profile Override for Non-Git Sources.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135585/">Resolve symlinks of LLVM tool binaries before copying them.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135722/">Make it possible to use ci-rustc on tarball sources.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.0/</guid><description>&lt;h1 id="1840">
  1.84.0
  &lt;a class="anchor" href="#1840">#&lt;/a>
