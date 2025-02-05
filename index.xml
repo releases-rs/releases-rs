@@ -11,14 +11,14 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134424">Insert null checks for pointer dereferences when debug assertions are enabled&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133631">Support QNX 7.1 with &lt;code>io-sock&lt;/code>+libstd and QNX 8.0 (&lt;code>no_std&lt;/code> only)&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134300">remove long-deprecated no-op attributes no_start and crate_id&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/119286">show linker output even if the linker succeeds&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135689">Tracking issue for release notes of #134299: remove support for the (unstable) #[start] attribute&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132397">Make missing_abi lint warn-by-default.&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134143">Convert &lt;code>struct FromBytesWithNulError&lt;/code> into enum&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135276">Tracking issue for release notes of #135275: Add Pin::as_deref_mut to relnotes&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134424">Insert null checks for pointer dereferences when debug assertions are enabled&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133631">Support QNX 7.1 with &lt;code>io-sock&lt;/code>+libstd and QNX 8.0 (&lt;code>no_std&lt;/code> only)&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134300">remove long-deprecated no-op attributes no_start and crate_id&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/119286">show linker output even if the linker succeeds&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135689">Tracking issue for release notes of #134299: remove support for the (unstable) #[start] attribute&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132397">Make missing_abi lint warn-by-default.&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134143">Convert &lt;code>struct FromBytesWithNulError&lt;/code> into enum&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135276">Tracking issue for release notes of #135275: Add Pin::as_deref_mut to relnotes&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.85.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.85.0/</guid><description>&lt;h1 id="1850-beta">
  1.85.0 beta
  &lt;a class="anchor" href="#1850-beta">#&lt;/a>
@@ -32,25 +32,25 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134752">Tracking issue for release notes of #134751: Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135872">Tracking issue for release notes of #118159: Implementation of &lt;code>fmt::FormattingOptions&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133801">Promote powerpc64le-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118159">Implementation of &lt;code>fmt::FormattingOptions&lt;/code>&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134752">Tracking issue for release notes of #134751: Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135872">Tracking issue for release notes of #118159: Implementation of &lt;code>fmt::FormattingOptions&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131729">Make the &lt;code>test&lt;/code> cfg a userspace check-cfg&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134287">Tracking issue for release notes of #130766: Stabilize #[coverage] attribute&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134765">Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134895">Tracking issue for release notes of #134765: Improve default target options for x86_64-unknown-linux-none&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134751">Enable LSX feature for LoongArch OpenHarmony target&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/134535">Tracking issue for release notes of #128780: Add &lt;code>--doctest-compilation-args&lt;/code> option to add compilation flags to doctest compilation&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133801">Promote powerpc64le-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133293">Updates Solaris target information, adds Solaris maintainer&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132975">De-duplicate and improve definition of core::ffi::c_char&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/118159">Implementation of &lt;code>fmt::FormattingOptions&lt;/code>&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133883">Remove polymorphization&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133811">[AIX] change AIX default codemodel=large&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132390">bootstrap: show diagnostics relative to rustc src dir&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116161">Stabilize &lt;code>extended_varargs_abi_support&lt;/code>&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132515">Fix and undeprecate home_dir()&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133349">Stabilize the 2024 edition&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133374">show abi_unsupported_vector_types lint in future breakage reports&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.84.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.84.1/</guid><description>&lt;h1 id="1841">
  1.84.1
  &lt;a class="anchor" href="#1841">#&lt;/a>
