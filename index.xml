@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136698">Replace i686-unknown-redox target with i586-unknown-redox&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136700">i686-unknown-hurd-gnu: bump baseline CPU to Pentium 4&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134367">Stabilize &lt;code>feature(trait_upcasting)&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134424">Insert null checks for pointer dereferences when debug assertions are enabled&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
