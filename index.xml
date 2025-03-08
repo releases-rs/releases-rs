@@ -12,6 +12,7 @@
 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137957">Remove i586-pc-windows-msvc&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/138183">Tracking issue for release notes of #137606: add a &amp;ldquo;future&amp;rdquo; edition&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137327">Undeprecate env::home_dir&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136831">Update stdarch&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137569">Stabilize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
