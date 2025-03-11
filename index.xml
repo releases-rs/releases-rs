@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136932">Reduce formatting &lt;code>width&lt;/code> and &lt;code>precision&lt;/code> to 16 bits&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136127">Allow &lt;code>*const W&amp;lt;dyn A&amp;gt; -&amp;gt; *const dyn A&lt;/code> ptr cast&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137957">Remove i586-pc-windows-msvc&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/138183">Tracking issue for release notes of #137606: add a &amp;ldquo;future&amp;rdquo; edition&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
