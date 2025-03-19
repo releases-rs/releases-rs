@@ -43,6 +43,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136698">Replace i686-unknown-redox target with i586-unknown-redox&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136700">i686-unknown-hurd-gnu: bump baseline CPU to Pentium 4&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134367">Stabilize &lt;code>feature(trait_upcasting)&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136393">Fix accidentally not emitting overflowing literals lints anymore in patterns&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134424">Insert null checks for pointer dereferences when debug assertions are enabled&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133631">Support QNX 7.1 with &lt;code>io-sock&lt;/code>+libstd and QNX 8.0 (&lt;code>no_std&lt;/code> only)&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133951">Make the wasm_c_abi future compat warning a hard error&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
