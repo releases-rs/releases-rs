@@ -37,6 +37,8 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136010">Tracking issue for release notes of #135415: Add &lt;code>File already exists&lt;/code> error doc to &lt;code>hard_link&lt;/code> function&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136783">Tracking issue for release notes of #135841: Reject &lt;code>?Trait&lt;/code> bounds in various places where we unconditionally warned since 1.0&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137037">add x86-sse2 (32bit) ABI that requires SSE2 target feature&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135439">Make &lt;code>-O&lt;/code> mean &lt;code>OptLevel::Aggressive&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134633">Stabilize &lt;code>get_many_mut&lt;/code> as &lt;code>get_disjoint_mut&lt;/code>&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
