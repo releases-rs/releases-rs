@@ -11,20 +11,20 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133870">Stabilize &lt;code>asm_goto&lt;/code> feature gate&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138162">Update the standard library to Rust 2024&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136932">Reduce formatting &lt;code>width&lt;/code> and &lt;code>precision&lt;/code> to 16 bits&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136127">Allow &lt;code>*const W&amp;lt;dyn A&amp;gt; -&amp;gt; *const dyn A&lt;/code> ptr cast&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138233">Windows: Don&amp;rsquo;t link std (and run-make) against advapi32, except on win7&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137957">Remove i586-pc-windows-msvc&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/138183">Tracking issue for release notes of #137606: add a &amp;ldquo;future&amp;rdquo; edition&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137327">Undeprecate env::home_dir&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136831">Update stdarch&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137569">Stabilize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/125882">Tracking Issue for &lt;code>integer_sign_cast&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135408">x86: use SSE2 to pass float and SIMD types&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135763">Update to LLVM 20&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127581">Fix crate name validation&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133870">Stabilize &lt;code>asm_goto&lt;/code> feature gate&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138162">Update the standard library to Rust 2024&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136932">Reduce formatting &lt;code>width&lt;/code> and &lt;code>precision&lt;/code> to 16 bits&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136127">Allow &lt;code>*const W&amp;lt;dyn A&amp;gt; -&amp;gt; *const dyn A&lt;/code> ptr cast&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138233">Windows: Don&amp;rsquo;t link std (and run-make) against advapi32, except on win7&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137957">Remove i586-pc-windows-msvc&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/138183">Tracking issue for release notes of #137606: add a &amp;ldquo;future&amp;rdquo; edition&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137327">Undeprecate env::home_dir&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136831">Update stdarch&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137569">Stabilize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/125882">Tracking Issue for &lt;code>integer_sign_cast&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135408">x86: use SSE2 to pass float and SIMD types&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135763">Update to LLVM 20&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/127581">Fix crate name validation&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.86.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.86.0/</guid><description>&lt;h1 id="1860">
  1.86.0
  &lt;a class="anchor" href="#1860">#&lt;/a>
