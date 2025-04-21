@@ -28,6 +28,9 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136128">Tracking issue for release notes of #136127: Allow &lt;code>*const W&amp;lt;dyn A&amp;gt; -&amp;gt; *const dyn A&lt;/code> ptr cast&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136621">Tracking issue for release notes of #129041: Tracking Issue for &lt;code>const_vec_string_slice&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136768">Tracking issue for release notes of #130994: Tracking Issue for File lock API&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137379">Tracking issue for release notes of #59618: Tracking issue for HashMap::extract_if and HashSet::extract_if&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137572">Tracking issue for release notes of #137569: Stablize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133870">Stabilize &lt;code>asm_goto&lt;/code> feature gate&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
