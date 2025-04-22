@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132833">Stabilize let chains in the 2024 edition&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134213">Stabilize &lt;code>naked_functions&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138632">Stabilize &lt;code>cfg_boolean_literals&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/139716">Tracking issue for release notes of #139163: indirect-const-stabilize the &lt;code>exact_div&lt;/code> intrinsic&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
