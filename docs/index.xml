@@ -35,6 +35,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136768">Tracking issue for release notes of #130994: Tracking Issue for File lock API&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137379">Tracking issue for release notes of #59618: Tracking issue for HashMap::extract_if and HashSet::extract_if&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137572">Tracking issue for release notes of #137569: Stablize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138844">expand: Leave traces when expanding &lt;code>cfg&lt;/code> attributes&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/133870">Stabilize &lt;code>asm_goto&lt;/code> feature gate&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138162">Update the standard library to Rust 2024&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136932">Reduce formatting &lt;code>width&lt;/code> and &lt;code>precision&lt;/code> to 16 bits&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
@@ -45,6 +46,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137327">Undeprecate env::home_dir&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/136831">Update stdarch&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137569">Stabilize &lt;code>string_extend_from_within&lt;/code>&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137517">Remove &lt;code>NtPat&lt;/code>, &lt;code>NtMeta&lt;/code>, and &lt;code>NtPath&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/125882">Tracking Issue for &lt;code>integer_sign_cast&lt;/code>&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135408">x86: use SSE2 to pass float and SIMD types&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135763">Update to LLVM 20&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
