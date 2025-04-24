@@ -313,6 +313,9 @@ weight: {weight}
         loop {
             for (issue, days_ago) in (&issues_page)
                 .into_iter()
+                .filter(|issue| {
+                    !issue.labels.iter().any(|label| label.name == "relnotes-tracking-issue")
+                })
                 .filter_map(|issue| {
                     issue.closed_at.map(|closed_at| {
                         (
