@@ -95,6 +95,12 @@ weight: {weight}
         );
 
         for (issue, days_ago) in issues.iter()
+            .filter(|issue| {
+                !issue
+                    .labels
+                    .iter()
+                    .any(|label| label.name == "relnotes-tracking-issue")
+            })
             .filter_map(|issue| {
                 issue.closed_at.map(|closed_at| {
                     (issue, (Utc::now().naive_utc().date() - closed_at.naive_utc().date()).num_days())
