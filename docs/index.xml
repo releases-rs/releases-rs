@@ -30,6 +30,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137381">Tracking issue for release notes of #136668: Stabilize &lt;code>core::str::from_utf8_mut&lt;/code> as &lt;code>const&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/140513">Tracking issue for release notes of #138083: Remove &lt;code>NtItem&lt;/code> and &lt;code>NtStmt&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136128">Tracking issue for release notes of #136127: Allow &lt;code>*const W&amp;lt;dyn A&amp;gt; -&amp;gt; *const dyn A&lt;/code> ptr cast&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/136621">Tracking issue for release notes of #129041: Tracking Issue for &lt;code>const_vec_string_slice&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
