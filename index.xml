@@ -11,12 +11,12 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139916">make std::intrinsics functions actually be intrinsics&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138023">Add &lt;code>std::io::Seek&lt;/code> instance for &lt;code>std::io::Take&lt;/code>&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138940">Stabilize the avx512 target features&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140957">Add &lt;code>#[must_use]&lt;/code> to Array::map&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135015">Partially stabilize LoongArch target features&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140151">remove intrinsics::drop_in_place&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139916">make std::intrinsics functions actually be intrinsics&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138023">Add &lt;code>std::io::Seek&lt;/code> instance for &lt;code>std::io::Take&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138940">Stabilize the avx512 target features&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140957">Add &lt;code>#[must_use]&lt;/code> to Array::map&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135015">Partially stabilize LoongArch target features&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140151">remove intrinsics::drop_in_place&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.88.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.88.0/</guid><description>&lt;h1 id="1880-beta">
  1.88.0 beta
  &lt;a class="anchor" href="#1880-beta">#&lt;/a>
@@ -30,13 +30,13 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132833">Stabilize let chains in the 2024 edition&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134213">Stabilize &lt;code>naked_functions&lt;/code>&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138632">Stabilize &lt;code>cfg_boolean_literals&lt;/code>&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124141">Remove &lt;code>Nonterminal&lt;/code> and &lt;code>TokenKind::Interpolated&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/139716">Tracking issue for release notes of #139163: indirect-const-stabilize the &lt;code>exact_div&lt;/code> intrinsic&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139275">Update the minimum external LLVM to 19&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/139109">Tracking issue for release notes of #137835: Use &lt;code>BinOp::Cmp&lt;/code> for &lt;code>iNN::signum&lt;/code>&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/132833">Stabilize let chains in the 2024 edition&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134213">Stabilize &lt;code>naked_functions&lt;/code>&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138632">Stabilize &lt;code>cfg_boolean_literals&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/124141">Remove &lt;code>Nonterminal&lt;/code> and &lt;code>TokenKind::Interpolated&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/139716">Tracking issue for release notes of #139163: indirect-const-stabilize the &lt;code>exact_div&lt;/code> intrinsic&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139275">Update the minimum external LLVM to 19&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/139109">Tracking issue for release notes of #137835: Use &lt;code>BinOp::Cmp&lt;/code> for &lt;code>iNN::signum&lt;/code>&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.87.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.87.0/</guid><description>&lt;h1 id="1870">
  1.87.0
  &lt;a class="anchor" href="#1870">#&lt;/a>
