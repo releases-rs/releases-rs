@@ -13,6 +13,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135160">aarch64-softfloat: forbid enabling the neon target feature&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139916">make std::intrinsics functions actually be intrinsics&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141140">Tracking issue for release notes of #137323: Guarantee behavior of transmuting &lt;code>Option::&amp;lt;T&amp;gt;::None&lt;/code> subject to NPO&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138023">Add &lt;code>std::io::Seek&lt;/code> instance for &lt;code>std::io::Take&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138940">Stabilize the avx512 target features&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140957">Add &lt;code>#[must_use]&lt;/code> to Array::map&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
