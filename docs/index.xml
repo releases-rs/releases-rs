@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138285">Stabilize &lt;code>repr128&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141537">Tracking issue for release notes of #136988: Use the new solver in the &lt;code>impossible_predicates&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135160">aarch64-softfloat: forbid enabling the neon target feature&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139916">make std::intrinsics functions actually be intrinsics&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
