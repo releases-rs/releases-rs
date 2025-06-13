@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128425">Make &lt;code>missing_fragment_specifier&lt;/code> an unconditional error&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142053">Add new Tier-3 targets: &lt;code>loongarch32-unknown-none*&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142166">Tracking issue for release notes of #141447: Document representation of &lt;code>Option&amp;lt;unsafe fn()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138677">Add a new &lt;code>mismatched-lifetime-syntaxes&lt;/code> lint&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
