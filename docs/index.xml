@@ -14,6 +14,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142575">Ensure copy* intrinsics also perform the static self-init checks&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140748"> Allow storing &lt;code>format_args!()&lt;/code> in variable&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140772">{aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142377">Try unremapping compiler sources&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140593">Temporary lifetime extension through tuple struct and tuple variant constructors&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142129">Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142501">Tracking issue for release notes of #142129: Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
