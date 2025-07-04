@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890-beta">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-nightly">
+ 1.90.0 nightly
+ &lt;a class="anchor" href="#1900-nightly">#&lt;/a>
+&lt;/h1>
+&lt;blockquote class="book-hint warning">
+ &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Will be stable on: &lt;em>18 September, 2025&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>1 August, 2025&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143084">const-eval: error when initializing a static writes to that static&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890-beta">
  1.89.0 beta
  &lt;a class="anchor" href="#1890-beta">#&lt;/a>
 &lt;/h1>
