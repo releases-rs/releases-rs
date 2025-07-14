@@ -29,6 +29,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140748"> Allow storing &lt;code>format_args!()&lt;/code> in a variable&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140772">{aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142377">Try unremapping compiler sources&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142507">use &lt;code>#[align]&lt;/code> attribute for &lt;code>fn_align&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140593">Temporary lifetime extension through tuple struct and tuple variant constructors&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142129">Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142501">Tracking issue for release notes of #142129: Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
