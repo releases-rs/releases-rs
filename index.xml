@@ -25,6 +25,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135657">Tracking issue for release notes of #135656: Add &lt;code>-C hint-mostly-unused&lt;/code> to tell rustc that most of a crate will go unused&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142575">Ensure copy* intrinsics also perform the static self-init checks&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140748"> Allow storing &lt;code>format_args!()&lt;/code> in a variable&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140772">{aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
