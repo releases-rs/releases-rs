@@ -11,6 +11,8 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144184">Tracking issue for release notes of #143604: Stabilize &lt;code>const_float_round_methods&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143062">Tracking issue for release notes of #140772: {aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143031">Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">const-eval: allow constants to refer to mutable/external memory, but reject such constants as patterns&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
