@@ -30,6 +30,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135693">Tracking issue for release notes of #125087: Optimize &lt;code>Seek::stream_len&lt;/code> impl for &lt;code>File&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144248">Tracking issue for release notes of #139994: add &lt;code>CStr::display&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141780">Tracking issue for release notes of #134813: Tracking Issue for &lt;code>keylocker_x86&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135657">Tracking issue for release notes of #135656: Add &lt;code>-C hint-mostly-unused&lt;/code> to tell rustc that most of a crate will go unused&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
