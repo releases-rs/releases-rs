@@ -19,51 +19,40 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143031">Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">const-eval: allow constants to refer to mutable/external memory, but reject such constants as patterns&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143084">const-eval: error when initializing a static writes to that static&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890-beta">
- 1.89.0 beta
- &lt;a class="anchor" href="#1890-beta">#&lt;/a>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890">
+ 1.89.0
+ &lt;a class="anchor" href="#1890">#&lt;/a>
 &lt;/h1>
-&lt;blockquote class="book-hint warning">
- &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Will be stable on: &lt;em>7 August, 2025&lt;/em>&lt;/li>
+&lt;blockquote class="book-hint info">
+ &lt;ul>
+&lt;li>Released on: &lt;em>7 August, 2025&lt;/em>&lt;/li>
 &lt;li>Branched from master on: &lt;em>20 June, 2025&lt;/em>&lt;/li>
 &lt;/ul>
+
 &lt;/blockquote>
 
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="language">
+ Language
+ &lt;a class="anchor" href="#language">#&lt;/a>
+&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135693">Tracking issue for release notes of #125087: Optimize &lt;code>Seek::stream_len&lt;/code> impl for &lt;code>File&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144248">Tracking issue for release notes of #139994: add &lt;code>CStr::display&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141780">Tracking issue for release notes of #134813: Tracking Issue for &lt;code>keylocker_x86&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/135657">Tracking issue for release notes of #135656: Add &lt;code>-C hint-mostly-unused&lt;/code> to tell rustc that most of a crate will go unused&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143923">Tracking issue for release notes of #142507: use &lt;code>#[align]&lt;/code> attribute for &lt;code>fn_align&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142575">Ensure copy* intrinsics also perform the static self-init checks&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140748"> Allow storing &lt;code>format_args!()&lt;/code> in a variable&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142377">Try unremapping compiler sources&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140593">Temporary lifetime extension through tuple struct and tuple variant constructors&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142129">Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142501">Tracking issue for release notes of #142129: Apply &lt;code>mismatched-lifetime-syntaxes&lt;/code> to trait and extern functions&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/128425">Make &lt;code>missing_fragment_specifier&lt;/code> an unconditional error&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142053">Add new Tier-3 targets: &lt;code>loongarch32-unknown-none*&lt;/code>&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141797">compiler: set Apple frame pointers by architecture&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142166">Tracking issue for release notes of #141447: Document representation of &lt;code>Option&amp;lt;unsafe fn()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138677">Add a new &lt;code>mismatched-lifetime-syntaxes&lt;/code> lint&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137306">Remove &lt;code>i128&lt;/code> and &lt;code>u128&lt;/code> from &lt;code>improper_ctypes_definitions&lt;/code>&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141820">Tracking issue for release notes of #141224: terminology: allocated object → allocation&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138285">Stabilize &lt;code>repr128&lt;/code>&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140066">Stabilize &lt;code>&amp;lt;[T; N]&amp;gt;::as_mut_slice&lt;/code> as &lt;code>const&lt;/code>&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141537">Tracking issue for release notes of #136988: Use the new solver in the &lt;code>impossible_predicates&lt;/code>&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135160">aarch64-softfloat: forbid enabling the neon target feature&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140832">aarch64-linux: Default to FramePointer::NonLeaf&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139916">make std::intrinsics functions actually be intrinsics&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141140">Tracking issue for release notes of #137323: Guarantee behavior of transmuting &lt;code>Option::&amp;lt;T&amp;gt;::None&lt;/code> subject to NPO&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138023">Add &lt;code>std::io::Seek&lt;/code> instance for &lt;code>std::io::Take&lt;/code>&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138940">Stabilize the avx512 target features&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140957">Add &lt;code>#[must_use]&lt;/code> to Array::map&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135015">Partially stabilize LoongArch target features&lt;/a> &lt;em>(merged 85 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140862">Enable non-leaf Frame Pointers for Arm64EC Windows&lt;/a> &lt;em>(merged 85 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140151">remove intrinsics::drop_in_place&lt;/a> &lt;em>(merged 86 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.88.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.88.0/</guid><description>&lt;h1 id="1880">
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141610">Stabilize explicitly inferred const arguments (&lt;code>feature(generic_arg_infer)&lt;/code>)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138677">Add a warn-by-default &lt;code>mismatched_lifetime_syntaxes&lt;/code> lint.&lt;/a>
+This lint detects when the same lifetime is referred to by different syntax categories between function arguments and return values, which can be confusing to read, especially in unsafe code.
+This lint supersedes the warn-by-default &lt;code>elided_named_lifetimes&lt;/code> lint.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134536">Expand &lt;code>unpredictable_function_pointer_comparisons&lt;/code> to also lint on function pointer comparisons in external macros&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141661">Make the &lt;code>dangerous_implicit_autorefs&lt;/code> lint deny-by-default&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138940">Stabilize the avx512 target features&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140766">Stabilize &lt;code>kl&lt;/code> and &lt;code>widekl&lt;/code> target features for x86&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140767">Stabilize &lt;code>sha512&lt;/code>, &lt;code>sm3&lt;/code> and &lt;code>sm4&lt;/code> target features for x86&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/135015">Stabilize LoongArch target features &lt;code>f&lt;/code>, &lt;code>d&lt;/code>, &lt;code>frecipe&lt;/code>, &lt;code>lasx&lt;/code>, &lt;code>lbt&lt;/code>, &lt;code>lsx&lt;/code>, and &lt;code>lvz&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137306">Remove &lt;code>i128&lt;/code> and &lt;code>u128&lt;/code> from &lt;code>improper_ctypes_definitions&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/138285">Stabilize &lt;code>repr128&lt;/code> (&lt;code>#[repr(u128)]&lt;/code>, &lt;code>#[repr(i128)]&lt;/code>)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140560">Allow &lt;code>#![doc(test(attr(..)))]&lt;/code> everywhere&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140593">Extend temporary lifetime extension to also go through tuple struct and tuple variant constructors&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.88.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.88.0/</guid><description>&lt;h1 id="1880">
  1.88.0
  &lt;a class="anchor" href="#1880">#&lt;/a>
 &lt;/h1>
