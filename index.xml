@@ -8,7 +8,15 @@
 &lt;li>Will be stable on: &lt;em>30 October, 2025&lt;/em>&lt;/li>
 &lt;li>Will branch from master on: &lt;em>12 September, 2025&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
+&lt;/blockquote>
+
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131477">Apple: Always pass SDK root when linking with &lt;code>cc&lt;/code>, and pass it via &lt;code>SDKROOT&lt;/code> env var&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141658">rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
  1.90.0 beta
  &lt;a class="anchor" href="#1900-beta">#&lt;/a>
 &lt;/h1>
