@@ -16,6 +16,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141658">rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
  1.90.0 beta
