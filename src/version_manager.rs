@@ -1,0 +1,91 @@
+use crate::config::Config;
+use chrono::{Duration, NaiveDate, Utc};
+use regex::RegexBuilder;
+use semver::Version;
+use std::collections::HashMap;
+use std::str::FromStr;
+use tap::Tap;
+
+#[derive(Debug, Clone)]
+pub struct ReleaseDate {
+    pub release_date: NaiveDate,
+    pub branch_date: NaiveDate,
+}
+
+#[derive(Debug, Clone)]
+pub struct VersionManager {
+    config: Config,
+}
+
+impl VersionManager {
+    pub fn new(config: Config) -> Self {
+        Self { config }
+    }
+
+    pub fn calculate_release_date(&self, now_date: NaiveDate, incr: u32) -> ReleaseDate {
+        let new_releases = ((now_date - self.config.epoch_date).num_weeks() as f64 / 6.0).floor() as u32;
+        let release_date = self.config.epoch_date + Duration::weeks(((new_releases + incr) * 6).into());
+        let branch_date = self.config.epoch_date + Duration::weeks(((new_releases + incr - 1) * 6).into()) - Duration::days(6);
+
+        ReleaseDate {
+            release_date,
+            branch_date,
+        }
+    }
+
+    pub fn determine_weight(&self, version: &Version) -> u32 {
+        u32::MAX - ((version.major as u32) << 24) - ((version.minor as u32) << 8) - version.patch as u32
+    }
+
+    pub fn parse_changelogs(&self, body: &str) -> HashMap<Version, (String, NaiveDate)> {
+        let split_re = RegexBuilder::new("^Version\\s+")
+            .multi_line(true)
+            .build()
+            .unwrap();
+            
+        split_re
+            .split(body)
+            .filter_map(|s| {
+                if let Some(ws_idx) = s.find(|c: char| c.is_whitespace()) {
+                    let rest = &s[ws_idx..];
+                    let version = &s[0..ws_idx];
+                    let time: NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
+                    if let Ok(version) = Version::parse(version) {
+                        if version > Version::from_str("1.0.0").unwrap() {
+                            let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
+                            Some((version, (changelog, time)))
+                        } else {
+                            None
+                        }
+                    } else {
+                        None
+                    }
+                } else {
+                    None
+                }
+            })
+            .collect()
+    }
+
+    pub fn get_current_versions(&self, changelogs: &HashMap<Version, (String, NaiveDate)>) -> (Version, Version, Version) {
+        let stable_version = changelogs
+            .iter()
+            .filter(|(_, (_, release_date))| *release_date <= Utc::now().naive_utc().date())
+            .max_by_key(|(v, _)| *v)
+            .unwrap()
+            .0
+            .clone();
+            
+        let beta_version = stable_version.clone().tap_mut(|v| {
+            v.minor += 1;
+            v.patch = 0;
+        });
+        
+        let nightly_version = stable_version.clone().tap_mut(|v| {
+            v.minor += 2;
+            v.patch = 0;
+        });
+
+        (stable_version, beta_version, nightly_version)
+    }
+}
