@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144210">std: thread: Return error if setting thread stack size fails&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145379">bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131477">Apple: Always pass SDK root when linking with &lt;code>cc&lt;/code>, and pass it via &lt;code>SDKROOT&lt;/code> env var&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
