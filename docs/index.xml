@@ -14,6 +14,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145136">Tracking issue for release notes of #141658: rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145581">Tracking issue for release notes of #144476: rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145522">Tracking issue for release notes of #144906: Require approval from t-infra instead of t-release on tier bumps&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144210">std: thread: Return error if setting thread stack size fails&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131477">Apple: Always pass SDK root when linking with &lt;code>cc&lt;/code>, and pass it via &lt;code>SDKROOT&lt;/code> env var&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
