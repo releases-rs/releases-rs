@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145136">Tracking issue for release notes of #141658: rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145581">Tracking issue for release notes of #144476: rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
