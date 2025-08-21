@@ -11,7 +11,6 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145136">Tracking issue for release notes of #141658: rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145581">Tracking issue for release notes of #144476: rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
@@ -36,6 +35,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144410">Make tier 3 musl targets link dynamically by default&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144532">Tracking issue for release notes of #143289: Remove &lt;code>[T]::array_chunks(_mut)&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
