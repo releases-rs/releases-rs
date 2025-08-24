@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145723">Tracking issue for release notes of #143383: stabilize &lt;code>const_array_each_ref&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145731">Make raw pointers work in type-based search&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145604">Gate static closures behind a parser feature&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144476">rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
