@@ -12,6 +12,7 @@
 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145342">fix drop scope for &lt;code>super let&lt;/code> bindings within &lt;code>if let&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145682">Promote aarch64-pc-windows-msvc to Tier 1&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145723">Tracking issue for release notes of #143383: stabilize &lt;code>const_array_each_ref&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145822">Tracking issue for release notes of #145262: Make sure to treat only param where clauses as inherent&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145731">Make raw pointers work in type-based search&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
