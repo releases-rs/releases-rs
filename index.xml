@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144095">Tracking issue for release notes of #143031: Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146211">Disallow shebang in &lt;code>--cfg&lt;/code> and &lt;code>--check-cfg&lt;/code> arguments&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146078">Tracking issue for release notes of #145735: style-guide: Document absence of trailing whitespace&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145342">fix drop scope for &lt;code>super let&lt;/code> bindings within &lt;code>if let&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
@@ -31,6 +32,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144659">bootstrap: refactor mingw dist and fix gnullvm&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
  1.90.0 beta
  &lt;a class="anchor" href="#1900-beta">#&lt;/a>
