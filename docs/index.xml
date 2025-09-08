@@ -11,6 +11,7 @@
 &lt;/blockquote>
 
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145502">Tracking issue for release notes of #144081: const-eval: full support for pointer fragments&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144095">Tracking issue for release notes of #143031: Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146211">Disallow shebang in &lt;code>--cfg&lt;/code> and &lt;code>--check-cfg&lt;/code> arguments&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146078">Tracking issue for release notes of #145735: style-guide: Document absence of trailing whitespace&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
