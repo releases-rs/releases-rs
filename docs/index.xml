@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Changelogs</title><link>https://releases.rs/docs/</link><description>Recent content on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-nightly">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Changelogs</title><link>https://releases.rs/docs/</link><description>Recent content on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">
+ 1.92.0
+ &lt;a class="anchor" href="#1920">#&lt;/a>
+&lt;/h1>
+&lt;blockquote class="book-hint warning">
+ &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Will be stable on: &lt;em>11 December, 2025&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>24 October, 2025&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-nightly">
  1.91.0 nightly
  &lt;a class="anchor" href="#1910-nightly">#&lt;/a>
 &lt;/h1>
