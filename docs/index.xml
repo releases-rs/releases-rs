@@ -5,18 +5,56 @@
 &lt;blockquote class="book-hint warning">
  &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
+&lt;li>Will be stable on: &lt;em>22 January, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-nightly">
+ 1.91.0 nightly
+ &lt;a class="anchor" href="#1910-nightly">#&lt;/a>
+&lt;/h1>
+&lt;blockquote class="book-hint warning">
+ &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
+&lt;ul>
 &lt;li>Will be stable on: &lt;em>11 December, 2025&lt;/em>&lt;/li>
 &lt;li>Will branch from master on: &lt;em>24 October, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-nightly">
- 1.91.0 nightly
- &lt;a class="anchor" href="#1910-nightly">#&lt;/a>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145471">Stabilize BTree{Map,Set}::extract_if&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145502">Tracking issue for release notes of #144081: const-eval: full support for pointer fragments&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144095">Tracking issue for release notes of #143031: Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146211">Disallow shebang in &lt;code>--cfg&lt;/code> and &lt;code>--check-cfg&lt;/code> arguments&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146078">Tracking issue for release notes of #145735: style-guide: Document absence of trailing whitespace&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145342">fix drop scope for &lt;code>super let&lt;/code> bindings within &lt;code>if let&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145682">Promote aarch64-pc-windows-msvc to Tier 1&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145723">Tracking issue for release notes of #143383: stabilize &lt;code>const_array_each_ref&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145822">Tracking issue for release notes of #145262: Make sure to treat only param where clauses as inherent&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145731">Make raw pointers work in type-based search&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145604">Gate static closures behind a parser feature&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144476">rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145136">Tracking issue for release notes of #141658: rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145581">Tracking issue for release notes of #144476: rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145522">Tracking issue for release notes of #144906: Require approval from t-infra instead of t-release on tier bumps&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144210">std: thread: Return error if setting thread stack size fails&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131477">Apple: Always pass SDK root when linking with &lt;code>cc&lt;/code>, and pass it via &lt;code>SDKROOT&lt;/code> env var&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141658">rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144659">bootstrap: refactor mingw dist and fix gnullvm&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
+ 1.90.0 beta
+ &lt;a class="anchor" href="#1900-beta">#&lt;/a>
 &lt;/h1>
 &lt;blockquote class="book-hint warning">
  &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
@@ -27,51 +65,14 @@
 &lt;/blockquote>
 
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145471">Stabilize BTree{Map,Set}::extract_if&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145502">Tracking issue for release notes of #144081: const-eval: full support for pointer fragments&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144095">Tracking issue for release notes of #143031: Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146211">Disallow shebang in &lt;code>--cfg&lt;/code> and &lt;code>--check-cfg&lt;/code> arguments&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146078">Tracking issue for release notes of #145735: style-guide: Document absence of trailing whitespace&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145342">fix drop scope for &lt;code>super let&lt;/code> bindings within &lt;code>if let&lt;/code>&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145682">Promote aarch64-pc-windows-msvc to Tier 1&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145723">Tracking issue for release notes of #143383: stabilize &lt;code>const_array_each_ref&lt;/code>&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145822">Tracking issue for release notes of #145262: Make sure to treat only param where clauses as inherent&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145731">Make raw pointers work in type-based search&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145604">Gate static closures behind a parser feature&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144476">rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145136">Tracking issue for release notes of #141658: rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145547">Tracking issue for release notes of #145379: bootstrap: Support passing &lt;code>--timings&lt;/code> to cargo&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145581">Tracking issue for release notes of #144476: rustdoc-search: search backend with partitioned suffix tree&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145522">Tracking issue for release notes of #144906: Require approval from t-infra instead of t-release on tier bumps&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144210">std: thread: Return error if setting thread stack size fails&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/131477">Apple: Always pass SDK root when linking with &lt;code>cc&lt;/code>, and pass it via &lt;code>SDKROOT&lt;/code> env var&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141658">rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144659">bootstrap: refactor mingw dist and fix gnullvm&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">
- 1.90.0 beta
- &lt;a class="anchor" href="#1900-beta">#&lt;/a>
-&lt;/h1>
-&lt;blockquote class="book-hint warning">
- &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Will be stable on: &lt;em>18 September, 2025&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>1 August, 2025&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144410">Make tier 3 musl targets link dynamically by default&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144532">Tracking issue for release notes of #143289: Remove &lt;code>[T]::array_chunks(_mut)&lt;/code>&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144184">Tracking issue for release notes of #143604: Stabilize &lt;code>const_float_round_methods&lt;/code>&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143062">Tracking issue for release notes of #140772: {aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">const-eval: allow constants to refer to mutable/external memory, but reject such constants as patterns&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143084">const-eval: error when initializing a static writes to that static&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144410">Make tier 3 musl targets link dynamically by default&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144532">Tracking issue for release notes of #143289: Remove &lt;code>[T]::array_chunks(_mut)&lt;/code>&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144184">Tracking issue for release notes of #143604: Stabilize &lt;code>const_float_round_methods&lt;/code>&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143062">Tracking issue for release notes of #140772: {aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">const-eval: allow constants to refer to mutable/external memory, but reject such constants as patterns&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143084">const-eval: error when initializing a static writes to that static&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890">
  1.89.0
  &lt;a class="anchor" href="#1890">#&lt;/a>
