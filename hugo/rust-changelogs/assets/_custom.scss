@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 0.33px;
+}
+
+code,
+pre,
+kbd,
+samp,
+.markdown pre,
+.markdown code,
+.highlight,
+.highlight pre,
+.highlight code {
+  font-family: 'Roboto Mono', monospace !important;
+  letter-spacing: 0.33px;
+}
+
+.markdown details summary::before {
+  content: none !important;
+}
+
+.markdown details summary {
+  list-style-position: inside;
+  list-style-type: disclosure-closed;
+}
+
+.markdown details[open] summary {
+  list-style-position: inside;
+  list-style-type: disclosure-open;
+}
+
+#book-search-input {
+  letter-spacing: normal;
+}
+
+.book-toc-content a {
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+.book-brand {
+    img {
+        margin-inline-end: 8px;
+    }
+
+    a {
+        gap: 0;
+    }
+}
+
+.book-search {
+    margin: 16px 0;
+}
+
+.book-menu-content {
+    li {
+        margin: 14px 0;
+
+        a {
+            padding: 0;
+        }
+    }
+}
