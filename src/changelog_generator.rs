@@ -41,10 +41,10 @@ weight: {weight}
 {version}
 =========
 
-{{{{< hint info >}}}}
+{{{{% hint info %}}}}
 - Released on: _{release_date}_
 {version_branch_info_str}
-{{{{< /hint >}}}}
+{{{{% /hint %}}}}
 
 {trimmed}
 ",
@@ -79,12 +79,12 @@ weight: {weight}
 {unreleased_version} {release_name}
 =========
 
-{{{{< hint warning >}}}}
+{{{{% hint warning %}}}}
 **Unreleased{release_sfx}**
 
 - Will be stable on: _{stable_date}_
 - {branch_pfx} from master on: _{branch_date}_
-{{{{< /hint >}}}}
+{{{{% /hint %}}}}
 
 ",
             weight = self.version_manager.determine_weight(unreleased_version),
@@ -171,7 +171,7 @@ type: docs
             let mut line = "".to_string();
             let title = title.replace('"', "\\\"");
             line.push_str(&format!(
-                "{{{{<details \"{title} ({days_ago_text} old)\">}}}}\n"
+                "{{{{% details \"{title} ({days_ago_text} old)\" %}}}}\n"
             ));
             labels.into_iter().for_each(|label| {
                 line.push_str("* _");
@@ -184,7 +184,7 @@ type: docs
                 line.push('\n');
             });
             line.push_str(&format!("\n[Open PR #{number}]({html_url})\n\n"));
-            line.push_str("{{</details>}}\n");
+            line.push_str("{{% /details %}}\n");
             index.push_str(&line);
         }
 

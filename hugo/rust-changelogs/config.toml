@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Rust Changelogs'
 googleAnalytics = 'G-WXS0HSEV58'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 BookLogo = 'https://www.rust-lang.org/static/images/rust-logo-blk.svg'
 BookTheme = 'auto'

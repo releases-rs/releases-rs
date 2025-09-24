@@ -40,7 +40,8 @@ impl HugoManager {
     pub fn build_site(&self) -> Result<()> {
         let res = std::process::Command::new("hugo")
             .arg("--minify")
-            .arg("--debug")
+            .arg("--logLevel")
+            .arg("debug")
             .arg("--theme")
             .arg("hugo-book")
             .current_dir("hugo/rust-changelogs")
