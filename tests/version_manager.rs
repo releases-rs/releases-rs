@@ -1,6 +1,7 @@
 
 use semver::Version;
 use rust_changelogs::{Config, VersionManager};
+use itertools::Itertools;
 
 #[test]
 fn version_weights() {
@@ -17,14 +18,13 @@ fn version_weights() {
         Version::parse("0.12.0").unwrap(),
     ];
 
-    let mut weights: Vec<_> = versions.iter()
+    let weights: Vec<_> = versions.iter()
         .map(|v| (v, version_manager.determine_weight(v)))
+        .sorted_by(|a, b| a.1.cmp(&b.1))
+        .map(|(v, _)| v)
         .collect();
 
-    // Sort like this to match the site
-    weights.sort_by(|a, b| a.1.cmp(&b.1));
-
-    for (index, (version, _)) in weights.into_iter().enumerate() {
+    for (index, version) in weights.into_iter().enumerate() {
         assert_eq!(version, &versions[index]);
     }
 }
