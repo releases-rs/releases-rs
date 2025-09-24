@@ -1,18 +1,7 @@
-mod changelog_generator;
-mod config;
-mod github_client;
-mod hugo_manager;
-mod version_manager;
-
 use anyhow::Result;
-use changelog_generator::ChangelogGenerator;
 use chrono::Utc;
-use config::Config;
-use github_client::GitHubClient;
-use hugo_manager::HugoManager;
-use itertools::Itertools;
+use rust_changelogs::{ChangelogGenerator, Config, GitHubClient, HugoManager, VersionManager};
 use std::collections::HashSet;
-use version_manager::VersionManager;
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -31,9 +20,9 @@ async fn main() -> Result<()> {
         .await?;
 
     let changelogs = version_manager.parse_changelogs(&body);
-    let changelogs_vec: Vec<_> = changelogs.iter().sorted_by_key(|(v, _)| *v).collect();
 
-    for (version, (changelog, release_date)) in changelogs_vec.iter() {
+    for (version, (changelog, release_date)) in changelogs.iter() {
+        println!("{version:#?}");
         let content = changelog_generator.generate_released_version_content(version, changelog, release_date);
         hugo_manager.write_version_file(version, &content)?;
     }
@@ -54,13 +43,11 @@ async fn main() -> Result<()> {
         .into_iter()
         .filter(|(v, _m)| unreleased_versions.contains(v))
         .map(|(v, m)| (v, m.number))
-        .sorted_by_key(|(v, _)| v.clone())
-        .rev()
         .collect();
 
     let (stable_version, beta_version, nightly_version) = version_manager.get_current_versions(&changelogs);
 
-    for (unreleased_version, milestone_id) in unreleased_version_to_milestone.iter().sorted_by_key(|(v, _)| v) {
+    for (unreleased_version, milestone_id) in unreleased_version_to_milestone.iter() {
         let issues = github_client.fetch_milestone_issues(*milestone_id).await?;
         let changelog = changelog_generator.generate_unreleased_version_content(
             unreleased_version, 

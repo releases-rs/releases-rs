@@ -3,7 +3,6 @@ use chrono::{Duration, NaiveDate, Utc};
 use regex::RegexBuilder;
 use semver::Version;
 use std::collections::HashMap;
-use std::str::FromStr;
 use tap::Tap;
 
 #[derive(Debug, Clone)]
@@ -29,8 +28,6 @@ fn parse_lenient_version(version: &str) -> Option<Version> {
     Version::parse(version).ok()
 }
 
-const STABLE: Version = Version::new(1, 0, 0);
-
 impl VersionManager {
     pub fn new(config: Config) -> Self {
         Self { config }
@@ -47,8 +44,16 @@ impl VersionManager {
         }
     }
 
-    pub fn determine_weight(&self, version: &Version) -> u32 {
-        u32::MAX - ((version.major as u32) << 24) - ((version.minor as u32) << 8) - version.patch as u32
+    pub fn determine_weight(&self, version: &Version) -> u64 {
+        let base_weight = u64::MAX - ((version.major) << 24) - ((version.minor) << 8) - version.patch;
+
+        if version.pre.is_empty() {
+            return base_weight
+        }
+
+        // Very hacky, but works for now
+        let pre_hash = version.pre.to_string().chars().map(|c| c as u64).sum::<u64>() % 100;
+        base_weight.saturating_add(pre_hash)
     }
 
     pub fn parse_changelogs(&self, body: &str) -> HashMap<Version, (String, NaiveDate)> {
@@ -65,14 +70,10 @@ impl VersionManager {
                     let version = &s[0..ws_idx];
                     let time: NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
                     if let Some(version) = parse_lenient_version(version) {
-                        if version > STABLE {
-                            let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
-                            Some((version, (changelog, time)))
-                        } else {
-                            None
-                        }
+                        let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
+                        Some((version, (changelog, time)))
                     } else {
-                        None
+                        panic!("Lenient version parsing failed for '{version}'");
                     }
                 } else {
                     None
