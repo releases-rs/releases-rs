@@ -22,7 +22,6 @@ async fn main() -> Result<()> {
     let changelogs = version_manager.parse_changelogs(&body);
 
     for (version, (changelog, release_date)) in changelogs.iter() {
-        println!("{version:#?}");
         let content = changelog_generator.generate_released_version_content(version, changelog, release_date);
         hugo_manager.write_version_file(version, &content)?;
     }
