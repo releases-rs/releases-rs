@@ -29,6 +29,8 @@ fn parse_lenient_version(version: &str) -> Option<Version> {
     Version::parse(version).ok()
 }
 
+const STABLE: Version = Version::new(1, 0, 0);
+
 impl VersionManager {
     pub fn new(config: Config) -> Self {
         Self { config }
@@ -63,7 +65,7 @@ impl VersionManager {
                     let version = &s[0..ws_idx];
                     let time: NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
                     if let Some(version) = parse_lenient_version(version) {
-                        if version > Version::from_str("1.0.0").unwrap() {
+                        if version > STABLE {
                             let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
                             Some((version, (changelog, time)))
                         } else {
