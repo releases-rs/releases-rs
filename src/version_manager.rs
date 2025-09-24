@@ -17,6 +17,18 @@ pub struct VersionManager {
     config: Config,
 }
 
+// We do this because of https://github.com/rust-lang/rust/commit/495d7ee587dc1b8d99fd9f0bce2f72b0072e3aca
+// So we'll be a bit permissive with such cases where the minor version is missing
+fn parse_lenient_version(version: &str) -> Option<Version> {
+    let splits = version.split('.').count();
+
+    if splits < 3 {
+        return Version::parse(&format!("{version}.0")).ok()
+    }
+
+    Version::parse(version).ok()
+}
+
 const STABLE: Version = Version::new(1, 0, 0);
 
 impl VersionManager {
@@ -52,7 +64,7 @@ impl VersionManager {
                     let rest = &s[ws_idx..];
                     let version = &s[0..ws_idx];
                     let time: NaiveDate = s[ws_idx + 1..].trim_start()[1..11].parse().unwrap();
-                    if let Ok(version) = Version::parse(version) {
+                    if let Some(version) = parse_lenient_version(version) {
                         if version > STABLE {
                             let changelog = rest.lines().skip(2).collect::<Vec<_>>().join("\n");
                             Some((version, (changelog, time)))
