@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
- &lt;a class="anchor" href="#1920">#&lt;/a>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920-nightly">1.92.0 nightly
+ &lt;a class="anchor" href="#1920-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>22 January, 2026&lt;/em>&lt;/li>
-&lt;li>Will branch from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>11 December, 2025&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>24 October, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -13,13 +13,13 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-nightly">1.91.0 nightly
- &lt;a class="anchor" href="#1910-nightly">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910-beta">1.91.0 beta
+ &lt;a class="anchor" href="#1910-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>11 December, 2025&lt;/em>&lt;/li>
-&lt;li>Will branch from master on: &lt;em>24 October, 2025&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>30 October, 2025&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>12 September, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -47,25 +47,30 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144659">bootstrap: refactor mingw dist and fix gnullvm&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900-beta">1.90.0 beta
- &lt;a class="anchor" href="#1900-beta">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.90.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.90.0/</guid><description>&lt;h1 id="1900">1.90.0
+ &lt;a class="anchor" href="#1900">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>30 October, 2025&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>12 September, 2025&lt;/em>&lt;/li>
+&lt;li>Released on: &lt;em>18 September, 2025&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>1 August, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
+&lt;p>&lt;a id="1.90-Language">&lt;/a>&lt;/p>
+&lt;h2 id="language">Language
+ &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145252">Demote x86_64-apple-darwin to Tier 2 with host tools&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144410">Make tier 3 musl targets link dynamically by default&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144532">Tracking issue for release notes of #143289: Remove &lt;code>[T]::array_chunks(_mut)&lt;/code>&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144184">Tracking issue for release notes of #143604: Stabilize &lt;code>const_float_round_methods&lt;/code>&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143062">Tracking issue for release notes of #140772: {aarch64,x86_64}-pc-windows-gnullvm: build host tools&lt;/a> &lt;em>(merged 69 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">const-eval: allow constants to refer to mutable/external memory, but reject such constants as patterns&lt;/a> &lt;em>(merged 89 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143084">const-eval: error when initializing a static writes to that static&lt;/a> &lt;em>(merged 89 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890">1.89.0
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140717">Split up the &lt;code>unknown_or_malformed_diagnostic_attributes&lt;/code> lint&lt;/a>. This lint has been split up into four finer-grained lints, with &lt;code>unknown_or_malformed_diagnostic_attributes&lt;/code> now being the lint group that contains these lints:
+&lt;ol>
+&lt;li>&lt;code>unknown_diagnostic_attributes&lt;/code>: unknown to the current compiler&lt;/li>
+&lt;li>&lt;code>misplaced_diagnostic_attributes&lt;/code>: placed on the wrong item&lt;/li>
+&lt;li>&lt;code>malformed_diagnostic_attributes&lt;/code>: malformed attribute syntax or options&lt;/li>
+&lt;li>&lt;code>malformed_diagnostic_format_literals&lt;/code>: malformed format string literal&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140942">Allow constants whose final value has references to mutable/external memory, but reject such constants as patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141260">Allow volatile access to non-Rust memory, including address 0&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a id="1.90-Compiler">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.89.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.89.0/</guid><description>&lt;h1 id="1890">1.89.0
  &lt;a class="anchor" href="#1890">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
