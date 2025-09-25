@@ -23,6 +23,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/141089">Tracking issue for release notes of #122661: Change the desugaring of &lt;code>assert!&lt;/code> for better error output&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145471">Stabilize BTree{Map,Set}::extract_if&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145502">Tracking issue for release notes of #144081: const-eval: full support for pointer fragments&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144095">Tracking issue for release notes of #143031: Add windows-gnullvm hosts to the manifest&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
