@@ -194,10 +194,10 @@ type: docs
 ## About releases.rs
 
 - [Github Repo](https://github.com/releases-rs/releases-rs/)
-- Generated at _{}
+- Generated at <span class=\"utc-timestamp\" data-utc=\"{}\">...</span>
 
 ",
-            Utc::now().to_rfc2822()
+            Utc::now().to_rfc3339()
         ));
 
         index
