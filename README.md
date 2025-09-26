@@ -13,6 +13,9 @@ cd releases-rs
 cargo run
 ```
 
+Note: if the GitHub API rate limit is reached, a [personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#types-of-personal-access-tokens)
+can be provided via the `GITHUB_TOKEN` env.
+
 When done you will have your generated pages in `hugo/rust-changelogs/public`.
 
 ### Serving Locally

@@ -7,18 +7,23 @@ use octocrab::params::{issues, Direction, State};
 use octocrab::Octocrab;
 use semver::Version;
 use std::collections::HashMap;
-use std::sync::Arc;
 
 #[derive(Debug)]
 pub struct GitHubClient {
-    octocrab: Arc<Octocrab>,
+    octocrab: Octocrab,
     config: Config,
 }
 
 impl GitHubClient {
     pub fn new(config: Config) -> Self {
+        let mut builder = Octocrab::builder();
+        let token = std::env::var("GITHUB_TOKEN").ok();
+        if let Some(token) = token {
+            builder = builder.personal_token(token);
+        }
+
         Self {
-            octocrab: Arc::new(Octocrab::builder().build().unwrap()),
+            octocrab: builder.build().unwrap(),
             config,
         }
     }
