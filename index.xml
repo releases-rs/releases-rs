@@ -47,6 +47,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/139451">Add &lt;code>target_env = &amp;quot;macabi&amp;quot;&lt;/code> and &lt;code>target_env = &amp;quot;sim&amp;quot;&lt;/code>&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141658">rustdoc search: prefer stable items in search results&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145100">Rank doc aliases lower than equivalently matched items&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/126041">Tracking Issue for &lt;code>unsigned_signed_diff&lt;/code>&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145054">Tracking issue for release notes of #142071: &lt;code>apply_member_constraints&lt;/code>: fix placeholder check&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144369">Upgrade semicolon_in_expressions_from_macros from warn to deny&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144659">bootstrap: refactor mingw dist and fix gnullvm&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
