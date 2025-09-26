@@ -5,7 +5,7 @@ the pages periodically.
 
 ## Building
 
-Note: this requires [hugo](https://gohugo.io/) 0.146.7 or higher.
+Note: requires [hugo](https://gohugo.io/) extended 0.146.7 or higher.
 
 ```shell
 git clone --recurse-submodules git@github.com:releases-rs/releases-rs
