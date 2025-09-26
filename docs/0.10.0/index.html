@@ -1,0 +1,129 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="0.10.0
+  #
+
+
+Released on: 3 April, 2014
+Branched from master on: 4 December, 2015
+
+
+
+
+~1500 changes, numerous bugfixes
+
+
+Language
+
+A new RFC process is now in place for modifying the language.
+Patterns with @-pointers have been removed from the language.
+Patterns with unique vectors (~[T]) have been removed from the
+language.
+Patterns with unique strings (~str) have been removed from the
+language.
+@str has been removed from the language.
+@[T] has been removed from the language.
+@self has been removed from the language.
+@Trait has been removed from the language.
+Headers on ~ allocations which contain @ boxes inside the type for
+reference counting have been removed.
+The semantics around the lifetimes of temporary expressions have changed,
+see #3511 and #11585 for more information.
+Cross-crate syntax extensions are now possible, but feature gated. See
+#11151 for more information. This includes both macro_rules! macros as
+well as syntax extensions such as format!.
+New lint modes have been added, and older ones have been turned on to be
+warn-by-default.
+
+Unnecessary parentheses
+Uppercase statics
+Camel Case types
+Uppercase variables
+Publicly visible private types
+#[deriving] with raw pointers
+
+
+Unsafe functions can no longer be coerced to closures.
+Various obscure macros such as log_syntax! are now behind feature gates.
+The #[simd] attribute is now behind a feature gate.
+Visibility is no longer allowed on extern crate statements, and
+unnecessary visibility (priv) is no longer allowed on use statements.
+Trailing commas are now allowed in argument lists and tuple patterns.
+The do keyword has been removed, it is now a reserved keyword.
+Default type parameters have been implemented, but are feature gated.
+Borrowed variables through captures in closures are now considered soundly.
+extern mod is now extern crate
+The Freeze trait has been removed.
+The Share trait has been added for types that can be shared among
+threads.
+Labels in macros are now hygienic.
+Expression/statement macro invocations can be delimited with {} now.
+Treatment of types allowed in static mut locations has been tweaked.
+The * and . operators are now overloadable through the Deref and
+DerefMut traits.
+~Trait and proc no longer have Send bounds by default.
+Partial type hints are now supported with the _ type marker.
+An Unsafe type was introduced for interior mutability. It is now
+considered undefined to transmute from &amp;T to &amp;mut T without using the
+Unsafe type.
+The #[linkage] attribute was implemented for extern statics/functions.
+The inner attribute syntax has changed from #[foo]; to #![foo].
+Pod was renamed to Copy.
+
+
+
+Libraries"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://releases.rs/docs/0.10.0/"><meta property="og:site_name" content="Rust Changelogs"><meta property="og:title" content="Rust Changelogs"><meta property="og:description" content="0.10.0 # Released on: 3 April, 2014 Branched from master on: 4 December, 2015 ~1500 changes, numerous bugfixes
+Language
+A new RFC process is now in place for modifying the language. Patterns with @-pointers have been removed from the language. Patterns with unique vectors (~[T]) have been removed from the language. Patterns with unique strings (~str) have been removed from the language. @str has been removed from the language. @[T] has been removed from the language. @self has been removed from the language. @Trait has been removed from the language. Headers on ~ allocations which contain @ boxes inside the type for reference counting have been removed. The semantics around the lifetimes of temporary expressions have changed, see #3511 and #11585 for more information. Cross-crate syntax extensions are now possible, but feature gated. See #11151 for more information. This includes both macro_rules! macros as well as syntax extensions such as format!. New lint modes have been added, and older ones have been turned on to be warn-by-default. Unnecessary parentheses Uppercase statics Camel Case types Uppercase variables Publicly visible private types #[deriving] with raw pointers Unsafe functions can no longer be coerced to closures. Various obscure macros such as log_syntax! are now behind feature gates. The #[simd] attribute is now behind a feature gate. Visibility is no longer allowed on extern crate statements, and unnecessary visibility (priv) is no longer allowed on use statements. Trailing commas are now allowed in argument lists and tuple patterns. The do keyword has been removed, it is now a reserved keyword. Default type parameters have been implemented, but are feature gated. Borrowed variables through captures in closures are now considered soundly. extern mod is now extern crate The Freeze trait has been removed. The Share trait has been added for types that can be shared among threads. Labels in macros are now hygienic. Expression/statement macro invocations can be delimited with {} now. Treatment of types allowed in static mut locations has been tweaked. The * and . operators are now overloadable through the Deref and DerefMut traits. ~Trait and proc no longer have Send bounds by default. Partial type hints are now supported with the _ type marker. An Unsafe type was introduced for interior mutability. It is now considered undefined to transmute from &amp;T to &amp;mut T without using the Unsafe type. The #[linkage] attribute was implemented for extern statics/functions. The inner attribute syntax has changed from #[foo]; to #![foo]. Pod was renamed to Copy. Libraries"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>0.10.0 | Rust Changelogs</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://releases.rs/docs/0.10.0/><link rel=stylesheet href=/book.min.e1407151c1794437fd31d513f9ad0a19cd88ff9105441e05cf824f164f41f5c1.css integrity="sha256-4UBxUcF5RDf9MdUT+a0KGc2I/5EFRB4Fz4JPFk9B9cE=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.fdf4c545a37dbab329146766d893b928752ed41df5c22ab7c6e69a04e43fd215.js integrity="sha256-/fTFRaN9urMpFGdm2JO5KHUu1B31wiq3xuaaBOQ/0hU=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-WXS0HSEV58"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WXS0HSEV58")}</script></head><body dir=ltr class="book-kind-page book-type-docs book-layout-"><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=https://www.rust-lang.org/static/images/rust-logo-blk.svg alt=Logo><span>Rust Changelogs</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/docs/1.92.0/>1.92.0</a></li><li><a href=/docs/1.91.0/>1.91.0</a></li><li><a href=/docs/1.90.0/>1.90.0</a></li><li><a href=/docs/1.89.0/>1.89.0</a></li><li><a href=/docs/1.88.0/>1.88.0</a></li><li><a href=/docs/1.87.0/>1.87.0</a></li><li><a href=/docs/1.86.0/>1.86.0</a></li><li><a href=/docs/1.85.1/>1.85.1</a></li><li><a href=/docs/1.85.0/>1.85.0</a></li><li><a href=/docs/1.84.1/>1.84.1</a></li><li><a href=/docs/1.84.0/>1.84.0</a></li><li><a href=/docs/1.83.0/>1.83.0</a></li><li><a href=/docs/1.82.0/>1.82.0</a></li><li><a href=/docs/1.81.0/>1.81.0</a></li><li><a href=/docs/1.80.1/>1.80.1</a></li><li><a href=/docs/1.80.0/>1.80.0</a></li><li><a href=/docs/1.79.0/>1.79.0</a></li><li><a href=/docs/1.78.0/>1.78.0</a></li><li><a href=/docs/1.77.2/>1.77.2</a></li><li><a href=/docs/1.77.1/>1.77.1</a></li><li><a href=/docs/1.77.0/>1.77.0</a></li><li><a href=/docs/1.76.0/>1.76.0</a></li><li><a href=/docs/1.75.0/>1.75.0</a></li><li><a href=/docs/1.74.1/>1.74.1</a></li><li><a href=/docs/1.74.0/>1.74.0</a></li><li><a href=/docs/1.73.0/>1.73.0</a></li><li><a href=/docs/1.72.1/>1.72.1</a></li><li><a href=/docs/1.72.0/>1.72.0</a></li><li><a href=/docs/1.71.1/>1.71.1</a></li><li><a href=/docs/1.71.0/>1.71.0</a></li><li><a href=/docs/1.70.0/>1.70.0</a></li><li><a href=/docs/1.69.0/>1.69.0</a></li><li><a href=/docs/1.68.2/>1.68.2</a></li><li><a href=/docs/1.68.1/>1.68.1</a></li><li><a href=/docs/1.68.0/>1.68.0</a></li><li><a href=/docs/1.67.1/>1.67.1</a></li><li><a href=/docs/1.67.0/>1.67.0</a></li><li><a href=/docs/1.66.1/>1.66.1</a></li><li><a href=/docs/1.66.0/>1.66.0</a></li><li><a href=/docs/1.65.0/>1.65.0</a></li><li><a href=/docs/1.64.0/>1.64.0</a></li><li><a href=/docs/1.63.0/>1.63.0</a></li><li><a href=/docs/1.62.1/>1.62.1</a></li><li><a href=/docs/1.62.0/>1.62.0</a></li><li><a href=/docs/1.61.0/>1.61.0</a></li><li><a href=/docs/1.60.0/>1.60.0</a></li><li><a href=/docs/1.59.0/>1.59.0</a></li><li><a href=/docs/1.58.1/>1.58.1</a></li><li><a href=/docs/1.58.0/>1.58.0</a></li><li><a href=/docs/1.57.0/>1.57.0</a></li><li><a href=/docs/1.56.1/>1.56.1</a></li><li><a href=/docs/1.56.0/>1.56.0</a></li><li><a href=/docs/1.55.0/>1.55.0</a></li><li><a href=/docs/1.54.0/>1.54.0</a></li><li><a href=/docs/1.53.0/>1.53.0</a></li><li><a href=/docs/1.52.1/>1.52.1</a></li><li><a href=/docs/1.52.0/>1.52.0</a></li><li><a href=/docs/1.51.0/>1.51.0</a></li><li><a href=/docs/1.50.0/>1.50.0</a></li><li><a href=/docs/1.49.0/>1.49.0</a></li><li><a href=/docs/1.48.0/>1.48.0</a></li><li><a href=/docs/1.47.0/>1.47.0</a></li><li><a href=/docs/1.46.0/>1.46.0</a></li><li><a href=/docs/1.45.2/>1.45.2</a></li><li><a href=/docs/1.45.1/>1.45.1</a></li><li><a href=/docs/1.45.0/>1.45.0</a></li><li><a href=/docs/1.44.1/>1.44.1</a></li><li><a href=/docs/1.44.0/>1.44.0</a></li><li><a href=/docs/1.43.1/>1.43.1</a></li><li><a href=/docs/1.43.0/>1.43.0</a></li><li><a href=/docs/1.42.0/>1.42.0</a></li><li><a href=/docs/1.41.1/>1.41.1</a></li><li><a href=/docs/1.41.0/>1.41.0</a></li><li><a href=/docs/1.40.0/>1.40.0</a></li><li><a href=/docs/1.39.0/>1.39.0</a></li><li><a href=/docs/1.38.0/>1.38.0</a></li><li><a href=/docs/1.37.0/>1.37.0</a></li><li><a href=/docs/1.36.0/>1.36.0</a></li><li><a href=/docs/1.35.0/>1.35.0</a></li><li><a href=/docs/1.34.2/>1.34.2</a></li><li><a href=/docs/1.34.1/>1.34.1</a></li><li><a href=/docs/1.34.0/>1.34.0</a></li><li><a href=/docs/1.33.0/>1.33.0</a></li><li><a href=/docs/1.32.0/>1.32.0</a></li><li><a href=/docs/1.31.1/>1.31.1</a></li><li><a href=/docs/1.31.0/>1.31.0</a></li><li><a href=/docs/1.30.1/>1.30.1</a></li><li><a href=/docs/1.30.0/>1.30.0</a></li><li><a href=/docs/1.29.2/>1.29.2</a></li><li><a href=/docs/1.29.1/>1.29.1</a></li><li><a href=/docs/1.29.0/>1.29.0</a></li><li><a href=/docs/1.28.0/>1.28.0</a></li><li><a href=/docs/1.27.2/>1.27.2</a></li><li><a href=/docs/1.27.1/>1.27.1</a></li><li><a href=/docs/1.27.0/>1.27.0</a></li><li><a href=/docs/1.26.2/>1.26.2</a></li><li><a href=/docs/1.26.1/>1.26.1</a></li><li><a href=/docs/1.26.0/>1.26.0</a></li><li><a href=/docs/1.25.0/>1.25.0</a></li><li><a href=/docs/1.24.1/>1.24.1</a></li><li><a href=/docs/1.24.0/>1.24.0</a></li><li><a href=/docs/1.23.0/>1.23.0</a></li><li><a href=/docs/1.22.1/>1.22.1</a></li><li><a href=/docs/1.22.0/>1.22.0</a></li><li><a href=/docs/1.21.0/>1.21.0</a></li><li><a href=/docs/1.20.0/>1.20.0</a></li><li><a href=/docs/1.19.0/>1.19.0</a></li><li><a href=/docs/1.18.0/>1.18.0</a></li><li><a href=/docs/1.17.0/>1.17.0</a></li><li><a href=/docs/1.16.0/>1.16.0</a></li><li><a href=/docs/1.15.1/>1.15.1</a></li><li><a href=/docs/1.15.0/>1.15.0</a></li><li><a href=/docs/1.14.0/>1.14.0</a></li><li><a href=/docs/1.13.0/>1.13.0</a></li><li><a href=/docs/1.12.1/>1.12.1</a></li><li><a href=/docs/1.12.0/>1.12.0</a></li><li><a href=/docs/1.11.0/>1.11.0</a></li><li><a href=/docs/1.10.0/>1.10.0</a></li><li><a href=/docs/1.9.0/>1.9.0</a></li><li><a href=/docs/1.8.0/>1.8.0</a></li><li><a href=/docs/1.7.0/>1.7.0</a></li><li><a href=/docs/1.6.0/>1.6.0</a></li><li><a href=/docs/1.5.0/>1.5.0</a></li><li><a href=/docs/1.4.0/>1.4.0</a></li><li><a href=/docs/1.3.0/>1.3.0</a></li><li><a href=/docs/1.2.0/>1.2.0</a></li><li><a href=/docs/1.1.0/>1.1.0</a></li><li><a href=/docs/1.0.0/>1.0.0</a></li><li><a href=/docs/1.0.0-alpha.2/>1.0.0 Alpha.2</a></li><li><a href=/docs/1.0.0-alpha/>1.0.0 Alpha</a></li><li><a href=/docs/0.12.0/>0.12.0</a></li><li><a href=/docs/0.11.0/>0.11.0</a></li><li><a href=/docs/0.10.0/ class=active>0.10.0</a></li><li><a href=/docs/0.9.0/>0.9.0</a></li><li><a href=/docs/0.8.0/>0.8.0</a></li><li><a href=/docs/0.7.0/>0.7.0</a></li><li><a href=/docs/0.6.0/>0.6.0</a></li><li><a href=/docs/0.5.0/>0.5.0</a></li><li><a href=/docs/0.4.0/>0.4.0</a></li><li><a href=/docs/0.3.0/>0.3.0</a></li><li><a href=/docs/0.2.0/>0.2.0</a></li><li><a href=/docs/0.1.0/>0.1.0</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/icons/menu.svg class=book-icon alt=Menu></label><h3>0.10.0</h3><label for=toc-control></label></div><aside class="hidden clearfix"><nav id=TableOfContents></nav></aside></header><article class="markdown book-article"><h1 id=0100>0.10.0
+<a class=anchor href=#0100>#</a></h1><blockquote class="book-hint info"><ul><li>Released on: <em>3 April, 2014</em></li><li>Branched from master on: <em>4 December, 2015</em></li></ul></blockquote><ul><li><p>~1500 changes, numerous bugfixes</p><ul><li><p>Language</p><ul><li>A new RFC process is now in place for modifying the language.</li><li>Patterns with <code>@</code>-pointers have been removed from the language.</li><li>Patterns with unique vectors (<code>~[T]</code>) have been removed from the
+language.</li><li>Patterns with unique strings (<code>~str</code>) have been removed from the
+language.</li><li><code>@str</code> has been removed from the language.</li><li><code>@[T]</code> has been removed from the language.</li><li><code>@self</code> has been removed from the language.</li><li><code>@Trait</code> has been removed from the language.</li><li>Headers on <code>~</code> allocations which contain <code>@</code> boxes inside the type for
+reference counting have been removed.</li><li>The semantics around the lifetimes of temporary expressions have changed,
+see #3511 and #11585 for more information.</li><li>Cross-crate syntax extensions are now possible, but feature gated. See
+#11151 for more information. This includes both <code>macro_rules!</code> macros as
+well as syntax extensions such as <code>format!</code>.</li><li>New lint modes have been added, and older ones have been turned on to be
+warn-by-default.<ul><li>Unnecessary parentheses</li><li>Uppercase statics</li><li>Camel Case types</li><li>Uppercase variables</li><li>Publicly visible private types</li><li><code>#[deriving]</code> with raw pointers</li></ul></li><li>Unsafe functions can no longer be coerced to closures.</li><li>Various obscure macros such as <code>log_syntax!</code> are now behind feature gates.</li><li>The <code>#[simd]</code> attribute is now behind a feature gate.</li><li>Visibility is no longer allowed on <code>extern crate</code> statements, and
+unnecessary visibility (<code>priv</code>) is no longer allowed on <code>use</code> statements.</li><li>Trailing commas are now allowed in argument lists and tuple patterns.</li><li>The <code>do</code> keyword has been removed, it is now a reserved keyword.</li><li>Default type parameters have been implemented, but are feature gated.</li><li>Borrowed variables through captures in closures are now considered soundly.</li><li><code>extern mod</code> is now <code>extern crate</code></li><li>The <code>Freeze</code> trait has been removed.</li><li>The <code>Share</code> trait has been added for types that can be shared among
+threads.</li><li>Labels in macros are now hygienic.</li><li>Expression/statement macro invocations can be delimited with <code>{}</code> now.</li><li>Treatment of types allowed in <code>static mut</code> locations has been tweaked.</li><li>The <code>*</code> and <code>.</code> operators are now overloadable through the <code>Deref</code> and
+<code>DerefMut</code> traits.</li><li><code>~Trait</code> and <code>proc</code> no longer have <code>Send</code> bounds by default.</li><li>Partial type hints are now supported with the <code>_</code> type marker.</li><li>An <code>Unsafe</code> type was introduced for interior mutability. It is now
+considered undefined to transmute from <code>&amp;T</code> to <code>&amp;mut T</code> without using the
+<code>Unsafe</code> type.</li><li>The #[linkage] attribute was implemented for extern statics/functions.</li><li>The inner attribute syntax has changed from <code>#[foo];</code> to <code>#![foo]</code>.</li><li><code>Pod</code> was renamed to <code>Copy</code>.</li></ul></li><li><p>Libraries</p><ul><li>The <code>libextra</code> library has been removed. It has now been decomposed into
+component libraries with smaller and more focused nuggets of
+functionality. The full list of libraries can be found on the
+documentation index page.</li><li>std: <code>std::condition</code> has been removed. All I/O errors are now propagated
+through the <code>Result</code> type. In order to assist with error handling, a
+<code>try!</code> macro for unwrapping errors with an early return and a lint for
+unused results has been added. See #12039 for more information.</li><li>std: The <code>vec</code> module has been renamed to <code>slice</code>.</li><li>std: A new vector type, <code>Vec&lt;T></code>, has been added in preparation for DST.
+This will become the only growable vector in the future.</li><li>std: <code>std::io</code> now has more public re-exports. Types such as <code>BufferedReader</code>
+are now found at <code>std::io::BufferedReader</code> instead of
+<code>std::io::buffered::BufferedReader</code>.</li><li>std: <code>print</code> and <code>println</code> are no longer in the prelude, the <code>print!</code> and
+<code>println!</code> macros are intended to be used instead.</li><li>std: <code>Rc</code> now has a <code>Weak</code> pointer for breaking cycles, and it no longer
+attempts to statically prevent cycles.</li><li>std: The standard distribution is adopting the policy of pushing failure
+to the user rather than failing in libraries. Many functions (such as
+<code>slice::last()</code>) now return <code>Option&lt;T></code> instead of <code>T</code> + failing.</li><li>std: <code>fmt::Default</code> has been renamed to <code>fmt::Show</code>, and it now has a new
+deriving mode: <code>#[deriving(Show)]</code>.</li><li>std: <code>ToStr</code> is now implemented for all types implementing <code>Show</code>.</li><li>std: The formatting trait methods now take <code>&amp;self</code> instead of <code>&amp;T</code></li><li>std: The <code>invert()</code> method on iterators has been renamed to <code>rev()</code></li><li>std: <code>std::num</code> has seen a reduction in the genericity of its traits,
+consolidating functionality into a few core traits.</li><li>std: Backtraces are now printed on task failure if the environment
+variable <code>RUST_BACKTRACE</code> is present.</li><li>std: Naming conventions for iterators have been standardized. More details
+can be found on the wiki&rsquo;s style guide.</li><li>std: <code>eof()</code> has been removed from the <code>Reader</code> trait. Specific types may
+still implement the function.</li><li>std: Networking types are now cloneable to allow simultaneous reads/writes.</li><li>std: <code>assert_approx_eq!</code> has been removed</li><li>std: The <code>e</code> and <code>E</code> formatting specifiers for floats have been added to
+print them in exponential notation.</li><li>std: The <code>Times</code> trait has been removed</li><li>std: Indications of variance and opting out of builtin bounds is done
+through marker types in <code>std::kinds::marker</code> now</li><li>std: <code>hash</code> has been rewritten, <code>IterBytes</code> has been removed, and
+<code>#[deriving(Hash)]</code> is now possible.</li><li>std: <code>SharedChan</code> has been removed, <code>Sender</code> is now cloneable.</li><li>std: <code>Chan</code> and <code>Port</code> were renamed to <code>Sender</code> and <code>Receiver</code>.</li><li>std: <code>Chan::new</code> is now <code>channel()</code>.</li><li>std: A new synchronous channel type has been implemented.</li><li>std: A <code>select!</code> macro is now provided for selecting over <code>Receiver</code>s.</li><li>std: <code>hashmap</code> and <code>trie</code> have been moved to <code>libcollections</code></li><li>std: <code>run</code> has been rolled into <code>io::process</code></li><li>std: <code>assert_eq!</code> now uses <code>{}</code> instead of <code>{:?}</code></li><li>std: The equality and comparison traits have seen some reorganization.</li><li>std: <code>rand</code> has moved to <code>librand</code>.</li><li>std: <code>to_{lower,upper}case</code> has been implemented for <code>char</code>.</li><li>std: Logging has been moved to <code>liblog</code>.</li><li>collections: <code>HashMap</code> has been rewritten for higher performance and less
+memory usage.</li><li>native: The default runtime is now <code>libnative</code>. If <code>libgreen</code> is desired,
+it can be booted manually. The runtime guide has more information and
+examples.</li><li>native: All I/O functionality except signals has been implemented.</li><li>green: Task spawning with <code>libgreen</code> has been optimized with stack caching
+and various trimming of code.</li><li>green: Tasks spawned by <code>libgreen</code> now have an unmapped guard page.</li><li>sync: The <code>extra::sync</code> module has been updated to modern rust (and moved
+to the <code>sync</code> library), tweaking and improving various interfaces while
+dropping redundant functionality.</li><li>sync: A new <code>Barrier</code> type has been added to the <code>sync</code> library.</li><li>sync: An efficient mutex for native and green tasks has been implemented.</li><li>serialize: The <code>base64</code> module has seen some improvement. It treats
+newlines better, has non-string error values, and has seen general
+cleanup.</li><li>fourcc: A <code>fourcc!</code> macro was introduced</li><li>hexfloat: A <code>hexfloat!</code> macro was implemented for specifying floats via a
+hexadecimal literal.</li></ul></li><li><p>Tooling</p><ul><li><code>rustpkg</code> has been deprecated and removed from the main repository. Its
+replacement, <code>cargo</code>, is under development.</li><li>Nightly builds of rust are now available</li><li>The memory usage of rustc has been improved many times throughout this
+release cycle.</li><li>The build process supports disabling rpath support for the rustc binary
+itself.</li><li>Code generation has improved in some cases, giving more information to the
+LLVM optimization passes to enable more extensive optimizations.</li><li>Debuginfo compatibility with lldb on OSX has been restored.</li><li>The master branch is now gated on an android bot, making building for
+android much more reliable.</li><li>Output flags have been centralized into one <code>--emit</code> flag.</li><li>Crate type flags have been centralized into one <code>--crate-type</code> flag.</li><li>Codegen flags have been consolidated behind a <code>-C</code> flag.</li><li>Linking against outdated crates now has improved error messages.</li><li>Error messages with lifetimes will often suggest how to annotate the
+function to fix the error.</li><li>Many more types are documented in the standard library, and new guides
+were written.</li><li>Many <code>rustdoc</code> improvements:<ul><li>code blocks are syntax highlighted.</li><li>render standalone markdown files.</li><li>the &ndash;test flag tests all code blocks by default.</li><li>exported macros are displayed.</li><li>re-exported types have their documentation inlined at the location of the
+first re-export.</li><li>search works across crates that have been rendered to the same output
+directory.</li></ul></li></ul></li></ul></li></ul></article><footer class=book-footer><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script><div class=book-comments></div></footer><label for=menu-control class="hidden book-menu-overlay"></label></div></main><script src=/js/local-time.js></script></body></html>

@@ -1,0 +1,133 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="1.0.0-alpha
+  #
+
+
+Released on: 9 January, 2015
+Branched from master on: 4 December, 2015
+
+
+
+
+~2400 changes, numerous bugfixes
+
+
+Highlights
+
+The language itself is considered feature complete for 1.0,
+though there will be many usability improvements and bugfixes
+before the final release.
+Nearly 50% of the public API surface of the standard library has
+been declared &lsquo;stable&rsquo;. Those interfaces are unlikely to change
+before 1.0.
+The long-running debate over integer types has been
+settled: Rust will ship with types named isize and
+usize, rather than int and uint, for pointer-sized
+integers. Guidelines will be rolled out during the alpha cycle.
+Most crates that are not std have been moved out of the Rust
+distribution into the Cargo ecosystem so they can evolve
+separately and don&rsquo;t need to be stabilized as quickly, including
+&rsquo;time&rsquo;, &lsquo;getopts&rsquo;, &rsquo;num&rsquo;, &lsquo;regex&rsquo;, and &rsquo;term&rsquo;.
+Documentation continues to be expanded with more API coverage, more
+examples, and more in-depth explanations. The guides have been
+consolidated into The Rust Programming Language.
+&ldquo;Rust By Example&rdquo; is now maintained by the Rust team.
+All official Rust binary installers now come with Cargo, the
+Rust package manager.
+
+
+
+
+
+Language"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://releases.rs/docs/1.0.0-alpha/"><meta property="og:site_name" content="Rust Changelogs"><meta property="og:title" content="Rust Changelogs"><meta property="og:description" content="1.0.0-alpha # Released on: 9 January, 2015 Branched from master on: 4 December, 2015 ~2400 changes, numerous bugfixes
+Highlights
+The language itself is considered feature complete for 1.0, though there will be many usability improvements and bugfixes before the final release. Nearly 50% of the public API surface of the standard library has been declared ‘stable’. Those interfaces are unlikely to change before 1.0. The long-running debate over integer types has been settled: Rust will ship with types named isize and usize, rather than int and uint, for pointer-sized integers. Guidelines will be rolled out during the alpha cycle. Most crates that are not std have been moved out of the Rust distribution into the Cargo ecosystem so they can evolve separately and don’t need to be stabilized as quickly, including ’time’, ‘getopts’, ’num’, ‘regex’, and ’term’. Documentation continues to be expanded with more API coverage, more examples, and more in-depth explanations. The guides have been consolidated into The Rust Programming Language. “Rust By Example” is now maintained by the Rust team. All official Rust binary installers now come with Cargo, the Rust package manager. Language"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>1.0.0 Alpha | Rust Changelogs</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://releases.rs/docs/1.0.0-alpha/><link rel=stylesheet href=/book.min.e1407151c1794437fd31d513f9ad0a19cd88ff9105441e05cf824f164f41f5c1.css integrity="sha256-4UBxUcF5RDf9MdUT+a0KGc2I/5EFRB4Fz4JPFk9B9cE=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.fdf4c545a37dbab329146766d893b928752ed41df5c22ab7c6e69a04e43fd215.js integrity="sha256-/fTFRaN9urMpFGdm2JO5KHUu1B31wiq3xuaaBOQ/0hU=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-WXS0HSEV58"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WXS0HSEV58")}</script></head><body dir=ltr class="book-kind-page book-type-docs book-layout-"><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=https://www.rust-lang.org/static/images/rust-logo-blk.svg alt=Logo><span>Rust Changelogs</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/docs/1.92.0/>1.92.0</a></li><li><a href=/docs/1.91.0/>1.91.0</a></li><li><a href=/docs/1.90.0/>1.90.0</a></li><li><a href=/docs/1.89.0/>1.89.0</a></li><li><a href=/docs/1.88.0/>1.88.0</a></li><li><a href=/docs/1.87.0/>1.87.0</a></li><li><a href=/docs/1.86.0/>1.86.0</a></li><li><a href=/docs/1.85.1/>1.85.1</a></li><li><a href=/docs/1.85.0/>1.85.0</a></li><li><a href=/docs/1.84.1/>1.84.1</a></li><li><a href=/docs/1.84.0/>1.84.0</a></li><li><a href=/docs/1.83.0/>1.83.0</a></li><li><a href=/docs/1.82.0/>1.82.0</a></li><li><a href=/docs/1.81.0/>1.81.0</a></li><li><a href=/docs/1.80.1/>1.80.1</a></li><li><a href=/docs/1.80.0/>1.80.0</a></li><li><a href=/docs/1.79.0/>1.79.0</a></li><li><a href=/docs/1.78.0/>1.78.0</a></li><li><a href=/docs/1.77.2/>1.77.2</a></li><li><a href=/docs/1.77.1/>1.77.1</a></li><li><a href=/docs/1.77.0/>1.77.0</a></li><li><a href=/docs/1.76.0/>1.76.0</a></li><li><a href=/docs/1.75.0/>1.75.0</a></li><li><a href=/docs/1.74.1/>1.74.1</a></li><li><a href=/docs/1.74.0/>1.74.0</a></li><li><a href=/docs/1.73.0/>1.73.0</a></li><li><a href=/docs/1.72.1/>1.72.1</a></li><li><a href=/docs/1.72.0/>1.72.0</a></li><li><a href=/docs/1.71.1/>1.71.1</a></li><li><a href=/docs/1.71.0/>1.71.0</a></li><li><a href=/docs/1.70.0/>1.70.0</a></li><li><a href=/docs/1.69.0/>1.69.0</a></li><li><a href=/docs/1.68.2/>1.68.2</a></li><li><a href=/docs/1.68.1/>1.68.1</a></li><li><a href=/docs/1.68.0/>1.68.0</a></li><li><a href=/docs/1.67.1/>1.67.1</a></li><li><a href=/docs/1.67.0/>1.67.0</a></li><li><a href=/docs/1.66.1/>1.66.1</a></li><li><a href=/docs/1.66.0/>1.66.0</a></li><li><a href=/docs/1.65.0/>1.65.0</a></li><li><a href=/docs/1.64.0/>1.64.0</a></li><li><a href=/docs/1.63.0/>1.63.0</a></li><li><a href=/docs/1.62.1/>1.62.1</a></li><li><a href=/docs/1.62.0/>1.62.0</a></li><li><a href=/docs/1.61.0/>1.61.0</a></li><li><a href=/docs/1.60.0/>1.60.0</a></li><li><a href=/docs/1.59.0/>1.59.0</a></li><li><a href=/docs/1.58.1/>1.58.1</a></li><li><a href=/docs/1.58.0/>1.58.0</a></li><li><a href=/docs/1.57.0/>1.57.0</a></li><li><a href=/docs/1.56.1/>1.56.1</a></li><li><a href=/docs/1.56.0/>1.56.0</a></li><li><a href=/docs/1.55.0/>1.55.0</a></li><li><a href=/docs/1.54.0/>1.54.0</a></li><li><a href=/docs/1.53.0/>1.53.0</a></li><li><a href=/docs/1.52.1/>1.52.1</a></li><li><a href=/docs/1.52.0/>1.52.0</a></li><li><a href=/docs/1.51.0/>1.51.0</a></li><li><a href=/docs/1.50.0/>1.50.0</a></li><li><a href=/docs/1.49.0/>1.49.0</a></li><li><a href=/docs/1.48.0/>1.48.0</a></li><li><a href=/docs/1.47.0/>1.47.0</a></li><li><a href=/docs/1.46.0/>1.46.0</a></li><li><a href=/docs/1.45.2/>1.45.2</a></li><li><a href=/docs/1.45.1/>1.45.1</a></li><li><a href=/docs/1.45.0/>1.45.0</a></li><li><a href=/docs/1.44.1/>1.44.1</a></li><li><a href=/docs/1.44.0/>1.44.0</a></li><li><a href=/docs/1.43.1/>1.43.1</a></li><li><a href=/docs/1.43.0/>1.43.0</a></li><li><a href=/docs/1.42.0/>1.42.0</a></li><li><a href=/docs/1.41.1/>1.41.1</a></li><li><a href=/docs/1.41.0/>1.41.0</a></li><li><a href=/docs/1.40.0/>1.40.0</a></li><li><a href=/docs/1.39.0/>1.39.0</a></li><li><a href=/docs/1.38.0/>1.38.0</a></li><li><a href=/docs/1.37.0/>1.37.0</a></li><li><a href=/docs/1.36.0/>1.36.0</a></li><li><a href=/docs/1.35.0/>1.35.0</a></li><li><a href=/docs/1.34.2/>1.34.2</a></li><li><a href=/docs/1.34.1/>1.34.1</a></li><li><a href=/docs/1.34.0/>1.34.0</a></li><li><a href=/docs/1.33.0/>1.33.0</a></li><li><a href=/docs/1.32.0/>1.32.0</a></li><li><a href=/docs/1.31.1/>1.31.1</a></li><li><a href=/docs/1.31.0/>1.31.0</a></li><li><a href=/docs/1.30.1/>1.30.1</a></li><li><a href=/docs/1.30.0/>1.30.0</a></li><li><a href=/docs/1.29.2/>1.29.2</a></li><li><a href=/docs/1.29.1/>1.29.1</a></li><li><a href=/docs/1.29.0/>1.29.0</a></li><li><a href=/docs/1.28.0/>1.28.0</a></li><li><a href=/docs/1.27.2/>1.27.2</a></li><li><a href=/docs/1.27.1/>1.27.1</a></li><li><a href=/docs/1.27.0/>1.27.0</a></li><li><a href=/docs/1.26.2/>1.26.2</a></li><li><a href=/docs/1.26.1/>1.26.1</a></li><li><a href=/docs/1.26.0/>1.26.0</a></li><li><a href=/docs/1.25.0/>1.25.0</a></li><li><a href=/docs/1.24.1/>1.24.1</a></li><li><a href=/docs/1.24.0/>1.24.0</a></li><li><a href=/docs/1.23.0/>1.23.0</a></li><li><a href=/docs/1.22.1/>1.22.1</a></li><li><a href=/docs/1.22.0/>1.22.0</a></li><li><a href=/docs/1.21.0/>1.21.0</a></li><li><a href=/docs/1.20.0/>1.20.0</a></li><li><a href=/docs/1.19.0/>1.19.0</a></li><li><a href=/docs/1.18.0/>1.18.0</a></li><li><a href=/docs/1.17.0/>1.17.0</a></li><li><a href=/docs/1.16.0/>1.16.0</a></li><li><a href=/docs/1.15.1/>1.15.1</a></li><li><a href=/docs/1.15.0/>1.15.0</a></li><li><a href=/docs/1.14.0/>1.14.0</a></li><li><a href=/docs/1.13.0/>1.13.0</a></li><li><a href=/docs/1.12.1/>1.12.1</a></li><li><a href=/docs/1.12.0/>1.12.0</a></li><li><a href=/docs/1.11.0/>1.11.0</a></li><li><a href=/docs/1.10.0/>1.10.0</a></li><li><a href=/docs/1.9.0/>1.9.0</a></li><li><a href=/docs/1.8.0/>1.8.0</a></li><li><a href=/docs/1.7.0/>1.7.0</a></li><li><a href=/docs/1.6.0/>1.6.0</a></li><li><a href=/docs/1.5.0/>1.5.0</a></li><li><a href=/docs/1.4.0/>1.4.0</a></li><li><a href=/docs/1.3.0/>1.3.0</a></li><li><a href=/docs/1.2.0/>1.2.0</a></li><li><a href=/docs/1.1.0/>1.1.0</a></li><li><a href=/docs/1.0.0/>1.0.0</a></li><li><a href=/docs/1.0.0-alpha.2/>1.0.0 Alpha.2</a></li><li><a href=/docs/1.0.0-alpha/ class=active>1.0.0 Alpha</a></li><li><a href=/docs/0.12.0/>0.12.0</a></li><li><a href=/docs/0.11.0/>0.11.0</a></li><li><a href=/docs/0.10.0/>0.10.0</a></li><li><a href=/docs/0.9.0/>0.9.0</a></li><li><a href=/docs/0.8.0/>0.8.0</a></li><li><a href=/docs/0.7.0/>0.7.0</a></li><li><a href=/docs/0.6.0/>0.6.0</a></li><li><a href=/docs/0.5.0/>0.5.0</a></li><li><a href=/docs/0.4.0/>0.4.0</a></li><li><a href=/docs/0.3.0/>0.3.0</a></li><li><a href=/docs/0.2.0/>0.2.0</a></li><li><a href=/docs/0.1.0/>0.1.0</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/icons/menu.svg class=book-icon alt=Menu></label><h3>1.0.0 Alpha</h3><label for=toc-control></label></div><aside class="hidden clearfix"><nav id=TableOfContents></nav></aside></header><article class="markdown book-article"><h1 id=100-alpha>1.0.0-alpha
+<a class=anchor href=#100-alpha>#</a></h1><blockquote class="book-hint info"><ul><li>Released on: <em>9 January, 2015</em></li><li>Branched from master on: <em>4 December, 2015</em></li></ul></blockquote><ul><li><p>~2400 changes, numerous bugfixes</p><ul><li><p>Highlights</p><ul><li>The language itself is considered feature complete for 1.0,
+though there will be many usability improvements and bugfixes
+before the final release.</li><li>Nearly 50% of the public API surface of the standard library has
+been declared &lsquo;stable&rsquo;. Those interfaces are unlikely to change
+before 1.0.</li><li>The long-running debate over integer types has been
+<a href=https://github.com/rust-lang/rfcs/pull/544#issuecomment-68760871>settled</a>: Rust will ship with types named <code>isize</code> and
+<code>usize</code>, rather than <code>int</code> and <code>uint</code>, for pointer-sized
+integers. Guidelines will be rolled out during the alpha cycle.</li><li>Most crates that are not <code>std</code> have been moved out of the Rust
+distribution into the Cargo ecosystem so they can evolve
+separately and don&rsquo;t need to be stabilized as quickly, including
+&rsquo;time&rsquo;, &lsquo;getopts&rsquo;, &rsquo;num&rsquo;, &lsquo;regex&rsquo;, and &rsquo;term&rsquo;.</li><li>Documentation continues to be expanded with more API coverage, more
+examples, and more in-depth explanations. The guides have been
+consolidated into <a href=https://doc.rust-lang.org/book/index.html>The Rust Programming Language</a>.</li><li>&ldquo;<a href=http://rustbyexample.com/>Rust By Example</a>&rdquo; is now maintained by the Rust team.</li><li>All official Rust binary installers now come with <a href=https://crates.io>Cargo</a>, the
+Rust package manager.</li></ul></li></ul></li><li><p>Language</p><ul><li>Closures have been <a href=http://smallcultfollowing.com/babysteps/blog/2014/11/26/purging-proc/>completely redesigned</a> to be
+implemented in terms of traits, can now be used as generic type
+bounds and thus monomorphized and inlined, or via an opaque
+pointer (boxed) as in the old system. The new system is often
+referred to as &lsquo;unboxed&rsquo; closures.</li><li>Traits now support <a href=https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md>associated types</a>, allowing families
+of related types to be defined together and used generically in
+powerful ways.</li><li>Enum variants are <a href=https://github.com/rust-lang/rfcs/blob/master/text/0390-enum-namespacing.md>namespaced by their type names</a>.</li><li><a href=https://github.com/rust-lang/rfcs/blob/master/text/0135-where.md><code>where</code> clauses</a> provide a more versatile and attractive
+syntax for specifying generic bounds, though the previous syntax
+remains valid.</li><li>Rust again picks a <a href=https://github.com/rust-lang/rfcs/blob/master/text/0212-restore-int-fallback.md>fallback</a> (either i32 or f64) for uninferred
+numeric types.</li><li>Rust <a href=https://github.com/rust-lang/rfcs/blob/master/text/0230-remove-runtime.md>no longer has a runtime</a> of any description, and only
+supports OS threads, not green threads.</li><li>At long last, Rust has been overhauled for &lsquo;dynamically-sized
+types&rsquo; (<a href=http://smallcultfollowing.com/babysteps/blog/2014/01/05/dst-take-5/>DST</a>), which integrates &lsquo;fat pointers&rsquo; (object types,
+arrays, and <code>str</code>) more deeply into the type system, making it
+more consistent.</li><li>Rust now has a general <a href=https://github.com/rust-lang/rfcs/blob/master/text/0439-cmp-ops-reform.md#indexing-and-slicing>range syntax</a>, <code>i..j</code>, <code>i..</code>, and
+<code>..j</code> that produce range types and which, when combined with the
+<code>Index</code> operator and multidispatch, leads to a convenient slice
+notation, <code>[i..j]</code>.</li><li>The new range syntax revealed an ambiguity in the fixed-length
+array syntax, so now fixed length arrays <a href=https://github.com/rust-lang/rfcs/blob/master/text/0520-new-array-repeat-syntax.md>are written <code>[T; N]</code></a>.</li><li>The <code>Copy</code> trait is no longer implemented automatically. Unsafe
+pointers no longer implement <code>Sync</code> and <code>Send</code> so types
+containing them don&rsquo;t automatically either. <code>Sync</code> and <code>Send</code>
+are now &lsquo;unsafe traits&rsquo; so one can &ldquo;forcibly&rdquo; implement them via
+<code>unsafe impl</code> if a type confirms to the requirements for them
+even though the internals do not (e.g. structs containing unsafe
+pointers like <code>Arc</code>). These changes are intended to prevent some
+footguns and are collectively known as <a href=https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md>opt-in built-in
+traits</a> (though <code>Sync</code> and <code>Send</code> will soon become pure
+library types unknown to the compiler).</li><li>Operator traits now take their operands <a href=https://github.com/rust-lang/rfcs/blob/master/text/0439-cmp-ops-reform.md>by value</a>, and
+comparison traits can use multidispatch to compare one type
+against multiple other types, allowing e.g. <code>String</code> to be
+compared with <code>&amp;str</code>.</li><li><code>if let</code> and <code>while let</code> are no longer feature-gated.</li><li>Rust has adopted a more <a href=https://github.com/rust-lang/rfcs/blob/master/text/0446-es6-unicode-escapes.md>uniform syntax for escaping unicode
+characters</a>.</li><li><code>macro_rules!</code> <a href=https://github.com/rust-lang/rfcs/blob/master/text/0453-macro-reform.md>has been declared stable</a>. Though it is a
+flawed system it is sufficiently popular that it must be usable
+for 1.0. Effort has gone into <a href=https://github.com/rust-lang/rfcs/pull/550>future-proofing</a> it
+in ways that will allow other macro systems to be developed in
+parallel, and won&rsquo;t otherwise impact the evolution of the
+language.</li><li>The prelude has been <a href=https://github.com/rust-lang/rfcs/blob/master/text/0503-prelude-stabilization.md>pared back significantly</a> such
+that it is the minimum necessary to support the most pervasive
+code patterns, and through <a href=https://github.com/rust-lang/rfcs/blob/master/text/0135-where.md>generalized where clauses</a>
+many of the prelude extension traits have been consolidated.</li><li>Rust&rsquo;s rudimentary reflection <a href=https://github.com/rust-lang/rfcs/blob/master/text/0379-remove-reflection.md>has been removed</a>, as it
+incurred too much code generation for little benefit.</li><li><a href=https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md>Struct variants</a> are no longer feature-gated.</li><li>Trait bounds can be <a href=https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md>polymorphic over lifetimes</a>. Also
+known as &lsquo;higher-ranked trait bounds&rsquo;, this crucially allows
+unboxed closures to work.</li><li>Macros invocations surrounded by parens or square brackets and
+not terminated by a semicolon are <a href=https://github.com/rust-lang/rfcs/blob/master/text/0378-expr-macros.md>parsed as
+expressions</a>, which makes expressions like <code>vec![1i32, 2, 3].len()</code> work as expected.</li><li>Trait objects now implement their traits automatically, and
+traits that can be coerced to objects now must be <a href=https://github.com/rust-lang/rfcs/blob/master/text/0255-object-safety.md>object
+safe</a>.</li><li>Automatically deriving traits is now done with <code>#[derive(...)]</code>
+not <code>#[deriving(...)]</code> for <a href=https://github.com/rust-lang/rfcs/blob/master/text/0534-deriving2derive.md>consistency with other naming
+conventions</a>.</li><li>Importing the containing module or enum at the same time as
+items or variants they contain is <a href=https://github.com/rust-lang/rfcs/blob/master/text/0532-self-in-use.md>now done with <code>self</code> instead
+of <code>mod</code></a>, as in use <code>foo::{self, bar}</code></li><li>Glob imports are no longer feature-gated.</li><li>The <code>box</code> operator and <code>box</code> patterns have been feature-gated
+pending a redesign. For now unique boxes should be allocated
+like other containers, with <code>Box::new</code>.</li></ul></li><li><p>Libraries</p><ul><li>A <a href=https://github.com/rust-lang/rfcs/blob/master/text/0235-collections-conventions.md>series</a> of <a href=https://github.com/rust-lang/rfcs/blob/master/text/0509-collections-reform-part-2.md>efforts</a> to establish
+<a href=https://github.com/rust-lang/rfcs/blob/master/text/0216-collection-views.md>conventions</a> for collections types has resulted in API
+improvements throughout the standard library.</li><li>New <a href=https://github.com/rust-lang/rfcs/blob/master/text/0201-error-chaining.md>APIs for error handling</a> provide ergonomic interop
+between error types, and <a href=https://github.com/rust-lang/rfcs/blob/master/text/0236-error-conventions.md>new conventions</a> describe
+more clearly the recommended error handling strategies in Rust.</li><li>The <code>fail!</code> macro has been renamed to <a href=https://github.com/rust-lang/rfcs/blob/master/text/0221-panic.md><code>panic!</code></a> so that
+it is easier to discuss failure in the context of error handling
+without making clarifications as to whether you are referring to
+the &lsquo;fail&rsquo; macro or failure more generally.</li><li>On Linux, <code>OsRng</code> prefers the new, more reliable <code>getrandom</code>
+syscall when available.</li><li>The &lsquo;serialize&rsquo; crate has been renamed &lsquo;rustc-serialize&rsquo; and
+moved out of the distribution to Cargo. Although it is widely
+used now, it is expected to be superseded in the near future.</li><li>The <code>Show</code> formatter, typically implemented with
+<code>#[derive(Show)]</code> is <a href=https://github.com/rust-lang/rfcs/blob/master/text/0504-show-stabilization.md>now requested with the <code>{:?}</code>
+specifier</a> and is intended for use by all types, for uses
+such as <code>println!</code> debugging. The new <code>String</code> formatter must be
+implemented by hand, uses the <code>{}</code> specifier, and is intended
+for full-fidelity conversions of things that can logically be
+represented as strings.</li></ul></li><li><p>Tooling</p><ul><li><a href=https://github.com/rust-lang/rfcs/blob/master/text/0131-target-specification.md>Flexible target specification</a> allows rustc&rsquo;s code
+generation to be configured to support otherwise-unsupported
+platforms.</li><li>Rust comes with rust-gdb and rust-lldb scripts that launch their
+respective debuggers with Rust-appropriate pretty-printing.</li><li>The Windows installation of Rust is distributed with the
+MinGW components currently required to link binaries on that
+platform.</li></ul></li><li><p>Misc</p><ul><li>Nullable enum optimizations have been extended to more types so
+that e.g. <code>Option&lt;Vec&lt;T>></code> and <code>Option&lt;String></code> take up no more
+space than the inner types themselves.</li><li>Work has begun on supporting AArch64.</li></ul></li></ul></article><footer class=book-footer><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script><div class=book-comments></div></footer><label for=menu-control class="hidden book-menu-overlay"></label></div></main><script src=/js/local-time.js></script></body></html>

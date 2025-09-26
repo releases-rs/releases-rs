@@ -1,0 +1,101 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="0.12.0
+  #
+
+
+Released on: 9 October, 2014
+Branched from master on: 4 December, 2015
+
+
+
+
+~1900 changes, numerous bugfixes
+
+
+Highlights
+
+The introductory documentation (now called The Rust Guide) has
+been completely rewritten, as have a number of supplementary
+guides.
+Rust&rsquo;s package manager, Cargo, continues to improve and is
+sometimes considered to be quite awesome.
+Many API&rsquo;s in std have been reviewed and updated for
+consistency with the in-development Rust coding
+guidelines. The standard library documentation tracks
+stabilization progress.
+Minor libraries have been moved out-of-tree to the rust-lang org
+on GitHub: uuid, semver, glob, num, hexfloat, fourcc. They can
+be installed with Cargo.
+Lifetime elision allows lifetime annotations to be left off of
+function declarations in many common scenarios.
+Rust now works on 64-bit Windows.
+
+
+
+Language"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://releases.rs/docs/0.12.0/"><meta property="og:site_name" content="Rust Changelogs"><meta property="og:title" content="Rust Changelogs"><meta property="og:description" content="0.12.0 # Released on: 9 October, 2014 Branched from master on: 4 December, 2015 ~1900 changes, numerous bugfixes
+Highlights
+The introductory documentation (now called The Rust Guide) has been completely rewritten, as have a number of supplementary guides. Rust’s package manager, Cargo, continues to improve and is sometimes considered to be quite awesome. Many API’s in std have been reviewed and updated for consistency with the in-development Rust coding guidelines. The standard library documentation tracks stabilization progress. Minor libraries have been moved out-of-tree to the rust-lang org on GitHub: uuid, semver, glob, num, hexfloat, fourcc. They can be installed with Cargo. Lifetime elision allows lifetime annotations to be left off of function declarations in many common scenarios. Rust now works on 64-bit Windows. Language"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>0.12.0 | Rust Changelogs</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://releases.rs/docs/0.12.0/><link rel=stylesheet href=/book.min.e1407151c1794437fd31d513f9ad0a19cd88ff9105441e05cf824f164f41f5c1.css integrity="sha256-4UBxUcF5RDf9MdUT+a0KGc2I/5EFRB4Fz4JPFk9B9cE=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.fdf4c545a37dbab329146766d893b928752ed41df5c22ab7c6e69a04e43fd215.js integrity="sha256-/fTFRaN9urMpFGdm2JO5KHUu1B31wiq3xuaaBOQ/0hU=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-WXS0HSEV58"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WXS0HSEV58")}</script></head><body dir=ltr class="book-kind-page book-type-docs book-layout-"><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=https://www.rust-lang.org/static/images/rust-logo-blk.svg alt=Logo><span>Rust Changelogs</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/docs/1.92.0/>1.92.0</a></li><li><a href=/docs/1.91.0/>1.91.0</a></li><li><a href=/docs/1.90.0/>1.90.0</a></li><li><a href=/docs/1.89.0/>1.89.0</a></li><li><a href=/docs/1.88.0/>1.88.0</a></li><li><a href=/docs/1.87.0/>1.87.0</a></li><li><a href=/docs/1.86.0/>1.86.0</a></li><li><a href=/docs/1.85.1/>1.85.1</a></li><li><a href=/docs/1.85.0/>1.85.0</a></li><li><a href=/docs/1.84.1/>1.84.1</a></li><li><a href=/docs/1.84.0/>1.84.0</a></li><li><a href=/docs/1.83.0/>1.83.0</a></li><li><a href=/docs/1.82.0/>1.82.0</a></li><li><a href=/docs/1.81.0/>1.81.0</a></li><li><a href=/docs/1.80.1/>1.80.1</a></li><li><a href=/docs/1.80.0/>1.80.0</a></li><li><a href=/docs/1.79.0/>1.79.0</a></li><li><a href=/docs/1.78.0/>1.78.0</a></li><li><a href=/docs/1.77.2/>1.77.2</a></li><li><a href=/docs/1.77.1/>1.77.1</a></li><li><a href=/docs/1.77.0/>1.77.0</a></li><li><a href=/docs/1.76.0/>1.76.0</a></li><li><a href=/docs/1.75.0/>1.75.0</a></li><li><a href=/docs/1.74.1/>1.74.1</a></li><li><a href=/docs/1.74.0/>1.74.0</a></li><li><a href=/docs/1.73.0/>1.73.0</a></li><li><a href=/docs/1.72.1/>1.72.1</a></li><li><a href=/docs/1.72.0/>1.72.0</a></li><li><a href=/docs/1.71.1/>1.71.1</a></li><li><a href=/docs/1.71.0/>1.71.0</a></li><li><a href=/docs/1.70.0/>1.70.0</a></li><li><a href=/docs/1.69.0/>1.69.0</a></li><li><a href=/docs/1.68.2/>1.68.2</a></li><li><a href=/docs/1.68.1/>1.68.1</a></li><li><a href=/docs/1.68.0/>1.68.0</a></li><li><a href=/docs/1.67.1/>1.67.1</a></li><li><a href=/docs/1.67.0/>1.67.0</a></li><li><a href=/docs/1.66.1/>1.66.1</a></li><li><a href=/docs/1.66.0/>1.66.0</a></li><li><a href=/docs/1.65.0/>1.65.0</a></li><li><a href=/docs/1.64.0/>1.64.0</a></li><li><a href=/docs/1.63.0/>1.63.0</a></li><li><a href=/docs/1.62.1/>1.62.1</a></li><li><a href=/docs/1.62.0/>1.62.0</a></li><li><a href=/docs/1.61.0/>1.61.0</a></li><li><a href=/docs/1.60.0/>1.60.0</a></li><li><a href=/docs/1.59.0/>1.59.0</a></li><li><a href=/docs/1.58.1/>1.58.1</a></li><li><a href=/docs/1.58.0/>1.58.0</a></li><li><a href=/docs/1.57.0/>1.57.0</a></li><li><a href=/docs/1.56.1/>1.56.1</a></li><li><a href=/docs/1.56.0/>1.56.0</a></li><li><a href=/docs/1.55.0/>1.55.0</a></li><li><a href=/docs/1.54.0/>1.54.0</a></li><li><a href=/docs/1.53.0/>1.53.0</a></li><li><a href=/docs/1.52.1/>1.52.1</a></li><li><a href=/docs/1.52.0/>1.52.0</a></li><li><a href=/docs/1.51.0/>1.51.0</a></li><li><a href=/docs/1.50.0/>1.50.0</a></li><li><a href=/docs/1.49.0/>1.49.0</a></li><li><a href=/docs/1.48.0/>1.48.0</a></li><li><a href=/docs/1.47.0/>1.47.0</a></li><li><a href=/docs/1.46.0/>1.46.0</a></li><li><a href=/docs/1.45.2/>1.45.2</a></li><li><a href=/docs/1.45.1/>1.45.1</a></li><li><a href=/docs/1.45.0/>1.45.0</a></li><li><a href=/docs/1.44.1/>1.44.1</a></li><li><a href=/docs/1.44.0/>1.44.0</a></li><li><a href=/docs/1.43.1/>1.43.1</a></li><li><a href=/docs/1.43.0/>1.43.0</a></li><li><a href=/docs/1.42.0/>1.42.0</a></li><li><a href=/docs/1.41.1/>1.41.1</a></li><li><a href=/docs/1.41.0/>1.41.0</a></li><li><a href=/docs/1.40.0/>1.40.0</a></li><li><a href=/docs/1.39.0/>1.39.0</a></li><li><a href=/docs/1.38.0/>1.38.0</a></li><li><a href=/docs/1.37.0/>1.37.0</a></li><li><a href=/docs/1.36.0/>1.36.0</a></li><li><a href=/docs/1.35.0/>1.35.0</a></li><li><a href=/docs/1.34.2/>1.34.2</a></li><li><a href=/docs/1.34.1/>1.34.1</a></li><li><a href=/docs/1.34.0/>1.34.0</a></li><li><a href=/docs/1.33.0/>1.33.0</a></li><li><a href=/docs/1.32.0/>1.32.0</a></li><li><a href=/docs/1.31.1/>1.31.1</a></li><li><a href=/docs/1.31.0/>1.31.0</a></li><li><a href=/docs/1.30.1/>1.30.1</a></li><li><a href=/docs/1.30.0/>1.30.0</a></li><li><a href=/docs/1.29.2/>1.29.2</a></li><li><a href=/docs/1.29.1/>1.29.1</a></li><li><a href=/docs/1.29.0/>1.29.0</a></li><li><a href=/docs/1.28.0/>1.28.0</a></li><li><a href=/docs/1.27.2/>1.27.2</a></li><li><a href=/docs/1.27.1/>1.27.1</a></li><li><a href=/docs/1.27.0/>1.27.0</a></li><li><a href=/docs/1.26.2/>1.26.2</a></li><li><a href=/docs/1.26.1/>1.26.1</a></li><li><a href=/docs/1.26.0/>1.26.0</a></li><li><a href=/docs/1.25.0/>1.25.0</a></li><li><a href=/docs/1.24.1/>1.24.1</a></li><li><a href=/docs/1.24.0/>1.24.0</a></li><li><a href=/docs/1.23.0/>1.23.0</a></li><li><a href=/docs/1.22.1/>1.22.1</a></li><li><a href=/docs/1.22.0/>1.22.0</a></li><li><a href=/docs/1.21.0/>1.21.0</a></li><li><a href=/docs/1.20.0/>1.20.0</a></li><li><a href=/docs/1.19.0/>1.19.0</a></li><li><a href=/docs/1.18.0/>1.18.0</a></li><li><a href=/docs/1.17.0/>1.17.0</a></li><li><a href=/docs/1.16.0/>1.16.0</a></li><li><a href=/docs/1.15.1/>1.15.1</a></li><li><a href=/docs/1.15.0/>1.15.0</a></li><li><a href=/docs/1.14.0/>1.14.0</a></li><li><a href=/docs/1.13.0/>1.13.0</a></li><li><a href=/docs/1.12.1/>1.12.1</a></li><li><a href=/docs/1.12.0/>1.12.0</a></li><li><a href=/docs/1.11.0/>1.11.0</a></li><li><a href=/docs/1.10.0/>1.10.0</a></li><li><a href=/docs/1.9.0/>1.9.0</a></li><li><a href=/docs/1.8.0/>1.8.0</a></li><li><a href=/docs/1.7.0/>1.7.0</a></li><li><a href=/docs/1.6.0/>1.6.0</a></li><li><a href=/docs/1.5.0/>1.5.0</a></li><li><a href=/docs/1.4.0/>1.4.0</a></li><li><a href=/docs/1.3.0/>1.3.0</a></li><li><a href=/docs/1.2.0/>1.2.0</a></li><li><a href=/docs/1.1.0/>1.1.0</a></li><li><a href=/docs/1.0.0/>1.0.0</a></li><li><a href=/docs/1.0.0-alpha.2/>1.0.0 Alpha.2</a></li><li><a href=/docs/1.0.0-alpha/>1.0.0 Alpha</a></li><li><a href=/docs/0.12.0/ class=active>0.12.0</a></li><li><a href=/docs/0.11.0/>0.11.0</a></li><li><a href=/docs/0.10.0/>0.10.0</a></li><li><a href=/docs/0.9.0/>0.9.0</a></li><li><a href=/docs/0.8.0/>0.8.0</a></li><li><a href=/docs/0.7.0/>0.7.0</a></li><li><a href=/docs/0.6.0/>0.6.0</a></li><li><a href=/docs/0.5.0/>0.5.0</a></li><li><a href=/docs/0.4.0/>0.4.0</a></li><li><a href=/docs/0.3.0/>0.3.0</a></li><li><a href=/docs/0.2.0/>0.2.0</a></li><li><a href=/docs/0.1.0/>0.1.0</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/icons/menu.svg class=book-icon alt=Menu></label><h3>0.12.0</h3><label for=toc-control></label></div><aside class="hidden clearfix"><nav id=TableOfContents></nav></aside></header><article class="markdown book-article"><h1 id=0120>0.12.0
+<a class=anchor href=#0120>#</a></h1><blockquote class="book-hint info"><ul><li>Released on: <em>9 October, 2014</em></li><li>Branched from master on: <em>4 December, 2015</em></li></ul></blockquote><ul><li><p>~1900 changes, numerous bugfixes</p><ul><li><p>Highlights</p><ul><li>The introductory documentation (now called The Rust Guide) has
+been completely rewritten, as have a number of supplementary
+guides.</li><li>Rust&rsquo;s package manager, Cargo, continues to improve and is
+sometimes considered to be quite awesome.</li><li>Many API&rsquo;s in <code>std</code> have been reviewed and updated for
+consistency with the in-development Rust coding
+guidelines. The standard library documentation tracks
+stabilization progress.</li><li>Minor libraries have been moved out-of-tree to the rust-lang org
+on GitHub: uuid, semver, glob, num, hexfloat, fourcc. They can
+be installed with Cargo.</li><li>Lifetime elision allows lifetime annotations to be left off of
+function declarations in many common scenarios.</li><li>Rust now works on 64-bit Windows.</li></ul></li><li><p>Language</p><ul><li>Indexing can be overloaded with the <code>Index</code> and <code>IndexMut</code>
+traits.</li><li>The <code>if let</code> construct takes a branch only if the <code>let</code> pattern
+matches, currently behind the &lsquo;if_let&rsquo; feature gate.</li><li>&lsquo;where clauses&rsquo;, a more flexible syntax for specifying trait
+bounds that is more aesthetic, have been added for traits and
+free functions. Where clauses will in the future make it
+possible to constrain associated types, which would be
+impossible with the existing syntax.</li><li>A new slicing syntax (e.g. <code>[0..4]</code>) has been introduced behind
+the &lsquo;slicing_syntax&rsquo; feature gate, and can be overloaded with
+the <code>Slice</code> or <code>SliceMut</code> traits.</li><li>The syntax for matching of sub-slices has been changed to use a
+postfix <code>..</code> instead of prefix (.e.g. <code>[a, b, c..]</code>), for
+consistency with other uses of <code>..</code> and to future-proof
+potential additional uses of the syntax.</li><li>The syntax for matching inclusive ranges in patterns has changed
+from <code>0..3</code> to <code>0...4</code> to be consistent with the exclusive range
+syntax for slicing.</li><li>Matching of sub-slices in non-tail positions (e.g. <code>[a.., b, c]</code>) has been put behind the &lsquo;advanced_slice_patterns&rsquo; feature
+gate and may be removed in the future.</li><li>Components of tuples and tuple structs can be extracted using
+the <code>value.0</code> syntax, currently behind the <code>tuple_indexing</code>
+feature gate.</li><li>The <code>#[crate_id]</code> attribute is no longer supported; versioning
+is handled by the package manager.</li><li>Renaming crate imports are now written <code>extern crate foo as bar</code>
+instead of <code>extern crate bar = foo</code>.</li><li>Renaming use statements are now written <code>use foo as bar</code> instead
+of <code>use bar = foo</code>.</li><li><code>let</code> and <code>match</code> bindings and argument names in macros are now
+hygienic.</li><li>The new, more efficient, closure types (&lsquo;unboxed closures&rsquo;) have
+been added under a feature gate, &lsquo;unboxed_closures&rsquo;. These will
+soon replace the existing closure types, once higher-ranked
+trait lifetimes are added to the language.</li><li><code>move</code> has been added as a keyword, for indicating closures
+that capture by value.</li><li>Mutation and assignment is no longer allowed in pattern guards.</li><li>Generic structs and enums can now have trait bounds.</li><li>The <code>Share</code> trait is now called <code>Sync</code> to free up the term
+&lsquo;shared&rsquo; to refer to &lsquo;shared reference&rsquo; (the default reference
+type.</li><li>Dynamically-sized types have been mostly implemented,
+unifying the behavior of fat-pointer types with the rest of the
+type system.</li><li>As part of dynamically-sized types, the <code>Sized</code> trait has been
+introduced, which qualifying types implement by default, and
+which type parameters expect by default. To specify that a type
+parameter does not need to be sized, write <code>&lt;Sized? T></code>. Most
+types are <code>Sized</code>, notable exceptions being unsized arrays
+(<code>[T]</code>) and trait types.</li><li>Closures can return <code>!</code>, as in <code>|| -> !</code> or <code>proc() -> !</code>.</li><li>Lifetime bounds can now be applied to type parameters and object
+types.</li><li>The old, reference counted GC type, <code>Gc&lt;T></code> which was once
+denoted by the <code>@</code> sigil, has finally been removed. GC will be
+revisited in the future.</li></ul></li><li><p>Libraries</p><ul><li>Library documentation has been improved for a number of modules.</li><li>Bit-vectors, collections::bitv has been modernized.</li><li>The url crate is deprecated in favor of
+<a href=http://github.com/servo/rust-url>http://github.com/servo/rust-url</a>, which can be installed with
+Cargo.</li><li>Most I/O stream types can be cloned and subsequently closed from
+a different thread.</li><li>A <code>std::time::Duration</code> type has been added for use in I/O
+methods that rely on timers, as well as in the &rsquo;time&rsquo; crate&rsquo;s
+<code>Timespec</code> arithmetic.</li><li>The runtime I/O abstraction layer that enabled the green thread
+scheduler to do non-thread-blocking I/O has been removed, along
+with the libuv-based implementation employed by the green thread
+scheduler. This will greatly simplify the future I/O work.</li><li><code>collections::btree</code> has been rewritten to have a more
+idiomatic and efficient design.</li></ul></li><li><p>Tooling</p><ul><li>rustdoc output now indicates the stability levels of API&rsquo;s.</li><li>The <code>--crate-name</code> flag can specify the name of the crate
+being compiled, like <code>#[crate_name]</code>.</li><li>The <code>-C metadata</code> specifies additional metadata to hash into
+symbol names, and <code>-C extra-filename</code> specifies additional
+information to put into the output filename, for use by the
+package manager for versioning.</li><li>debug info generation has continued to improve and should be
+more reliable under both gdb and lldb.</li><li>rustc has experimental support for compiling in parallel
+using the <code>-C codegen-units</code> flag.</li><li>rustc no longer encodes rpath information into binaries by
+default.</li></ul></li><li><p>Misc</p><ul><li>Stack usage has been optimized with LLVM lifetime annotations.</li><li>Official Rust binaries on Linux are more compatible with older
+kernels and distributions, built on CentOS 5.10.</li></ul></li></ul></li></ul></article><footer class=book-footer><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script><div class=book-comments></div></footer><label for=menu-control class="hidden book-menu-overlay"></label></div></main><script src=/js/local-time.js></script></body></html>

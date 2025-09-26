@@ -1,0 +1,162 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content='0.9.0
+  #
+
+
+Released on: 9 January, 2014
+Branched from master on: 4 December, 2015
+
+
+
+
+~1800 changes, numerous bugfixes
+
+
+Language
+
+The float type has been removed. Use f32 or f64 instead.
+A new facility for enabling experimental features (feature gating) has
+been added, using the crate-level #[feature(foo)] attribute.
+Managed boxes (@) are now behind a feature gate
+(#[feature(managed_boxes)]) in preparation for future removal. Use the
+standard library&rsquo;s Gc or Rc types instead.
+@mut has been removed. Use std::cell::{Cell, RefCell} instead.
+Jumping back to the top of a loop is now done with continue instead of
+loop.
+Strings can no longer be mutated through index assignment.
+Raw strings can be created via the basic r"foo" syntax or with matched
+hash delimiters, as in r###"foo"###.
+~fn is now written proc (args) -> retval { ... } and may only be
+called once.
+The &amp;fn type is now written |args| -> ret to match the literal form.
+@fns have been removed.
+do only works with procs in order to make it obvious what the cost
+of do is.
+Single-element tuple-like structs can no longer be dereferenced to
+obtain the inner value. A more comprehensive solution for overloading
+the dereference operator will be provided in the future.
+The #[link(...)] attribute has been replaced with
+#[crate_id = "name#vers"].
+Empty impls must be terminated with empty braces and may not be
+terminated with a semicolon.
+Keywords are no longer allowed as lifetime names; the self lifetime
+no longer has any special meaning.
+The old fmt! string formatting macro has been removed.
+printf! and printfln! (old-style formatting) removed in favor of
+print! and println!.
+mut works in patterns now, as in let (mut x, y) = (1, 2);.
+The extern mod foo (name = "bar") syntax has been removed. Use
+extern mod foo = "bar" instead.
+New reserved keywords: alignof, offsetof, sizeof.
+Macros can have attributes.
+Macros can expand to items with attributes.
+Macros can expand to multiple items.
+The asm! macro is feature-gated (#[feature(asm)]).
+Comments may be nested.
+Values automatically coerce to trait objects they implement, without
+an explicit as.
+Enum discriminants are no longer an entire word but as small as needed to
+contain all the variants. The repr attribute can be used to override
+the discriminant size, as in #[repr(int)] for integer-sized, and
+#[repr(C)] to match C enums.
+Non-string literals are not allowed in attributes (they never worked).
+The FFI now supports variadic functions.
+Octal numeric literals, as in 0o7777.
+The concat! syntax extension performs compile-time string concatenation.
+The #[fixed_stack_segment] and #[rust_stack] attributes have been
+removed as Rust no longer uses segmented stacks.
+Non-ascii identifiers are feature-gated (#[feature(non_ascii_idents)]).
+Ignoring all fields of an enum variant or tuple-struct is done with ..,
+not *; ignoring remaining fields of a struct is also done with ..,
+not _; ignoring a slice of a vector is done with .., not .._.
+rustc supports the &ldquo;win64&rdquo; calling convention via extern "win64".
+rustc supports the &ldquo;system&rdquo; calling convention, which defaults to the
+preferred convention for the target platform, &ldquo;stdcall&rdquo; on 32-bit Windows,
+&ldquo;C&rdquo; elsewhere.
+The type_overflow lint (default: warn) checks literals for overflow.
+The unsafe_block lint (default: allow) checks for usage of unsafe.
+The attribute_usage lint (default: warn) warns about unknown
+attributes.
+The unknown_features lint (default: warn) warns about unknown
+feature gates.
+The dead_code lint (default: warn) checks for dead code.
+Rust libraries can be linked statically to one another
+#[link_args] is behind the link_args feature gate.
+Native libraries are now linked with #[link(name = "foo")]
+Native libraries can be statically linked to a rust crate
+(#[link(name = "foo", kind = "static")]).
+Native OS X frameworks are now officially supported
+(#[link(name = "foo", kind = "framework")]).
+The #[thread_local] attribute creates thread-local (not task-local)
+variables. Currently behind the thread_local feature gate.
+The return keyword may be used in closures.
+Types that can be copied via a memcpy implement the Pod kind.
+The cfg attribute can now be used on struct fields and enum variants.
+
+
+
+Libraries'><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://releases.rs/docs/0.9.0/"><meta property="og:site_name" content="Rust Changelogs"><meta property="og:title" content="Rust Changelogs"><meta property="og:description" content='0.9.0 # Released on: 9 January, 2014 Branched from master on: 4 December, 2015 ~1800 changes, numerous bugfixes
+Language
+The float type has been removed. Use f32 or f64 instead. A new facility for enabling experimental features (feature gating) has been added, using the crate-level #[feature(foo)] attribute. Managed boxes (@) are now behind a feature gate (#[feature(managed_boxes)]) in preparation for future removal. Use the standard library’s Gc or Rc types instead. @mut has been removed. Use std::cell::{Cell, RefCell} instead. Jumping back to the top of a loop is now done with continue instead of loop. Strings can no longer be mutated through index assignment. Raw strings can be created via the basic r"foo" syntax or with matched hash delimiters, as in r###"foo"###. ~fn is now written proc (args) -> retval { ... } and may only be called once. The &amp;fn type is now written |args| -> ret to match the literal form. @fns have been removed. do only works with procs in order to make it obvious what the cost of do is. Single-element tuple-like structs can no longer be dereferenced to obtain the inner value. A more comprehensive solution for overloading the dereference operator will be provided in the future. The #[link(...)] attribute has been replaced with #[crate_id = "name#vers"]. Empty impls must be terminated with empty braces and may not be terminated with a semicolon. Keywords are no longer allowed as lifetime names; the self lifetime no longer has any special meaning. The old fmt! string formatting macro has been removed. printf! and printfln! (old-style formatting) removed in favor of print! and println!. mut works in patterns now, as in let (mut x, y) = (1, 2);. The extern mod foo (name = "bar") syntax has been removed. Use extern mod foo = "bar" instead. New reserved keywords: alignof, offsetof, sizeof. Macros can have attributes. Macros can expand to items with attributes. Macros can expand to multiple items. The asm! macro is feature-gated (#[feature(asm)]). Comments may be nested. Values automatically coerce to trait objects they implement, without an explicit as. Enum discriminants are no longer an entire word but as small as needed to contain all the variants. The repr attribute can be used to override the discriminant size, as in #[repr(int)] for integer-sized, and #[repr(C)] to match C enums. Non-string literals are not allowed in attributes (they never worked). The FFI now supports variadic functions. Octal numeric literals, as in 0o7777. The concat! syntax extension performs compile-time string concatenation. The #[fixed_stack_segment] and #[rust_stack] attributes have been removed as Rust no longer uses segmented stacks. Non-ascii identifiers are feature-gated (#[feature(non_ascii_idents)]). Ignoring all fields of an enum variant or tuple-struct is done with .., not *; ignoring remaining fields of a struct is also done with .., not _; ignoring a slice of a vector is done with .., not .._. rustc supports the “win64” calling convention via extern "win64". rustc supports the “system” calling convention, which defaults to the preferred convention for the target platform, “stdcall” on 32-bit Windows, “C” elsewhere. The type_overflow lint (default: warn) checks literals for overflow. The unsafe_block lint (default: allow) checks for usage of unsafe. The attribute_usage lint (default: warn) warns about unknown attributes. The unknown_features lint (default: warn) warns about unknown feature gates. The dead_code lint (default: warn) checks for dead code. Rust libraries can be linked statically to one another #[link_args] is behind the link_args feature gate. Native libraries are now linked with #[link(name = "foo")] Native libraries can be statically linked to a rust crate (#[link(name = "foo", kind = "static")]). Native OS X frameworks are now officially supported (#[link(name = "foo", kind = "framework")]). The #[thread_local] attribute creates thread-local (not task-local) variables. Currently behind the thread_local feature gate. The return keyword may be used in closures. Types that can be copied via a memcpy implement the Pod kind. The cfg attribute can now be used on struct fields and enum variants. Libraries'><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>0.9.0 | Rust Changelogs</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://releases.rs/docs/0.9.0/><link rel=stylesheet href=/book.min.e1407151c1794437fd31d513f9ad0a19cd88ff9105441e05cf824f164f41f5c1.css integrity="sha256-4UBxUcF5RDf9MdUT+a0KGc2I/5EFRB4Fz4JPFk9B9cE=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.fdf4c545a37dbab329146766d893b928752ed41df5c22ab7c6e69a04e43fd215.js integrity="sha256-/fTFRaN9urMpFGdm2JO5KHUu1B31wiq3xuaaBOQ/0hU=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-WXS0HSEV58"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WXS0HSEV58")}</script></head><body dir=ltr class="book-kind-page book-type-docs book-layout-"><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=https://www.rust-lang.org/static/images/rust-logo-blk.svg alt=Logo><span>Rust Changelogs</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/docs/1.92.0/>1.92.0</a></li><li><a href=/docs/1.91.0/>1.91.0</a></li><li><a href=/docs/1.90.0/>1.90.0</a></li><li><a href=/docs/1.89.0/>1.89.0</a></li><li><a href=/docs/1.88.0/>1.88.0</a></li><li><a href=/docs/1.87.0/>1.87.0</a></li><li><a href=/docs/1.86.0/>1.86.0</a></li><li><a href=/docs/1.85.1/>1.85.1</a></li><li><a href=/docs/1.85.0/>1.85.0</a></li><li><a href=/docs/1.84.1/>1.84.1</a></li><li><a href=/docs/1.84.0/>1.84.0</a></li><li><a href=/docs/1.83.0/>1.83.0</a></li><li><a href=/docs/1.82.0/>1.82.0</a></li><li><a href=/docs/1.81.0/>1.81.0</a></li><li><a href=/docs/1.80.1/>1.80.1</a></li><li><a href=/docs/1.80.0/>1.80.0</a></li><li><a href=/docs/1.79.0/>1.79.0</a></li><li><a href=/docs/1.78.0/>1.78.0</a></li><li><a href=/docs/1.77.2/>1.77.2</a></li><li><a href=/docs/1.77.1/>1.77.1</a></li><li><a href=/docs/1.77.0/>1.77.0</a></li><li><a href=/docs/1.76.0/>1.76.0</a></li><li><a href=/docs/1.75.0/>1.75.0</a></li><li><a href=/docs/1.74.1/>1.74.1</a></li><li><a href=/docs/1.74.0/>1.74.0</a></li><li><a href=/docs/1.73.0/>1.73.0</a></li><li><a href=/docs/1.72.1/>1.72.1</a></li><li><a href=/docs/1.72.0/>1.72.0</a></li><li><a href=/docs/1.71.1/>1.71.1</a></li><li><a href=/docs/1.71.0/>1.71.0</a></li><li><a href=/docs/1.70.0/>1.70.0</a></li><li><a href=/docs/1.69.0/>1.69.0</a></li><li><a href=/docs/1.68.2/>1.68.2</a></li><li><a href=/docs/1.68.1/>1.68.1</a></li><li><a href=/docs/1.68.0/>1.68.0</a></li><li><a href=/docs/1.67.1/>1.67.1</a></li><li><a href=/docs/1.67.0/>1.67.0</a></li><li><a href=/docs/1.66.1/>1.66.1</a></li><li><a href=/docs/1.66.0/>1.66.0</a></li><li><a href=/docs/1.65.0/>1.65.0</a></li><li><a href=/docs/1.64.0/>1.64.0</a></li><li><a href=/docs/1.63.0/>1.63.0</a></li><li><a href=/docs/1.62.1/>1.62.1</a></li><li><a href=/docs/1.62.0/>1.62.0</a></li><li><a href=/docs/1.61.0/>1.61.0</a></li><li><a href=/docs/1.60.0/>1.60.0</a></li><li><a href=/docs/1.59.0/>1.59.0</a></li><li><a href=/docs/1.58.1/>1.58.1</a></li><li><a href=/docs/1.58.0/>1.58.0</a></li><li><a href=/docs/1.57.0/>1.57.0</a></li><li><a href=/docs/1.56.1/>1.56.1</a></li><li><a href=/docs/1.56.0/>1.56.0</a></li><li><a href=/docs/1.55.0/>1.55.0</a></li><li><a href=/docs/1.54.0/>1.54.0</a></li><li><a href=/docs/1.53.0/>1.53.0</a></li><li><a href=/docs/1.52.1/>1.52.1</a></li><li><a href=/docs/1.52.0/>1.52.0</a></li><li><a href=/docs/1.51.0/>1.51.0</a></li><li><a href=/docs/1.50.0/>1.50.0</a></li><li><a href=/docs/1.49.0/>1.49.0</a></li><li><a href=/docs/1.48.0/>1.48.0</a></li><li><a href=/docs/1.47.0/>1.47.0</a></li><li><a href=/docs/1.46.0/>1.46.0</a></li><li><a href=/docs/1.45.2/>1.45.2</a></li><li><a href=/docs/1.45.1/>1.45.1</a></li><li><a href=/docs/1.45.0/>1.45.0</a></li><li><a href=/docs/1.44.1/>1.44.1</a></li><li><a href=/docs/1.44.0/>1.44.0</a></li><li><a href=/docs/1.43.1/>1.43.1</a></li><li><a href=/docs/1.43.0/>1.43.0</a></li><li><a href=/docs/1.42.0/>1.42.0</a></li><li><a href=/docs/1.41.1/>1.41.1</a></li><li><a href=/docs/1.41.0/>1.41.0</a></li><li><a href=/docs/1.40.0/>1.40.0</a></li><li><a href=/docs/1.39.0/>1.39.0</a></li><li><a href=/docs/1.38.0/>1.38.0</a></li><li><a href=/docs/1.37.0/>1.37.0</a></li><li><a href=/docs/1.36.0/>1.36.0</a></li><li><a href=/docs/1.35.0/>1.35.0</a></li><li><a href=/docs/1.34.2/>1.34.2</a></li><li><a href=/docs/1.34.1/>1.34.1</a></li><li><a href=/docs/1.34.0/>1.34.0</a></li><li><a href=/docs/1.33.0/>1.33.0</a></li><li><a href=/docs/1.32.0/>1.32.0</a></li><li><a href=/docs/1.31.1/>1.31.1</a></li><li><a href=/docs/1.31.0/>1.31.0</a></li><li><a href=/docs/1.30.1/>1.30.1</a></li><li><a href=/docs/1.30.0/>1.30.0</a></li><li><a href=/docs/1.29.2/>1.29.2</a></li><li><a href=/docs/1.29.1/>1.29.1</a></li><li><a href=/docs/1.29.0/>1.29.0</a></li><li><a href=/docs/1.28.0/>1.28.0</a></li><li><a href=/docs/1.27.2/>1.27.2</a></li><li><a href=/docs/1.27.1/>1.27.1</a></li><li><a href=/docs/1.27.0/>1.27.0</a></li><li><a href=/docs/1.26.2/>1.26.2</a></li><li><a href=/docs/1.26.1/>1.26.1</a></li><li><a href=/docs/1.26.0/>1.26.0</a></li><li><a href=/docs/1.25.0/>1.25.0</a></li><li><a href=/docs/1.24.1/>1.24.1</a></li><li><a href=/docs/1.24.0/>1.24.0</a></li><li><a href=/docs/1.23.0/>1.23.0</a></li><li><a href=/docs/1.22.1/>1.22.1</a></li><li><a href=/docs/1.22.0/>1.22.0</a></li><li><a href=/docs/1.21.0/>1.21.0</a></li><li><a href=/docs/1.20.0/>1.20.0</a></li><li><a href=/docs/1.19.0/>1.19.0</a></li><li><a href=/docs/1.18.0/>1.18.0</a></li><li><a href=/docs/1.17.0/>1.17.0</a></li><li><a href=/docs/1.16.0/>1.16.0</a></li><li><a href=/docs/1.15.1/>1.15.1</a></li><li><a href=/docs/1.15.0/>1.15.0</a></li><li><a href=/docs/1.14.0/>1.14.0</a></li><li><a href=/docs/1.13.0/>1.13.0</a></li><li><a href=/docs/1.12.1/>1.12.1</a></li><li><a href=/docs/1.12.0/>1.12.0</a></li><li><a href=/docs/1.11.0/>1.11.0</a></li><li><a href=/docs/1.10.0/>1.10.0</a></li><li><a href=/docs/1.9.0/>1.9.0</a></li><li><a href=/docs/1.8.0/>1.8.0</a></li><li><a href=/docs/1.7.0/>1.7.0</a></li><li><a href=/docs/1.6.0/>1.6.0</a></li><li><a href=/docs/1.5.0/>1.5.0</a></li><li><a href=/docs/1.4.0/>1.4.0</a></li><li><a href=/docs/1.3.0/>1.3.0</a></li><li><a href=/docs/1.2.0/>1.2.0</a></li><li><a href=/docs/1.1.0/>1.1.0</a></li><li><a href=/docs/1.0.0/>1.0.0</a></li><li><a href=/docs/1.0.0-alpha.2/>1.0.0 Alpha.2</a></li><li><a href=/docs/1.0.0-alpha/>1.0.0 Alpha</a></li><li><a href=/docs/0.12.0/>0.12.0</a></li><li><a href=/docs/0.11.0/>0.11.0</a></li><li><a href=/docs/0.10.0/>0.10.0</a></li><li><a href=/docs/0.9.0/ class=active>0.9.0</a></li><li><a href=/docs/0.8.0/>0.8.0</a></li><li><a href=/docs/0.7.0/>0.7.0</a></li><li><a href=/docs/0.6.0/>0.6.0</a></li><li><a href=/docs/0.5.0/>0.5.0</a></li><li><a href=/docs/0.4.0/>0.4.0</a></li><li><a href=/docs/0.3.0/>0.3.0</a></li><li><a href=/docs/0.2.0/>0.2.0</a></li><li><a href=/docs/0.1.0/>0.1.0</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/icons/menu.svg class=book-icon alt=Menu></label><h3>0.9.0</h3><label for=toc-control></label></div><aside class="hidden clearfix"><nav id=TableOfContents></nav></aside></header><article class="markdown book-article"><h1 id=090>0.9.0
+<a class=anchor href=#090>#</a></h1><blockquote class="book-hint info"><ul><li>Released on: <em>9 January, 2014</em></li><li>Branched from master on: <em>4 December, 2015</em></li></ul></blockquote><ul><li><p>~1800 changes, numerous bugfixes</p><ul><li><p>Language</p><ul><li>The <code>float</code> type has been removed. Use <code>f32</code> or <code>f64</code> instead.</li><li>A new facility for enabling experimental features (feature gating) has
+been added, using the crate-level <code>#[feature(foo)]</code> attribute.</li><li>Managed boxes (@) are now behind a feature gate
+(<code>#[feature(managed_boxes)]</code>) in preparation for future removal. Use the
+standard library&rsquo;s <code>Gc</code> or <code>Rc</code> types instead.</li><li><code>@mut</code> has been removed. Use <code>std::cell::{Cell, RefCell}</code> instead.</li><li>Jumping back to the top of a loop is now done with <code>continue</code> instead of
+<code>loop</code>.</li><li>Strings can no longer be mutated through index assignment.</li><li>Raw strings can be created via the basic <code>r"foo"</code> syntax or with matched
+hash delimiters, as in <code>r###"foo"###</code>.</li><li><code>~fn</code> is now written <code>proc (args) -> retval { ... }</code> and may only be
+called once.</li><li>The <code>&amp;fn</code> type is now written <code>|args| -> ret</code> to match the literal form.</li><li><code>@fn</code>s have been removed.</li><li><code>do</code> only works with procs in order to make it obvious what the cost
+of <code>do</code> is.</li><li>Single-element tuple-like structs can no longer be dereferenced to
+obtain the inner value. A more comprehensive solution for overloading
+the dereference operator will be provided in the future.</li><li>The <code>#[link(...)]</code> attribute has been replaced with
+<code>#[crate_id = "name#vers"]</code>.</li><li>Empty <code>impl</code>s must be terminated with empty braces and may not be
+terminated with a semicolon.</li><li>Keywords are no longer allowed as lifetime names; the <code>self</code> lifetime
+no longer has any special meaning.</li><li>The old <code>fmt!</code> string formatting macro has been removed.</li><li><code>printf!</code> and <code>printfln!</code> (old-style formatting) removed in favor of
+<code>print!</code> and <code>println!</code>.</li><li><code>mut</code> works in patterns now, as in <code>let (mut x, y) = (1, 2);</code>.</li><li>The <code>extern mod foo (name = "bar")</code> syntax has been removed. Use
+<code>extern mod foo = "bar"</code> instead.</li><li>New reserved keywords: <code>alignof</code>, <code>offsetof</code>, <code>sizeof</code>.</li><li>Macros can have attributes.</li><li>Macros can expand to items with attributes.</li><li>Macros can expand to multiple items.</li><li>The <code>asm!</code> macro is feature-gated (<code>#[feature(asm)]</code>).</li><li>Comments may be nested.</li><li>Values automatically coerce to trait objects they implement, without
+an explicit <code>as</code>.</li><li>Enum discriminants are no longer an entire word but as small as needed to
+contain all the variants. The <code>repr</code> attribute can be used to override
+the discriminant size, as in <code>#[repr(int)]</code> for integer-sized, and
+<code>#[repr(C)]</code> to match C enums.</li><li>Non-string literals are not allowed in attributes (they never worked).</li><li>The FFI now supports variadic functions.</li><li>Octal numeric literals, as in <code>0o7777</code>.</li><li>The <code>concat!</code> syntax extension performs compile-time string concatenation.</li><li>The <code>#[fixed_stack_segment]</code> and <code>#[rust_stack]</code> attributes have been
+removed as Rust no longer uses segmented stacks.</li><li>Non-ascii identifiers are feature-gated (<code>#[feature(non_ascii_idents)]</code>).</li><li>Ignoring all fields of an enum variant or tuple-struct is done with <code>..</code>,
+not <code>*</code>; ignoring remaining fields of a struct is also done with <code>..</code>,
+not <code>_</code>; ignoring a slice of a vector is done with <code>..</code>, not <code>.._</code>.</li><li><code>rustc</code> supports the &ldquo;win64&rdquo; calling convention via <code>extern "win64"</code>.</li><li><code>rustc</code> supports the &ldquo;system&rdquo; calling convention, which defaults to the
+preferred convention for the target platform, &ldquo;stdcall&rdquo; on 32-bit Windows,
+&ldquo;C&rdquo; elsewhere.</li><li>The <code>type_overflow</code> lint (default: warn) checks literals for overflow.</li><li>The <code>unsafe_block</code> lint (default: allow) checks for usage of <code>unsafe</code>.</li><li>The <code>attribute_usage</code> lint (default: warn) warns about unknown
+attributes.</li><li>The <code>unknown_features</code> lint (default: warn) warns about unknown
+feature gates.</li><li>The <code>dead_code</code> lint (default: warn) checks for dead code.</li><li>Rust libraries can be linked statically to one another</li><li><code>#[link_args]</code> is behind the <code>link_args</code> feature gate.</li><li>Native libraries are now linked with <code>#[link(name = "foo")]</code></li><li>Native libraries can be statically linked to a rust crate
+(<code>#[link(name = "foo", kind = "static")]</code>).</li><li>Native OS X frameworks are now officially supported
+(<code>#[link(name = "foo", kind = "framework")]</code>).</li><li>The <code>#[thread_local]</code> attribute creates thread-local (not task-local)
+variables. Currently behind the <code>thread_local</code> feature gate.</li><li>The <code>return</code> keyword may be used in closures.</li><li>Types that can be copied via a memcpy implement the <code>Pod</code> kind.</li><li>The <code>cfg</code> attribute can now be used on struct fields and enum variants.</li></ul></li><li><p>Libraries</p><ul><li>std: The <code>option</code> and <code>result</code> API&rsquo;s have been overhauled to make them
+simpler, more consistent, and more composable.</li><li>std: The entire <code>std::io</code> module has been replaced with one that is
+more comprehensive and that properly interfaces with the underlying
+scheduler. File, TCP, UDP, Unix sockets, pipes, and timers are all
+implemented.</li><li>std: <code>io::util</code> contains a number of useful implementations of
+<code>Reader</code> and <code>Writer</code>, including <code>NullReader</code>, <code>NullWriter</code>,
+<code>ZeroReader</code>, <code>TeeReader</code>.</li><li>std: The reference counted pointer type <code>extra::rc</code> moved into std.</li><li>std: The <code>Gc</code> type in the <code>gc</code> module will replace <code>@</code> (it is currently
+just a wrapper around it).</li><li>std: The <code>Either</code> type has been removed.</li><li>std: <code>fmt::Default</code> can be implemented for any type to provide default
+formatting to the <code>format!</code> macro, as in <code>format!("{}", myfoo)</code>.</li><li>std: The <code>rand</code> API continues to be tweaked.</li><li>std: The <code>rust_begin_unwind</code> function, useful for inserting breakpoints
+on failure in gdb, is now named <code>rust_fail</code>.</li><li>std: The <code>each_key</code> and <code>each_value</code> methods on <code>HashMap</code> have been
+replaced by the <code>keys</code> and <code>values</code> iterators.</li><li>std: Functions dealing with type size and alignment have moved from the
+<code>sys</code> module to the <code>mem</code> module.</li><li>std: The <code>path</code> module was written and API changed.</li><li>std: <code>str::from_utf8</code> has been changed to cast instead of allocate.</li><li>std: <code>starts_with</code> and <code>ends_with</code> methods added to vectors via the
+<code>ImmutableEqVector</code> trait, which is in the prelude.</li><li>std: Vectors can be indexed with the <code>get_opt</code> method, which returns <code>None</code>
+if the index is out of bounds.</li><li>std: Task failure no longer propagates between tasks, as the model was
+complex, expensive, and incompatible with thread-based tasks.</li><li>std: The <code>Any</code> type can be used for dynamic typing.</li><li>std: <code>~Any</code> can be passed to the <code>fail!</code> macro and retrieved via
+<code>task::try</code>.</li><li>std: Methods that produce iterators generally do not have an <code>_iter</code>
+suffix now.</li><li>std: <code>cell::Cell</code> and <code>cell::RefCell</code> can be used to introduce mutability
+roots (mutable fields, etc.). Use instead of e.g. <code>@mut</code>.</li><li>std: <code>util::ignore</code> renamed to <code>prelude::drop</code>.</li><li>std: Slices have <code>sort</code> and <code>sort_by</code> methods via the <code>MutableVector</code>
+trait.</li><li>std: <code>vec::raw</code> has seen a lot of cleanup and API changes.</li><li>std: The standard library no longer includes any C++ code, and very
+minimal C, eliminating the dependency on libstdc++.</li><li>std: Runtime scheduling and I/O functionality has been factored out into
+extensible interfaces and is now implemented by two different crates:
+libnative, for native threading and I/O; and libgreen, for green threading
+and I/O. This paves the way for using the standard library in more limited
+embedded environments.</li><li>std: The <code>comm</code> module has been rewritten to be much faster, have a
+simpler, more consistent API, and to work for both native and green
+threading.</li><li>std: All libuv dependencies have been moved into the rustuv crate.</li><li>native: New implementations of runtime scheduling on top of OS threads.</li><li>native: New native implementations of TCP, UDP, file I/O, process spawning,
+and other I/O.</li><li>green: The green thread scheduler and message passing types are almost
+entirely lock-free.</li><li>extra: The <code>flatpipes</code> module had bitrotted and was removed.</li><li>extra: All crypto functions have been removed and Rust now has a policy of
+not reimplementing crypto in the standard library. In the future crypto
+will be provided by external crates with bindings to established libraries.</li><li>extra: <code>c_vec</code> has been modernized.</li><li>extra: The <code>sort</code> module has been removed. Use the <code>sort</code> method on
+mutable slices.</li></ul></li><li><p>Tooling</p><ul><li>The <code>rust</code> and <code>rusti</code> commands have been removed, due to lack of
+maintenance.</li><li><code>rustdoc</code> was completely rewritten.</li><li><code>rustdoc</code> can test code examples in documentation.</li><li><code>rustpkg</code> can test packages with the argument, &rsquo;test'.</li><li><code>rustpkg</code> supports arbitrary dependencies, including C libraries.</li><li><code>rustc</code>&rsquo;s support for generating debug info is improved again.</li><li><code>rustc</code> has better error reporting for unbalanced delimiters.</li><li><code>rustc</code>&rsquo;s JIT support was removed due to bitrot.</li><li>Executables and static libraries can be built with LTO (-Z lto)</li><li><code>rustc</code> adds a <code>--dep-info</code> flag for communicating dependencies to
+build tools.</li></ul></li></ul></li></ul></article><footer class=book-footer><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script><div class=book-comments></div></footer><label for=menu-control class="hidden book-menu-overlay"></label></div></main><script src=/js/local-time.js></script></body></html>
