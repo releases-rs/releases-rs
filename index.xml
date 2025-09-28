@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116882">rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145277">Do not materialise X in [X; 0] when X is unsizing a const&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146858">Make mips64el-unknown-linux-muslabi64 link dynamically&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
