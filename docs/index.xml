@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145898">If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116882">rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
