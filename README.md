@@ -13,6 +13,12 @@ cd releases-rs
 cargo run
 ```
 
+If you forgot to use the `--recurse-submodules` option, try
+
+```shell
+git submodule update --init --recursive --remote
+```
+
 Note: if the GitHub API rate limit is reached, a [personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#types-of-personal-access-tokens)
 can be provided via the `GITHUB_TOKEN` env.
 
