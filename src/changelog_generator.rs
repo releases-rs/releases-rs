@@ -16,13 +16,20 @@ impl ChangelogGenerator {
         Self { version_manager }
     }
 
-    pub fn generate_released_version_content(&self, version: &Version, changelog: &str, release_date: &NaiveDate) -> String {
+    pub fn generate_released_version_content(
+        &self,
+        version: &Version,
+        changelog: &str,
+        release_date: &NaiveDate,
+    ) -> String {
         let mut trimmed = changelog.trim().to_string();
         if trimmed.starts_with('-') {
             trimmed = format!("Changes\n-------\n{trimmed}");
         }
 
-        let dates = self.version_manager.calculate_release_date(*release_date - Duration::days(1), 1);
+        let dates = self
+            .version_manager
+            .calculate_release_date(*release_date - Duration::days(1), 1);
         let version_branch_info_str = if version.patch == 0 {
             format!(
                 "- Branched from master on: _{branch_date}_",
@@ -35,7 +42,7 @@ impl ChangelogGenerator {
         format!(
             "---
 weight: {weight}
-
+releaseDate: {release_date_param}
 ---
 
 {version}
@@ -50,12 +57,18 @@ weight: {weight}
 ",
             weight = self.version_manager.determine_weight(version),
             release_date = release_date.format("%-d %B, %C%y"),
+            release_date_param = release_date.format("%Y-%m-%d"),
             version_branch_info_str = version_branch_info_str,
         )
     }
 
-    pub fn generate_unreleased_version_content(&self, unreleased_version: &Version, _milestone_id: i64, 
-                                          stable_version: &Version, issues: &[Issue]) -> String {
+    pub fn generate_unreleased_version_content(
+        &self,
+        unreleased_version: &Version,
+        _milestone_id: i64,
+        stable_version: &Version,
+        issues: &[Issue],
+    ) -> String {
         let release_name = if unreleased_version.minor == stable_version.minor + 2 {
             "nightly"
         } else if unreleased_version.minor == stable_version.minor + 1 {
@@ -73,7 +86,7 @@ weight: {weight}
         let mut changelog = format!(
             "---
 weight: {weight}
-
+releaseDate: {publish_date_param}
 ---
 
 {unreleased_version} {release_name}
@@ -88,16 +101,29 @@ weight: {weight}
 
 ",
             weight = self.version_manager.determine_weight(unreleased_version),
-            release_sfx = if already_branched { ", branched from master" } else { "" },
+            publish_date_param = release_date.release_date.format("%Y-%m-%d"),
+            release_sfx = if already_branched {
+                ", branched from master"
+            } else {
+                ""
+            },
             stable_date = release_date.release_date.format("%-d %B, %C%y"),
-            branch_pfx = if already_branched { "Branched" } else { "Will branch" },
+            branch_pfx = if already_branched {
+                "Branched"
+            } else {
+                "Will branch"
+            },
             branch_date = release_date.branch_date.format("%-d %B, %C%y"),
         );
 
-        for (issue, days_ago) in issues.iter()
+        for (issue, days_ago) in issues
+            .iter()
             .filter_map(|issue| {
                 issue.closed_at.map(|closed_at| {
-                    (issue, (Utc::now().naive_utc().date() - closed_at.naive_utc().date()).num_days())
+                    (
+                        issue,
+                        (Utc::now().naive_utc().date() - closed_at.naive_utc().date()).num_days(),
+                    )
                 })
             })
             .sorted_by_key(|(_, days_ago)| *days_ago)
@@ -115,8 +141,14 @@ weight: {weight}
         changelog
     }
 
-    pub fn generate_index_content(&self, stable_version: &Version, beta_version: &Version, nightly_version: &Version,
-                             unreleased_versions: &HashSet<&Version>, stabilization_prs: HashMap<IssueId, Issue>) -> String {
+    pub fn generate_index_content(
+        &self,
+        stable_version: &Version,
+        beta_version: &Version,
+        nightly_version: &Version,
+        unreleased_versions: &HashSet<&Version>,
+        stabilization_prs: HashMap<IssueId, Issue>,
+    ) -> String {
         let mut index = format!(
             "---
 title: Rust Versions
@@ -130,7 +162,9 @@ type: docs
         );
 
         if unreleased_versions.contains(beta_version) {
-            let release_date = self.version_manager.calculate_release_date(Utc::now().date_naive(), 1);
+            let release_date = self
+                .version_manager
+                .calculate_release_date(Utc::now().date_naive(), 1);
             let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
             let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
@@ -141,7 +175,9 @@ type: docs
         }
 
         if unreleased_versions.contains(nightly_version) {
-            let release_date = self.version_manager.calculate_release_date(Utc::now().date_naive(), 2);
+            let release_date = self
+                .version_manager
+                .calculate_release_date(Utc::now().date_naive(), 2);
             let days_left = (release_date.release_date - Utc::now().naive_utc().date()).num_days();
             let days_left_text = pluralizer::pluralize("day", days_left as isize, true);
 
@@ -151,11 +187,13 @@ type: docs
             ));
         }
 
-        index.push_str("
+        index.push_str(
+            "
 
 ## Ongoing Stabilization PRs
 
-");
+",
+        );
 
         for Issue {
             title,
@@ -164,7 +202,10 @@ type: docs
             created_at,
             labels,
             ..
-        } in stabilization_prs.into_values().sorted_by_key(|l| l.created_at).rev()
+        } in stabilization_prs
+            .into_values()
+            .sorted_by_key(|l| l.created_at)
+            .rev()
         {
             let days_ago = (Utc::now() - created_at).num_days();
             let days_ago_text = pluralizer::pluralize("day", days_ago as isize, true);
@@ -195,6 +236,7 @@ type: docs
 
 - [Github Repo](https://github.com/releases-rs/releases-rs/)
 - Generated at <span class=\"utc-timestamp\" data-utc=\"{}\">...</span>
+- [Rss Feed](/index.xml)
 
 ",
             Utc::now().to_rfc3339()
