@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145608">Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145898">If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
