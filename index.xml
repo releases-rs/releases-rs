@@ -8,6 +8,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Deny-by-default never type lints&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147034">Tracking issue for release notes of #116882: rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145608">Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
