@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147860">rustdoc search: relax rules for identifiers&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Deny-by-default never type lints&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
