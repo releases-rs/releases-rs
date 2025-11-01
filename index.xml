@@ -8,6 +8,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920-beta">1.92.0 beta
  &lt;a class="anchor" href="#1920-beta">#&lt;/a>&lt;/h1>
