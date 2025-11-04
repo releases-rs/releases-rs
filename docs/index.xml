@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145974">Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
