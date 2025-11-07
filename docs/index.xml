@@ -38,6 +38,18 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.1/</guid><description>&lt;h1 id="1911">1.91.1
+ &lt;a class="anchor" href="#1911">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>10 November, 2025&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.91.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148322">Enable file locking support in illumos&lt;/a>. This fixes Cargo not locking the build directory on illumos.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148363">Fix &lt;code>wasm_import_module&lt;/code> attribute cross-crate&lt;/a>. This fixes linker errors on WASM targets.&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.0/</guid><description>&lt;h1 id="1910">1.91.0
  &lt;a class="anchor" href="#1910">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
