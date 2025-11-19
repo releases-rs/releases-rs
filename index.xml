@@ -8,6 +8,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">stabilize extern_system_varargs&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148435">Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145974">Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
