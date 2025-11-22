@@ -8,14 +8,15 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">stabilize extern_system_varargs&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148435">Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145974">Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using path-segment keyword as cfg pred&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">stabilize extern_system_varargs&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148435">Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145974">Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920-beta">1.92.0 beta
  &lt;a class="anchor" href="#1920-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -26,25 +27,25 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146321">Tracking issue for release notes of #145664: Stabilize &lt;code>std::panic::Location::file_as_c_str&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147815">Tracking issue for release notes of #147258: iter repeat: panic on last&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147860">rustdoc search: relax rules for identifiers&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Deny-by-default never type lints&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147034">Tracking issue for release notes of #116882: rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145608">Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147346">Tracking issue for release notes of #145617: docs(style): Specify the frontmatter style&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145898">If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116882">rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145277">Do not materialise X in [X; 0] when X is unsizing a const&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146858">Make mips64el-unknown-linux-muslabi64 link dynamically&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146321">Tracking issue for release notes of #145664: Stabilize &lt;code>std::panic::Location::file_as_c_str&lt;/code>&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147815">Tracking issue for release notes of #147258: iter repeat: panic on last&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147860">rustdoc search: relax rules for identifiers&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Deny-by-default never type lints&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147034">Tracking issue for release notes of #116882: rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145608">Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147346">Tracking issue for release notes of #145617: docs(style): Specify the frontmatter style&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145898">If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116882">rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145277">Do not materialise X in [X; 0] when X is unsizing a const&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146858">Make mips64el-unknown-linux-muslabi64 link dynamically&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.1/</guid><description>&lt;h1 id="1911">1.91.1
  &lt;a class="anchor" href="#1911">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
