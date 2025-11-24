@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149197">validate usage of crate-level doc attributes&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using path-segment keyword as cfg pred&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
