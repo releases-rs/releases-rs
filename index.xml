@@ -24,6 +24,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144507">Tracking issue for release notes of #135634: stop specializing on &lt;code>Copy&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148978">Tracking issue for release notes of #148151: Replace OffsetOf by an actual sum of calls to intrinsic.&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147224">Emscripten: Turn wasm-eh on by default&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147841">Fix ICE when applying test macro to crate root&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145628">[std][BTree] Fix behavior of &lt;code>::append&lt;/code> to match documentation, &lt;code>::insert&lt;/code>, and &lt;code>::extend&lt;/code>&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
