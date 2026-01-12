@@ -9,6 +9,7 @@
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
