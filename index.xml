@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
