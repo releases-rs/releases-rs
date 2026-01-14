@@ -36,6 +36,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using path-segment keyword as cfg pred&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145610">Stabilize &lt;code>char_max_len&lt;/code>&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">stabilize extern_system_varargs&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148435">Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145915">Stabilize &lt;code>fmt::from_fn&lt;/code>&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
