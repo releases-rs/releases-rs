@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-nightly">1.94.0 nightly
- &lt;a class="anchor" href="#1940-nightly">#&lt;/a>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940">1.94.0
+ &lt;a class="anchor" href="#1940">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>5 March, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>16 January, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>16 April, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>27 February, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -18,13 +18,13 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930-beta">1.93.0 beta
- &lt;a class="anchor" href="#1930-beta">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930-nightly">1.93.0 nightly
+ &lt;a class="anchor" href="#1930-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>22 January, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>5 March, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>16 January, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -45,29 +45,67 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
- &lt;a class="anchor" href="#1920">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920-beta">1.92.0 beta
+ &lt;a class="anchor" href="#1920-beta">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint warning">
+&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Released on: &lt;em>11 December, 2025&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>24 October, 2025&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>22 January, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;a id="1.92.0-Language">&lt;/a>&lt;/p>
-&lt;h2 id="language">Language
- &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/140463">Document &lt;code>MaybeUninit&lt;/code> representation and validity&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144064">Prefer item bounds of associated types over where-bounds for auto-traits and &lt;code>Sized&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145277">Do not materialize &lt;code>X&lt;/code> in &lt;code>[X; 0]&lt;/code> when &lt;code>X&lt;/code> is unsizing a const&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">Support combining &lt;code>#[track_caller]&lt;/code> and &lt;code>#[no_mangle]&lt;/code> (requires every declaration specifying &lt;code>#[track_caller]&lt;/code> as well)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Make never type lints &lt;code>never_type_fallback_flowing_into_unsafe&lt;/code> and &lt;code>dependency_on_unit_never_type_fallback&lt;/code> deny-by-default&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146725">Slightly strengthen higher-ranked region handling in coherence&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">The &lt;code>unused_must_use&lt;/code> lint no longer warns on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> (for instance, &lt;code>Result&amp;lt;(), !&amp;gt;&lt;/code>), or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a>. This avoids having to check for an error that can never happen.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="1.92.0-Compiler">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.91.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.1/</guid><description>&lt;h1 id="1911">1.91.1
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/143805">Tracking issue for release notes of #140153: Implement &lt;code>Debug&lt;/code> for &lt;code>EncodeWide&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144505">Tracking issue for release notes of #143857: Port #[macro_export] to the new attribute parsing infrastructure&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146274">Tracking issue for release notes of #145838: don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146278">Tracking issue for release notes of #145277: Do not materialise X in [X; 0] when X is unsizing a const&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146279">Tracking issue for release notes of #137122: Specialize &lt;code>Iterator::eq{_by}&lt;/code> for &lt;code>TrustedLen&lt;/code> iterators&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146303">Tracking issue for release notes of #143613: Fix backtraces with &lt;code>-C panic=abort&lt;/code> on linux; emit unwind tables by default&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146660">Tracking issue for release notes of #146410: Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146661">Tracking issue for release notes of #144871: Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146696">Tracking issue for release notes of #145071: Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146716">Tracking issue for release notes of #141727: Tracking Issue for NUL-terminated file names with &lt;code>#[track_caller]&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146733">Tracking issue for release notes of #146167: Deny-by-default never type lints&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146810">Tracking issue for release notes of #141469: Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146864">Tracking issue for release notes of #145898: If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146868">Tracking issue for release notes of #146858: Make mips64el-unknown-linux-muslabi64 link dynamically&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147051">Tracking issue for release notes of #146593: Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147121">Tracking issue for release notes of #145724: the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147344">Tracking issue for release notes of #138799: core: simplify &lt;code>Extend&lt;/code> for tuples&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147347">Tracking issue for release notes of #145608: Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147383">Tracking issue for release notes of #147382: unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147557">Tracking issue for release notes of #143191: Stabilize &lt;code>rwlock_downgrade&lt;/code> library feature&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147558">Tracking issue for release notes of #132968: Tracking Issue for &lt;code>NonZero&amp;lt;u*&amp;gt;::div_ceil&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147559">Tracking issue for release notes of #144064: prefer alias candidates for sizedness + auto trait goals &lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147561">Tracking issue for release notes of #143812: Tracking Issue for &lt;code>const_slice_rotate&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147828">Tracking issue for release notes of #146725: &lt;code>-Znext-solver&lt;/code> instantiate predicate binder without recanonicalizing goal&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147829">Tracking issue for release notes of #147022: Remove current code for embedding command-line args in PDB&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147926">Tracking issue for release notes of #147860: rustdoc search: relax rules for identifiers&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148006">Tracking issue for release notes of #140463: Document MaybeUninit bit validity&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149619">Tracking issue for release notes of #144091: Stabilize &lt;code>new_zeroed_alloc&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149620">Tracking issue for release notes of #145722: implement Extend&amp;lt;{Group, Literal, Punct, Ident}&amp;gt; for TokenStream&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/146321">Tracking issue for release notes of #145664: Stabilize &lt;code>std::panic::Location::file_as_c_str&lt;/code>&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147815">Tracking issue for release notes of #147258: iter repeat: panic on last&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147860">rustdoc search: relax rules for identifiers&lt;/a> &lt;em>(merged 90 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146167">Deny-by-default never type lints&lt;/a> &lt;em>(merged 91 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147382">unused_must_use: Don&amp;rsquo;t warn on &lt;code>Result&amp;lt;(), Uninhabited&amp;gt;&lt;/code> or &lt;code>ControlFlow&amp;lt;Uninhabited, ()&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 91 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145724">the &lt;code>#[track_caller]&lt;/code> shim should not inherit &lt;code>#[no_mangle]&lt;/code>&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147034">Tracking issue for release notes of #116882: rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 93 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145722">implement Extend&amp;lt;{Group, Literal, Punct, Ident}&amp;gt; for TokenStream&lt;/a> &lt;em>(merged 100 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145608">Prevent downstream &lt;code>impl DerefMut for Pin&amp;lt;LocalType&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147346">Tracking issue for release notes of #145617: docs(style): Specify the frontmatter style&lt;/a> &lt;em>(merged 107 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145898">If a trait item appears in rustdoc search, hide the corrosponding impl items&lt;/a> &lt;em>(merged 108 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146593">Allow specifying multiple bounds for same associated item, except in trait objects&lt;/a> &lt;em>(merged 110 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141469">Allow &lt;code>&amp;amp;raw [mut | const]&lt;/code> for union field in safe code&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/116882">rustdoc: hide &lt;code>#[repr]&lt;/code> if it isn&amp;rsquo;t part of the public ABI&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145277">Do not materialise X in [X; 0] when X is unsizing a const&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146858">Make mips64el-unknown-linux-muslabi64 link dynamically&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144091">Stabilize &lt;code>new_zeroed_alloc&lt;/code>&lt;/a> &lt;em>(merged 120 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144871">Stabilize &lt;code>btree_entry_insert&lt;/code> feature&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145071">Update the minimum external LLVM to 20&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145838">don&amp;rsquo;t apply temporary lifetime extension rules to non-extended &lt;code>super let&lt;/code>&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146410">Iterator repeat: no infinite loop for &lt;code>last&lt;/code> and &lt;code>count&lt;/code>&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.91.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.91.1/</guid><description>&lt;h1 id="1911">1.91.1
  &lt;a class="anchor" href="#1911">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
