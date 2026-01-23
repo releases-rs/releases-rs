@@ -8,7 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-beta">1.94.0 beta
  &lt;a class="anchor" href="#1940-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -19,16 +19,16 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930">1.93.0
  &lt;a class="anchor" href="#1930">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
