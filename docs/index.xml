@@ -20,6 +20,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149829">Tracking issue for release notes of #148052: Stabilize &lt;code>const_mul_add&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
