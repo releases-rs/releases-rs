@@ -30,6 +30,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148790">Add new Tier-3 target: riscv64im-unknown-none-elf&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148825">Add SystemTime::{MIN, MAX}&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
