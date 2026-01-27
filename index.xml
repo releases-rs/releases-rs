@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-beta">1.94.0 beta
