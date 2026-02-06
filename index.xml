@@ -8,10 +8,10 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-beta">1.94.0 beta
  &lt;a class="anchor" href="#1940-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -22,21 +22,21 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149829">Tracking issue for release notes of #148052: Stabilize &lt;code>const_mul_add&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148941">stabilize &lt;code>Peekable::next_if_map&lt;/code> (&lt;code>#![feature(peekable_next_if_map)]&lt;/code>)&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148790">Add new Tier-3 target: riscv64im-unknown-none-elf&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148825">Add SystemTime::{MIN, MAX}&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149829">Tracking issue for release notes of #148052: Stabilize &lt;code>const_mul_add&lt;/code>&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148941">stabilize &lt;code>Peekable::next_if_map&lt;/code> (&lt;code>#![feature(peekable_next_if_map)]&lt;/code>)&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148790">Add new Tier-3 target: riscv64im-unknown-none-elf&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148825">Add SystemTime::{MIN, MAX}&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930">1.93.0
  &lt;a class="anchor" href="#1930">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
