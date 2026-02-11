@@ -37,6 +37,19 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.1/</guid><description>&lt;h1 id="1931">1.93.1
+ &lt;a class="anchor" href="#1931">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>12 February, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.93.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150590">Don&amp;rsquo;t try to recover keyword as non-keyword identifier&lt;/a>, fixing an ICE that especially &lt;a href="https://github.com/rust-lang/rustfmt/issues/6739">affected rustfmt&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust-clippy/pull/16196">Fix &lt;code>clippy::panicking_unwrap&lt;/code> false-positive on field access with implicit deref&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152259">Revert &amp;ldquo;Update wasm-related dependencies in CI&amp;rdquo;&lt;/a>, fixing file descriptor leaks on the &lt;code>wasm32-wasip2&lt;/code> target.&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930">1.93.0
  &lt;a class="anchor" href="#1930">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
@@ -45,25 +58,21 @@
 &lt;li>Branched from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;a id="1.93-Language">&lt;/a>&lt;/p>
+&lt;p>&lt;a id="1.93.0-Language">&lt;/a>&lt;/p>
 &lt;h2 id="language">Language
  &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141470">Add warn-by-default &lt;code>function_casts_as_integer&lt;/code> lint&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/143619">Add future-incompatibility warning for &lt;code>...&lt;/code> function parameters without a pattern outside of &lt;code>extern&lt;/code> blocks&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145656">Stabilize several s390x &lt;code>vector&lt;/code>-related target features and the &lt;code>is_s390x_feature_detected!&lt;/code> macro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">Stabilize declaration of C-style variadic functions for the &lt;code>system&lt;/code> ABI&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using some keyword as a &lt;code>cfg&lt;/code> predicate&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147017">Introduce future-compatibility warning for &lt;code>repr(C)&lt;/code> enums whose discriminant values do not fit into a &lt;code>c_int&lt;/code> or &lt;code>c_uint&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147185">Introduce future-compatibility warning against ignoring &lt;code>repr(C)&lt;/code> types as part of &lt;code>repr(transparent)&lt;/code>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147736">Stabilize &lt;code>asm_cfg&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148122">Upgrade the &lt;code>deref_nullptr&lt;/code> lint from warn-by-default to deny-by-default&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148259">During const-evaluation, support copying pointers byte-by-byte&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148407">Add warn-by-default &lt;code>const_item_interior_mutations&lt;/code> lint to warn against calls which mutate interior mutable &lt;code>const&lt;/code> items&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148602">LUB coercions now correctly handle function item types, and functions with differing safeties&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148746">Allow &lt;code>const&lt;/code> items that contain mutable references to &lt;code>static&lt;/code> (which is &lt;em>very&lt;/em> unsafe, but not &lt;em>always&lt;/em> UB)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148407">Add warn-by-default &lt;code>const_item_interior_mutations&lt;/code> lint to warn against calls which mutate interior mutable &lt;code>const&lt;/code> items&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141470">Add warn-by-default &lt;code>function_casts_as_integer&lt;/code> lint&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a id="1.93-Compiler">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
+&lt;p>&lt;a id="1.93.0-Compiler">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
  &lt;a class="anchor" href="#1920">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
