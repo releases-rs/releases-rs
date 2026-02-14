@@ -31,6 +31,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148941">stabilize &lt;code>Peekable::next_if_map&lt;/code> (&lt;code>#![feature(peekable_next_if_map)]&lt;/code>)&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150639">stdarch subtree update&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
