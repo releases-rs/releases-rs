@@ -11,6 +11,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150681">Make operational semantics of pattern matching independent of crate and module&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152021">Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
