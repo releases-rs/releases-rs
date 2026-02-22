@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150468">rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146972">Support importing path-segment keyword with renaming&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141295">Stabilize &lt;code>if let&lt;/code> guards (&lt;code>feature(if_let_guard)&lt;/code>)&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
