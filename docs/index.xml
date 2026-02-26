@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149978">deprecate &lt;code>Eq::assert_receiver_is_total_eq&lt;/code> and emit FCW on manual impls&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150468">rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146972">Support importing path-segment keyword with renaming&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141295">Stabilize &lt;code>if let&lt;/code> guards (&lt;code>feature(if_let_guard)&lt;/code>)&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
