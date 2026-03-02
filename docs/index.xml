@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950">1.95.0
  &lt;a class="anchor" href="#1950">#&lt;/a>&lt;/h1>
@@ -26,6 +27,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150681">Make operational semantics of pattern matching independent of crate and module&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152021">Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150522">Stabilize new inclusive range type and iterator type&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
