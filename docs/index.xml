@@ -3,19 +3,19 @@
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>28 May, 2026&lt;/em>&lt;/li>
-&lt;li>Will branch from master on: &lt;em>10 April, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>9 July, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>22 May, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950-nightly">1.95.0 nightly
- &lt;a class="anchor" href="#1950-nightly">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950">1.95.0
+ &lt;a class="anchor" href="#1950">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>16 April, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>27 February, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>28 May, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>10 April, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -31,13 +31,13 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-beta">1.94.0 beta
- &lt;a class="anchor" href="#1940-beta">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-nightly">1.94.0 nightly
+ &lt;a class="anchor" href="#1940-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>5 March, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>16 January, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>16 April, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>27 February, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -83,42 +83,73 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.1/</guid><description>&lt;h1 id="1931">1.93.1
- &lt;a class="anchor" href="#1931">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930-beta">1.93.0 beta
+ &lt;a class="anchor" href="#1930-beta">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint warning">
+&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Released on: &lt;em>12 February, 2026&lt;/em>&lt;/li>
-&lt;li>This is a patch release&lt;/li>
+&lt;li>Will be stable on: &lt;em>5 March, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>16 January, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;a id="1.93.1">&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150590">Don&amp;rsquo;t try to recover keyword as non-keyword identifier&lt;/a>, fixing an ICE that especially &lt;a href="https://github.com/rust-lang/rustfmt/issues/6739">affected rustfmt&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust-clippy/pull/16196">Fix &lt;code>clippy::panicking_unwrap&lt;/code> false-positive on field access with implicit deref&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152259">Revert &amp;ldquo;Update wasm-related dependencies in CI&amp;rdquo;&lt;/a>, fixing file descriptor leaks on the &lt;code>wasm32-wasip2&lt;/code> target.&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.0/</guid><description>&lt;h1 id="1930">1.93.0
- &lt;a class="anchor" href="#1930">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
-&lt;ul>
-&lt;li>Released on: &lt;em>22 January, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>5 December, 2025&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>&lt;a id="1.93.0-Language">&lt;/a>&lt;/p>
-&lt;h2 id="language">Language
- &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145656">Stabilize several s390x &lt;code>vector&lt;/code>-related target features and the &lt;code>is_s390x_feature_detected!&lt;/code> macro&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">Stabilize declaration of C-style variadic functions for the &lt;code>system&lt;/code> ABI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using some keyword as a &lt;code>cfg&lt;/code> predicate&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147736">Stabilize &lt;code>asm_cfg&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148259">During const-evaluation, support copying pointers byte-by-byte&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148602">LUB coercions now correctly handle function item types, and functions with differing safeties&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148746">Allow &lt;code>const&lt;/code> items that contain mutable references to &lt;code>static&lt;/code> (which is &lt;em>very&lt;/em> unsafe, but not &lt;em>always&lt;/em> UB)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148407">Add warn-by-default &lt;code>const_item_interior_mutations&lt;/code> lint to warn against calls which mutate interior mutable &lt;code>const&lt;/code> items&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141470">Add warn-by-default &lt;code>function_casts_as_integer&lt;/code> lint&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="1.93.0-Compiler">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/142688">Tracking issue for release notes of #142682: Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/144507">Tracking issue for release notes of #135634: stop specializing on &lt;code>Copy&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145110">Tracking issue for release notes of #144465: Allow the global allocator to use thread-local storage and std::thread::current()&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145501">Tracking issue for release notes of #143619: &lt;code>c_variadic&lt;/code>: Add future-incompatibility warning for &lt;code>...&lt;/code> arguments without a pattern outside of &lt;code>extern&lt;/code> blocks&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/145889">Tracking issue for release notes of #145628: [std][BTree] Fix behavior of &lt;code>::append&lt;/code> to match documentation, &lt;code>::insert&lt;/code>, and &lt;code>::extend&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147001">Tracking issue for release notes of #145954: stabilize extern_system_varargs&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148107">Tracking issue for release notes of #135889: Tracking Issue for &lt;code>VecDeque::pop_front_if&lt;/code> &amp;amp; &lt;code>VecDeque::pop_back_if&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148109">Tracking issue for release notes of #146705: Tracking Issue for &lt;code>fmt_from_fn&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148111">Tracking issue for release notes of #145665: Don&amp;rsquo;t require &lt;code>T: RefUnwindSafe&lt;/code> for &lt;code>vec::IntoIter&amp;lt;T&amp;gt;: UnwindSafe&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148119">Tracking issue for release notes of #147185: repr(transparent): do not consider repr(C) types to be 1-ZST&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148145">Tracking issue for release notes of #145974: Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148258">Tracking issue for release notes of #148176: [rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148304">Tracking issue for release notes of #148301: [rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148364">Tracking issue for release notes of #145656: Stabilize s390x &lt;code>vector&lt;/code> target feature and &lt;code>is_s390x_feature_detected!&lt;/code> macro&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148366">Tracking issue for release notes of #79995: Tracking Issue for maybe_uninit_write_slice&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148369">Tracking issue for release notes of #147017: FCW for repr(C) enums whose discriminant values do not fit into a c_int&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148383">Tracking issue for release notes of #85122: Tracking Issue for inherent unchecked integer methods&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148385">Tracking issue for release notes of #63569: Tracking issue for &lt;code>#![feature(maybe_uninit_slice)]&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148419">Tracking issue for release notes of #146978: Emit error when using path-segment keyword as cfg pred&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148582">Tracking issue for release notes of #133508: Tracking Issue for &lt;code>core_slice_as_array&lt;/code>.&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148583">Tracking issue for release notes of #139201: Tracking Issue for &lt;code>Duration::from_nanos_u128&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148696">Tracking issue for release notes of #139751: Implement pin-project in pattern matching for &lt;code>&amp;amp;pin mut|const T&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148699">Tracking issue for release notes of #148122: Make deref_nullptr deny by default instead of warn&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148702">Tracking issue for release notes of #141470: Add new &lt;code>function_casts_as_integer&lt;/code> lint&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148704">Tracking issue for release notes of #147841: Fix ICE when applying test macro to crate root&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148733">Tracking issue for release notes of #148435: Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148801">Tracking issue for release notes of #146495: rustdoc: Erase &lt;code>#![doc(document_private_items)]&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148824">Tracking issue for release notes of #65816: Tracking issue for &lt;code>vec_into_raw_parts&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148874">Tracking issue for release notes of #148798: &lt;code>OsString&lt;/code> &lt;code>Debug&lt;/code> implementation prints escaped single quotes&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148976">Tracking issue for release notes of #148259: const-eval: fix and re-enable pointer fragment support&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148977">Tracking issue for release notes of #147736: Stabilize &lt;code>asm_cfg&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148981">Tracking issue for release notes of #148407: Warn against calls which mutates an interior mutable &lt;code>const&lt;/code>-item&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149259">Tracking issue for release notes of #149197: validate usage of crate-level doc attributes&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149406">Tracking issue for release notes of #148602: misc coercion cleanups and handle safety correctly&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149461">Tracking issue for release notes of #148746: const validation: remove check for mutable refs in final value of const&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149674">Tracking issue for release notes of #147224: Emscripten: Turn wasm-eh on by default&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150887">Tracking issue for release notes of #145915: Stabilize &lt;code>fmt::from_fn&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151141">Tracking issue for release notes of #145610: Stabilize &lt;code>char_max_len&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151229">Tracking issue for release notes of #150646: Regression affecting &lt;code>static-init&lt;/code> versions 1.0.1-1.0.3: &amp;ldquo;failed to resolve: use of unresolved module or unlinked crate &lt;code>parking_lot&lt;/code>&amp;rdquo;&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148978">Tracking issue for release notes of #148151: Replace OffsetOf by an actual sum of calls to intrinsic.&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147224">Emscripten: Turn wasm-eh on by default&lt;/a> &lt;em>(merged 87 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147841">Fix ICE when applying test macro to crate root&lt;/a> &lt;em>(merged 88 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145628">[std][BTree] Fix behavior of &lt;code>::append&lt;/code> to match documentation, &lt;code>::insert&lt;/code>, and &lt;code>::extend&lt;/code>&lt;/a> &lt;em>(merged 90 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147736">Stabilize &lt;code>asm_cfg&lt;/code>&lt;/a> &lt;em>(merged 97 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149197">validate usage of crate-level doc attributes&lt;/a> &lt;em>(merged 98 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146978">Emit error when using path-segment keyword as cfg pred&lt;/a> &lt;em>(merged 101 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148798">Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149080">Tracking issue for release notes of #148798: Match &lt;OsString as Debug>::fmt to that of str&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145610">Stabilize &lt;code>char_max_len&lt;/code>&lt;/a> &lt;em>(merged 105 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145954">stabilize extern_system_varargs&lt;/a> &lt;em>(merged 106 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148435">Implement the MCP 932: Promote riscv64a23-unknown-linux-gnu to Tier 2&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145915">Stabilize &lt;code>fmt::from_fn&lt;/code>&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145974">Stabilize -Zno-jump-tables into -Cjump-tables=bool&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/142682">Update bundled musl to 1.2.5&lt;/a> &lt;em>(merged 121 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148301">[rustdoc search] Include extern crates when filtering on &lt;code>import&lt;/code>&lt;/a> &lt;em>(merged 121 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148176">[rustdoc] Include attribute and derive macros when filtering on &amp;ldquo;macros&amp;rdquo;&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.92.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.92.0/</guid><description>&lt;h1 id="1920">1.92.0
  &lt;a class="anchor" href="#1920">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
