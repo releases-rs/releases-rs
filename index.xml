@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give depreciation notes special handling&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
