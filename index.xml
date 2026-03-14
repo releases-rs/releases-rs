@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153739">Tracking issue for release notes of #153460: rustdoc: rename &lt;code>--emit&lt;/code> names&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give depreciation notes special handling&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
