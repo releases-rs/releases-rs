@@ -8,6 +8,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152973">remove -Csoft-float&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154048">Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152870">Do not enable split debuginfo for windows-gnu&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
