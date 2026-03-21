@@ -14,7 +14,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153739">Tracking issue for release notes of #153460: rustdoc: rename &lt;code>--emit&lt;/code> names&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give depreciation notes special handling&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give deprecation notes special handling&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
