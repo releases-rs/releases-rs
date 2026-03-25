@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149218">Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153041">Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152973">remove -Csoft-float&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154048">Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
