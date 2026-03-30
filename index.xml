@@ -34,6 +34,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153764">1.95 beta regression: &amp;ldquo;malformed &lt;code>feature&lt;/code> attribute input&amp;rdquo;&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149978">deprecate &lt;code>Eq::assert_receiver_is_total_eq&lt;/code> and emit FCW on manual impls&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153018">&lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149783">stabilize &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
