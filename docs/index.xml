@@ -35,6 +35,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152920">Tracking issue for release notes of #151603: Stabilize &lt;code>str_as_str&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153019">Tracking issue for release notes of #153018: &lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153056">Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153764">1.95 beta regression: &amp;ldquo;malformed &lt;code>feature&lt;/code> attribute input&amp;rdquo;&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
