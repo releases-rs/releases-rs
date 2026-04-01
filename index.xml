@@ -35,9 +35,10 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153019">Tracking issue for release notes of #153018: &lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153056">Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153764">1.95 beta regression: &amp;ldquo;malformed &lt;code>feature&lt;/code> attribute input&amp;rdquo;&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149978">deprecate &lt;code>Eq::assert_receiver_is_total_eq&lt;/code> and emit FCW on manual impls&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153018">&lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149783">stabilize &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150468">rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146972">Support importing path-segment keyword with renaming&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
@@ -45,9 +46,12 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150681">Make operational semantics of pattern matching independent of crate and module&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152021">Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148590">Stabilize &lt;code>atomic_try_update&lt;/code>and deprecate &lt;code>fetch_update&lt;/code> starting 1.99.0&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150522">Stabilize new inclusive range type and iterator type&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151576">Stabilize &lt;code>core::hint::cold_path&lt;/code>&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152253">Stabilize const ControlFlow predicates&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151995">stabilize ptr_as_ref_unchecked&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
