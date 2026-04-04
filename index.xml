@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154509">Tracking issue for release notes of #153834: Merge &lt;code>fabsf16/32/64/128&lt;/code> into &lt;code>fabs::&amp;lt;F&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
