@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
