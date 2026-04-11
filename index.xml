@@ -39,6 +39,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152750">Tracking issue for release notes of #149904: &lt;code>-Znext-solver&lt;/code> Remove the forced ambiguity hack from search graph&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152920">Tracking issue for release notes of #151603: Stabilize &lt;code>str_as_str&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153019">Tracking issue for release notes of #153018: &lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153056">Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
@@ -58,6 +59,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151995">stabilize ptr_as_ref_unchecked&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150722">Update to LLVM 22&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
