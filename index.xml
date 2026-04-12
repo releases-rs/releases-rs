@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960-nightly">1.96.0 nightly
- &lt;a class="anchor" href="#1960-nightly">#&lt;/a>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960">1.96.0
+ &lt;a class="anchor" href="#1960">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>28 May, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>10 April, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>9 July, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>22 May, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -29,13 +29,13 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152941">prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950-beta">1.95.0 beta
- &lt;a class="anchor" href="#1950-beta">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950-nightly">1.95.0 nightly
+ &lt;a class="anchor" href="#1950-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>16 April, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>27 February, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>28 May, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>10 April, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -63,51 +63,61 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.1/</guid><description>&lt;h1 id="1941">1.94.1
- &lt;a class="anchor" href="#1941">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940-beta">1.94.0 beta
+ &lt;a class="anchor" href="#1940-beta">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint warning">
+&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Released on: &lt;em>26 March, 2026&lt;/em>&lt;/li>
-&lt;li>This is a patch release&lt;/li>
+&lt;li>Will be stable on: &lt;em>16 April, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>27 February, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;a id="1.94.1">&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153634">Fix &lt;code>std::thread::spawn&lt;/code> on wasm32-wasip1-threads&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153491">Remove new methods added to &lt;code>std::os::windows::fs::OpenOptionsExt&lt;/code>&lt;/a>
-The new methods were unstable, but the trait itself is not sealed and so
-cannot be extended with non-default methods.&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust-clippy/pull/16685">Clippy: fix ICE in &lt;code>match_same_arms&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/16769">Cargo: update tar to 0.4.45&lt;/a>
-This resolves CVE-2026-33055 and CVE-2026-33056. Users of crates.io are not affected.
-See &lt;a href="https://blog.rust-lang.org/2026/03/21/cve-2026-33056/">blog&lt;/a> for more details.&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/16787">Cargo: fix certificate validation errors on FreeBSD&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.0/</guid><description>&lt;h1 id="1940">1.94.0
- &lt;a class="anchor" href="#1940">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
-&lt;ul>
-&lt;li>Released on: &lt;em>5 March, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>16 January, 2026&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>&lt;a id="1.94.0-Language">&lt;/a>&lt;/p>
-&lt;h2 id="language">Language
- &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145948">Stabilize additional 29 RISC-V target features including large portions of the RVA22U64 / RVA23U64 profiles&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147136">Add warn-by-default &lt;code>unused_visibilities&lt;/code> lint for visibility on &lt;code>const _&lt;/code> declarations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">Update to Unicode 17&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148329">Avoid incorrect lifetime errors for closures&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="1.94.0-Platform-Support">&lt;/a>&lt;/p>
-&lt;h2 id="platform-support">Platform Support
- &lt;a class="anchor" href="#platform-support">#&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148790">Add &lt;code>riscv64im-unknown-none-elf&lt;/code> as a tier 3 target&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Refer to Rust&amp;rsquo;s &lt;a href="https://doc.rust-lang.org/rustc/platform-support.html">platform support page&lt;/a>
-for more information on Rust&amp;rsquo;s tiered platform support.&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.93.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.1/</guid><description>&lt;h1 id="1931">1.93.1
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/140048">Tracking issue for release notes of #138961: Make closure capturing have consistent and correct behaviour around patterns&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147530">Tracking issue for release notes of #136776: Forbid freely casting lifetime bounds of dyn-types&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148091">Tracking issue for release notes of #144113: Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148113">Tracking issue for release notes of #147136: Add warn-by-default lint for visibility on &lt;code>const _&lt;/code> declarations&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148384">Tracking issue for release notes of #129333: Tracking Issue for &lt;code>lazy_get&lt;/code>&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148386">Tracking issue for release notes of #75027: Tracking Issue for slice::array_windows&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148697">Tracking issue for release notes of #146724: Tracking Issue for &lt;code>const_mul_add&lt;/code>&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148707">Tracking issue for release notes of #147984: resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148776">Tracking issue for release notes of #148321: parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149491">Tracking issue for release notes of #146792: Implement &lt;code>TryFrom&amp;lt;char&amp;gt;&lt;/code> for &lt;code>usize&lt;/code>.&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149740">Tracking issue for release notes of #148329: Do not propogate unnecessary closure constraints.&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149854">Tracking issue for release notes of #148477: don&amp;rsquo;t normalize where-clauses when checking well-formedness&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149957">Tracking issue for release notes of #148756: Warn on codegen attributes on required trait methods&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149959">Tracking issue for release notes of #149192: NFC normalize lifetime identifiers&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149963">Tracking issue for release notes of #149709: Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150202">Tracking issue for release notes of #146377: Don&amp;rsquo;t strip shebang in expr-ctxt &lt;code>include!(…)&lt;/code>&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150437">Tracking issue for release notes of #139493: Explicitly export core and std macros&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150439">Tracking issue for release notes of #145948: Stabilize 29 RISC-V target features (&lt;code>riscv_ratified_v2&lt;/code>)&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150493">Tracking issue for release notes of #150032: Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150815">Tracking issue for release notes of #150777: Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151058">Tracking issue for release notes of #149408: refactor: remove Ord bound from BinaryHeap::new etc&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151189">Tracking issue for release notes of #151164: Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151651">Tracking issue for release notes of #148790: Add new Tier-3 target: riscv64im-unknown-none-elf&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151652">Tracking issue for release notes of #144938: Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151653">Tracking issue for release notes of #148941: stabilize &lt;code>Peekable::next_if_map&lt;/code> (&lt;code>#![feature(peekable_next_if_map)]&lt;/code>)&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151717">Tracking issue for release notes of #150639: stdarch subtree update&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151731">Tracking issue for release notes of #148825: Add SystemTime::{MIN, MAX}&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150179">Tracking issue for release notes of #150151: Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/149829">Tracking issue for release notes of #148052: Stabilize &lt;code>const_mul_add&lt;/code>&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151164">Stabilise &lt;code>EULER_GAMMA&lt;/code> and &lt;code>GOLDEN_RATIO&lt;/code> constants for &lt;code>f32&lt;/code> and &lt;code>f64&lt;/code>.&lt;/a> &lt;em>(merged 86 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150151">Destabilise &lt;code>target-spec-json&lt;/code>&lt;/a> &lt;em>(merged 89 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148941">stabilize &lt;code>Peekable::next_if_map&lt;/code> (&lt;code>#![feature(peekable_next_if_map)]&lt;/code>)&lt;/a> &lt;em>(merged 91 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150777">Stabilize &lt;code>slice::element_offset&lt;/code>&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144113">Impls and impl items inherit &lt;code>dead_code&lt;/code> lint level of the corresponding traits and trait items&lt;/a> &lt;em>(merged 96 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150639">stdarch subtree update&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150531">Tracking issue for release notes of #149273: Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 102 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148321">parser/lexer: bump to Unicode 17, use faster unicode-ident&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150032">Use annotate-snippet as default emitter on stable&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148790">Add new Tier-3 target: riscv64im-unknown-none-elf&lt;/a> &lt;em>(merged 117 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148825">Add SystemTime::{MIN, MAX}&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149273">Don&amp;rsquo;t leak sysroot crates through dependencies&lt;/a> &lt;em>(merged 119 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149709">Overhaul filename handling for cross-compiler consistency&lt;/a> &lt;em>(merged 120 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144938">Enable &lt;code>outline-atomics&lt;/code> by default on more AArch64 platforms&lt;/a> &lt;em>(merged 123 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147984">resolve: Preserve ambiguous glob reexports in crate metadata&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.93.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.93.1/</guid><description>&lt;h1 id="1931">1.93.1
  &lt;a class="anchor" href="#1931">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
