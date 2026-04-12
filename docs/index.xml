@@ -8,27 +8,27 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155072">Set the Fuchsia ABI to the documented minimum&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154509">Tracking issue for release notes of #153834: Merge &lt;code>fabsf16/32/64/128&lt;/code> into &lt;code>fabs::&amp;lt;F&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149218">Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153041">Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152973">remove -Csoft-float&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154048">Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152870">Do not enable split debuginfo for windows-gnu&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153739">Tracking issue for release notes of #153460: rustdoc: rename &lt;code>--emit&lt;/code> names&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give deprecation notes special handling&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152941">prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155072">Set the Fuchsia ABI to the documented minimum&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154509">Tracking issue for release notes of #153834: Merge &lt;code>fabsf16/32/64/128&lt;/code> into &lt;code>fabs::&amp;lt;F&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149218">Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153041">Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152973">remove -Csoft-float&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154048">Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152870">Do not enable split debuginfo for windows-gnu&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153739">Tracking issue for release notes of #153460: rustdoc: rename &lt;code>--emit&lt;/code> names&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give deprecation notes special handling&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152941">prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950-beta">1.95.0 beta
  &lt;a class="anchor" href="#1950-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -39,30 +39,30 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152750">Tracking issue for release notes of #149904: &lt;code>-Znext-solver&lt;/code> Remove the forced ambiguity hack from search graph&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152920">Tracking issue for release notes of #151603: Stabilize &lt;code>str_as_str&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153019">Tracking issue for release notes of #153018: &lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153056">Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153764">1.95 beta regression: &amp;ldquo;malformed &lt;code>feature&lt;/code> attribute input&amp;rdquo;&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149978">deprecate &lt;code>Eq::assert_receiver_is_total_eq&lt;/code> and emit FCW on manual impls&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149783">stabilize &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150468">rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146972">Support importing path-segment keyword with renaming&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141295">Stabilize &lt;code>if let&lt;/code> guards (&lt;code>feature(if_let_guard)&lt;/code>)&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150681">Make operational semantics of pattern matching independent of crate and module&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152021">Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148590">Stabilize &lt;code>atomic_try_update&lt;/code>and deprecate &lt;code>fetch_update&lt;/code> starting 1.99.0&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150522">Stabilize new inclusive range type and iterator type&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151576">Stabilize &lt;code>core::hint::cold_path&lt;/code>&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152253">Stabilize const ControlFlow predicates&lt;/a> &lt;em>(merged 63 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151995">stabilize ptr_as_ref_unchecked&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150722">Update to LLVM 22&lt;/a> &lt;em>(merged 73 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 81 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152750">Tracking issue for release notes of #149904: &lt;code>-Znext-solver&lt;/code> Remove the forced ambiguity hack from search graph&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152920">Tracking issue for release notes of #151603: Stabilize &lt;code>str_as_str&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153019">Tracking issue for release notes of #153018: &lt;code>unused_must_use&lt;/code> lint improvements&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153056">Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153764">1.95 beta regression: &amp;ldquo;malformed &lt;code>feature&lt;/code> attribute input&amp;rdquo;&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149978">deprecate &lt;code>Eq::assert_receiver_is_total_eq&lt;/code> and emit FCW on manual impls&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149783">stabilize &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150468">rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146972">Support importing path-segment keyword with renaming&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141295">Stabilize &lt;code>if let&lt;/code> guards (&lt;code>feature(if_let_guard)&lt;/code>)&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149460">rustdoc: sort stable items first&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150681">Make operational semantics of pattern matching independent of crate and module&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152021">Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148590">Stabilize &lt;code>atomic_try_update&lt;/code>and deprecate &lt;code>fetch_update&lt;/code> starting 1.99.0&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150522">Stabilize new inclusive range type and iterator type&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151576">Stabilize &lt;code>core::hint::cold_path&lt;/code>&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152253">Stabilize const ControlFlow predicates&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151534">target: fix destabilising target-spec-json&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151995">stabilize ptr_as_ref_unchecked&lt;/a> &lt;em>(merged 68 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147400">TryFrom&lt;integer> for bool&lt;/a> &lt;em>(merged 69 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150722">Update to LLVM 22&lt;/a> &lt;em>(merged 74 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150557">Don&amp;rsquo;t try to evaluate const blocks during constant promotion&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149962">Promote powerpc64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/151091">Add new &amp;ldquo;hide deprecated items&amp;rdquo; setting in rustdoc&lt;/a> &lt;em>(merged 82 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.94.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.94.1/</guid><description>&lt;h1 id="1941">1.94.1
  &lt;a class="anchor" href="#1941">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
