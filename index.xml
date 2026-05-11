@@ -26,7 +26,9 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154647">change &lt;code>c_double&lt;/code> to &lt;code>f32&lt;/code> on &lt;code>avr&lt;/code> targets&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153380">stabilize new RangeFrom type and iterator&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154509">Tracking issue for release notes of #153834: Merge &lt;code>fabsf16/32/64/128&lt;/code> into &lt;code>fabs::&amp;lt;F&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149218">Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 47 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153041">Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
