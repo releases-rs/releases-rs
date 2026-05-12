@@ -22,6 +22,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/156511">Tracking issue for release notes of #152911: Stabilize &lt;code>control_flow_ok&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155072">Set the Fuchsia ABI to the documented minimum&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
@@ -42,6 +43,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152911">Stabilize &lt;code>control_flow_ok&lt;/code>&lt;/a> &lt;em>(merged 70 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152941">prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 70 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 72 days ago)&lt;/em>&lt;/li>
