@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Changelogs</title><link>https://releases.rs/docs/</link><description>Recent content on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970-nightly">1.97.0 nightly
- &lt;a class="anchor" href="#1970-nightly">#&lt;/a>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Changelogs</title><link>https://releases.rs/docs/</link><description>Recent content on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970-beta">1.97.0 beta
+ &lt;a class="anchor" href="#1970-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
@@ -8,13 +8,13 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155006">stabilize &lt;code>feature(cfg_target_has_atomic_equal_alignment)&lt;/code>&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148214">Consider &lt;code>Result&amp;lt;T, Uninhabited&amp;gt;&lt;/code> and &lt;code>ControlFlow&amp;lt;Uninhabited, T&amp;gt;&lt;/code> to be equivalent to &lt;code>T&lt;/code> for must use lint&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155515">error on empty &lt;code>export_name&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156063">Map &lt;code>WSAESHUTDOWN&lt;/code> to &lt;code>io::ErrorKind::BrokenPipe&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155006">stabilize &lt;code>feature(cfg_target_has_atomic_equal_alignment)&lt;/code>&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148214">Consider &lt;code>Result&amp;lt;T, Uninhabited&amp;gt;&lt;/code> and &lt;code>ControlFlow&amp;lt;Uninhabited, T&amp;gt;&lt;/code> to be equivalent to &lt;code>T&lt;/code> for must use lint&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155515">error on empty &lt;code>export_name&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156063">Map &lt;code>WSAESHUTDOWN&lt;/code> to &lt;code>io::ErrorKind::BrokenPipe&lt;/code>&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960">1.96.0
  &lt;a class="anchor" href="#1960">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
