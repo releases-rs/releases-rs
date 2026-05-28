@@ -12,6 +12,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148214">Consider &lt;code>Result&amp;lt;T, Uninhabited&amp;gt;&lt;/code> and &lt;code>ControlFlow&amp;lt;Uninhabited, T&amp;gt;&lt;/code> to be equivalent to &lt;code>T&lt;/code> for must use lint&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155515">error on empty &lt;code>export_name&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156063">Map &lt;code>WSAESHUTDOWN&lt;/code> to &lt;code>io::ErrorKind::BrokenPipe&lt;/code>&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153968">linker-messages is warn-by-default again&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
