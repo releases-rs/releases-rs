@@ -15,6 +15,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153968">linker-messages is warn-by-default again&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155473">Prefer &lt;code>-1&lt;/code> for &lt;code>None&lt;/code>&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960">1.96.0
  &lt;a class="anchor" href="#1960">#&lt;/a>&lt;/h1>
