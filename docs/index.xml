@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158020">Update mingw-w64 C toolchain&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155750">Document that &lt;code>ManuallyDrop&lt;/code>&amp;rsquo;s &lt;code>Box&lt;/code> interaction has been fixed&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157201">Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
