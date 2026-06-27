@@ -36,6 +36,19 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155131">Stabilize feature &lt;code>uint_bit_width&lt;/code>&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155147">Stabilize feature &lt;code>int_lowest_highest_one&lt;/code>&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155130">Stabilize feature &lt;code>isolate_most_least_significant_one&lt;/code>&lt;/a> &lt;em>(merged 76 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.1/</guid><description>&lt;h1 id="1961">1.96.1
+ &lt;a class="anchor" href="#1961">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>30 June, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.96.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/17131">Cargo: fix timeout/retry behavior&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/17140">Cargo: apply patches for CVE-2025-15661, CVE-2026-55199, and CVE-2026-55200 to libssh2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158214">rustc: fix miscompilation in MIR optimization&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960">1.96.0
  &lt;a class="anchor" href="#1960">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
