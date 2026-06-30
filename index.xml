@@ -8,13 +8,13 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146561">Change &lt;code>Location&amp;lt;'_&amp;gt;&lt;/code> lifetime to &lt;code>'static&lt;/code> in &lt;code>Panic[Hook]Info&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158020">Update mingw-w64 C toolchain&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155750">Document that &lt;code>ManuallyDrop&lt;/code>&amp;rsquo;s &lt;code>Box&lt;/code> interaction has been fixed&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157201">Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156928">Remove -Zemscripten-wasm-eh&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146561">Change &lt;code>Location&amp;lt;'_&amp;gt;&lt;/code> lifetime to &lt;code>'static&lt;/code> in &lt;code>Panic[Hook]Info&lt;/code>&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158020">Update mingw-w64 C toolchain&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155750">Document that &lt;code>ManuallyDrop&lt;/code>&amp;rsquo;s &lt;code>Box&lt;/code> interaction has been fixed&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157201">Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156928">Remove -Zemscripten-wasm-eh&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970-beta">1.97.0 beta
  &lt;a class="anchor" href="#1970-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -25,18 +25,18 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155006">stabilize &lt;code>feature(cfg_target_has_atomic_equal_alignment)&lt;/code>&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148214">Consider &lt;code>Result&amp;lt;T, Uninhabited&amp;gt;&lt;/code> and &lt;code>ControlFlow&amp;lt;Uninhabited, T&amp;gt;&lt;/code> to be equivalent to &lt;code>T&lt;/code> for must use lint&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155515">error on empty &lt;code>export_name&lt;/code>&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156063">Map &lt;code>WSAESHUTDOWN&lt;/code> to &lt;code>io::ErrorKind::BrokenPipe&lt;/code>&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153968">linker-messages is warn-by-default again&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155473">Prefer &lt;code>-1&lt;/code> for &lt;code>None&lt;/code>&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155131">Stabilize feature &lt;code>uint_bit_width&lt;/code>&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155147">Stabilize feature &lt;code>int_lowest_highest_one&lt;/code>&lt;/a> &lt;em>(merged 77 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155130">Stabilize feature &lt;code>isolate_most_least_significant_one&lt;/code>&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155006">stabilize &lt;code>feature(cfg_target_has_atomic_equal_alignment)&lt;/code>&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/148214">Consider &lt;code>Result&amp;lt;T, Uninhabited&amp;gt;&lt;/code> and &lt;code>ControlFlow&amp;lt;Uninhabited, T&amp;gt;&lt;/code> to be equivalent to &lt;code>T&lt;/code> for must use lint&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155515">error on empty &lt;code>export_name&lt;/code>&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156063">Map &lt;code>WSAESHUTDOWN&lt;/code> to &lt;code>io::ErrorKind::BrokenPipe&lt;/code>&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153968">linker-messages is warn-by-default again&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152443">NVPTX: Drop support for old architectures and old ISAs&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153457">prevent deref coercions in &lt;code>pin!&lt;/code>&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155473">Prefer &lt;code>-1&lt;/code> for &lt;code>None&lt;/code>&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155698">Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155131">Stabilize feature &lt;code>uint_bit_width&lt;/code>&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155147">Stabilize feature &lt;code>int_lowest_highest_one&lt;/code>&lt;/a> &lt;em>(merged 78 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155130">Stabilize feature &lt;code>isolate_most_least_significant_one&lt;/code>&lt;/a> &lt;em>(merged 79 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.1/</guid><description>&lt;h1 id="1961">1.96.1
  &lt;a class="anchor" href="#1961">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
