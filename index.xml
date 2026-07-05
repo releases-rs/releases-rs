@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.98.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.98.0/</guid><description>&lt;h1 id="1980-nightly">1.98.0 nightly
- &lt;a class="anchor" href="#1980-nightly">#&lt;/a>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust Versions on Rust Changelogs</title><link>https://releases.rs/</link><description>Recent content in Rust Versions on Rust Changelogs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://releases.rs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://releases.rs/docs/1.98.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.98.0/</guid><description>&lt;h1 id="1980">1.98.0
+ &lt;a class="anchor" href="#1980">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
-&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Unreleased&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>20 August, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>3 July, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>1 October, 2026&lt;/em>&lt;/li>
+&lt;li>Will branch from master on: &lt;em>14 August, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -15,13 +15,13 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156928">Remove -Zemscripten-wasm-eh&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970-beta">1.97.0 beta
- &lt;a class="anchor" href="#1970-beta">#&lt;/a>&lt;/h1>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970-nightly">1.97.0 nightly
+ &lt;a class="anchor" href="#1970-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Will be stable on: &lt;em>9 July, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>22 May, 2026&lt;/em>&lt;/li>
+&lt;li>Will be stable on: &lt;em>20 August, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>3 July, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
@@ -37,45 +37,78 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155131">Stabilize feature &lt;code>uint_bit_width&lt;/code>&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155147">Stabilize feature &lt;code>int_lowest_highest_one&lt;/code>&lt;/a> &lt;em>(merged 83 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155130">Stabilize feature &lt;code>isolate_most_least_significant_one&lt;/code>&lt;/a> &lt;em>(merged 84 days ago)&lt;/em>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.1/</guid><description>&lt;h1 id="1961">1.96.1
- &lt;a class="anchor" href="#1961">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960-beta">1.96.0 beta
+ &lt;a class="anchor" href="#1960-beta">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint warning">
+&lt;p>&lt;strong>Unreleased, branched from master&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Released on: &lt;em>30 June, 2026&lt;/em>&lt;/li>
-&lt;li>This is a patch release&lt;/li>
+&lt;li>Will be stable on: &lt;em>9 July, 2026&lt;/em>&lt;/li>
+&lt;li>Branched from master on: &lt;em>22 May, 2026&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;a id="1.96.1">&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/17131">Cargo: fix timeout/retry behavior&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/cargo/pull/17140">Cargo: apply patches for CVE-2025-15661, CVE-2026-55199, and CVE-2026-55200 to libssh2&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158214">rustc: fix miscompilation in MIR optimization&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.96.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.96.0/</guid><description>&lt;h1 id="1960">1.96.0
- &lt;a class="anchor" href="#1960">#&lt;/a>&lt;/h1>
-&lt;blockquote class="book-hint info">
-&lt;ul>
-&lt;li>Released on: &lt;em>28 May, 2026&lt;/em>&lt;/li>
-&lt;li>Branched from master on: &lt;em>10 April, 2026&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>&lt;a id="1.96.0-Language">&lt;/a>&lt;/p>
-&lt;h2 id="language">Language
- &lt;a class="anchor" href="#language">#&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146961">Allow passing &lt;code>expr&lt;/code> metavariable to &lt;code>cfg&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always coerce never types in tuple expressions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150316">Avoid incorrect inference guidance of function arguments in rare cases&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154184">Support s390x vector registers in inline assembly&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">Allow using constants of type &lt;code>ManuallyDrop&lt;/code> as patterns (fixing a regression introduced in 1.94.0)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="1.96.0-Compiler">&lt;/a>&lt;/p>
-&lt;h2 id="compiler">Compiler
- &lt;a class="anchor" href="#compiler">#&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155072">Update &lt;code>riscv64gc-unknown-fuchsia&lt;/code> baseline to RVA22 + vector&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="1.96.0-Libraries">&lt;/a>&lt;/p></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950">1.95.0
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157496">Tracking issue for release notes of #153107: Optimize BTreeMap::append() using CursorMut&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/137131">Tracking issue for release notes of #127534: feat(core): impl Step for NonZero&amp;lt;u*&amp;gt;&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147560">Tracking issue for release notes of #146013: Add &lt;code>From&lt;/code> impls for wrapper types&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147835">Tracking issue for release notes of #147834: Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/147852">Tracking issue for release notes of #146961: Allow passing &lt;code>expr&lt;/code> metavariable to &lt;code>cfg&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/150774">Tracking issue for release notes of #146989: Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/151041">Tracking issue for release notes of #149868: rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152227">Tracking issue for release notes of #137487: Stabilize &lt;code>assert_matches&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152623">Tracking issue for release notes of #149218: Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152863">Tracking issue for release notes of #152911: Tracking Issue for &lt;code>#![feature(control_flow_ok)]&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152894">Tracking issue for release notes of #152210: Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152974">Tracking issue for release notes of #152973: remove -Csoft-float&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/152983">Tracking issue for release notes of #152941: prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153201">Tracking issue for release notes of #152615: refactor &amp;lsquo;valid for read/write&amp;rsquo; definition: exclude null&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153307">Tracking issue for release notes of #152304: stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153484">Tracking issue for release notes of #153427: Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153547">Tracking issue for release notes of #152853: deny-by-default &amp;amp; report in deps &lt;code>uninhabited_static&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153637">Tracking issue for release notes of #149931: rustdoc: don&amp;rsquo;t give depreciation notes special handling&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153740">Tracking issue for release notes of #153684: Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153859">Tracking issue for release notes of #153769: target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153875">Tracking issue for release notes of #152931: Always check &lt;code>ConstArgHasType&lt;/code> even when otherwise ignoring&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153908">Tracking issue for release notes of #153041: Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154072">Tracking issue for release notes of #152870: Do not enable split debuginfo for windows-gnu&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154114">Tracking issue for release notes of #154048: Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154180">Tracking issue for release notes of #152543: privacy: Fix type privacy holes in RPITITs&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154474">Tracking issue for release notes of #152851: Fix SGX delayed host lookup via ToSocketAddr&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154622">Tracking issue for release notes of #154620: stabilize new Range type and iterator&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154690">Tracking issue for release notes of #154644: rustdoc: separate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154814">Tracking issue for release notes of #154184: stabilize s390x vector registers&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154817">Tracking issue for release notes of #152996: Replacing &lt;code>self&lt;/code> overwriting with proper resolution&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154947">Tracking issue for release notes of #154891: implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154974">Tracking issue for release notes of #150316: Do not use non-wf input expectations from fudge when checking function calls&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/155076">Tracking issue for release notes of #155072: Set the Fuchsia ABI to the documented minimum&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/156476">Tracking issue for release notes of #153380: stabilize new RangeFrom type and iterator&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/156477">Tracking issue for release notes of #154647: change &lt;code>c_double&lt;/code> to &lt;code>f32&lt;/code> on &lt;code>avr&lt;/code> targets&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/156511">Tracking issue for release notes of #152911: Stabilize &lt;code>control_flow_ok&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155072">Set the Fuchsia ABI to the documented minimum&lt;/a> &lt;em>(merged 86 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154891">implement &lt;code>StructuralPartialEq&lt;/code> for &lt;code>MaybeDangling&lt;/code>&lt;/a> &lt;em>(merged 89 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149868">rustc: Stop passing &lt;code>--allow-undefined&lt;/code> on wasm targets&lt;/a> &lt;em>(merged 92 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154644">rustdoc: seperate methods and associated functions in sidebar&lt;/a> &lt;em>(merged 94 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154647">change &lt;code>c_double&lt;/code> to &lt;code>f32&lt;/code> on &lt;code>avr&lt;/code> targets&lt;/a> &lt;em>(merged 95 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154620">stabilize new Range type and iterator&lt;/a> &lt;em>(merged 96 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153380">stabilize new RangeFrom type and iterator&lt;/a> &lt;em>(merged 98 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/154509">Tracking issue for release notes of #153834: Merge &lt;code>fabsf16/32/64/128&lt;/code> into &lt;code>fabs::&amp;lt;F&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 99 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149218">Make PinCoerceUnsized require Deref&lt;/a> &lt;em>(merged 102 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153041">Remove &lt;code>ATTRIBUTE_ORDER&lt;/code>&lt;/a> &lt;em>(merged 103 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153107">Optimize BTreeMap::append() using CursorMut&lt;/a> &lt;em>(merged 104 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152973">remove -Csoft-float&lt;/a> &lt;em>(merged 107 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154048">Don&amp;rsquo;t emit rustdoc &lt;code>missing_doc_code_examples&lt;/code> lint on impl items&lt;/a> &lt;em>(merged 107 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152870">Do not enable split debuginfo for windows-gnu&lt;/a> &lt;em>(merged 108 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153769">target specs: stricter checks for LLVM ABI values, and correlate that with cfg(target_abi)&lt;/a> &lt;em>(merged 113 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153684">Update the minimum external LLVM to 21&lt;/a> &lt;em>(merged 114 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/153739">Tracking issue for release notes of #153460: rustdoc: rename &lt;code>--emit&lt;/code> names&lt;/a> &lt;em>(merged 116 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/149931">rustdoc: don&amp;rsquo;t give deprecation notes special handling&lt;/a> &lt;em>(merged 117 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/147834">Always make tuple elements a coercion site&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153427">Enable link relaxation feature for LoongArch Linux targets&lt;/a> &lt;em>(merged 118 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152210">Gate #![reexport_test_harness_main] properly&lt;/a> &lt;em>(merged 120 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152911">Stabilize &lt;code>control_flow_ok&lt;/code>&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152941">prefer actual ABI-controling fields over target.abi when making ABI decisions&lt;/a> &lt;em>(merged 124 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152304">stabilize new RangeToInclusive type&lt;/a> &lt;em>(merged 125 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146989">Inhibit all-absent-variant optimization for all enum reprs that inhibit layout optimization, not just repr(C).&lt;/a> &lt;em>(merged 126 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.95.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.95.0/</guid><description>&lt;h1 id="1950">1.95.0
  &lt;a class="anchor" href="#1950">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
 &lt;ul>
