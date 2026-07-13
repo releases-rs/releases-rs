@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159198">Tracking issue for release notes of #158325: Document NonNull layout guarantees&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155114">Add &lt;code>Step::forward/backward_overflowing&lt;/code> to enable RangeInclusive loop optimizations&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134021">Implement &lt;code>IntoIterator&lt;/code> for &lt;code>[&amp;amp;[mut]] Box&amp;lt;[T; N], A&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/158528">Tracking issue for release notes of #156976: enable eager &lt;code>param_env&lt;/code> norm in new solver&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
