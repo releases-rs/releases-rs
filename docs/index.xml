@@ -29,6 +29,20 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156928">Remove -Zemscripten-wasm-eh&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.1/</guid><description>&lt;h1 id="1971">1.97.1
+ &lt;a class="anchor" href="#1971">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>16 July, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.97.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159035">rustc: Fix miscompilation in LLVM optimization&lt;/a>
+This backports an LLVM submodule bump to include the LLVM-side fix and a
+revert of the rustc change that is one known trigger for the bug. The rustc
+side revert should not be strictly necessary but is done out of abundance of caution.&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.0/</guid><description>&lt;h1 id="1970">1.97.0
  &lt;a class="anchor" href="#1970">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
