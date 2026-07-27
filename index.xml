@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159700">Split non-local &lt;code>semicolon_in_expressions_from_macros&lt;/code> into a separate lint&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158372">rustfmt: Discover modules via &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150732">Convert &lt;code>-Ctarget-cpu&lt;/code> into a target-modifier for AVR, AMDGCN and NVPTX &lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158608">Implement &lt;code>#[diagnostic::opaque]&lt;/code> attribute to hide backtraces of macros.&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
