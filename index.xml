@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160319">Tracking issue for release notes of #159503: allocations: document that they can be read-only&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154202">rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159824">Tracking issue for release notes of #158608: Implement &lt;code>#[diagnostic::opaque]&lt;/code> attribute to hide backtraces of macros.&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160260">Tracking issue for release notes of #159960: Allow &lt;code>UnsafeCell&lt;/code> content access without &lt;code>get&lt;/code> in &lt;code>invalid_reference_casting&lt;/code> lint&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
