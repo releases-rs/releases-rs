@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160369">When suggesting method names, prefer &lt;em>exact&lt;/em> doc aliases over similar names&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160319">Tracking issue for release notes of #159503: allocations: document that they can be read-only&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154202">rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159824">Tracking issue for release notes of #158608: Implement &lt;code>#[diagnostic::opaque]&lt;/code> attribute to hide backtraces of macros.&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
@@ -20,6 +21,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158372">rustfmt: Discover modules via &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158766">Promote riscv64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159504">Abort const-eval queries early when there are generics in the type&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155697">Stabilize c-variadic function definitions&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150732">Convert &lt;code>-Ctarget-cpu&lt;/code> into a target-modifier for AVR, AMDGCN and NVPTX &lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159222">semicolon_in_expressions_from_macros: Lint on non-local macros too&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159198">Tracking issue for release notes of #158325: Document NonNull layout guarantees&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
