@@ -40,13 +40,17 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158573">stabilize &lt;code>feature(atomic_from_mut)&lt;/code>&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155722">Introduce aarch64-unknown-linux-pauthtest target&lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146561">Change &lt;code>Location&amp;lt;'_&amp;gt;&lt;/code> lifetime to &lt;code>'static&lt;/code> in &lt;code>Panic[Hook]Info&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158020">Update mingw-w64 C toolchain&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152544">Stabilize &lt;code>int_format_into&lt;/code> feature&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155750">Document that &lt;code>ManuallyDrop&lt;/code>&amp;rsquo;s &lt;code>Box&lt;/code> interaction has been fixed&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157201">Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144220">Add powerpc64-unknown-linux-gnuelfv2 target&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155763">Promotes 5 Thumb-mode bare-metal Arm targets to Tier 2&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156928">Remove -Zemscripten-wasm-eh&lt;/a> &lt;em>(merged 65 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155598">Implement fast path for &lt;code>derive(PartialOrd)&lt;/code> when deriving &lt;code>Ord&lt;/code>&lt;/a> &lt;em>(merged 75 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.97.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.97.1/</guid><description>&lt;h1 id="1971">1.97.1
