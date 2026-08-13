@@ -58,6 +58,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157877">Stabilize &lt;code>nonzero_from_str_radix&lt;/code>&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157201">Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/144220">Add powerpc64-unknown-linux-gnuelfv2 target&lt;/a> &lt;em>(merged 62 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/145108">Resolver: Batched Import Resolution&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157579">Tracking issue for release notes of #157577: Fix parser error recovery treating &amp;lsquo;dyn&amp;rsquo; as a strict keyword in Rust …&lt;/a> &lt;em>(merged 66 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157509">remove solaris implementation for File::lock, it has the wrong semantics&lt;/a> &lt;em>(merged 67 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155763">Promotes 5 Thumb-mode bare-metal Arm targets to Tier 2&lt;/a> &lt;em>(merged 71 days ago)&lt;/em>&lt;/li>
