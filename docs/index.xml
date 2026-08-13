@@ -10,6 +10,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156935">Introduce a &lt;code>PinSafePointer&lt;/code> trait that generalizes &lt;code>PinCoerceUnsized&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159746">stabilize &lt;code>c_variadic_naked_functions&lt;/code>&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146882">fully deprecate the legacy integral modules&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160369">When suggesting method names, prefer &lt;em>exact&lt;/em> doc aliases over similar names&lt;/a> &lt;em>(merged 9 days ago)&lt;/em>&lt;/li>
