@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
