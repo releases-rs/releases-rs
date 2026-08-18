@@ -46,6 +46,7 @@
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148225">Tracking issue for release notes of #126769: Tracking Issue for &lt;code>substr_range&lt;/code> and related methods&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161286">Tracking issue for release notes of #141266: Stabilize &lt;code>substr_range&lt;/code> and &lt;code>subslice_range&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157822">Tracking issue for release notes of #116258: Tracking Issue for explicit-endian String::from_utf16&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157847">Tracking issue for release notes of #152193: Tracking Issue for &lt;code>nonzero_from_str_radix&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157850">Tracking issue for release notes of #147946: Tracking Issue for &lt;code>strip_circumfix&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
