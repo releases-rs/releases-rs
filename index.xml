@@ -45,6 +45,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/148225">Tracking issue for release notes of #126769: Tracking Issue for &lt;code>substr_range&lt;/code> and related methods&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157822">Tracking issue for release notes of #116258: Tracking Issue for explicit-endian String::from_utf16&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157847">Tracking issue for release notes of #152193: Tracking Issue for &lt;code>nonzero_from_str_radix&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/157850">Tracking issue for release notes of #147946: Tracking Issue for &lt;code>strip_circumfix&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
@@ -53,6 +54,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155722">Introduce aarch64-unknown-linux-pauthtest target&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146561">Change &lt;code>Location&amp;lt;'_&amp;gt;&lt;/code> lifetime to &lt;code>'static&lt;/code> in &lt;code>Panic[Hook]Info&lt;/code>&lt;/a> &lt;em>(merged 51 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158020">Update mingw-w64 C toolchain&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/141266">Stabilize &lt;code>substr_range&lt;/code> and &lt;code>subslice_range&lt;/code>&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/157912">stabilize str_from_utf16_endian&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158012">Stabilize &lt;code>strip_circumfix&lt;/code>&lt;/a> &lt;em>(merged 61 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/152544">Stabilize &lt;code>int_format_into&lt;/code> feature&lt;/a> &lt;em>(merged 64 days ago)&lt;/em>&lt;/li>
