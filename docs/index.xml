@@ -9,6 +9,8 @@
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.99.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.99.0/</guid><description>&lt;h1 id="1990-beta">1.99.0 beta
  &lt;a class="anchor" href="#1990-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -19,8 +21,10 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159963">core: implement FusedIterator for StepBy&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137858">Add new &lt;code>unused_footnote_definition&lt;/code> rustdoc lint&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 10 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156935">Introduce a &lt;code>PinSafePointer&lt;/code> trait that generalizes &lt;code>PinCoerceUnsized&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
