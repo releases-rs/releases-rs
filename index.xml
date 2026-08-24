@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160299">Stabilize &lt;code>bool::toggle&lt;/code>&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
