@@ -8,12 +8,12 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155499">stabilize never type&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160299">Stabilize &lt;code>bool::toggle&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155499">stabilize never type&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160299">Stabilize &lt;code>bool::toggle&lt;/code>&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.99.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.99.0/</guid><description>&lt;h1 id="1990-beta">1.99.0 beta
  &lt;a class="anchor" href="#1990-beta">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -24,35 +24,35 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159963">core: implement FusedIterator for StepBy&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137858">Add new &lt;code>unused_footnote_definition&lt;/code> rustdoc lint&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 16 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156935">Introduce a &lt;code>PinSafePointer&lt;/code> trait that generalizes &lt;code>PinCoerceUnsized&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159746">stabilize &lt;code>c_variadic_naked_functions&lt;/code>&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146882">fully deprecate the legacy integral modules&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160369">When suggesting method names, prefer &lt;em>exact&lt;/em> doc aliases over similar names&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160319">Tracking issue for release notes of #159503: allocations: document that they can be read-only&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160323">Box::leak: tell people to avoid unleaking&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154202">rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159824">Tracking issue for release notes of #158608: Implement &lt;code>#[diagnostic::opaque]&lt;/code> attribute to hide backtraces of macros.&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160260">Tracking issue for release notes of #159960: Allow &lt;code>UnsafeCell&lt;/code> content access without &lt;code>get&lt;/code> in &lt;code>invalid_reference_casting&lt;/code> lint&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160265">Tracking issue for release notes of #159513: Consider &lt;code>()&lt;/code> as suspicious only when expecting &lt;code>!&lt;/code> for runtime symbols&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158247">hermit/fs: Return &lt;code>unsupported()&lt;/code> instead of &lt;code>from_raw_os_error(22)&lt;/code>&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159960">Allow &lt;code>UnsafeCell&lt;/code> content access without &lt;code>get&lt;/code> in &lt;code>invalid_reference_casting&lt;/code> lint&lt;/a> &lt;em>(merged 29 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159700">Split non-local &lt;code>semicolon_in_expressions_from_macros&lt;/code> into a separate lint&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159730">allow accessing the contents of UnsafeCell without going through get&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158766">Promote riscv64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159504">Abort const-eval queries early when there are generics in the type&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155697">Stabilize c-variadic function definitions&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150732">Convert &lt;code>-Ctarget-cpu&lt;/code> into a target-modifier for AVR, AMDGCN and NVPTX &lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159222">semicolon_in_expressions_from_macros: Lint on non-local macros too&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159198">Tracking issue for release notes of #158325: Document NonNull layout guarantees&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155114">Add &lt;code>Step::forward/backward_overflowing&lt;/code> to enable RangeInclusive loop optimizations&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134021">Implement &lt;code>IntoIterator&lt;/code> for &lt;code>[&amp;amp;[mut]] Box&amp;lt;[T; N], A&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/158528">Tracking issue for release notes of #156976: enable eager &lt;code>param_env&lt;/code> norm in new solver&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159963">core: implement FusedIterator for StepBy&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137858">Add new &lt;code>unused_footnote_definition&lt;/code> rustdoc lint&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156935">Introduce a &lt;code>PinSafePointer&lt;/code> trait that generalizes &lt;code>PinCoerceUnsized&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159746">stabilize &lt;code>c_variadic_naked_functions&lt;/code>&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/146882">fully deprecate the legacy integral modules&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160369">When suggesting method names, prefer &lt;em>exact&lt;/em> doc aliases over similar names&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160319">Tracking issue for release notes of #159503: allocations: document that they can be read-only&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160323">Box::leak: tell people to avoid unleaking&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154202">rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159824">Tracking issue for release notes of #158608: Implement &lt;code>#[diagnostic::opaque]&lt;/code> attribute to hide backtraces of macros.&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160260">Tracking issue for release notes of #159960: Allow &lt;code>UnsafeCell&lt;/code> content access without &lt;code>get&lt;/code> in &lt;code>invalid_reference_casting&lt;/code> lint&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160265">Tracking issue for release notes of #159513: Consider &lt;code>()&lt;/code> as suspicious only when expecting &lt;code>!&lt;/code> for runtime symbols&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158247">hermit/fs: Return &lt;code>unsupported()&lt;/code> instead of &lt;code>from_raw_os_error(22)&lt;/code>&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159960">Allow &lt;code>UnsafeCell&lt;/code> content access without &lt;code>get&lt;/code> in &lt;code>invalid_reference_casting&lt;/code> lint&lt;/a> &lt;em>(merged 30 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159700">Split non-local &lt;code>semicolon_in_expressions_from_macros&lt;/code> into a separate lint&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159730">allow accessing the contents of UnsafeCell without going through get&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158766">Promote riscv64-unknown-linux-musl to tier 2 with host tools&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159504">Abort const-eval queries early when there are generics in the type&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155697">Stabilize c-variadic function definitions&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150732">Convert &lt;code>-Ctarget-cpu&lt;/code> into a target-modifier for AVR, AMDGCN and NVPTX &lt;/a> &lt;em>(merged 38 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159222">semicolon_in_expressions_from_macros: Lint on non-local macros too&lt;/a> &lt;em>(merged 43 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159198">Tracking issue for release notes of #158325: Document NonNull layout guarantees&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155114">Add &lt;code>Step::forward/backward_overflowing&lt;/code> to enable RangeInclusive loop optimizations&lt;/a> &lt;em>(merged 49 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134021">Implement &lt;code>IntoIterator&lt;/code> for &lt;code>[&amp;amp;[mut]] Box&amp;lt;[T; N], A&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 53 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/158528">Tracking issue for release notes of #156976: enable eager &lt;code>param_env&lt;/code> norm in new solver&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.98.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.98.0/</guid><description>&lt;h1 id="1980">1.98.0
  &lt;a class="anchor" href="#1980">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
