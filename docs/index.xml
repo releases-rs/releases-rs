@@ -25,11 +25,13 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160483">Tracking issue for release notes of #160369: When suggesting method names, prefer &lt;em>exact&lt;/em> doc aliases over similar names&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159963">core: implement FusedIterator for StepBy&lt;/a> &lt;em>(merged 13 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/137858">Add new &lt;code>unused_footnote_definition&lt;/code> rustdoc lint&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160321">Tracking issue for release notes of #154202: rustfmt: Format &lt;code>cfg_select!&lt;/code>&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161003">Also warn if an invalid &lt;code>doc&lt;/code> attribute is used on a macro invocation&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160820">Stabilize fs_set_times&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156935">Introduce a &lt;code>PinSafePointer&lt;/code> trait that generalizes &lt;code>PinCoerceUnsized&lt;/code>&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159746">stabilize &lt;code>c_variadic_naked_functions&lt;/code>&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
@@ -49,8 +51,10 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159504">Abort const-eval queries early when there are generics in the type&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155697">Stabilize c-variadic function definitions&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/150732">Convert &lt;code>-Ctarget-cpu&lt;/code> into a target-modifier for AVR, AMDGCN and NVPTX &lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158522">Lint against invalid POSIX symbol definitions&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159222">semicolon_in_expressions_from_macros: Lint on non-local macros too&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159198">Tracking issue for release notes of #158325: Document NonNull layout guarantees&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159099">Stabilize String::from_utf8_lossy_owned&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155114">Add &lt;code>Step::forward/backward_overflowing&lt;/code> to enable RangeInclusive loop optimizations&lt;/a> &lt;em>(merged 50 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134021">Implement &lt;code>IntoIterator&lt;/code> for &lt;code>[&amp;amp;[mut]] Box&amp;lt;[T; N], A&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/158528">Tracking issue for release notes of #156976: enable eager &lt;code>param_env&lt;/code> norm in new solver&lt;/a> &lt;em>(merged 56 days ago)&lt;/em>&lt;/li>
