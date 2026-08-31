@@ -9,6 +9,7 @@
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161886">compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161981">Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161681">Cross-compile i686-pc-windows-gnu std from x86_64&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155499">stabilize never type&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
