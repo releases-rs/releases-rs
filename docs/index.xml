@@ -60,6 +60,17 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155114">Add &lt;code>Step::forward/backward_overflowing&lt;/code> to enable RangeInclusive loop optimizations&lt;/a> &lt;em>(merged 54 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/134021">Implement &lt;code>IntoIterator&lt;/code> for &lt;code>[&amp;amp;[mut]] Box&amp;lt;[T; N], A&amp;gt;&lt;/code>&lt;/a> &lt;em>(merged 58 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/158528">Tracking issue for release notes of #156976: enable eager &lt;code>param_env&lt;/code> norm in new solver&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.98.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.98.1/</guid><description>&lt;h1 id="1981">1.98.1
+ &lt;a class="anchor" href="#1981">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>3 September, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.98.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161441">rustc: fix miscompilation in generating vtables&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.98.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.98.0/</guid><description>&lt;h1 id="1980">1.98.0
  &lt;a class="anchor" href="#1980">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
