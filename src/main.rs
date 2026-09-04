@@ -21,8 +21,10 @@ async fn main() -> Result<()> {
 
     let changelogs = version_manager.parse_changelogs(&body);
 
+    let (stable_version, beta_version, nightly_version) = version_manager.get_current_versions(&changelogs);
+
     for (version, (changelog, release_date)) in changelogs.iter() {
-        let content = changelog_generator.generate_released_version_content(version, changelog, release_date);
+        let content = changelog_generator.generate_released_version_content(version, changelog, release_date, &stable_version);
         hugo_manager.write_version_file(version, &content)?;
     }
 
@@ -43,8 +45,6 @@ async fn main() -> Result<()> {
         .filter(|(v, _m)| unreleased_versions.contains(v))
         .map(|(v, m)| (v, m.number))
         .collect();
-
-    let (stable_version, beta_version, nightly_version) = version_manager.get_current_versions(&changelogs);
 
     for (unreleased_version, milestone_id) in unreleased_version_to_milestone.iter() {
         let issues = github_client.fetch_milestone_issues(*milestone_id).await?;

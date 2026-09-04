@@ -65,3 +65,54 @@ samp,
         }
     }
 }
+
+.book-menu-content li a.channel-stable,
+.book-menu-content li a.channel-beta,
+.book-menu-content li a.channel-nightly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.book-menu-content li a .book-menu-channel-badge {
+    font-size: 0.72em;
+    line-height: 1.5;
+    padding: 0 6px;
+    border: 1px solid;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.book-menu-content li a.channel-stable {
+    border-color: map-get($hint-colors, success);
+    background-color: rgba(map-get($hint-colors, success), 0.1);
+}
+
+.book-menu-content li a.channel-beta {
+    border-color: map-get($hint-colors, warning);
+    background-color: rgba(map-get($hint-colors, warning), 0.1);
+}
+
+.book-menu-content li a.channel-nightly {
+    border-color: map-get($hint-colors, danger);
+    background-color: rgba(map-get($hint-colors, danger), 0.1);
+}
+
+.book-menu-content li a.channel-stable .book-menu-channel-badge {
+    border-color: map-get($hint-colors, success);
+    color: map-get($hint-colors, success);
+}
+
+.book-menu-content li a.channel-beta .book-menu-channel-badge {
+    border-color: map-get($hint-colors, warning);
+    color: map-get($hint-colors, warning);
+}
+
+.book-menu-content li a.channel-nightly .book-menu-channel-badge {
+    border-color: map-get($hint-colors, danger);
+    color: map-get($hint-colors, danger);
+}
