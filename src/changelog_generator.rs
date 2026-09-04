@@ -16,7 +16,7 @@ impl ChangelogGenerator {
         Self { version_manager }
     }
 
-    pub fn generate_released_version_content(&self, version: &Version, changelog: &str, release_date: &NaiveDate) -> String {
+    pub fn generate_released_version_content(&self, version: &Version, changelog: &str, release_date: &NaiveDate, stable_version: &Version) -> String {
         let mut trimmed = changelog.trim().to_string();
         if trimmed.starts_with('-') {
             trimmed = format!("Changes\n-------\n{trimmed}");
@@ -32,16 +32,24 @@ impl ChangelogGenerator {
             "- This is a patch release".to_string()
         };
 
+        let is_current_stable = version.pre.is_empty() && version == stable_version;
+        let channel_line = if is_current_stable {
+            "channel: stable\n".to_string()
+        } else {
+            String::new()
+        };
+
+        let hint_type = if is_current_stable { "success" } else { "info" };
+
         format!(
             "---
 weight: {weight}
-
----
+{channel_line}---
 
 {version}
 =========
 
-{{{{% hint info %}}}}
+{{{{% hint {hint_type} %}}}}
 - Released on: _{release_date}_
 {version_branch_info_str}
 {{{{% /hint %}}}}
@@ -49,6 +57,8 @@ weight: {weight}
 {trimmed}
 ",
             weight = self.version_manager.determine_weight(version),
+            channel_line = channel_line,
+            hint_type = hint_type,
             release_date = release_date.format("%-d %B, %C%y"),
             version_branch_info_str = version_branch_info_str,
         )
@@ -70,16 +80,22 @@ weight: {weight}
         );
         let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
 
+        let hint_type = if release_name == "nightly" { "danger" } else { "warning" };
+
+        let channel_line = match release_name {
+            "nightly" | "beta" => format!("channel: {release_name}\n"),
+            _ => String::new(),
+        };
+
         let mut changelog = format!(
             "---
 weight: {weight}
-
----
+{channel_line}---
 
 {unreleased_version} {release_name}
 =========
 
-{{{{% hint warning %}}}}
+{{{{% hint {hint_type} %}}}}
 **Unreleased{release_sfx}**
 
 - Will be stable on: _{stable_date}_
@@ -88,6 +104,8 @@ weight: {weight}
 
 ",
             weight = self.version_manager.determine_weight(unreleased_version),
+            channel_line = channel_line,
+            hint_type = hint_type,
             release_sfx = if already_branched { ", branched from master" } else { "" },
             stable_date = release_date.release_date.format("%-d %B, %C%y"),
             branch_pfx = if already_branched { "Branched" } else { "Will branch" },
