@@ -28,6 +28,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/159223">Tracking issue for release notes of #159222: semicolon_in_expressions_from_macros: Lint on non-local macros too&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159963">core: implement FusedIterator for StepBy&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158510">Enable &lt;code>static_position_independent_executables&lt;/code> on all gnu targets&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/160765">Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
