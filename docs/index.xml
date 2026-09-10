@@ -8,6 +8,9 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161946">Generalise (most) impls on &lt;code>Box&lt;/code>&lt;/a> &lt;em>(merged 1 day ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161940">Promote &lt;code>wasm32-wasip3&lt;/code> to a tier 2 target&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162072">Add new Tier-3 target: &lt;code>powerpc64-sony-ps3&lt;/code>&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/162224">Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161886">compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161981">Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
