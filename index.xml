@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156882">alloc: stabilise &lt;code>Allocator&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161583">x86: on targets that requires SSE, use those registers for ABI&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160911">Remove d32 feature from 32-bit Arm targets&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161334">Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
