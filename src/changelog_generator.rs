@@ -23,6 +23,7 @@ impl ChangelogGenerator {
         }
 
         let dates = self.version_manager.calculate_release_date(*release_date - Duration::days(1), 1);
+        let is_released = *release_date <= Utc::now().date_naive();
         let version_branch_info_str = if version.patch == 0 {
             format!(
                 "- Branched from master on: _{branch_date}_",
@@ -30,6 +31,12 @@ impl ChangelogGenerator {
             )
         } else {
             "- This is a patch release".to_string()
+        };
+
+        let (hint_kind, release_info_str) = if is_released {
+            ("info", "- Released on")
+        } else {
+            ("warning", "**Unreleased**\n\n- Will be stable on")
         };
 
         format!(
@@ -41,8 +48,8 @@ weight: {weight}
 {version}
 =========
 
-{{{{% hint info %}}}}
-- Released on: _{release_date}_
+{{{{% hint {hint_kind} %}}}}
+{release_info_str}: _{release_date}_
 {version_branch_info_str}
 {{{{% /hint %}}}}
 
@@ -60,18 +67,43 @@ weight: {weight}
             "nightly"
         } else if unreleased_version.minor == stable_version.minor + 1 {
             "beta"
+        } else if unreleased_version.minor == stable_version.minor {
+            "stable"
         } else {
             ""
         };
 
-        let release_date = self.version_manager.calculate_release_date(
-            Utc::now().date_naive(),
-            (unreleased_version.minor - stable_version.minor) as u32,
-        );
-        let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
+        let mut changelog = if unreleased_version.minor <= stable_version.minor {
+            format!(
+                "---
+weight: {weight}
 
-        let mut changelog = format!(
-            "---
+---
+
+{unreleased_version} {release_name}
+=========
+
+{{{{% hint info %}}}}
+- Released on: _{release_date}_
+- Release notes are not published yet, showing merged PRs from the milestone instead
+{{{{% /hint %}}}}
+
+",
+                weight = self.version_manager.determine_weight(unreleased_version),
+                release_date = self
+                    .version_manager
+                    .scheduled_release_date(unreleased_version.minor)
+                    .format("%-d %B, %C%y"),
+            )
+        } else {
+            let release_date = self.version_manager.calculate_release_date(
+                Utc::now().date_naive(),
+                (unreleased_version.minor - stable_version.minor) as u32,
+            );
+            let already_branched = Utc::now().naive_utc().date() > release_date.branch_date;
+
+            format!(
+                "---
 weight: {weight}
 
 ---
@@ -87,12 +119,13 @@ weight: {weight}
 {{{{% /hint %}}}}
 
 ",
-            weight = self.version_manager.determine_weight(unreleased_version),
-            release_sfx = if already_branched { ", branched from master" } else { "" },
-            stable_date = release_date.release_date.format("%-d %B, %C%y"),
-            branch_pfx = if already_branched { "Branched" } else { "Will branch" },
-            branch_date = release_date.branch_date.format("%-d %B, %C%y"),
-        );
+                weight = self.version_manager.determine_weight(unreleased_version),
+                release_sfx = if already_branched { ", branched from master" } else { "" },
+                stable_date = release_date.release_date.format("%-d %B, %C%y"),
+                branch_pfx = if already_branched { "Branched" } else { "Will branch" },
+                branch_date = release_date.branch_date.format("%-d %B, %C%y"),
+            )
+        };
 
         for (issue, days_ago) in issues.iter()
             .filter_map(|issue| {

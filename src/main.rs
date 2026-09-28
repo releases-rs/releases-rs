@@ -13,13 +13,13 @@ async fn main() -> Result<()> {
 
     hugo_manager.setup_directories()?;
 
-    let body = reqwest::get(&config.rust_releases_url)
-        .await?
-        .error_for_status()?
-        .text()
-        .await?;
-
-    let changelogs = version_manager.parse_changelogs(&body);
+    let mut changelog_sources = Vec::new();
+    for url in &config.rust_releases_urls {
+        let body = reqwest::get(url).await?.error_for_status()?.text().await?;
+        changelog_sources.push(version_manager.parse_changelogs(&body));
+    }
+    let changelogs = version_manager.merge_changelogs(changelog_sources);
+    let today = Utc::now().date_naive();
 
     for (version, (changelog, release_date)) in changelogs.iter() {
         let content = changelog_generator.generate_released_version_content(version, changelog, release_date);
@@ -31,7 +31,7 @@ async fn main() -> Result<()> {
 
     let released_versions: HashSet<_> = changelogs
         .iter()
-        .filter(|(_, (_, date))| *date <= Utc::now().naive_utc().date())
+        .filter(|(_, (_, date))| *date <= today)
         .map(|(k, _)| k.clone())
         .collect();
 
@@ -44,7 +44,7 @@ async fn main() -> Result<()> {
         .map(|(v, m)| (v, m.number))
         .collect();
 
-    let (stable_version, beta_version, nightly_version) = version_manager.get_current_versions(&changelogs);
+    let (stable_version, beta_version, nightly_version) = version_manager.get_current_versions(&changelogs, today);
 
     for (unreleased_version, milestone_id) in unreleased_version_to_milestone.iter() {
         let issues = github_client.fetch_milestone_issues(*milestone_id).await?;

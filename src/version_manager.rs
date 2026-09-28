@@ -1,5 +1,5 @@
 use crate::config::Config;
-use chrono::{Duration, NaiveDate, Utc};
+use chrono::{Duration, NaiveDate};
 use regex::RegexBuilder;
 use semver::Version;
 use std::collections::HashMap;
@@ -82,15 +82,49 @@ impl VersionManager {
             .collect()
     }
 
-    pub fn get_current_versions(&self, changelogs: &HashMap<Version, (String, NaiveDate)>) -> (Version, Version, Version) {
+    /// Merges changelogs parsed from several sources. Earlier sources take precedence when
+    /// a version appears in more than one of them.
+    pub fn merge_changelogs(
+        &self,
+        sources: impl IntoIterator<Item = HashMap<Version, (String, NaiveDate)>>,
+    ) -> HashMap<Version, (String, NaiveDate)> {
+        let mut merged = HashMap::new();
+        for source in sources {
+            for (version, entry) in source {
+                merged.entry(version).or_insert(entry);
+            }
+        }
+        merged
+    }
+
+    /// Minor version that is stable on `today` according to the six-week release train.
+    pub fn scheduled_stable_minor(&self, today: NaiveDate) -> u64 {
+        let releases_since_epoch = ((today - self.config.epoch_date).num_weeks() / 6).max(0) as u64;
+        self.config.epoch_minor_version + releases_since_epoch
+    }
+
+    /// Release date of `1.{minor}.0` according to the six-week release train.
+    pub fn scheduled_release_date(&self, minor: u64) -> NaiveDate {
+        let releases_since_epoch = minor as i64 - self.config.epoch_minor_version as i64;
+        self.config.epoch_date + Duration::weeks(releases_since_epoch * 6)
+    }
+
+    /// The release notes can lag behind the actual releases, so the stable version is never
+    /// allowed to fall behind the release train.
+    pub fn get_current_versions(
+        &self,
+        changelogs: &HashMap<Version, (String, NaiveDate)>,
+        today: NaiveDate,
+    ) -> (Version, Version, Version) {
+        let scheduled_stable = Version::new(1, self.scheduled_stable_minor(today), 0);
         let stable_version = changelogs
             .iter()
-            .filter(|(_, (_, release_date))| *release_date <= Utc::now().naive_utc().date())
-            .max_by_key(|(v, _)| *v)
-            .unwrap()
-            .0
-            .clone();
-            
+            .filter(|(_, (_, release_date))| *release_date <= today)
+            .map(|(v, _)| v.clone())
+            .chain(std::iter::once(scheduled_stable))
+            .max()
+            .unwrap();
+
         let beta_version = stable_version.clone().tap_mut(|v| {
             v.minor += 1;
             v.patch = 0;
