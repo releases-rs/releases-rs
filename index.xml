@@ -8,8 +8,8 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158186">Guarantee 8 bytes of alignment of RawWakerVTable&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163366">Stabilize SyncView&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158186">Guarantee 8 bytes of alignment of RawWakerVTable&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163366">Stabilize SyncView&lt;/a> &lt;em>(merged 4 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.100.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.100.0/</guid><description>&lt;h1 id="11000-nightly">1.100.0 nightly
  &lt;a class="anchor" href="#11000-nightly">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint warning">
@@ -20,26 +20,26 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162423">Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 5 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156882">alloc: stabilise &lt;code>Allocator&lt;/code>&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161583">x86: on targets that requires SSE, use those registers for ABI&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160911">Remove d32 feature from 32-bit Arm targets&lt;/a> &lt;em>(merged 14 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161334">Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161946">Generalise (most) impls on &lt;code>Box&lt;/code>&lt;/a> &lt;em>(merged 20 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160712">windows-gnullvm: always link libunwind statically&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161940">Promote &lt;code>wasm32-wasip3&lt;/code> to a tier 2 target&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162072">Add new Tier-3 target: &lt;code>powerpc64-sony-ps3&lt;/code>&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/162224">Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks&lt;/a> &lt;em>(merged 26 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161886">compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161981">Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum&lt;/a> &lt;em>(merged 31 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161363">Tracking issue for release notes of #160745: make closures act like MaybeDangling&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161681">Cross-compile i686-pc-windows-gnu std from x86_64&lt;/a> &lt;em>(merged 34 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155499">stabilize never type&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 36 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160299">Stabilize &lt;code>bool::toggle&lt;/code>&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 41 days ago)&lt;/em>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162423">Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 6 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156882">alloc: stabilise &lt;code>Allocator&lt;/code>&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161583">x86: on targets that requires SSE, use those registers for ABI&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160911">Remove d32 feature from 32-bit Arm targets&lt;/a> &lt;em>(merged 15 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161334">Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list&lt;/a> &lt;em>(merged 19 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161946">Generalise (most) impls on &lt;code>Box&lt;/code>&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160712">windows-gnullvm: always link libunwind statically&lt;/a> &lt;em>(merged 22 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161940">Promote &lt;code>wasm32-wasip3&lt;/code> to a tier 2 target&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162072">Add new Tier-3 target: &lt;code>powerpc64-sony-ps3&lt;/code>&lt;/a> &lt;em>(merged 25 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/162224">Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks&lt;/a> &lt;em>(merged 27 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161886">compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161981">Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum&lt;/a> &lt;em>(merged 32 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161363">Tracking issue for release notes of #160745: make closures act like MaybeDangling&lt;/a> &lt;em>(merged 33 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161681">Cross-compile i686-pc-windows-gnu std from x86_64&lt;/a> &lt;em>(merged 35 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/155499">stabilize never type&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/161659">Tracking issue for release notes of #160705: Remove &lt;code>From&amp;lt;!&amp;gt; for T&lt;/code> &lt;em>reservation&lt;/em> impl&lt;/a> &lt;em>(merged 37 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160299">Stabilize &lt;code>bool::toggle&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 42 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 46 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.99.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.99.0/</guid><description>&lt;h1 id="1990">1.99.0
  &lt;a class="anchor" href="#1990">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
