@@ -21,6 +21,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/162743">Tracking issue for release notes of #162423: Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162423">Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 11 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156882">alloc: stabilise &lt;code>Allocator&lt;/code>&lt;/a> &lt;em>(merged 12 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161583">x86: on targets that requires SSE, use those registers for ABI&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
