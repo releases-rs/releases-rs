@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/164097">Tracking issue for release notes of #163364: make semicolon_in_expressions_from_non_local_macros not report-in-deps&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163809">Switch TLS implementation for wasi and bump SDK version to 34&lt;/a> &lt;em>(merged 2 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163572">Update the minimum external LLVM to 22&lt;/a> &lt;em>(merged 7 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159021">windows-gnu: enable native TLS&lt;/a> &lt;em>(merged 8 days ago)&lt;/em>&lt;/li>
