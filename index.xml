@@ -46,6 +46,19 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/154210">fix: fix the capture behavior of &lt;code>if let&lt;/code> in closures&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160643">Require windowed (and exception) for Xtensa ABI&lt;/a> &lt;em>(merged 55 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160203">&lt;code>Iterator::{min,max}(_by_key)&lt;/code> should use overridden &lt;code>min&lt;/code>/&lt;code>max&lt;/code>/&lt;code>lt&lt;/code>&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.99.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.99.1/</guid><description>&lt;h1 id="1991">1.99.1
+ &lt;a class="anchor" href="#1991">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>15 October, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.99.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/163614">library: fix missing symbol &lt;code>wcslen&lt;/code> on UEFI and embedded targets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/163911">rustc: fix miscompilation of FFI &lt;code>bool&lt;/code> return values on x86_64&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/163947">rust-lld: add the rpath for &lt;code>libLLVM&lt;/code> on macOS&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.99.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.99.0/</guid><description>&lt;h1 id="1990">1.99.0
  &lt;a class="anchor" href="#1990">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
