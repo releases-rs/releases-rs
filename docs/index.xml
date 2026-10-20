@@ -10,6 +10,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163572">Update the minimum external LLVM to 22&lt;/a> &lt;em>(merged 17 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159021">windows-gnu: enable native TLS&lt;/a> &lt;em>(merged 18 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161015">Stabilize &lt;code>funnel_shifts&lt;/code> (including &lt;code>const&lt;/code>)&lt;/a> &lt;em>(merged 21 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158186">Guarantee 8 bytes of alignment of RawWakerVTable&lt;/a> &lt;em>(merged 23 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163366">Stabilize SyncView&lt;/a> &lt;em>(merged 24 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.100.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.100.0/</guid><description>&lt;h1 id="11000-beta">1.100.0 beta
