@@ -31,6 +31,7 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/162743">Tracking issue for release notes of #162423: Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 28 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162423">Rename the src install build step to rust-src.&lt;/a> &lt;em>(merged 39 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/156882">alloc: stabilise &lt;code>Allocator&lt;/code>&lt;/a> &lt;em>(merged 40 days ago)&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/162929">Update unicode_data to Unicode version 18.0.0&lt;/a> &lt;em>(merged 44 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161583">x86: on targets that requires SSE, use those registers for ABI&lt;/a> &lt;em>(merged 45 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/160911">Remove d32 feature from 32-bit Arm targets&lt;/a> &lt;em>(merged 48 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161334">Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list&lt;/a> &lt;em>(merged 52 days ago)&lt;/em>&lt;/li>
