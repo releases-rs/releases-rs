@@ -8,6 +8,7 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/153261">Partially stabilize &lt;code>ptr_alignment_type&lt;/code> as &lt;code>alignment_type&lt;/code>&lt;/a> &lt;em>(merged 0 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/159374">Lower #[no_mangle] to #[symbol_name]/#[link_name]&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/165037">Drop array elements in order after a partial move&lt;/a> &lt;em>(merged 3 days ago)&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.101.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.101.0/</guid><description>&lt;h1 id="11010-nightly">1.101.0 nightly
