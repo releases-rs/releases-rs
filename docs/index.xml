@@ -32,6 +32,23 @@
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/161015">Stabilize &lt;code>funnel_shifts&lt;/code> (including &lt;code>const&lt;/code>)&lt;/a> &lt;em>(merged 57 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/158186">Guarantee 8 bytes of alignment of RawWakerVTable&lt;/a> &lt;em>(merged 59 days ago)&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rust-lang/rust/pull/163366">Stabilize SyncView&lt;/a> &lt;em>(merged 60 days ago)&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.100.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.100.1/</guid><description>&lt;h1 id="11001">1.100.1
+ &lt;a class="anchor" href="#11001">#&lt;/a>&lt;/h1>
+&lt;blockquote class="book-hint info">
+&lt;ul>
+&lt;li>Released on: &lt;em>27 November, 2026&lt;/em>&lt;/li>
+&lt;li>This is a patch release&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;a id="1.100.1">&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rust-lang/rust/issues/166229">library: fix regression where some types were not inferred as having &lt;code>Iterator&lt;/code> impls&lt;/a>
+&lt;ul>
+&lt;li>This backports a change to the unstable &lt;code>const&lt;/code> version of &lt;code>Iterator&lt;/code>, which
+unintentionally caused existing code to not be seen as implementing &lt;code>Iterator&lt;/code>
+when a valid implementation was present.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></description></item><item><title/><link>https://releases.rs/docs/1.100.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://releases.rs/docs/1.100.0/</guid><description>&lt;h1 id="11000">1.100.0
  &lt;a class="anchor" href="#11000">#&lt;/a>&lt;/h1>
 &lt;blockquote class="book-hint info">
